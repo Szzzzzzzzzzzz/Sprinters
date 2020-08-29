@@ -73,10 +73,14 @@ window.jQuery(function($) {
 			slide_ids.push(media.toJSON().id);
 		});
 
-		APP && APP.notifyInfo('metaslider/creating-slides', APP.sprintf(
-			APP._n('Preparing %s slide...', 'Preparing %s slides...', slide_ids.length, 'ml-slider'), 
-			slide_ids.length
-		), true)
+		if (APP) {
+			const message = slide_ids.length == 1 ? APP.__('Preparing 1 slide...', 'ml-slider') : APP.__('Preparing %s slides...')
+			APP.notifyInfo(
+				'metaslider/creating-slides',
+				APP.sprintf(message, slide_ids.length),
+				true
+			)
+		}
 		
 		// Remove the events for image APIs
 		remove_image_apis()
@@ -116,10 +120,14 @@ window.jQuery(function($) {
 
 				// Add timeouts to give some breating room to the notice animations
 				setTimeout(function() {
-					APP && APP.notifySuccess('metaslider/slides-created', APP.sprintf(
-						APP._n('%s slide added successfully', '%s slides added successfully', slide_ids.length, 'ml-slider'),
-						slide_ids.length
-					), true)
+					if (APP) {
+						const message = slide_ids.length == 1 ? APP.__('1 slide added successfully', 'ml-slider') : APP.__('%s slides added successfully')
+						APP.notifySuccess(
+							'metaslider/slides-created',
+							APP.sprintf(message, slide_ids.length),
+							true
+						)
+					}
 					setTimeout(function() {
 						APP && APP.triggerEvent('metaslider/save')
 					}, 1000);

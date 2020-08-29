@@ -1,4 +1,4 @@
-/*! elementor - v3.0.1 - 25-08-2020 */
+/*! elementor - v3.0.3 - 27-08-2020 */
 @charset "UTF-8";
 .elementor-control-unit-1 {
   width: 27px; }
@@ -2099,7 +2099,7 @@ a.elementor-responsive-switcher {
     padding-bottom: 5px; }
   .e-global__popover-title {
     padding: 15px 20px;
-    font-weight: bold;
+    font-weight: 500;
     color: #6d7882;
     border-bottom: 1px solid #e6e9ec;
     display: -webkit-box;
@@ -2131,16 +2131,17 @@ a.elementor-responsive-switcher {
         border: 10px solid transparent;
         border-top-color: rgba(0, 0, 0, 0.9); }
     .e-global__popover-info i {
-      color: #d5dadf; }
+      color: #d5dadf;
+      font-size: 13px; }
 
 .e-global__preview-items-container {
   max-height: 260px;
   overflow-y: auto;
   margin-top: 5px; }
   .e-global__preview-items-container::-webkit-scrollbar {
-    width: 8px; }
+    width: 7px; }
   .e-global__preview-items-container::-webkit-scrollbar-thumb {
-    background-color: #a4afb7;
+    background-color: #c2cbd2;
     outline: 1px solid #556068;
     -webkit-border-radius: 10px;
             border-radius: 10px; }
@@ -2206,7 +2207,7 @@ a.elementor-responsive-switcher {
   .e-global__color-hex {
     font-size: 10px;
     font-weight: 500;
-    color: #a4afb7; }
+    color: #c2cbd2; }
   .e-global__color .pcr-button {
     background-color: #fff; }
   .e-global__color.e-global__preview-item--selected .e-global__color-preview {
@@ -2231,6 +2232,8 @@ a.elementor-responsive-switcher {
   position: relative; }
   .e-global__preview-item:hover {
     background-color: #f1f3f5; }
+    .e-global__preview-item:hover .e-global__color-hex {
+      color: #a4afb7; }
 
 .e-global__confirm-add .dialog-buttons-wrapper > .dialog-button.dialog-confirm-ok {
   color: #39b54a; }
@@ -2695,6 +2698,9 @@ a.elementor-responsive-switcher {
 .elementor-control-type-slider.elementor-control-dynamic input {
   -webkit-border-radius: 0 3px 3px 0;
           border-radius: 0 3px 3px 0; }
+
+.elementor-control-type-slider .elementor-control-unit-2 {
+  width: 21%; }
 
 .elementor-control-type-slider.elementor-control-type-slider--multiple .elementor-control-input-wrapper {
   display: block; }

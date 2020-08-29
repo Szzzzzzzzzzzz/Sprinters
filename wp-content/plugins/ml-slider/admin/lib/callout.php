@@ -30,21 +30,21 @@ class MetaSlider_Callout {
 
 	/**
 	 * The notice key
-	 * 
+	 *
 	 * @var string
 	 */
 	protected $key;
 
 	/**
 	 * The notice text
-	 * 
+	 *
 	 * @var string
 	 */
 	protected $text;
 
 	/**
 	 * The image html
-	 * 
+	 *
 	 * @var string
 	 */
 	protected $image;
@@ -52,14 +52,14 @@ class MetaSlider_Callout {
 	/**
 	 * The page to show it on
 	 * get_current_screen()->id
-	 * 
+	 *
 	 * @var string
 	 */
 	protected $page;
 
 	/**
 	 * Constructor
-	 * 
+	 *
 	 * @param string 	  $key   The key of the callout (should be unique)
 	 * @param string 	  $text  The text of the callout
 	 * @param string|null $image The html of the image
@@ -87,7 +87,7 @@ class MetaSlider_Callout {
 		$capability = apply_filters('metaslider_capability', 'edit_others_posts');
 		if (!current_user_can($capability)) return;
 
-		// Only show on the specified page
+        // Only show on the specified page
 		if ($this->page !== get_current_screen()->id) return;
 
 		// Only show once
@@ -95,8 +95,8 @@ class MetaSlider_Callout {
 		update_user_option(get_current_user_id(), 'metaslider_user_saw_callout_' . $this->key, true);
 
 		// Add all the necessary scripts and styles
-		wp_enqueue_script('metaslider-tether-js-callout', METASLIDER_ADMIN_URL . 'assets/tether/tether.min.js', METASLIDER_VERSION, true);
-		wp_enqueue_script('metaslider-shepherd-js-callout', METASLIDER_ADMIN_URL . 'assets/tether-shepherd/shepherd.min.js', array('metaslider-tether-js-callout'), METASLIDER_VERSION, true);
+		wp_enqueue_script('metaslider-tether-js-callout', METASLIDER_ADMIN_URL . 'assets/tether/dist/js/tether.min.js', METASLIDER_VERSION, true);
+		wp_enqueue_script('metaslider-shepherd-js-callout', METASLIDER_ADMIN_URL . 'assets/tether-shepherd/dist/js/shepherd.min.js', array('metaslider-tether-js-callout'), METASLIDER_VERSION, true);
 		$this->wp_add_inline_script('metaslider-shepherd-js-callout', "
 			try {
 				window.jQuery(function($) {
@@ -121,7 +121,7 @@ class MetaSlider_Callout {
 			}
 		");
 
-		wp_enqueue_style('metaslider-shepherd-css-callout', METASLIDER_ADMIN_URL . 'assets/tether-shepherd/shepherd-theme-arrows.css', false, METASLIDER_VERSION);
+		wp_enqueue_style('metaslider-shepherd-css-callout', METASLIDER_ADMIN_URL . 'assets/tether-shepherd/dist/css/shepherd-theme-arrows.css', false, METASLIDER_VERSION);
 		wp_add_inline_style('metaslider-shepherd-css-callout', "
 			.metaslider-callout-tip {
 				z-index: 999999;
@@ -191,18 +191,18 @@ class MetaSlider_Callout {
 				position: absolute;
 				left: 2px;
 				line-height: 21px;
-				font-size: 16px;	
+				font-size: 16px;
 			}
 		");
 	}
-	
+
 	/**
      * Polyfill to handle the wp_add_inline_script() function.
      *
      * @param  string $handle   The script identifier
      * @param  string $data     The script to add, without <script> tags
      * @param  string $position Whether to output before or after
-	 * 
+	 *
      * @return object|bool
      */
     public function wp_add_inline_script($handle, $data, $position = 'after') {

@@ -1,17 +1,9 @@
-<?php if (!defined('ABSPATH')) die('No direct access.'); ?>
+<?php if (!defined('ABSPATH')) {
+    die('No direct access.');
+} ?>
 
-<?php
-// Quick check to see which of our plugins is installed
-$our_plugins = array('updraftplus', 'updraftcentral', 'wp-optimize', 'keyy');
-$installed_plugins = array();
-foreach ($our_plugins as $plugin) {
-    $installed_plugins[$plugin] = metaslider_plugin_is_installed($plugin);
-}
-// If they have any plugins missing, make room for ads
-$width = (in_array(false, $installed_plugins, true)) ? 'metaslider_half_width' : ''
-?>
 <div id="metaslider-ui" class="flex p-6 mb-16">
-    <div class="metaslider_col <?php echo $width; ?>">
+    <div class="metaslider_col">
         <h2 class="font-light text-xl mb-2">MetaSlider <?php _e("Comparison Chart", 'ml-slider');?></h2>
         <table class="metaslider_feat_table shadow">
             <thead>
@@ -54,7 +46,7 @@ $width = (in_array(false, $installed_plugins, true)) ? 'metaslider_half_width' :
                         <p><?php _ex('Unique Smart Crop functionality ensures your slides are perfectly resized.', 'Keep the branding "Smart Crop" together when possible', 'ml-slider'); ?></p></td>
                     <td><i class="dashicons dashicons-yes" aria-label="<?php esc_attr_e('Yes', 'ml-slider');?>"></i></td>
                     <td><i class="dashicons dashicons-yes" aria-label="<?php esc_attr_e('Yes', 'ml-slider');?>"></i></td>
-                </tr>            
+                </tr>
                 <tr>
                     <td><i class="metaslider-premium-image"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></i>
                         <h4><?php _e('Thumbnail navigation', 'ml-slider');?></h4>
@@ -121,59 +113,5 @@ $width = (in_array(false, $installed_plugins, true)) ? 'metaslider_half_width' :
                 </tr>
             </tfoot>
         </table>
-    </div>
-    <div class="metaslider_col  metaslider_half_width metaslider_plugin_family_cont">
-        <?php
-
-        // If any return false, that means they don't have all the plugins
-        if (in_array(false, $installed_plugins, true)) { ?>
-            <h2 class="font-light text-xl mb-2"><?php _e("More Professional-Quality Plugins for your Website", 'ml-slider');?></h2>
-        <?php } 
-        
-        if (!$installed_plugins['updraftplus']) {?>
-        <div class="postbox shadow">
-            <div class="inside">
-                <?php
-                echo metaslider_optimize_url(wp_nonce_url(self_admin_url('update.php?action=install-plugin&plugin=updraftplus'), 'install-plugin_updraftplus'), null, '<img class="addons" alt="'.esc_attr("UpdraftPlus").'" src="'. esc_url(METASLIDER_ADMIN_URL.'images/features/updraftplus_logo.png') .'">');
-                echo metaslider_optimize_url(wp_nonce_url(self_admin_url('update.php?action=install-plugin&plugin=updraftplus'), 'install-plugin_updraftplus'), null, '<h3>'._x('UpdraftPlus – the ultimate protection for your site, hard work and business', 'Keep the plugin name "UpdraftPlus" when possible', 'ml-slider').'</h3>', 'other-plugin-title');
-                ?>
-                <p><?php _e("If you’ve got a WordPress website, you need a backup.", 'ml-slider');?></p>
-                <p><?php _e("Hacking, server crashes, dodgy updates or simple user error can ruin everything.", 'ml-slider');?></p>
-                <p><?php _ex("With UpdraftPlus, you can rest assured that if the worst does happen, it's no big deal. rather than losing everything, you can simply restore the backup and be up and running again in no time at all.", 'Keep the plugin name "UpdraftPlus" when possible', 'ml-slider');?></p>
-                <p><?php _e("You can also migrate your website with few clicks without hassle.", 'ml-slider');?></p>
-                <p><?php _x("With a long-standing reputation for excellence and outstanding reviews, it’s no wonder that UpdraftPlus is the world’s most popular WordPress backup plugin.", 'Keep the plugin name "UpdraftPlus" when possible', 'ml-slider');?></p>
-                <?php echo metaslider_optimize_url(wp_nonce_url(self_admin_url('update.php?action=install-plugin&plugin=updraftplus'), 'install-plugin_updraftplus'), __('Try for free', 'ml-slider')); ?>
-            </div>
-        </div>
-        <?php }
-        if (!$installed_plugins['updraftcentral']) {?>
-        <div class="postbox shadow">
-            <div class="inside">
-                <?php echo metaslider_optimize_url(wp_nonce_url(self_admin_url('update.php?action=install-plugin&plugin=updraftcentral'), 'install-plugin_updraftcentral'), null, '<img class="addons" alt="'.esc_attr_x("UpdraftCentral Dashboard", 'Keep the plugin name "UpdraftCentral" when possible', 'ml-slider').'" src="'. METASLIDER_ADMIN_URL.'images/features/updraftcentral_logo.png' .'">');
-                echo metaslider_optimize_url(wp_nonce_url(self_admin_url('update.php?action=install-plugin&plugin=updraftcentral'), 'install-plugin_updraftcentral'), null, '<h3>'._x('UpdraftCentral – save hours managing multiple WP sites from one place', 'Keep the plugin name "UpdraftCentral" when possible', 'ml-slider').'</h3>', 'other-plugin-title'); ?>
-                <p><?php _ex("If you manage a few WordPress sites, you need UpdraftCentral.", 'Keep the plugin name "UpdraftCentral" when possible', 'ml-slider');?></p>
-                <p><?php _ex("UpdraftCentral is a powerful tool that allows you to efficiently manage, update, backup multiple websites from just one location. You can also manage users and comments on all the sites at once, and through its central login feature, you can access each WP-dashboard with a single click.", 'Keep the plugin name "UpdraftCentral" when possible', 'ml-slider'); ?></p>
-                <p><?php _ex("With a wide range of useful features, including automated backup schedules and sophisticated one click updates, UpdraftCentral is sure to boost to your productivity and save you time.", 'Keep the plugin name "UpdraftCentral" when possible', 'ml-slider'); ?></p>
-                <?php echo metaslider_optimize_url(wp_nonce_url(self_admin_url('update.php?action=install-plugin&plugin=updraftcentral'), 'install-plugin_updraftcentral'), __('Try for free', 'ml-slider')); ?>
-            </div>
-        </div>
-        <?php }
-        if (!$installed_plugins['wp-optimize']) {?>
-        <div class="postbox shadow">
-            <div class="inside">
-                <?php echo metaslider_optimize_url(wp_nonce_url(self_admin_url('update.php?action=install-plugin&plugin=wp-optimize'), 'install-plugin_wp-optimize'), null, '<img class="addons" alt="'.esc_attr_x("WP-Optimize", 'Keep the plugin name "WP-Optimize" when possible', 'ml-slider').'" src="'. METASLIDER_ADMIN_URL.'images/features/wpo_logo.png' .'">');
-                echo metaslider_optimize_url(wp_nonce_url(self_admin_url('update.php?action=install-plugin&plugin=wp-optimize'), 'install-plugin_wp-optimize'), null, '<h3>'._x('WP-Optimize - Clean, Compress, Cache.', 'Keep the plugin name "WP-Optimize" when possible', 'ml-slider').'</h3>', 'other-plugin-title'); ?>
-                <div>
-				<?php _e('It does it in three clever ways:', 'ml-slider'); ?>
-				<ul class="ml-4 mt-2 list-disc">
-					<li><?php _e('It allows you to clean and optimize your database.', 'ml-slider'); ?></li>
-					<li><?php _e('It gives you the option to compress your images.', 'ml-slider'); ?></li>
-					<li><?php _e('It allows you cache your pages, for super fast load times (read more caching information below).', 'ml-slider'); ?></li>
-				</ul>
-				<p><?php _e('Extensive tests show the cache feature alone can make WordPress sites faster than any other caching plugin available. But when you combine the cache with the database and image optimizing features, the difference with alternative solutions is significant.', 'ml-slider'); ?></p>
-                <?php echo metaslider_optimize_url(wp_nonce_url(self_admin_url('update.php?action=install-plugin&plugin=wp-optimize'), 'install-plugin_wp-optimize'), __('Try for free', 'ml-slider')); ?>
-            </div>
-        </div>
-        <?php } ?>
     </div>
 </div>

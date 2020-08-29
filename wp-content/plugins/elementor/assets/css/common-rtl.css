@@ -1,4 +1,4 @@
-/*! elementor - v3.0.1 - 25-08-2020 */
+/*! elementor - v3.0.3 - 27-08-2020 */
 .dialog-widget-content {
   background-color: #fff;
   position: absolute;
@@ -299,12 +299,6 @@
   top: 4px;
   font-size: 13px;
   color: inherit; }
-
-#wpadminbar #wp-admin-bar-elementor_app_site_editor a.ab-item:hover {
-  background: #4ab7f4;
-  color: #ffffff; }
-  #wpadminbar #wp-admin-bar-elementor_app_site_editor a.ab-item:hover:before {
-    color: #ffffff; }
 
 .elementor-hidden {
   display: none; }

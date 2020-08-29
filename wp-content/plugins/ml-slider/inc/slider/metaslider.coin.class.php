@@ -9,8 +9,8 @@ if (!defined('ABSPATH')) die('No direct access.');
 class MetaCoinSlider extends MetaSlider {
 
     protected $js_function = 'coinslider';
-    protected $js_path = 'sliders/coinslider/coin-slider.min.js';
-    protected $css_path = 'sliders/coinslider/coin-slider-styles.css';
+    protected $js_path = 'sliders/coin-slider/coin-slider.min.js';
+    protected $css_path = 'sliders/coin-slider/coin-slider-styles.css';
 
     /**
      * Enable the parameters that are accepted by the slider

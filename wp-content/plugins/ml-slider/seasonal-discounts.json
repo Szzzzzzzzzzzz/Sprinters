@@ -23,10 +23,5 @@
 		"discount_code": "summersale2020",
 		"valid_from": "2020-07-01 00:00:00",
 		"valid_to": "2020-07-31 23:59:59"
-	},
-	"collection": {
-		"discount_code": "MS2020",
-		"valid_from": "2020-09-01 00:00:00",
-		"valid_to": "2020-09-30 23:59:59"
 	}
 }

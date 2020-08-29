@@ -1,9 +1,8 @@
 === MetaSlider ===
 Contributors: matchalabs, DavidAnderson, dnutbourne, kbat82
 Tags: slideshow, slider, image slider, carousel, gallery, flexslider, wordpress slider, nivoslider, rotating banner, responsive slideshow, seo slideshow, unsplash
-Donate link: https://david.dw-perspective.org.uk/donate
 Requires at least: 3.5
-Stable tag: 3.17.1
+Stable tag: 3.17.2
 Requires PHP: 5.2
 Tested up to: 5.5
 License: GPLv2 or later
@@ -61,11 +60,11 @@ Apply one of our professional slidehow designs to really make your website stand
 * Simple and intuitive interface – perfect for individual users, developers & clients!
 * Fast – requires only the minimum JavaScript/CSS on your page
 * Creatively responsive
-	
+
 **Creative:**
 
 * Unrestricted full-width support for image slides, including captions, links, title texts and alt. texts.
-* Includes drag and drop slide reordering, intelligent image cropping, set image crop position. 
+* Includes drag and drop slide reordering, intelligent image cropping, set image crop position.
 * Multiple slideshow configuration options (e.g. for speed, timing, plus many more!)
 
 **Other:**
@@ -73,7 +72,7 @@ Apply one of our professional slidehow designs to really make your website stand
 * Preview from within the admin area
 * Shortcode lets you add the slideshow anyway
 * Fully localized
-* WordPress Multi-site compatible, and 
+* WordPress Multi-site compatible, and
 * Compatible with translation plugins (WPML, PolyLang & qTranslate)
 * Developer Friendly, with extensive hooks & filters
 
@@ -102,7 +101,7 @@ Read more and thanks to:
 
 Find out more at <a href="https://www.metaslider.com">metaslider.com</a>
 
-Follow us on Twitter: [@wpmetaslider](https://twitter.com/UpdraftPlus)
+Follow us on Twitter: [@wpmetaslider](https://twitter.com/wpmetaslider)
 
 == Installation ==
 
@@ -167,6 +166,14 @@ See https://www.metaslider.com/documentation/image-cropping/
 6. Administration panel - selecting slides
 
 == Changelog ==
+
+= 3.17.2 - 2020/Aug/28 =
+
+* TWEAK: Archives the "Thank you" dashboard notice for now
+* TWEAK: Limits loading admin specific code from the front end
+* TWEAK: Switches to a new CI and build process (report any issues to our support channel)
+* TWEAK: Adds extra permission_callback check to settings routes
+* SECURITY: Adds extra filtering of captions using HTML Purifier (http://htmlpurifier.org/). Reminder: Only users with `edit_others_posts` capability can edit slideshows, which is a role that may be added by third party plugins (ex. Shop Managers from WooCommerce have this role). If you need to limit who can edit your slideshows, then you can update this with the filter `metaslider_capability`, for example to `manage_options`. Contact us in support for more information.
 
 = 3.17.1 - 2020/Aug/13 =
 
@@ -269,7 +276,7 @@ See https://www.metaslider.com/documentation/image-cropping/
 = 3.12.0 - 2019/Mar/18 =
 
 * TWEAK: Sets a default theme on a newly created slideshow
-* TWEAK: Adds various trivial code quality fixes 
+* TWEAK: Adds various trivial code quality fixes
 * FEATURE: Adds access to the Unsplash.com image library
 
 = 3.11.1 - 2019/Jan/30 =
@@ -286,7 +293,7 @@ See https://www.metaslider.com/documentation/image-cropping/
 * FIX: Updates support for Elementor page builder
 * TWEAK: Updates various UI elements
 * TWEAK: Removes fonts to reduce package size
-* TWEAK: Adds an escape output of slideshow titles 
+* TWEAK: Adds an escape output of slideshow titles
 * REFACTOR: Removes defunct preview method
 
 = 3.10.3 - 2018/Dec/04 =
@@ -359,7 +366,7 @@ See https://www.metaslider.com/documentation/image-cropping/
 * TWEAK: Adds default Flexslider fonts to repo for users that require them.
 * FIX: Fixes error when trying to save many slides
 * FIX: Fixes broken markup in settings in some languages.
-* FIX: Fixes bug that always strips referral tags. 
+* FIX: Fixes bug that always strips referral tags.
 * FIX: Adds a check to the copy/paste element to make sure it exists before adding an event
 * REFACTOR: Removes plugin dependency on Notice class
 * REFACTOR: Standardizes the code to deny direct access
@@ -372,11 +379,11 @@ See https://www.metaslider.com/documentation/image-cropping/
 
 = 3.7.1 - 2018/Mar/13 =
 
-* FIX: Updates FlexSlider to remove flash on page load. 
+* FIX: Updates FlexSlider to remove flash on page load.
 
 = 3.7.0 - 2018/Feb/26 =
 
-* FEATURE: Allows users to inherit default captions and other data from the image. 
+* FEATURE: Allows users to inherit default captions and other data from the image.
 * FIX: Adds capability filter to pages.
 * TWEAK: Updates to the correct support link.
 
@@ -854,6 +861,3 @@ More info/Comments: http://www.metaslider.com/coming-soon-meta-slider-2-6-free/
 
 = 1.0 [15/02/13] =
 * Initial version
-
-== Upgrade Notice ==
-* 3.17.1 : This update just adds an extra permissions check to the REST route endpoints

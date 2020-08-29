@@ -259,12 +259,6 @@
   font-size: 13px;
   color: inherit; }
 
-#wpadminbar #wp-admin-bar-elementor_app_site_editor a.ab-item:hover {
-  background: #4ab7f4;
-  color: #ffffff; }
-  #wpadminbar #wp-admin-bar-elementor_app_site_editor a.ab-item:hover:before {
-    color: #ffffff; }
-
 .elementor-hidden {
   display: none; }
 
