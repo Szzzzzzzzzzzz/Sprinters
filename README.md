@@ -7,6 +7,15 @@ Theme: Vantage
 Plugin: Elementor
   
 ## Update Record
+### Ver 1.05  Lteration 1   
+31/8/2020  
+Add visualization part. 
+### Ver 1.04  Lteration 1   
+30/8/2020  
+Building Setup Account page. 
+### Ver 1.03  Lteration 1   
+30/8/2020  
+Building About MHR page. 
 ### Ver 1.02  Lteration 1   
 29/8/2020  
 Fix the button link problem. 
