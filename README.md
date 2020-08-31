@@ -9,6 +9,9 @@ Theme: Vantage
 Plugin: Elementor
   
 ## Update Record
+### Ver 1.07  Lteration 1   
+31/8/2020  
+Fix layout.   
 ### Ver 1.06  Lteration 1   
 31/8/2020  
 Fix visualization part problem.   
