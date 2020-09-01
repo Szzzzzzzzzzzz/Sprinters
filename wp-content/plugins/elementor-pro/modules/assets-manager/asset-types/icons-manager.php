@@ -1,6 +1,8 @@
 <?php
 namespace ElementorPro\Modules\AssetsManager\AssetTypes;
 
+use Elementor\Core\Common\Modules\Ajax\Module as Ajax;
+use ElementorPro\Plugin;
 use ElementorPro\Modules\AssetsManager\Classes;
 use Elementor\Settings;
 

@@ -2,7 +2,6 @@
 namespace ElementorPro;
 
 use ElementorPro\Core\Admin\Admin;
-use ElementorPro\Core\App\App;
 use ElementorPro\Core\Connect;
 use Elementor\Core\Responsive\Files\Frontend as FrontendFile;
 use Elementor\Core\Responsive\Responsive;
@@ -52,11 +51,6 @@ class Plugin {
 	public $admin;
 
 	/**
-	 * @var App
-	 */
-	public $app;
-
-	/**
 	 * @var License\Admin
 	 */
 	public $license_admin;
@@ -66,6 +60,17 @@ class Plugin {
 		'ElementorPro\Modules\PanelPostsControl\Controls\Group_Control_Posts' => 'ElementorPro\Modules\QueryControl\Controls\Group_Control_Posts',
 		'ElementorPro\Modules\PanelPostsControl\Controls\Query' => 'ElementorPro\Modules\QueryControl\Controls\Query',
 	];
+
+	/**
+	 * @deprecated since 1.1.0 Use `ELEMENTOR_PRO_VERSION` instead
+	 *
+	 * @return string
+	 */
+	public function get_version() {
+		_deprecated_function( __METHOD__, '1.1.0' );
+
+		return ELEMENTOR_PRO_VERSION;
+	}
 
 	/**
 	 * Throw error on object clone
@@ -320,8 +325,6 @@ class Plugin {
 		$this->editor = new Editor();
 
 		$this->preview = new Preview();
-
-		$this->app = new App();
 
 		if ( is_admin() ) {
 			$this->admin = new Admin();

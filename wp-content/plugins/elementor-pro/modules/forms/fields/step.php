@@ -2,6 +2,7 @@
 namespace ElementorPro\Modules\Forms\Fields;
 
 use Elementor\Widget_Base;
+use ElementorPro\Modules\Forms\Classes;
 use Elementor\Controls_Manager;
 use ElementorPro\Plugin;
 

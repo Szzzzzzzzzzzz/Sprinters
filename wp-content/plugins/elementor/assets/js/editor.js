@@ -1,4 +1,4 @@
-/*! elementor - v3.0.4 - 30-08-2020 */
+/*! elementor - v3.0.3 - 27-08-2020 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -9394,7 +9394,7 @@ ControlsCSSParser = elementorModules.ViewModule.extend({
     var globalArgs = $e.data.commandExtractArgs(globalKey),
         data = $e.data.getCache($e.components.get('globals'), globalArgs.command, globalArgs.args.query);
 
-    if (!(data === null || data === void 0 ? void 0 : data.value)) {
+    if (!(data === null || data === void 0 ? void 0 : data.id)) {
       return;
     }
 
@@ -9402,13 +9402,7 @@ ControlsCSSParser = elementorModules.ViewModule.extend({
     var value; // it's a global settings with additional controls in group.
 
     if (control.groupType) {
-      var propertyName = control.name.replace(control.groupPrefix, '').replace(/(_tablet|_mobile)$/, '');
-
-      if (!data.value[elementor.config.kit_config.typography_prefix + propertyName]) {
-        return;
-      }
-
-      propertyName = propertyName.replace('_', '-');
+      var propertyName = control.name.replace(control.groupPrefix, '').replace('_', '-').replace(/(_tablet|_mobile)$/, '');
       value = "var( --e-global-".concat(control.groupType, "-").concat(id, "-").concat(propertyName, " )");
     } else {
       value = "var( --e-global-".concat(control.type, "-").concat(id, " )");

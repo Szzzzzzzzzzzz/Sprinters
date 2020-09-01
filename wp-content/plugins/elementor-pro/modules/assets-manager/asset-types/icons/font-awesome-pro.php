@@ -2,6 +2,8 @@
 namespace ElementorPro\Modules\AssetsManager\AssetTypes\Icons;
 
 use ElementorPro\Modules\AssetsManager\Classes\Assets_Base;
+use ElementorPro\Modules\AssetsManager\AssetTypes\Icons_Manager;
+use Elementor\Core\Common\Modules\Ajax\Module as Ajax;
 use Elementor\Settings;
 
 if ( ! defined( 'ABSPATH' ) ) {

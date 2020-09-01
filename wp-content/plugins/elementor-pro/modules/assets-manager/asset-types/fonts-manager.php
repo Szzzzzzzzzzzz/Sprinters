@@ -2,6 +2,7 @@
 namespace ElementorPro\Modules\AssetsManager\AssetTypes;
 
 use Elementor\Core\Common\Modules\Ajax\Module as Ajax;
+use ElementorPro\Plugin;
 use ElementorPro\Modules\AssetsManager\Classes;
 use Elementor\Settings;
 
@@ -362,6 +363,7 @@ class Fonts_Manager {
 	 * @return array
 	 */
 	private function generate_fonts_list() {
+
 		$fonts = new \WP_Query( [
 			'post_type' => self::CPT,
 			'posts_per_page' => -1,

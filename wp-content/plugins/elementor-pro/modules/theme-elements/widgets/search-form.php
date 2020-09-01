@@ -2,8 +2,7 @@
 namespace ElementorPro\Modules\ThemeElements\Widgets;
 
 use Elementor\Controls_Manager;
-use Elementor\Core\Kits\Documents\Tabs\Global_Colors;
-use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
+use Elementor\Core\Schemes;
 use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Typography;
 use Elementor\Icons_Manager;
@@ -270,9 +269,7 @@ class Search_Form extends Base {
 			[
 				'name' => 'input_typography',
 				'selector' => '{{WRAPPER}} input[type="search"].elementor-search-form__input',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_TEXT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_3,
 			]
 		);
 
@@ -290,8 +287,9 @@ class Search_Form extends Base {
 			[
 				'label' => __( 'Text Color', 'elementor-pro' ),
 				'type' => Controls_Manager::COLOR,
-				'global' => [
-					'default' => Global_Colors::COLOR_TEXT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_3,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-search-form__input,
@@ -469,9 +467,7 @@ class Search_Form extends Base {
 			[
 				'name' => 'button_typography',
 				'selector' => '{{WRAPPER}} .elementor-search-form__submit',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_TEXT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_3,
 				'condition' => [
 					'button_type' => 'text',
 				],
@@ -503,8 +499,9 @@ class Search_Form extends Base {
 			[
 				'label' => __( 'Background Color', 'elementor-pro' ),
 				'type' => Controls_Manager::COLOR,
-				'global' => [
-					'default' => Global_Colors::COLOR_SECONDARY,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_2,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-search-form__submit' => 'background-color: {{VALUE}}',
@@ -743,7 +740,7 @@ class Search_Form extends Base {
 		];
 		?>
 		<form class="elementor-search-form" role="search" action="<?php echo home_url(); ?>" method="get">
-			<?php do_action( 'elementor_pro/search_form/before_input', $this ); ?>
+			<?php do_action( 'elementor_pro/search_form/before_input', $this ); ?> 
 			<?php if ( 'full_screen' === $settings['skin'] ) : ?>
 			<div class="elementor-search-form__toggle">
 				<?php if ( ! $migration_allowed || ! Icons_Manager::render_icon( $icon, [ 'aria-hidden' => 'true' ] ) ) { ?>

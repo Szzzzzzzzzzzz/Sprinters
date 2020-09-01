@@ -190,8 +190,9 @@ class Post_Comments_Skin_Classic extends Skin_Base {
 				'selectors' => [
 					'{{WRAPPER}} .elementor-comment .comment-meta' => 'color: {{VALUE}};',
 				],
-				'global' => [
-					'default' => Global_Colors::COLOR_TEXT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_3,
 				],
 			]
 		);
@@ -201,9 +202,7 @@ class Post_Comments_Skin_Classic extends Skin_Base {
 			[
 				'name' => 'meta_typography',
 				'selector' => '{{WRAPPER}} .elementor-comment .comment-meta',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_TEXT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_3,
 			]
 		);
 
@@ -225,8 +224,9 @@ class Post_Comments_Skin_Classic extends Skin_Base {
 				'selectors' => [
 					'{{WRAPPER}} .elementor-comment .comment-content' => 'color: {{VALUE}};',
 				],
-				'global' => [
-					'default' => Global_Colors::COLOR_TEXT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_3,
 				],
 			]
 		);
@@ -236,9 +236,7 @@ class Post_Comments_Skin_Classic extends Skin_Base {
 			[
 				'name' => 'content__typography',
 				'selector' => '{{WRAPPER}} .elementor-comment .comment-content',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_TEXT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_3,
 			]
 		);
 
@@ -278,9 +276,7 @@ class Post_Comments_Skin_Classic extends Skin_Base {
 			[
 				'name' => 'reply_button_typography',
 				'label' => __( 'Typography', 'elementor-pro' ),
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_ACCENT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_4,
 				'selector' => '{{WRAPPER}} .elementor-comment .comment-reply-link',
 			]
 		);
@@ -290,8 +286,9 @@ class Post_Comments_Skin_Classic extends Skin_Base {
 			[
 				'label' => __( 'Background Color', 'elementor-pro' ),
 				'type' => Controls_Manager::COLOR,
-				'global' => [
-					'default' => Global_Colors::COLOR_ACCENT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_4,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-comment .comment-reply-link' => 'background-color: {{VALUE}};',

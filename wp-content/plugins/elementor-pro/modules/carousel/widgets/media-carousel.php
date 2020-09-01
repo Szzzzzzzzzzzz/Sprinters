@@ -2,7 +2,7 @@
 namespace ElementorPro\Modules\Carousel\Widgets;
 
 use Elementor\Controls_Manager;
-use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
+use Elementor\Core\Schemes;
 use Elementor\Embed;
 use Elementor\Group_Control_Text_Shadow;
 use Elementor\Group_Control_Typography;
@@ -240,7 +240,7 @@ class Media_Carousel extends Base {
 	}
 
 	protected function get_image_link_to( $slide ) {
-		if ( ! empty( $slide['video']['url'] ) ) {
+		if ( $slide['video']['url'] ) {
 			return $slide['image']['url'];
 		}
 
@@ -569,9 +569,7 @@ class Media_Carousel extends Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'caption_typography',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_ACCENT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_4,
 				'selector' => '{{WRAPPER}} .elementor-carousel-image-overlay',
 				'condition' => [
 					'overlay' => 'text',

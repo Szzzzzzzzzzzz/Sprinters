@@ -1,4 +1,4 @@
-/*! elementor - v3.0.4 - 30-08-2020 */
+/*! elementor - v3.0.3 - 27-08-2020 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -5572,33 +5572,6 @@ BaseSettingsModel = Backbone.Model.extend({
     });
     return settings;
   },
-  removeDataDefaults: function removeDataDefaults(data, controls) {
-    var _this2 = this;
-
-    jQuery.each(data, function (key) {
-      var control = controls[key];
-
-      if (!control) {
-        return;
-      } // TODO: use `save_default` in text|textarea controls.
-
-
-      if (control.save_default || ('text' === control.type || 'textarea' === control.type) && data[key]) {
-        return;
-      }
-
-      if (control.is_repeater) {
-        data[key].forEach(function (repeaterRow) {
-          _this2.removeDataDefaults(repeaterRow, control.fields);
-        });
-        return;
-      }
-
-      if (_.isEqual(data[key], control.default)) {
-        delete data[key];
-      }
-    });
-  },
   toJSON: function toJSON(options) {
     var data = Backbone.Model.prototype.toJSON.call(this);
     options = options || {};
@@ -5610,10 +5583,28 @@ BaseSettingsModel = Backbone.Model.extend({
       if (attribute && attribute.toJSON) {
         data[key] = attribute.toJSON();
       }
-    });
+    }); // TODO: `options.removeDefault` is a bc since 2.5.14
 
-    if (options.remove && -1 !== options.remove.indexOf('default')) {
-      this.removeDataDefaults(data, this.controls);
+
+    if (options.remove && -1 !== options.remove.indexOf('default') || options.removeDefault) {
+      var controls = this.controls;
+
+      _.each(data, function (value, key) {
+        var control = controls[key];
+
+        if (!control) {
+          return;
+        } // TODO: use `save_default` in text|textarea controls.
+
+
+        if (control.save_default || ('text' === control.type || 'textarea' === control.type) && data[key]) {
+          return;
+        }
+
+        if (_.isEqual(data[key], control.default)) {
+          delete data[key];
+        }
+      });
     }
 
     return elementorCommon.helpers.cloneObject(data);

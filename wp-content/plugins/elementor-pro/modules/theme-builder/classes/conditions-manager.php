@@ -69,12 +69,46 @@ class Conditions_Manager {
 			return;
 		}
 
-		$instances = $this->get_document_instances( $post_id );
+		/** @var Module $theme_builder_module */
+		$theme_builder_module = Module::instance();
+
+		$document = $theme_builder_module->get_document( $post_id );
+
+		if ( ! $document ) {
+			echo __( 'None', 'elementor-pro' );
+
+			return;
+		}
+		$document_conditions = $this->get_document_conditions( $document );
+
+		$instances = [];
+		if ( ! empty( $document_conditions ) ) {
+			foreach ( $document_conditions as $document_condition ) {
+				if ( 'exclude' === $document_condition['type'] ) {
+					continue;
+				}
+
+				$condition_name = ! empty( $document_condition['sub_name'] ) ? $document_condition['sub_name'] : $document_condition['name'];
+
+				$condition = $this->get_condition( $condition_name );
+				if ( ! $condition ) {
+					continue;
+				}
+
+				if ( ! empty( $document_condition['sub_id'] ) ) {
+					$instance_label = $condition->get_label() . " #{$document_condition['sub_id']}";
+				} else {
+					$instance_label = $condition->get_all_label();
+				}
+
+				$instances[] = $instance_label;
+			}
+		}
 
 		if ( ! empty( $instances ) ) {
 			echo implode( '<br />', $instances );
 		} else {
-			echo __( 'None', 'elementor-pro' );
+			echo 'None';
 		}
 	}
 
@@ -89,29 +123,8 @@ class Conditions_Manager {
 	}
 
 	public function ajax_check_conditions_conflicts( $request ) {
-		$post_id = intval( $request['editor_post_id'] );
-		$condition = $request['condition'];
+		$post_id = $request['editor_post_id'];
 
-		unset( $condition['_id'] );
-
-		$condition = rtrim( implode( '/', $condition ), '/' );
-
-		$conflicted = array_map( function ( $conflict ) {
-			return sprintf(
-				'<a href="%s" target="_blank">%s</a>', $conflict['edit_url'], $conflict['template_title']
-			);
-		}, $this->get_conditions_conflicts( $post_id, $condition ) );
-
-		if ( empty( $conflicted ) ) {
-			return '';
-		}
-
-		return __( 'Elementor recognized that you have set this location for other templates: ', 'elementor-pro' ) .
-			' ' .
-			implode( ', ', $conflicted );
-	}
-
-	public function get_conditions_conflicts( $post_id, $condition ) {
 		/** @var \ElementorPro\Modules\ThemeBuilder\Module $theme_builder_module */
 		$theme_builder_module = Module::instance();
 
@@ -122,12 +135,19 @@ class Conditions_Manager {
 		$location_settings = $theme_builder_module->get_locations_manager()->get_location( $location );
 
 		if ( ! empty( $location_settings['multiple'] ) ) {
-			return [];
+			return '';
 		}
+
+		$condition = $request['condition'];
+
+		unset( $condition['_id'] );
+
+		$conditions_to_check = rtrim( implode( '/', $condition ), '/' );
 
 		$conditions_groups = $this->cache->get_by_location( $location );
 
 		$conflicted = [];
+		$message = '';
 
 		if ( ! empty( $conditions_groups ) ) {
 			foreach ( $conditions_groups as $template_id => $conditions ) {
@@ -139,21 +159,19 @@ class Conditions_Manager {
 					continue;
 				}
 
-				if ( false !== array_search( $condition, $conditions, true ) ) {
+				if ( false !== array_search( $conditions_to_check, $conditions, true ) ) {
 					$edit_url = $theme_builder_module->get_document( $template_id )->get_edit_url();
-
-					$conflicted[] = [
-						'template_id' => $template_id,
-						'template_title' => esc_html( get_the_title( $template_id ) ),
-						'edit_url' => $edit_url,
-					];
+					$conflicted[] = sprintf( '<a href="%s" target="_blank">%s</a>', $edit_url, get_the_title( $template_id ) );
 				}
 			}
 		}
 
-		return $conflicted;
-	}
+		if ( ! empty( $conflicted ) ) {
+			$message = __( 'Elementor recognized that you have set this location for other templates: ', 'elementor-pro' ) . ' ' . implode( ', ', $conflicted );
+		}
 
+		return $message;
+	}
 
 	public function ajax_save_theme_template_conditions( $request ) {
 		if ( ! isset( $request['conditions'] ) ) {
@@ -215,46 +233,6 @@ class Conditions_Manager {
 		return $config;
 	}
 
-	public function get_document_instances( $post_id ) {
-		/** @var Module $theme_builder_module */
-		$theme_builder_module = Module::instance();
-
-		$document = $theme_builder_module->get_document( $post_id );
-
-		$summary = [];
-
-		if ( ! $document ) {
-			return $summary;
-		}
-
-		$document_conditions = $this->get_document_conditions( $document );
-
-		if ( ! empty( $document_conditions ) ) {
-			foreach ( $document_conditions as $document_condition ) {
-				if ( 'exclude' === $document_condition['type'] ) {
-					continue;
-				}
-
-				$condition_name = ! empty( $document_condition['sub_name'] ) ? $document_condition['sub_name'] : $document_condition['name'];
-
-				$condition = $this->get_condition( $condition_name );
-				if ( ! $condition ) {
-					continue;
-				}
-
-				if ( ! empty( $document_condition['sub_id'] ) ) {
-					$instance_label = $condition->get_label() . " #{$document_condition['sub_id']}";
-				} else {
-					$instance_label = $condition->get_all_label();
-				}
-
-				$summary[ $condition->get_name() ] = $instance_label;
-			}
-		}
-
-		return $summary;
-	}
-
 	public function register_conditions() {
 		$this->register_condition( 'general' );
 
@@ -276,14 +254,25 @@ class Conditions_Manager {
 
 		if ( empty( $conditions_to_save ) ) {
 			// TODO: $document->delete_meta.
-			$is_saved = delete_post_meta( $post_id, '_elementor_conditions' );
+			delete_post_meta( $post_id, '_elementor_conditions' );
 		} else {
-			$is_saved = $document->update_meta( '_elementor_conditions', $conditions_to_save );
+			$document->update_meta( '_elementor_conditions', $conditions_to_save );
 		}
 
-		$this->cache->regenerate();
+		return $this->cache->regenerate();
+	}
 
-		return $is_saved;
+	/**
+	 * @deprecated 2.0.10
+	 *
+	 * @param $location
+	 *
+	 * @return array
+	 */
+	public function get_theme_templates_by_location( $location ) {
+		_deprecated_function( __METHOD__, '2.0.10', __CLASS__ . '::get_location_templates()' );
+
+		return $this->get_location_templates( $location );
 	}
 
 	public function get_location_templates( $location ) {

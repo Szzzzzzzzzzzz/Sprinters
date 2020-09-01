@@ -15,10 +15,10 @@ class Templates_Types_Manager {
 		add_action( 'elementor/documents/register', [ $this, 'register_documents' ] );
 	}
 
-	public function get_types_config( $args = [] ) {
+	public function get_types_config() {
 		$config = [];
 
-		$document_types = Plugin::elementor()->documents->get_document_types( $args );
+		$document_types = Plugin::elementor()->documents->get_document_types();
 
 		foreach ( $document_types as $type => $document_type ) {
 			$properties = $document_type::get_properties();
@@ -37,11 +37,7 @@ class Templates_Types_Manager {
 			'header' => Documents\Header::get_class_full_name(),
 			'footer' => Documents\Footer::get_class_full_name(),
 			'single' => Documents\Single::get_class_full_name(),
-			'single-post' => Documents\Single_Post::get_class_full_name(),
-			'single-page' => Documents\Single_Page::get_class_full_name(),
 			'archive' => Documents\Archive::get_class_full_name(),
-			'search-results' => Documents\Search_Results::get_class_full_name(),
-			'error-404' => Documents\Error_404::get_class_full_name(),
 		];
 
 		foreach ( $this->docs_types as $type => $class_name ) {

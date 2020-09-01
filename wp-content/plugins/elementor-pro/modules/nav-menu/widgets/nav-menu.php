@@ -2,8 +2,7 @@
 namespace ElementorPro\Modules\NavMenu\Widgets;
 
 use Elementor\Controls_Manager;
-use Elementor\Core\Kits\Documents\Tabs\Global_Colors;
-use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
+use Elementor\Core\Schemes;
 use Elementor\Core\Responsive\Responsive;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Box_Shadow;
@@ -414,9 +413,7 @@ class Nav_Menu extends Base_Widget {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'menu_typography',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_PRIMARY,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .elementor-nav-menu .elementor-item',
 			]
 		);
@@ -435,8 +432,9 @@ class Nav_Menu extends Base_Widget {
 			[
 				'label' => __( 'Text Color', 'elementor-pro' ),
 				'type' => Controls_Manager::COLOR,
-				'global' => [
-					'default' => Global_Colors::COLOR_TEXT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_3,
 				],
 				'default' => '',
 				'selectors' => [
@@ -459,8 +457,9 @@ class Nav_Menu extends Base_Widget {
 			[
 				'label' => __( 'Text Color', 'elementor-pro' ),
 				'type' => Controls_Manager::COLOR,
-				'global' => [
-					'default' => Global_Colors::COLOR_ACCENT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_4,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-nav-menu--main .elementor-item:hover,
@@ -497,8 +496,9 @@ class Nav_Menu extends Base_Widget {
 			[
 				'label' => __( 'Pointer Color', 'elementor-pro' ),
 				'type' => Controls_Manager::COLOR,
-				'global' => [
-					'default' => Global_Colors::COLOR_ACCENT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_4,
 				],
 				'default' => '',
 				'selectors' => [
@@ -794,9 +794,7 @@ class Nav_Menu extends Base_Widget {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'dropdown_typography',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_ACCENT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_4,
 				'exclude' => [ 'line_height' ],
 				'selector' => '{{WRAPPER}} .elementor-nav-menu--dropdown .elementor-item, {{WRAPPER}} .elementor-nav-menu--dropdown  .elementor-sub-item',
 				'separator' => 'before',
@@ -1000,7 +998,7 @@ class Nav_Menu extends Base_Widget {
 
 		$this->end_controls_tabs();
 
-		$this->add_responsive_control(
+		$this->add_control(
 			'toggle_size',
 			[
 				'label' => __( 'Size', 'elementor-pro' ),
@@ -1017,7 +1015,7 @@ class Nav_Menu extends Base_Widget {
 			]
 		);
 
-		$this->add_responsive_control(
+		$this->add_control(
 			'toggle_border_width',
 			[
 				'label' => __( 'Border Width', 'elementor-pro' ),
@@ -1033,7 +1031,7 @@ class Nav_Menu extends Base_Widget {
 			]
 		);
 
-		$this->add_responsive_control(
+		$this->add_control(
 			'toggle_border_radius',
 			[
 				'label' => __( 'Border Radius', 'elementor-pro' ),

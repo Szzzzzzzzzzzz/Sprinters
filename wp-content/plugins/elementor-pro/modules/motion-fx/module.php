@@ -2,6 +2,7 @@
 
 namespace ElementorPro\Modules\MotionFX;
 
+use Elementor\Controls_Manager;
 use Elementor\Element_Base;
 use Elementor\Element_Column;
 use Elementor\Element_Section;
@@ -45,7 +46,7 @@ class Module extends Module_Base {
 		if ( $element instanceof Element_Section ) {
 			$exclude[] = 'motion_fx_mouse';
 		} elseif ( $element instanceof Element_Column ) {
-			$selector .= ' > .elementor-widget-wrap';
+			$selector .= ' > .elementor-column-wrap';
 		} else {
 			$selector .= ' > .elementor-widget-container';
 		}

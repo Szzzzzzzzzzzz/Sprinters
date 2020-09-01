@@ -2,8 +2,7 @@
 namespace ElementorPro\Modules\Forms\Widgets;
 
 use Elementor\Controls_Manager;
-use Elementor\Core\Kits\Documents\Tabs\Global_Colors;
-use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
+use Elementor\Core\Schemes;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Typography;
 use ElementorPro\Base\Base_Widget;
@@ -157,9 +156,6 @@ class Login extends Base_Widget {
 				'separator' => false,
 				'placeholder' => __( 'https://your-link.com', 'elementor-pro' ),
 				'description' => __( 'Note: Because of security reasons, you can ONLY use your current domain here.', 'elementor-pro' ),
-				'dynamic' => [
-					'active' => true,
-				],
 				'condition' => [
 					'redirect_after_login' => 'yes',
 				],
@@ -186,9 +182,6 @@ class Login extends Base_Widget {
 				'separator' => false,
 				'placeholder' => __( 'https://your-link.com', 'elementor-pro' ),
 				'description' => __( 'Note: Because of security reasons, you can ONLY use your current domain here.', 'elementor-pro' ),
-				'dynamic' => [
-					'active' => true,
-				],
 				'condition' => [
 					'redirect_after_logout' => 'yes',
 				],
@@ -338,8 +331,9 @@ class Login extends Base_Widget {
 				'selectors' => [
 					'{{WRAPPER}} .elementor-field-group > a' => 'color: {{VALUE}};',
 				],
-				'global' => [
-					'default' => Global_Colors::COLOR_TEXT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_3,
 				],
 			]
 		);
@@ -352,8 +346,9 @@ class Login extends Base_Widget {
 				'selectors' => [
 					'{{WRAPPER}} .elementor-field-group > a:hover' => 'color: {{VALUE}};',
 				],
-				'global' => [
-					'default' => Global_Colors::COLOR_ACCENT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_4,
 				],
 			]
 		);
@@ -400,8 +395,9 @@ class Login extends Base_Widget {
 				'selectors' => [
 					'{{WRAPPER}} .elementor-form-fields-wrapper label' => 'color: {{VALUE}};',
 				],
-				'global' => [
-					'default' => Global_Colors::COLOR_TEXT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_3,
 				],
 			]
 		);
@@ -411,9 +407,7 @@ class Login extends Base_Widget {
 			[
 				'name' => 'label_typography',
 				'selector' => '{{WRAPPER}} .elementor-form-fields-wrapper label',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_TEXT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_3,
 			]
 		);
 
@@ -435,8 +429,9 @@ class Login extends Base_Widget {
 				'selectors' => [
 					'{{WRAPPER}} .elementor-field-group .elementor-field' => 'color: {{VALUE}};',
 				],
-				'global' => [
-					'default' => Global_Colors::COLOR_TEXT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_3,
 				],
 			]
 		);
@@ -446,9 +441,7 @@ class Login extends Base_Widget {
 			[
 				'name' => 'field_typography',
 				'selector' => '{{WRAPPER}} .elementor-field-group .elementor-field, {{WRAPPER}} .elementor-field-subgroup label',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_TEXT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_3,
 			]
 		);
 
@@ -542,9 +535,7 @@ class Login extends Base_Widget {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'button_typography',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_ACCENT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_4,
 				'selector' => '{{WRAPPER}} .elementor-button',
 			]
 		);
@@ -554,8 +545,9 @@ class Login extends Base_Widget {
 			[
 				'label' => __( 'Background Color', 'elementor-pro' ),
 				'type' => Controls_Manager::COLOR,
-				'global' => [
-					'default' => Global_Colors::COLOR_ACCENT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_4,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-button' => 'background-color: {{VALUE}};',
@@ -670,8 +662,9 @@ class Login extends Base_Widget {
 				'selectors' => [
 					'{{WRAPPER}} .elementor-widget-container .elementor-login__logged-in-message' => 'color: {{VALUE}};',
 				],
-				'global' => [
-					'default' => Global_Colors::COLOR_TEXT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_3,
 				],
 			]
 		);
@@ -681,9 +674,7 @@ class Login extends Base_Widget {
 			[
 				'name' => 'message_typography',
 				'selector' => '{{WRAPPER}} .elementor-widget-container .elementor-login__logged-in-message',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_TEXT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_3,
 			]
 		);
 
@@ -784,7 +775,7 @@ class Login extends Base_Widget {
 	}
 
 	protected function render() {
-		$settings = $this->get_settings_for_display();
+		$settings = $this->get_settings();
 		$current_url = remove_query_arg( 'fake_arg' );
 		$logout_redirect = $current_url;
 

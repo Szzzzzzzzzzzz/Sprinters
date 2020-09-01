@@ -1,6 +1,7 @@
 <?php
 namespace ElementorPro\Modules\DynamicTags\ACF\Tags;
 
+use Elementor\Controls_Manager;
 use ElementorPro\Modules\DynamicTags\Tags\Base\Tag;
 use ElementorPro\Modules\DynamicTags\ACF\Module;
 

@@ -2,9 +2,8 @@
 namespace ElementorPro\Modules\FlipBox\Widgets;
 
 use Elementor\Controls_Manager;
-use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
+use Elementor\Core\Schemes;
 use Elementor\Group_Control_Background;
-use Elementor\Group_Control_Css_Filter;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Image_Size;
 use Elementor\Group_Control_Typography;
@@ -204,46 +203,6 @@ class Flip_Box extends Base_Widget {
 			]
 		);
 
-		$this->add_group_control(
-			Group_Control_Css_Filter::get_type(),
-			[
-				'name' => 'background_overlay_a_filters',
-				'selector' => '{{WRAPPER}} .elementor-flip-box__front .elementor-flip-box__layer__overlay',
-				'condition' => [
-					'background_overlay_a!' => '',
-				],
-			]
-		);
-
-		$this->add_control(
-			'background_overlay_a_blend_mode',
-			[
-				'label' => __( 'Blend Mode', 'elementor-pro' ),
-				'type' => Controls_Manager::SELECT,
-				'options' => [
-					'' => __( 'Normal', 'elementor-pro' ),
-					'multiply' => 'Multiply',
-					'screen' => 'Screen',
-					'overlay' => 'Overlay',
-					'darken' => 'Darken',
-					'lighten' => 'Lighten',
-					'color-dodge' => 'Color Dodge',
-					'color-burn' => 'Color Burn',
-					'hue' => 'Hue',
-					'saturation' => 'Saturation',
-					'color' => 'Color',
-					'exclusion' => 'Exclusion',
-					'luminosity' => 'Luminosity',
-				],
-				'selectors' => [
-					'{{WRAPPER}} .elementor-flip-box__front .elementor-flip-box__layer__overlay' => 'mix-blend-mode: {{VALUE}}',
-				],
-				'condition' => [
-					'background_overlay_a!' => '',
-				],
-			]
-		);
-
 		$this->end_controls_tab();
 
 		$this->end_controls_tabs();
@@ -357,46 +316,6 @@ class Flip_Box extends Base_Widget {
 				'separator' => 'before',
 				'condition' => [
 					'background_b_image[id]!' => '',
-				],
-			]
-		);
-
-		$this->add_group_control(
-			Group_Control_Css_Filter::get_type(),
-			[
-				'name' => 'background_overlay_b_filters',
-				'selector' => '{{WRAPPER}} .elementor-flip-box__back .elementor-flip-box__layer__overlay',
-				'condition' => [
-					'background_overlay_b!' => '',
-				],
-			]
-		);
-
-		$this->add_control(
-			'background_overlay_b_blend_mode',
-			[
-				'label' => __( 'Blend Mode', 'elementor-pro' ),
-				'type' => Controls_Manager::SELECT,
-				'options' => [
-					'' => __( 'Normal', 'elementor-pro' ),
-					'multiply' => 'Multiply',
-					'screen' => 'Screen',
-					'overlay' => 'Overlay',
-					'darken' => 'Darken',
-					'lighten' => 'Lighten',
-					'color-dodge' => 'Color Dodge',
-					'color-burn' => 'Color Burn',
-					'hue' => 'Hue',
-					'saturation' => 'Saturation',
-					'color' => 'Color',
-					'exclusion' => 'Exclusion',
-					'luminosity' => 'Luminosity',
-				],
-				'selectors' => [
-					'{{WRAPPER}} .elementor-flip-box__back .elementor-flip-box__layer__overlay' => 'mix-blend-mode: {{VALUE}}',
-				],
-				'condition' => [
-					'background_overlay_b!' => '',
 				],
 			]
 		);
@@ -925,9 +844,7 @@ class Flip_Box extends Base_Widget {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'title_typography_a',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_PRIMARY,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .elementor-flip-box__front .elementor-flip-box__layer__title',
 				'condition' => [
 					'title_text_a!' => '',
@@ -966,9 +883,7 @@ class Flip_Box extends Base_Widget {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'description_typography_a',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_TEXT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} .elementor-flip-box__front .elementor-flip-box__layer__description',
 				'condition' => [
 					'description_text_a!' => '',
@@ -1116,9 +1031,7 @@ class Flip_Box extends Base_Widget {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'title_typography_b',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_PRIMARY,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .elementor-flip-box__back .elementor-flip-box__layer__title',
 				'condition' => [
 					'title_text_b!' => '',
@@ -1178,9 +1091,7 @@ class Flip_Box extends Base_Widget {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'description_typography_b',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_TEXT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} .elementor-flip-box__back .elementor-flip-box__layer__description',
 				'condition' => [
 					'description_text_b!' => '',
@@ -1224,9 +1135,7 @@ class Flip_Box extends Base_Widget {
 			[
 				'name' => 'button_typography',
 				'selector' => '{{WRAPPER}} .elementor-flip-box__button',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_ACCENT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_4,
 				'condition' => [
 					'button_text!' => '',
 				],

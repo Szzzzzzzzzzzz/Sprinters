@@ -2,8 +2,7 @@
 namespace ElementorPro\Modules\Posts\Skins;
 
 use Elementor\Controls_Manager;
-use Elementor\Core\Kits\Documents\Tabs\Global_Colors;
-use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
+use Elementor\Core\Schemes;
 use Elementor\Group_Control_Css_Filter;
 use Elementor\Group_Control_Image_Size;
 use Elementor\Group_Control_Typography;
@@ -328,7 +327,6 @@ abstract class Skin_Base extends Elementor_Skin_Base {
 					'date' => __( 'Date', 'elementor-pro' ),
 					'time' => __( 'Time', 'elementor-pro' ),
 					'comments' => __( 'Comments', 'elementor-pro' ),
-					'modified' => __( 'Date Modified', 'elementor-pro' ),
 				],
 				'separator' => 'before',
 			]
@@ -377,7 +375,9 @@ abstract class Skin_Base extends Elementor_Skin_Base {
 					],
 				],
 				'selectors' => [
-					'{{WRAPPER}}' => '--grid-column-gap: {{SIZE}}{{UNIT}}',
+					'{{WRAPPER}} .elementor-posts-container' => 'grid-column-gap: {{SIZE}}{{UNIT}}',
+					'.elementor-msie {{WRAPPER}} .elementor-post' => 'padding-right: calc( {{SIZE}}{{UNIT}}/2 ); padding-left: calc( {{SIZE}}{{UNIT}}/2 );',
+					'.elementor-msie {{WRAPPER}} .elementor-posts-container' => 'margin-left: calc( -{{SIZE}}{{UNIT}}/2 ); margin-right: calc( -{{SIZE}}{{UNIT}}/2 );',
 				],
 			]
 		);
@@ -398,7 +398,8 @@ abstract class Skin_Base extends Elementor_Skin_Base {
 				],
 				'frontend_available' => true,
 				'selectors' => [
-					'{{WRAPPER}}' => '--grid-row-gap: {{SIZE}}{{UNIT}}',
+					'{{WRAPPER}} .elementor-posts-container' => 'grid-row-gap: {{SIZE}}{{UNIT}}',
+					'.elementor-msie {{WRAPPER}} .elementor-post' => 'padding-bottom: {{SIZE}}{{UNIT}};',
 				],
 			]
 		);
@@ -544,8 +545,9 @@ abstract class Skin_Base extends Elementor_Skin_Base {
 			[
 				'label' => __( 'Color', 'elementor-pro' ),
 				'type' => Controls_Manager::COLOR,
-				'global' => [
-					'default' => Global_Colors::COLOR_SECONDARY,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_2,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-post__title, {{WRAPPER}} .elementor-post__title a' => 'color: {{VALUE}};',
@@ -560,9 +562,7 @@ abstract class Skin_Base extends Elementor_Skin_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'title_typography',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_PRIMARY,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .elementor-post__title, {{WRAPPER}} .elementor-post__title a',
 				'condition' => [
 					$this->get_control_id( 'show_title' ) => 'yes',
@@ -633,9 +633,7 @@ abstract class Skin_Base extends Elementor_Skin_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'meta_typography',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_SECONDARY,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_2,
 				'selector' => '{{WRAPPER}} .elementor-post__meta-data',
 				'condition' => [
 					$this->get_control_id( 'meta_data!' ) => [],
@@ -692,9 +690,7 @@ abstract class Skin_Base extends Elementor_Skin_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'excerpt_typography',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_TEXT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} .elementor-post__excerpt p',
 				'condition' => [
 					$this->get_control_id( 'show_excerpt' ) => 'yes',
@@ -738,8 +734,9 @@ abstract class Skin_Base extends Elementor_Skin_Base {
 			[
 				'label' => __( 'Color', 'elementor-pro' ),
 				'type' => Controls_Manager::COLOR,
-				'global' => [
-					'default' => Global_Colors::COLOR_ACCENT,
+				'scheme' => [
+					'type' => Schemes\Color::get_type(),
+					'value' => Schemes\Color::COLOR_4,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-post__read-more' => 'color: {{VALUE}};',
@@ -755,9 +752,7 @@ abstract class Skin_Base extends Elementor_Skin_Base {
 			[
 				'name' => 'read_more_typography',
 				'selector' => '{{WRAPPER}} .elementor-post__read-more',
-				'global' => [
-					'default' => Global_Typography::TYPOGRAPHY_ACCENT,
-				],
+				'scheme' => Schemes\Typography::TYPOGRAPHY_4,
 				'condition' => [
 					$this->get_control_id( 'show_read_more' ) => 'yes',
 				],
@@ -1032,7 +1027,7 @@ abstract class Skin_Base extends Elementor_Skin_Base {
 			}
 
 			if ( in_array( 'date', $settings ) ) {
-				$this->render_date_by_type();
+				$this->render_date();
 			}
 
 			if ( in_array( 'time', $settings ) ) {
@@ -1041,9 +1036,6 @@ abstract class Skin_Base extends Elementor_Skin_Base {
 
 			if ( in_array( 'comments', $settings ) ) {
 				$this->render_comments();
-			}
-			if ( in_array( 'modified', $settings ) ) {
-				$this->render_date_by_type( 'modified' );
 			}
 			?>
 		</div>
@@ -1058,27 +1050,12 @@ abstract class Skin_Base extends Elementor_Skin_Base {
 		<?php
 	}
 
-	/**
-	 * @deprecated since 3.0.0 Use `Skin_Base::render_date_by_type()` instead
-	 */ 
 	protected function render_date() {
-		// _deprecated_function( __METHOD__, '3.0.0', 'Skin_Base::render_date_by_type()' );
-		$this->render_date_by_type();
-	}
-
-	protected function render_date_by_type( $type = 'publish' ) {
 		?>
 		<span class="elementor-post-date">
 			<?php
-			switch( $type ) {
-				case 'modified':
-					$date = get_the_modified_date();
-				break;
-				default:
-					$date = get_the_date();
-			}
 			/** This filter is documented in wp-includes/general-template.php */
-			echo apply_filters( 'the_date', $date, get_option( 'date_format' ), '', '' );
+			echo apply_filters( 'the_date', get_the_date(), get_option( 'date_format' ), '', '' );
 			?>
 		</span>
 		<?php

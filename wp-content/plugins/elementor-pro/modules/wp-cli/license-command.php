@@ -62,7 +62,8 @@ class License_Command extends \WP_CLI_Command {
 	 *      - This will deactivate your license key.
 	 */
 	public function deactivate() {
-		Admin::deactivate();
+		API::deactivate_license();
+		delete_option( 'elementor_pro_license_key' );
 		\WP_CLI::success( 'The License has been deactivated successfully.' );
 	}
 }

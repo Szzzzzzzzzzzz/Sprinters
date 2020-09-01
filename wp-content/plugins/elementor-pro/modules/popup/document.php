@@ -31,7 +31,6 @@ class Document extends Theme_Section_Document {
 		$properties['admin_tab_group'] = 'popup';
 		$properties['location'] = 'popup';
 		$properties['support_kit'] = true;
-		$properties['support_site_editor'] = false;
 
 		return $properties;
 	}
