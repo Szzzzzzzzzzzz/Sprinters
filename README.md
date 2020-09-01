@@ -8,7 +8,16 @@ Home Page: http://healthsprinters.me/
 Theme: Vantage  
 Plugin: Elementor
   
-## Update Record
+## Update Record  
+### Ver 1.08  Lteration 1   
+1/9/2020  
+Add slides on setup page.  
+### Ver 1.07  Lteration 1   
+31/8/2020  
+Fix layout.   
+### Ver 1.06  Lteration 1   
+31/8/2020  
+Fix visualization part problem.   
 ### Ver 1.05  Lteration 1   
 31/8/2020  
 Add visualization part. 
