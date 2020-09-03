@@ -7,7 +7,7 @@
  * @license GPL 2.0
  */
 
-define( 'SITEORIGIN_THEME_VERSION', '1.15.1' );
+define( 'SITEORIGIN_THEME_VERSION', '1.15.2' );
 define( 'SITEORIGIN_THEME_JS_PREFIX', '.min' );
 define( 'SITEORIGIN_THEME_CSS_PREFIX', '.min' );
 
@@ -93,6 +93,8 @@ function vantage_setup() {
 	add_theme_support( 'custom-logo' );
 
 	add_theme_support( 'title-tag' );
+
+	add_theme_support( 'align-wide' );
 
 	if ( ! defined( 'SITEORIGIN_PANELS_VERSION' ) ) {
 		// Only include panels lite if the panels plugin doesn't exist

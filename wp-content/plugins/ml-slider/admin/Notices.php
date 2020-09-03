@@ -67,7 +67,7 @@ class MetaSlider_Notices extends Updraft_Notices_1_0
     public function add_notice_assets()
     {
         wp_enqueue_style('ml-slider-notices-css', METASLIDER_ADMIN_URL . 'assets/css/notices.css', false, METASLIDER_VERSION);
-        wp_localize_script('jquery', 'metaslider_notices', array(
+        wp_localize_script('metaslider-admin-script', 'metaslider_notices', array(
             'handle_notices_nonce' => wp_create_nonce('metaslider_handle_notices_nonce')
         ));
     }

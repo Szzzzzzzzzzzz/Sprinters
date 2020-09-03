@@ -1,0 +1,733 @@
+# Translation of Plugins - Gutenberg - Stable (latest release) in English (Australia)
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-03 08:44:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_AU\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#: lib/class-wp-rest-menu-items-controller.php:429
+msgid "Invalid post type."
+msgstr "Invalid post type."
+
+#: lib/experiments-page.php:109
+msgid "The block editor includes experimental features that are useable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
+msgstr "The block editor includes experimental features that are useable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
+
+#: lib/experiments-page.php:61
+msgid "Enable Full Site Editing (Warning: this will replace your theme and cause potentially irreversible changes to your site. We recommend using this only in a development environment.)"
+msgstr "Enable Full Site Editing (Warning: this will replace your theme and cause potentially irreversible changes to your site. We recommend using this only in a development environment.)"
+
+#: gutenberg.php:78 gutenberg.php:79
+msgid "Site Editor (beta)"
+msgstr "Site Editor (beta)"
+
+#: build/block-library/blocks/query-pagination.php:33
+#: build/block-library/index.js:58 build/components/index.js:18
+msgid "Next"
+msgstr "Next"
+
+#: build/block-library/blocks/query-pagination.php:26
+#: build/block-library/index.js:58 build/components/index.js:18
+msgid "Previous"
+msgstr "Previous"
+
+#: lib/experiments-page.php:72
+msgid "Enable Full Site Editing demo templates"
+msgstr "Enable Full Site Editing demo templates"
+
+#: lib/experiments-page.php:67
+msgid "Full Site Editing Demo Templates"
+msgstr "Full Site Editing Demo Templates"
+
+#: lib/class-wp-rest-widget-utils-controller.php:47
+msgid "Current widget instance"
+msgstr "Current widget instance"
+
+#: lib/template-parts.php:36
+msgid "Template parts to include in your templates."
+msgstr "Template parts to include in your templates."
+
+#: lib/template-parts.php:31
+msgid "Template parts list"
+msgstr "Template parts list"
+
+#: lib/template-parts.php:30
+msgid "Template parts list navigation"
+msgstr "Template parts list navigation"
+
+#: lib/template-parts.php:29
+msgid "Filter template parts list"
+msgstr "Filter template parts list"
+
+#: lib/template-parts.php:28
+msgid "Uploaded to this template part"
+msgstr "Uploaded to this template part"
+
+#: lib/template-parts.php:27
+msgid "Insert into template part"
+msgstr "Insert into template part"
+
+#: lib/template-parts.php:26
+msgid "Template part archives"
+msgstr "Template part archives"
+
+#: lib/template-parts.php:25
+msgid "No template parts found in Trash."
+msgstr "No template parts found in Bin."
+
+#: lib/template-parts.php:24
+msgid "No template parts found."
+msgstr "No template parts found."
+
+#: lib/template-parts.php:23
+msgid "Parent Template Part:"
+msgstr "Parent Template Part:"
+
+#: lib/template-parts.php:22
+msgid "Search Template Parts"
+msgstr "Search Template Parts"
+
+#: lib/template-parts.php:21
+msgid "All Template Parts"
+msgstr "All Template Parts"
+
+#: lib/template-parts.php:20
+msgid "View Template Part"
+msgstr "View Template Part"
+
+#: lib/template-parts.php:19
+msgid "Edit Template Part"
+msgstr "Edit Template Part"
+
+#: lib/template-parts.php:18
+msgid "New Template Part"
+msgstr "New Template Part"
+
+#: lib/template-parts.php:17
+msgid "Add New Template Part"
+msgstr "Add New Template Part"
+
+#: lib/template-parts.php:16
+msgctxt "Template Part"
+msgid "Add New"
+msgstr "Add New"
+
+#: lib/template-parts.php:15
+msgctxt "Admin Menu text"
+msgid "Template Parts"
+msgstr "Template Parts"
+
+#. translators: %s: template part title.
+#: lib/template-parts.php:14 build/block-library/index.js:58
+msgid "Template Part"
+msgstr "Template Part"
+
+#: lib/template-parts.php:13 build/edit-site/index.js:2
+msgid "Template Parts"
+msgstr "Template Parts"
+
+#: lib/experiments-page.php:45 build/block-library/index.js:30
+msgid "Navigation"
+msgstr "Navigation"
+
+#: lib/templates.php:31
+msgid "Templates list"
+msgstr "Templates list"
+
+#: lib/templates.php:30
+msgid "Templates list navigation"
+msgstr "Templates list navigation"
+
+#: lib/templates.php:29
+msgid "Filter templates list"
+msgstr "Filter templates list"
+
+#: lib/templates.php:28
+msgid "Uploaded to this template"
+msgstr "Uploaded to this template"
+
+#: lib/templates.php:27
+msgid "Insert into template"
+msgstr "Insert into template"
+
+#: lib/templates.php:26
+msgid "Template archives"
+msgstr "Template archives"
+
+#: lib/templates.php:25
+msgid "No templates found in Trash."
+msgstr "No templates found in bin."
+
+#: lib/templates.php:24
+msgid "No templates found."
+msgstr "No templates found."
+
+#: lib/templates.php:23
+msgid "Parent Template:"
+msgstr "Parent template:"
+
+#: lib/templates.php:22
+msgid "Search Templates"
+msgstr "Search templates"
+
+#: lib/templates.php:21
+msgid "All Templates"
+msgstr "All templates"
+
+#: lib/templates.php:20
+msgid "View Template"
+msgstr "View template"
+
+#: lib/templates.php:19
+msgid "Edit Template"
+msgstr "Edit template"
+
+#: lib/templates.php:18
+msgid "New Template"
+msgstr "New template"
+
+#: lib/templates.php:17
+msgid "Add New Template"
+msgstr "Add new template"
+
+#: lib/templates.php:16
+msgctxt "Template"
+msgid "Add New"
+msgstr "Add new"
+
+#: lib/templates.php:15
+msgctxt "Admin Menu text"
+msgid "Templates"
+msgstr "Templates"
+
+#: lib/templates.php:14 build/edit-site/index.js:2
+msgid "Template"
+msgstr "Template"
+
+#: lib/template-loader.php:372
+msgid "No matching template found"
+msgstr "No matching template found"
+
+#: lib/experiments-page.php:56
+msgid "Full Site Editing"
+msgstr "Full site editing"
+
+#: lib/templates.php:36
+msgid "Templates to include in your theme."
+msgstr "Templates to include in your theme."
+
+#: lib/templates.php:13
+msgid "Templates"
+msgstr "Templates"
+
+#: lib/class-wp-rest-plugins-controller.php:337
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr "Unable to connect to the file system. Please confirm your credentials."
+
+#: gutenberg.php:104
+msgid "Experiments Settings"
+msgstr "Experiments Settings"
+
+#: lib/experiments-page.php:19
+msgid "Experimental settings"
+msgstr "Experimental settings"
+
+#. translators: %s: taxonomy name
+#: build/block-library/blocks/tag-cloud.php:28
+msgid "Your site doesn&#8217;t have any %s, so there&#8217;s nothing to display here at the moment."
+msgstr "Your site doesn&#8217;t have any %s, so there&#8217;s nothing to display here at the moment."
+
+#: lib/widgets.php:249
+msgid "Block area updated."
+msgstr "Block area updated."
+
+#: lib/widgets.php:248
+msgid "Block area scheduled."
+msgstr "Block area scheduled."
+
+#: lib/widgets.php:245
+msgid "Block area published."
+msgstr "Block area published."
+
+#: lib/widgets.php:244
+msgid "Block areas list"
+msgstr "Block areas list"
+
+#: lib/widgets.php:243
+msgid "Block areas list navigation"
+msgstr "Block areas list navigation"
+
+#: lib/widgets.php:242
+msgid "Filter block areas list"
+msgstr "Filter block areas list"
+
+#: lib/widgets.php:240
+msgid "No block area found."
+msgstr "No block area found."
+
+#: lib/widgets.php:239
+msgid "Search Block Areas"
+msgstr "Search Block Areas"
+
+#: lib/widgets.php:238
+msgid "All Block Areas"
+msgstr "All Block Areas"
+
+#: lib/widgets.php:237
+msgid "View Block Area"
+msgstr "View Block Area"
+
+#: lib/widgets.php:236
+msgid "Edit Block Area"
+msgstr "Edit Block Area"
+
+#: lib/widgets.php:235
+msgid "New Block Area"
+msgstr "New Block Area"
+
+#: lib/widgets.php:234
+msgid "Add New Block Area"
+msgstr "Add New Block Area"
+
+#: lib/widgets.php:231
+msgctxt "admin menu"
+msgid "Block Areas"
+msgstr "Block Areas"
+
+#: lib/widgets.php:230
+msgctxt "post type singular name"
+msgid "Block Area (Experimental)"
+msgstr "Block Area (Experimental)"
+
+#: lib/widgets.php:229
+msgctxt "post type general name"
+msgid "Block Area (Experimental)"
+msgstr "Block Area (Experimental)"
+
+#: lib/widgets.php:227
+msgid "Experimental custom post type that will store block areas referenced by themes."
+msgstr "Experimental custom post type that will store block areas referenced by themes."
+
+#: lib/class-wp-rest-widget-utils-controller.php:41
+msgid "Class name of the widget."
+msgstr "Class name of the widget."
+
+#: lib/class-wp-rest-sidebars-controller.php:109
+#: lib/class-wp-rest-widget-utils-controller.php:74
+msgid "Sorry, you are not allowed to access widgets on this site."
+msgstr "Sorry, you are not allowed to access widgets on this site."
+
+#: build/block-library/blocks/rss.php:23
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "An error has occurred, which probably means the feed is down. Try again later."
+
+#: build/block-library/blocks/rss.php:19
+msgid "RSS Error:"
+msgstr "RSS error:"
+
+#: build/block-library/blocks/search.php:25
+#: build/block-library/blocks/search.php:26
+#: build/block-library/blocks/search.php:44 build/block-library/index.js:49
+msgid "Search"
+msgstr "Search"
+
+#. translators: Use this to specify the CSS font family for the default font.
+#: lib/edit-site-page.php:53
+msgctxt "CSS Font Family for Editor Font"
+msgid "Noto Serif"
+msgstr "Noto Serif"
+
+#: lib/widgets.php:247
+msgid "Block area reverted to draft."
+msgstr "Block area reverted to draft."
+
+#: lib/widgets.php:246
+msgid "Block area published privately."
+msgstr "Block area published privately."
+
+#: lib/widgets.php:241
+msgid "No block areas found in Trash."
+msgstr "No block areas found in Bin."
+
+#: lib/widgets.php:233
+msgctxt "Block"
+msgid "Add New"
+msgstr "Add New"
+
+#: lib/widgets.php:232
+msgctxt "add new on admin bar"
+msgid "Block Area"
+msgstr "Block Area"
+
+#: lib/widgets-page.php:66 lib/edit-site-page.php:114
+#: lib/navigation-page.php:45 build/block-editor/index.js:25
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: lib/widgets-page.php:69 lib/edit-site-page.php:117
+#: lib/navigation-page.php:48 build/block-editor/index.js:25
+msgid "Full Size"
+msgstr "Full Size"
+
+#: lib/compat.php:329 build/block-editor/index.js:68 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "Media"
+
+#. translators: Abbreviated date/time format, see https://www.php.net/date
+#: lib/compat.php:292
+msgid "M j, Y g:i a"
+msgstr "M j, Y g:i a"
+
+#: lib/class-wp-rest-image-editor-controller.php:94
+msgid "Sorry, you are not allowed to edit images."
+msgstr "Sorry, you are not allowed to view themes."
+
+#: lib/widgets-page.php:67 lib/edit-site-page.php:115
+#: lib/navigation-page.php:46 build/block-editor/index.js:25
+#: build/components/index.js:6
+msgid "Medium"
+msgstr "Medium"
+
+#: build/block-library/blocks/archives.php:96
+msgid "No archives to show."
+msgstr "No archives to show."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Beautiful landscape"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Thanks for testing Gutenberg Editor!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Help build Gutenberg Editor"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "The WordPress community"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "Code is Poetry"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Media Rich"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylised one. All of these options are available in the inserter."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "The editor will endeavour to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Visual Editing"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "And <em>Lists</em> like this one of course :)"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Layout blocks, like Buttons, Hero Images, Separators, etc."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Embeds, like YouTube, Tweets, or other WordPress posts."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Galleries"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Images &amp; Videos"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Text &amp; Headings"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "The <em>Inserter</em> Tool"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "A Picture is Worth a Thousand Words"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Headings are separate blocks as well, which helps with the outline and organisation of your content."
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "... like this one, which is right aligned."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "Of Mountains &amp; Printing Presses"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Welcome to the Gutenberg Editor"
+
+#: lib/class-wp-rest-menu-items-controller.php:779
+msgid "The title for the object."
+msgstr "The title for the object."
+
+#: lib/class-wp-rest-menu-items-controller.php:804
+msgid "Unique identifier for the object."
+msgstr "Unique identifier for the object."
+
+#: gutenberg.php:92
+msgid "https://wordpress.org/support/plugin/gutenberg"
+msgstr "https://wordpress.org/support/plugin/gutenberg/"
+
+#: gutenberg.php:90
+msgid "Support"
+msgstr "Support"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "No comments to show."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s on %2$s"
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "Select Post"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "Select Week"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "Select Day"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "Select Month"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "Select Year"
+
+#: build/block-library/blocks/archives.php:27 build/block-library/index.js:16
+msgid "Archives"
+msgstr "Archives"
+
+#: lib/widgets-page.php:68 lib/edit-site-page.php:116
+#: lib/navigation-page.php:47 build/block-editor/index.js:25
+#: build/components/index.js:6
+msgid "Large"
+msgstr "Large"
+
+#: lib/class-wp-rest-menu-items-controller.php:410
+msgid "Invalid term ID."
+msgstr "Invalid item ID."
+
+#: lib/class-wp-rest-menu-items-controller.php:836
+msgid "The ID for the parent of the object."
+msgstr "The ID for the parent of the object."
+
+#: lib/rest-api.php:48
+msgid "Embed Handler"
+msgstr "Embed Handler"
+
+#: lib/client-assets.php:164 build/editor/index.js:11
+#: build/edit-post/index.js:5 build/edit-post/index.js:14
+msgid "Featured image"
+msgstr "Featured image"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#: lib/navigation.php:91 lib/navigation.php:96 lib/class-wp-widget-block.php:40
+#: build/edit-post/index.js:13 build/edit-post/index.js:14
+#: build/edit-widgets/index.js:1
+msgid "Block"
+msgstr "Block"
+
+#: build/block-library/blocks/latest-posts.php:102
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31 build/editor/index.js:27
+#: build/editor/index.js:38 build/edit-site/index.js:2
+#: build/edit-navigation/index.js:2 build/block-library/index.js:30
+#: build/block-library/index.js:38 build/edit-post/index.js:14
+msgid "(no title)"
+msgstr "(no title)"
+
+#. translators: accessibility text. 1: heading level. 2: heading content.
+#: lib/patterns/quote.php:9 build/editor/index.js:11
+#: build/block-library/index.js:12
+msgid "Quote"
+msgstr "Quote"
+
+#: lib/patterns/large-header.php:10 lib/patterns/large-header-button.php:10
+#: build/block-library/index.js:26
+msgid "Write title…"
+msgstr "Write title…"
+
+#: gutenberg.php:105
+msgid "Experiments"
+msgstr "Experiments"
+
+#: gutenberg.php:51 gutenberg.php:52 build/blocks/index.js:1
+msgid "Widgets"
+msgstr "Widgets"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "Printing since 1440. This is the development plugin for the new block editor in core."
+
+#: gutenberg.php:134
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/master/docs/contributors/getting-started.md\">contributing</a> file for more information."
+msgstr "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/master/docs/contributors/getting-started.md\">contributing</a> file for more information."
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Gutenberg Editor Team"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: lib/template-parts.php:115 lib/templates.php:132 build/editor/index.js:29
+msgid "Slug"
+msgstr "Slug"
+
+#. translators: Date/Time format, see https://www.php.net/date
+#: lib/compat.php:290
+msgid "F j, Y g:i a"
+msgstr "F j, Y g:i a"
+
+#. translators: Date format, see https://www.php.net/date
+#: lib/compat.php:288
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#. translators: Time format, see https://www.php.net/date
+#: lib/compat.php:286
+msgid "g:i a"
+msgstr "g:i a"
+
+#. translators: %s: Duration.
+#. translators: %s: Human-readable time difference.
+#: lib/compat.php:281 lib/class-wp-rest-block-directory-controller.php:138
+msgid "%s ago"
+msgstr "%s ago"
+
+#. translators: %s: Duration.
+#: lib/compat.php:279
+msgid "%s from now"
+msgstr "%s from now"
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:121
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+
+#: gutenberg.php:96
+msgid "Documentation"
+msgstr "Documentation"
+
+#: gutenberg.php:43 gutenberg.php:44
+msgid "Demo"
+msgstr "Demo"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Select Category"

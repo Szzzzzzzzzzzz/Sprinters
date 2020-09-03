@@ -1,0 +1,1630 @@
+# Translation of Themes - Colibri WP in Chinese (China)
+# This file is distributed under the same license as the Themes - Colibri WP package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-16 14:20:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - Colibri WP\n"
+
+#: admin/page.php:18
+msgid "Activating"
+msgstr "激活中"
+
+#: inc/template-functions.php:179
+msgid "Tag: %s"
+msgstr "标签：%s"
+
+#: inc/translations.php:308
+msgid "Undefined sanitize function for control \"%s\""
+msgstr "控件\"%s\"的未定义清理函数"
+
+#: template-parts/layout-wrapper-content/tags-container-1.php:9
+msgid "Tags:"
+msgstr "标签："
+
+#: template-parts/layout-wrapper-content/categories-container-1.php:9
+msgid "Categories:"
+msgstr "类别："
+
+#: template-parts/main/archive_item_template.php:87
+msgid "read more"
+msgstr "阅读更多"
+
+#: inc/functions.php:159
+msgid "Woo Commerce left sidebar widget area"
+msgstr "Woo Commerce左侧栏小工具区域"
+
+#: inc/translations.php:256
+msgid "Colibri Settings"
+msgstr "Colibri设置"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3665
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "正在安装插件%1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3662
+msgid "All installations have been completed."
+msgstr "所有安装已完成。"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3658
+msgid "%1$s installed successfully."
+msgstr "%1$s安装成功。"
+
+#: inc/class-tgm-plugin-activation.php:3655
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "安装过程正在启动。在某些主机上，此过程可能需要一段时间，请耐心等待。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3651
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "正在安装和激活插件%1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3648
+msgid "All installations and activations have been completed."
+msgstr "所有安装和激活均已完成。"
+
+#: inc/class-tgm-plugin-activation.php:3646
+#: inc/class-tgm-plugin-activation.php:3660
+msgid "Hide Details"
+msgstr "隐藏详细信息"
+
+#: inc/class-tgm-plugin-activation.php:3645
+#: inc/class-tgm-plugin-activation.php:3659
+msgid "Show Details"
+msgstr "显示详细信息"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3644
+msgid "%1$s installed and activated successfully."
+msgstr "已成功安装并激活%1$s 。"
+
+#: inc/class-tgm-plugin-activation.php:3641
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "安装和激活过程正在启动。在某些主机上，此过程可能需要一段时间，请耐心等待。"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3636
+msgid "The installation of %1$s failed."
+msgstr "%1$s安装失败。"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3633
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "安装%1$s时发生错误：<strong>%2$s</strong>。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3629
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "正在更新插件 %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3274
+msgid "Plugin activation failed."
+msgstr "插件激活失败。"
+
+#: inc/class-tgm-plugin-activation.php:3039
+msgid "No plugins are available to be activated at this time."
+msgstr "目前没有插件可用于激活。"
+
+#: inc/class-tgm-plugin-activation.php:3012
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "没有选择要激活的插件。没有采取行动。"
+
+#: inc/class-tgm-plugin-activation.php:2905
+msgid "No plugins are available to be updated at this time."
+msgstr "目前没有可更新的插件。"
+
+#: inc/class-tgm-plugin-activation.php:2903
+msgid "No plugins are available to be installed at this time."
+msgstr "此时没有可安装的插件。"
+
+#: inc/class-tgm-plugin-activation.php:2862
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "没有选择要更新的插件。没有采取行动。"
+
+#: inc/class-tgm-plugin-activation.php:2860
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "没有选择要安装的插件。没有采取行动。"
+
+#: inc/class-tgm-plugin-activation.php:2826
+msgid "Update"
+msgstr "更新"
+
+#: inc/class-tgm-plugin-activation.php:2786
+msgid "Upgrade message from the plugin author:"
+msgstr "插件作者的升级消息："
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2712
+msgid "Activate %2$s"
+msgstr "激活%2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2706
+msgid "Update %2$s"
+msgstr "更新%2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2701
+msgid "Install %2$s"
+msgstr "安装%2$s"
+
+#: inc/class-tgm-plugin-activation.php:2651
+msgid "Status"
+msgstr "状态"
+
+#: inc/class-tgm-plugin-activation.php:2650
+msgid "Version"
+msgstr "版本"
+
+#: inc/class-tgm-plugin-activation.php:2645
+msgid "Source"
+msgstr "来源"
+
+#: inc/class-tgm-plugin-activation.php:2644
+msgid "Plugin"
+msgstr "插件"
+
+#: inc/class-tgm-plugin-activation.php:2628
+msgid "No plugins to install, update or activate."
+msgstr "没有要安装、更新或激活的插件。"
+
+#: inc/class-tgm-plugin-activation.php:2604
+msgid "Available version:"
+msgstr "可用版本："
+
+#: inc/class-tgm-plugin-activation.php:2590
+msgid "Minimum required version:"
+msgstr "最低要求版本："
+
+#: inc/class-tgm-plugin-activation.php:2581
+msgid "Installed version:"
+msgstr "已安装版本："
+
+#: inc/class-tgm-plugin-activation.php:2572
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "未知"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2485
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "激活<span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2480
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "可用的更新<span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2475
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "安装<span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2470
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "全部<span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2423
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s，%2$s"
+
+#: inc/class-tgm-plugin-activation.php:2414
+msgid "Update recommended"
+msgstr "建议更新"
+
+#: inc/class-tgm-plugin-activation.php:2411
+msgid "Requires Update"
+msgstr "需要更新"
+
+#: inc/class-tgm-plugin-activation.php:2408
+msgid "Required Update not Available"
+msgstr "所需更新不可用"
+
+#: inc/class-tgm-plugin-activation.php:2400
+msgid "Installed But Not Activated"
+msgstr "已安装但未激活"
+
+#: inc/class-tgm-plugin-activation.php:2396
+msgid "Not Installed"
+msgstr "没有安装"
+
+#: inc/class-tgm-plugin-activation.php:2378
+msgid "Pre-Packaged"
+msgstr "预先包装"
+
+#: inc/class-tgm-plugin-activation.php:2375
+msgid "External Source"
+msgstr "外部来源"
+
+#: inc/class-tgm-plugin-activation.php:2372
+msgid "WordPress Repository"
+msgstr "WordPress存储库"
+
+#: inc/class-tgm-plugin-activation.php:2355
+msgid "Recommended"
+msgstr "推荐"
+
+#: inc/class-tgm-plugin-activation.php:2352
+msgid "Required"
+msgstr "要求的"
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:2054
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/class-tgm-plugin-activation.php:1152
+#: inc/class-tgm-plugin-activation.php:3055
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "和"
+
+#: inc/class-tgm-plugin-activation.php:960
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "远程插件包包含多个文件，但这些文件不打包在文件夹中。"
+
+#: inc/class-tgm-plugin-activation.php:955
+#: inc/class-tgm-plugin-activation.php:961
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "请联系插件提供商，让他们根据WordPress的指导原则打包插件。"
+
+#: inc/class-tgm-plugin-activation.php:954
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "远程插件包不包含具有所需别名的文件夹，重命名不起作用。"
+
+#: inc/class-tgm-plugin-activation.php:532
+msgid "Update Required"
+msgstr "需要更新"
+
+#: inc/class-tgm-plugin-activation.php:531
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "这个插件需要更新才能与您的主题兼容。"
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "请与此站点的管理员联系以获取帮助。"
+
+#: inc/class-tgm-plugin-activation.php:402
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "有一个或多个必需或推荐的插件可安装、更新或激活。"
+
+#: inc/class-tgm-plugin-activation.php:401
+msgid "Dismiss this notice"
+msgstr "驳回本通知"
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:399
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "已成功安装并激活所有插件。%1$s"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:396
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "插件未激活。此主题需要%s的更高版本。请更新插件。"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:393
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "没有采取行动。插件%1$s已处于活动状态。"
+
+#: inc/class-tgm-plugin-activation.php:390
+#: inc/class-tgm-plugin-activation.php:3060
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "已成功激活以下插件："
+
+#: inc/class-tgm-plugin-activation.php:389
+#: inc/class-tgm-plugin-activation.php:3275
+msgid "Plugin activated successfully."
+msgstr "插件激活成功。"
+
+#: inc/class-tgm-plugin-activation.php:388
+#: inc/class-tgm-plugin-activation.php:843
+#: inc/class-tgm-plugin-activation.php:2629
+#: inc/class-tgm-plugin-activation.php:3728
+msgid "Return to the Dashboard"
+msgstr "返回仪表板"
+
+#: inc/class-tgm-plugin-activation.php:387
+msgid "Return to Required Plugins Installer"
+msgstr "返回所需的插件安装程序"
+
+#: inc/class-tgm-plugin-activation.php:382
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "启动插件激活"
+
+#: inc/class-tgm-plugin-activation.php:377
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "开始更新插件"
+
+#: inc/class-tgm-plugin-activation.php:372
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "开始安装插件"
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:366
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "以下推荐的插件当前处于非活动状态：%1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:360
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "以下必需的插件当前处于非活动状态：%1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:354
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "有一个更新可用于：%1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:348
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "以下插件需要更新到其最新版本，以确保与此主题的最大兼容性： %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:342
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "此主题建议使用以下插件：%1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:336
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "此主题需要以下插件：%1$s."
+
+#: inc/class-tgm-plugin-activation.php:335
+msgid "Something went wrong with the plugin API."
+msgstr "插件API出了问题。"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:334
+msgid "Updating Plugin: %s"
+msgstr "正在更新插件：%s"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:332
+msgid "Installing Plugin: %s"
+msgstr "正在安装插件：%s"
+
+#: inc/class-tgm-plugin-activation.php:330
+msgid "Install Plugins"
+msgstr "安装插件"
+
+#: inc/class-tgm-plugin-activation.php:329
+msgid "Install Required Plugins"
+msgstr "安装所需的插件"
+
+#: inc/translations.php:305
+msgid "These actions will also install Colibri Page Builder plugin."
+msgstr "这些操作还将安装Colibri页面生成器插件。"
+
+#: inc/translations.php:304
+msgid "Add Predefined Section"
+msgstr "添加预定义部分"
+
+#: inc/translations.php:303
+msgid "Choose footer design"
+msgstr "选择页脚设计"
+
+#: inc/translations.php:302
+msgid "Choose header design"
+msgstr "选择页眉设计"
+
+#: inc/translations.php:301
+msgid "Skip to content"
+msgstr "跳转到内容"
+
+#: inc/class-tgm-plugin-activation.php:2402 inc/translations.php:300
+msgid "Active"
+msgstr "激活"
+
+#: inc/translations.php:299
+msgid "Activating %s"
+msgstr "正在激活%s"
+
+#: inc/translations.php:298
+msgid "Installing %s"
+msgstr "正在安装%s"
+
+#: inc/class-tgm-plugin-activation.php:2820 inc/translations.php:297
+msgid "Install"
+msgstr "安装"
+
+#: inc/class-tgm-plugin-activation.php:2829 inc/translations.php:296
+msgid "Activate"
+msgstr "激活"
+
+#: inc/translations.php:292
+msgid "%1$s plugin adds drag and drop functionality and many other features to the %2$s theme."
+msgstr "%1$s插件为%2$s主题添加了拖放功能和许多其他功能。"
+
+#: inc/translations.php:287
+msgid "%1$s plugin is recommended for the %2$s contact section."
+msgstr "%1$s插件推荐用于%2$s联系人部分。"
+
+#: inc/translations.php:285
+msgid "Leave a review"
+msgstr "留下评论"
+
+#: inc/translations.php:283
+msgid "We strive to provide our customers with the best service in our industry, so your feedback is very important to us. We would greatly appreciate it if you would take a few minutes to share your experience with us via this survey."
+msgstr "我们努力为客户提供业内最好的服务，因此您的反馈对我们非常重要。如果您能抽出几分钟时间通过本次调查与我们分享您的经验，我们将不胜感激。"
+
+#: inc/translations.php:282
+msgid "Leave a Review"
+msgstr "留下评论"
+
+#: inc/translations.php:281
+msgid "Open a support ticket"
+msgstr "打开一张支持票"
+
+#: inc/translations.php:279
+msgid "Our technical team is here to help you build an awesome website. We usually answer support issues in less than 1 business day."
+msgstr "我们的技术团队将帮助您建立一个很棒的站点。我们通常在不到一个工作日内回答支持问题。"
+
+#: inc/translations.php:278
+msgid "Support"
+msgstr "支持"
+
+#: inc/translations.php:277
+msgid "Check documentation"
+msgstr "检查文档"
+
+#: inc/translations.php:275
+msgid "Colibri is easy to learn and master, but you can always check out our documentation to check out features you might have missed."
+msgstr "Colibri很容易学习和掌握，但是您可以随时查看我们的文档以查看您可能遗漏的功能。"
+
+#: inc/translations.php:274
+msgid "Documentation"
+msgstr "文档"
+
+#: inc/translations.php:273
+msgid "Check all demo sites page"
+msgstr "检查所有演示站点页面"
+
+#: inc/translations.php:272
+msgid "Start with selected design"
+msgstr "从选定的设计开始"
+
+#: inc/translations.php:271
+msgid "Choose one of the Colibri predefined designs"
+msgstr "选择Colibri预定义设计之一"
+
+#: inc/translations.php:270
+msgid "Welcome to %s"
+msgstr "欢迎使用%s"
+
+#: inc/translations.php:269
+msgid "Customize"
+msgstr "定制"
+
+#: inc/translations.php:268
+msgid "Customize menu"
+msgstr "自定义菜单"
+
+#: inc/translations.php:267
+msgid "Customize fonts"
+msgstr "自定义字体"
+
+#: inc/translations.php:266
+msgid "Change color settings"
+msgstr "更改颜色设置"
+
+#: inc/translations.php:265
+msgid "Customize footer"
+msgstr "自定义页脚"
+
+#: inc/translations.php:264
+msgid "Customize frontpage hero"
+msgstr "自定义首页英雄"
+
+#: inc/translations.php:263
+msgid "Customize navigation"
+msgstr "自定义导航"
+
+#: inc/translations.php:262
+msgid "Change the hero image"
+msgstr "改变英雄图像"
+
+#: inc/translations.php:261
+msgid "Set your logo"
+msgstr "设置您的徽标"
+
+#: inc/translations.php:260
+msgid "Links to Customizer Settings"
+msgstr "指向自定义设置的链接"
+
+#: inc/translations.php:259
+msgid "Recommended plugins"
+msgstr "推荐的插件"
+
+#: inc/translations.php:258
+msgid "Get Started"
+msgstr "开始吧"
+
+#: inc/translations.php:257
+msgid "or"
+msgstr "或"
+
+#: inc/translations.php:253
+msgid "Thumbnail placeholder color"
+msgstr "缩略图占位符颜色"
+
+#: inc/translations.php:252
+msgid "Show thumbnail placeholder"
+msgstr "显示缩略图占位符"
+
+#: inc/translations.php:251
+msgid "Enable masonry"
+msgstr "启用砌体"
+
+#: inc/translations.php:250
+msgid "Show blog sidebar "
+msgstr "显示博客侧栏 "
+
+#: inc/translations.php:249
+msgid "Posts per row"
+msgstr "每页文章数"
+
+#: inc/translations.php:245
+msgid "Activate %s"
+msgstr "激活%s"
+
+#: inc/translations.php:244
+msgid "Install %s"
+msgstr "安装%s"
+
+#: inc/translations.php:242
+msgid "To enable all the theme features, please install %s plugin"
+msgstr "要启用所有主题功能，请安装%s插件"
+
+#: inc/translations.php:238
+msgid "Use footer parallax"
+msgstr "使用页脚视差"
+
+#: inc/translations.php:234
+msgid "Read More"
+msgstr "阅读更多"
+
+#: inc/translations.php:230
+msgid "Logo above"
+msgstr "上面的徽标"
+
+#: inc/translations.php:229
+msgid "Logo / Nav"
+msgstr "徽标/导航"
+
+#: inc/translations.php:226
+msgid "Shutter out vertical"
+msgstr "垂直退出百叶窗"
+
+#: inc/translations.php:225
+msgid "Shutter in vertical"
+msgstr "垂直进入百叶窗"
+
+#: inc/translations.php:224
+msgid "Shutter out horizontal"
+msgstr "水平退出百叶窗"
+
+#: inc/translations.php:223
+msgid "Shutter in horizontal"
+msgstr "水平进入百叶窗"
+
+#: inc/translations.php:222
+msgid "Grow right"
+msgstr "向右延伸"
+
+#: inc/translations.php:221
+msgid "Grow left"
+msgstr "向左延伸"
+
+#: inc/translations.php:220
+msgid "Grow down"
+msgstr "向下延伸"
+
+#: inc/translations.php:219
+msgid "Grow up"
+msgstr "向上延伸"
+
+#: inc/translations.php:217
+msgid "Grow from center"
+msgstr "从中心延伸"
+
+#: inc/translations.php:216
+msgid "Grow from right"
+msgstr "从右边延伸"
+
+#: inc/translations.php:215
+msgid "Grow from left"
+msgstr "从左边延伸"
+
+#: inc/translations.php:214
+msgid "Drop out"
+msgstr "退出"
+
+#: inc/translations.php:213
+msgid "Drop in"
+msgstr "进入"
+
+#: inc/translations.php:211
+msgid "Background"
+msgstr "背景"
+
+#: inc/translations.php:210
+msgid "Double line"
+msgstr "双线"
+
+#: inc/translations.php:209
+msgid "Top line"
+msgstr "顶部线条"
+
+#: inc/translations.php:208
+msgid "Bottom line"
+msgstr "底部线条"
+
+#: inc/translations.php:205
+msgid "Button hover effect"
+msgstr "按钮悬停效果"
+
+#: inc/translations.php:204
+msgid "Button highlight type"
+msgstr "按钮突出显示类型"
+
+#: inc/translations.php:203
+msgid "Mobile, tablet and desktop"
+msgstr "移动、平板电脑和台式机"
+
+#: inc/translations.php:202
+msgid "Mobile and tablet"
+msgstr "移动和平板电脑"
+
+#: inc/translations.php:201
+msgid "Mobile"
+msgstr "移动"
+
+#: inc/translations.php:200
+msgid "Show offscreen menu on"
+msgstr "在屏幕外显示菜单"
+
+#: inc/translations.php:199
+msgid "Edit Menu Structure"
+msgstr "编辑菜单结构"
+
+#: inc/translations.php:198
+msgid "- No menu -"
+msgstr "-没有菜单-"
+
+#: inc/translations.php:197
+msgid "Menu"
+msgstr "菜单"
+
+#: inc/translations.php:194
+msgid "Image with text on the left"
+msgstr "左边有文本的图像"
+
+#: inc/translations.php:193
+msgid "Image with text above"
+msgstr "上面有文本的图像"
+
+#: inc/translations.php:192
+msgid "Image with text on the right"
+msgstr "右边有文本的图像"
+
+#: inc/translations.php:191
+msgid "Image with text below"
+msgstr "下面有文本的图像"
+
+#: inc/translations.php:190
+msgid "Site title text only"
+msgstr "仅站点标题文本"
+
+#: inc/translations.php:189
+msgid "Logo image only"
+msgstr "仅徽标图像"
+
+#: inc/translations.php:187
+msgid "Logo"
+msgstr "徽标"
+
+#: inc/translations.php:186
+msgid "Navigation padding"
+msgstr "导航填充"
+
+#: inc/translations.php:185
+msgid "Alternate logo image"
+msgstr "备用徽标图像"
+
+#: inc/translations.php:184
+msgid "Layout type"
+msgstr "布局类型"
+
+#: inc/translations.php:181
+msgid "Button align"
+msgstr "按钮对齐"
+
+#: inc/translations.php:180
+msgid "Transparent nav"
+msgstr "透明导航"
+
+#: inc/translations.php:179
+msgid "Full width"
+msgstr "全宽"
+
+#: inc/translations.php:178
+msgid "Container width"
+msgstr "容器宽度"
+
+#: inc/translations.php:177
+msgid "Boxed"
+msgstr "盒装"
+
+#: inc/translations.php:176
+msgid "Show top bar"
+msgstr "显示顶部栏"
+
+#: inc/translations.php:175
+msgid "Stick on scroll"
+msgstr "粘贴上滚动条"
+
+#: inc/translations.php:172
+msgid "Text"
+msgstr "文本"
+
+#: inc/translations.php:171
+msgid "Icon"
+msgstr "图标"
+
+#: inc/translations.php:170
+msgid "Add Icon"
+msgstr "添加图标"
+
+#: inc/translations.php:169
+msgid "Add Item"
+msgstr "添加项目"
+
+#: inc/translations.php:168
+msgid "Icon %s"
+msgstr "图标%s"
+
+#: inc/translations.php:167
+msgid "Add Field"
+msgstr "添加字段"
+
+#: inc/translations.php:166
+msgid "Field %s"
+msgstr "字段%s"
+
+#: inc/translations.php:165
+msgid "Content Type"
+msgstr "内容类型"
+
+#: inc/translations.php:164
+msgid "Social Icons"
+msgstr "社交图标"
+
+#: inc/translations.php:163
+msgid "Information Fields"
+msgstr "信息字段"
+
+#: inc/translations.php:160
+msgid "Show frame shadow"
+msgstr "显示框架阴影"
+
+#: inc/translations.php:159
+msgid "Show frame over image"
+msgstr "在图像上显示框架"
+
+#: inc/translations.php:158
+msgid "Frame thickness"
+msgstr "框架厚度"
+
+#: inc/translations.php:157
+msgid "Offset top"
+msgstr "顶部偏移"
+
+#: inc/translations.php:156
+msgid "Offset left"
+msgstr "向左偏移"
+
+#: inc/translations.php:155
+msgid "Offset"
+msgstr "偏移"
+
+#: inc/translations.php:154
+msgid "Height"
+msgstr "高度"
+
+#: inc/translations.php:153
+msgid "Width"
+msgstr "宽度"
+
+#: inc/translations.php:152
+msgid "Border"
+msgstr "边框"
+
+#: inc/class-tgm-plugin-activation.php:2646 inc/translations.php:151
+msgid "Type"
+msgstr "类型"
+
+#: inc/translations.php:150
+msgid "Frame options"
+msgstr "框架选项"
+
+#: inc/translations.php:149
+msgid "Blur"
+msgstr "模糊"
+
+#: inc/translations.php:148
+msgid "Spread"
+msgstr "扩散"
+
+#: inc/translations.php:147
+msgid "Vertical"
+msgstr "垂直"
+
+#: inc/translations.php:146
+msgid "Horizontal"
+msgstr "水平"
+
+#: inc/translations.php:145
+msgid "Box shadow"
+msgstr "盒阴影"
+
+#: inc/translations.php:142
+msgid "Text column width"
+msgstr "文本列宽"
+
+#: inc/translations.php:141
+msgid "Full Height"
+msgstr "全高"
+
+#: inc/translations.php:140
+msgid "Spacing bottom"
+msgstr "底部间距"
+
+#: inc/translations.php:139
+msgid "Spacing top"
+msgstr "顶部间距"
+
+#: inc/translations.php:138
+msgid "Align"
+msgstr "对齐"
+
+#: inc/translations.php:137
+msgid "Icons"
+msgstr "图标"
+
+#: inc/translations.php:136
+msgid "Link"
+msgstr "链接"
+
+#: inc/translations.php:135
+msgid "Label"
+msgstr "标签"
+
+#: inc/translations.php:134
+msgid "Secondary Button"
+msgstr "辅助按钮"
+
+#: inc/translations.php:133
+msgid "Primary Button"
+msgstr "主要按钮"
+
+#: inc/translations.php:132
+msgid "Button Type"
+msgstr "按钮类型"
+
+#: inc/translations.php:131
+msgid "Buttons"
+msgstr "按钮"
+
+#: inc/translations.php:130
+msgid "Add Button"
+msgstr "添加按钮"
+
+#: inc/translations.php:129
+msgid "Button"
+msgstr "按钮"
+
+#: inc/translations.php:128
+msgid "Text width"
+msgstr "文本宽度"
+
+#: inc/translations.php:127
+msgid "Subtitle"
+msgstr "字幕"
+
+#: inc/translations.php:126
+msgid "Title"
+msgstr "标题"
+
+#: inc/translations.php:125
+msgid "Show Subtitle"
+msgstr "显示字幕"
+
+#: inc/translations.php:124
+msgid "Show Title"
+msgstr "显示标题"
+
+#: inc/translations.php:123
+msgid "Text with media on left"
+msgstr "左侧有媒体的文本"
+
+#: inc/translations.php:122
+msgid "Text with media on right"
+msgstr "右侧有媒体的文本"
+
+#: inc/translations.php:121
+msgid "Text only"
+msgstr "仅文本"
+
+#: inc/translations.php:120
+msgid "Hero layout"
+msgstr "英雄布局"
+
+#: inc/translations.php:117
+msgid "Overlay Shape"
+msgstr "覆盖形状"
+
+#: inc/translations.php:116
+msgid "Shape Light"
+msgstr "清晰"
+
+#: inc/translations.php:115
+msgid "Right Tilted Strips"
+msgstr "右倾斜条带"
+
+#: inc/translations.php:114
+msgid "Right Tilted Lines"
+msgstr "右斜线"
+
+#: inc/translations.php:113
+msgid "Left Tilted Lines"
+msgstr "左斜线"
+
+#: inc/translations.php:112
+msgid "Dots"
+msgstr "圆点"
+
+#: inc/translations.php:111
+msgid "Waves Inverted"
+msgstr "波浪倒转"
+
+#: inc/translations.php:110
+msgid "Circles White Gradient"
+msgstr "圆形白色渐变"
+
+#: inc/translations.php:109
+msgid "Circles Gradient"
+msgstr "圆形渐变"
+
+#: inc/translations.php:108
+msgid "Circles 3"
+msgstr "圆形3"
+
+#: inc/translations.php:107
+msgid "Circles 2"
+msgstr "圆形2"
+
+#: inc/translations.php:106
+msgid "Two Circles"
+msgstr "两个圆"
+
+#: inc/translations.php:105
+msgid "Many Rounded Squares Blue"
+msgstr "许多圆形正方形蓝色"
+
+#: inc/translations.php:104
+msgid "Rounded Square Blue"
+msgstr "圆形正方形蓝色"
+
+#: inc/translations.php:103
+msgid "10deg Stripes"
+msgstr "10条你的条纹"
+
+#: inc/translations.php:102
+msgid "Circles"
+msgstr "圆形"
+
+#: inc/translations.php:101
+msgid "Opacity"
+msgstr "不透明度"
+
+#: inc/translations.php:100
+msgid "Shape Only"
+msgstr "仅形状"
+
+#: inc/translations.php:99
+msgid "Overlay Type"
+msgstr "覆盖类型"
+
+#: inc/translations.php:98
+msgid "Show Background Overlay"
+msgstr "显示背景覆盖"
+
+#: inc/translations.php:97
+msgid "Youtube link"
+msgstr "Youtube链接"
+
+#: inc/translations.php:96
+msgid "Video Poster"
+msgstr "视频海报"
+
+#: inc/translations.php:95
+msgid "External"
+msgstr "外部"
+
+#: inc/translations.php:94
+msgid "Self Hosted Video"
+msgstr "自托管视频"
+
+#: inc/translations.php:93
+msgid "Self Hosted"
+msgstr "自托管"
+
+#: inc/translations.php:92
+msgid "Video type"
+msgstr "视频类型"
+
+#: inc/translations.php:91
+msgid "Effect Speed"
+msgstr "影响速度"
+
+#: inc/translations.php:90
+msgid "Slide Duration"
+msgstr "幻灯片持续时间"
+
+#: inc/translations.php:89
+msgid "Contain"
+msgstr "包含"
+
+#: inc/translations.php:88
+msgid "Cover"
+msgstr "封面"
+
+#: inc/translations.php:87
+msgid "Auto"
+msgstr "自动"
+
+#: inc/translations.php:86
+msgid "Repeat %s"
+msgstr "重复%s"
+
+#: inc/translations.php:85
+msgid "Do not repeat"
+msgstr "不要重复"
+
+#: inc/translations.php:84
+msgid "Size"
+msgstr "大小"
+
+#: inc/translations.php:83
+msgid "Fixed"
+msgstr "固定"
+
+#: inc/translations.php:82
+msgid "Scroll"
+msgstr "滚动条"
+
+#: inc/translations.php:81
+msgid "Attachment"
+msgstr "附件"
+
+#: inc/translations.php:80
+msgid "Bottom Right"
+msgstr "底部右侧"
+
+#: inc/translations.php:79
+msgid "Bottom Center"
+msgstr "底部中心"
+
+#: inc/translations.php:78
+msgid "Bottom Left"
+msgstr "底部左侧"
+
+#: inc/translations.php:77
+msgid "Center Right"
+msgstr "右侧居中"
+
+#: inc/translations.php:76
+msgid "Center Center"
+msgstr "中部居中"
+
+#: inc/translations.php:75
+msgid "Center Left"
+msgstr "左侧居中"
+
+#: inc/translations.php:74
+msgid "Top Right"
+msgstr "顶部右侧"
+
+#: inc/translations.php:73
+msgid "Top Center"
+msgstr "顶部中心"
+
+#: inc/translations.php:72
+msgid "Top Left"
+msgstr "顶部左侧"
+
+#: inc/translations.php:69
+msgid "Position"
+msgstr "位置"
+
+#: inc/translations.php:68
+msgid "Add Slide"
+msgstr "添加幻灯片"
+
+#: inc/translations.php:67
+msgid "Slide %s"
+msgstr "幻灯片%s"
+
+#: inc/translations.php:66
+msgid "Remove"
+msgstr "删除"
+
+#: inc/translations.php:65
+msgid "Add"
+msgstr "添加"
+
+#: inc/translations.php:64
+msgid "None"
+msgstr "无"
+
+#: inc/translations.php:63
+msgid "Clear"
+msgstr "清除"
+
+#: inc/translations.php:62
+msgid "OK"
+msgstr "确定"
+
+#: inc/translations.php:61
+msgid "Select image"
+msgstr "选择图像"
+
+#: inc/translations.php:60
+msgid "Select item"
+msgstr "选择项目"
+
+#: inc/translations.php:59
+msgid "Select"
+msgstr "选择"
+
+#: inc/translations.php:56
+msgid "Zigzag"
+msgstr "之字型"
+
+#: inc/translations.php:55
+msgid "Split"
+msgstr "拆分视图"
+
+#: inc/translations.php:54
+msgid "Book"
+msgstr "出版物"
+
+#: inc/translations.php:53
+msgid "Arrow"
+msgstr "箭头"
+
+#: inc/translations.php:52
+msgid "Drops"
+msgstr "下降"
+
+#: inc/translations.php:51
+msgid "Curve Asymmetrical"
+msgstr "曲线不对称"
+
+#: inc/translations.php:50
+msgid "Curve"
+msgstr "曲线"
+
+#: inc/translations.php:49
+msgid "Clouds"
+msgstr "云"
+
+#: inc/translations.php:48
+msgid "Waves Pattern"
+msgstr "波型"
+
+#: inc/translations.php:47
+msgid "Wave Brush"
+msgstr "波浪刷"
+
+#: inc/translations.php:46
+msgid "Waves"
+msgstr "波浪"
+
+#: inc/translations.php:45
+msgid "Pyramids"
+msgstr "金字塔"
+
+#: inc/translations.php:44
+msgid "Mountains"
+msgstr "山"
+
+#: inc/translations.php:43
+msgid "Opacity Tilt "
+msgstr "不透明度倾斜 "
+
+#: inc/translations.php:42
+msgid "Opacity Fan"
+msgstr "不透明风扇"
+
+#: inc/translations.php:41
+msgid "Triangle Asymmetrical"
+msgstr "三角形不对称"
+
+#: inc/translations.php:40
+msgid "Triangle"
+msgstr "三角形"
+
+#: inc/translations.php:39
+msgid "Tilt Flipped"
+msgstr "倾斜翻转"
+
+#: inc/translations.php:38
+msgid "Tilt"
+msgstr "倾斜"
+
+#: inc/translations.php:35
+msgid "Divider height"
+msgstr "分隔线高度"
+
+#: inc/translations.php:34
+msgid "Divider style"
+msgstr "分割线样式"
+
+#: inc/translations.php:33
+msgid "Show bottom divider"
+msgstr "显示底部分隔线"
+
+#: inc/translations.php:30
+msgid "Video"
+msgstr "视频"
+
+#: inc/translations.php:29
+msgid "Slideshow"
+msgstr "幻灯片演示"
+
+#: inc/translations.php:28
+msgid "Gradient"
+msgstr "梯度"
+
+#: inc/translations.php:27
+msgid "Image"
+msgstr "图像"
+
+#: inc/translations.php:26
+msgid "Color"
+msgstr "颜色"
+
+#: inc/translations.php:25
+msgid "Background Image"
+msgstr "背景图像"
+
+#: inc/translations.php:24
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: inc/translations.php:23
+msgid "Background Type"
+msgstr "背景类型"
+
+#: inc/translations.php:20
+msgid "Advanced"
+msgstr "高级"
+
+#: inc/translations.php:19
+msgid "Style"
+msgstr "样式"
+
+#: inc/translations.php:17
+msgid "Blog Settings"
+msgstr "博客设置"
+
+#: inc/translations.php:16
+msgid "Footer Settings"
+msgstr "页脚设置"
+
+#: inc/translations.php:15
+msgid "Hero Settings"
+msgstr "英雄设置"
+
+#: inc/translations.php:14
+msgid "Navigation Settings"
+msgstr "导航设置"
+
+#: inc/translations.php:13
+msgid "Top Bar Settings"
+msgstr "顶部栏设置"
+
+#: inc/translations.php:12
+msgid "Content Settings"
+msgstr "内容设置"
+
+#: inc/translations.php:11 inc/translations.php:18
+msgid "Content"
+msgstr "内容"
+
+#: inc/translations.php:10
+msgid "Footer"
+msgstr "页脚"
+
+#: inc/translations.php:9
+msgid "Header"
+msgstr "标题"
+
+#: inc/translations.php:8
+msgid "Help"
+msgstr "帮助"
+
+#: inc/translations.php:6
+msgid "Press return or enter to open this section"
+msgstr "请返回或进入来打开这个部分"
+
+#: inc/functions.php:150
+msgid "Blog sidebar widget area"
+msgstr "博客侧栏小工具区域"
+
+#: inc/functions.php:146
+msgid "Footer Menu"
+msgstr "页脚菜单"
+
+#: inc/functions.php:145
+msgid "Header Menu"
+msgstr "标题菜单"
+
+#: inc/template-functions.php:421
+msgid "Built using WordPress and %s"
+msgstr "使用WordPress和%s"
+
+#: inc/template-functions.php:206
+msgid "Post navigation"
+msgstr "文章导航"
+
+#: inc/template-functions.php:187
+msgid "No Tag"
+msgstr "没有标签"
+
+#: inc/template-functions.php:154
+msgid "No Category"
+msgstr "没有类别"
+
+#: inc/template-functions.php:12
+msgid "Search Results for &#8220;%s&#8221;"
+msgstr "搜索结果&#8220;%s&#8221;"
+
+#: inc/template-functions.php:10
+msgid "Page not found"
+msgstr "未找到页面"
+
+#: inc/defaults.php:488
+msgid "Fullscreen"
+msgstr "全屏"
+
+#: inc/defaults.php:479
+msgid "Classic"
+msgstr "经典"
+
+#: inc/defaults.php:460 inc/defaults.php:469
+msgid "Modern"
+msgstr "现代"
+
+#: inc/defaults.php:150
+msgid "Action Button %d"
+msgstr "动作按钮%d"
+
+#: inc/defaults.php:146
+msgid "Just click and start typing to change the site headline."
+msgstr "只需单击并开始键入即可更改站点标题。"
+
+#: inc/defaults.php:143
+msgid "Click the pencil icon to edit the text"
+msgstr "单击铅笔图标编辑文本"
+
+#: inc/src/Components/Footer.php:68
+msgid "Y"
+msgstr "年"
+
+#: inc/src/Components/Footer.php:62
+msgid "Built using WordPress and the %s"
+msgstr "使用WordPress和%s生成"
+
+#: inc/src/Components/Footer.php:58
+msgid "Colibri Theme"
+msgstr "Colibri Theme"
+
+#: inc/template-functions.php:278 inc/src/View.php:188
+msgid "Posts navigation"
+msgstr "文章导航"
+
+#: inc/src/View.php:187 inc/src/View.php:195
+msgid "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"
+msgstr "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"
+
+#: inc/src/View.php:186 inc/src/View.php:193
+msgid "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>"
+msgstr "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>"
+
+#: comments.php:33
+msgid "Newer Comments <i class=\"font-icon-post fa fa-angle-double-right\"></i>"
+msgstr "新的评论<i class=\"font-icon-post fa fa-angle-double-right\"></i>"
+
+#: comments.php:29
+msgid "<i class=\"font-icon-post fa fa-angle-double-left\"></i> Older Comments"
+msgstr "<i class=\"font-icon-post fa fa-angle-double-left\"></i>旧的评论"
+
+#: comments.php:11
+msgid "One Response"
+msgstr "一个回应"
+
+#: comments.php:11
+msgid "No Responses"
+msgstr "没有回应"
+
+#: functions.php:36
+msgid "Current php version is: %1$s and the mininum required version is %2$s"
+msgstr "当前的PHP版本是：%1$s并且所需的最小版本是%2$s"
+
+#: functions.php:33
+msgid "You need to update your PHP version to use the %s."
+msgstr "您需要更新PHP版本才能使用%s."
+
+#: functions.php:31
+msgid "Colibri theme activation failed!"
+msgstr "Colibri主题激活失败！"
+
+#: template-parts/main/404.php:28
+msgid "Go to Homepage!"
+msgstr "进入首页！"
+
+#: template-parts/main/404.php:17
+msgid "Sorry, page not found!"
+msgstr "对不起，找不到页面！"
+
+#: template-parts/layout-wrapper-content/navigation-container-1.php:28
+msgid "Next post"
+msgstr "下一篇文章"
+
+#: template-parts/layout-wrapper-content/navigation-container-1.php:10
+msgid "Previous post"
+msgstr "上一篇文章"
+
+#: template-parts/main/item_template.php:31
+msgid "on"
+msgstr "开"
+
+#: template-parts/main/archive_item_template.php:23
+#: template-parts/main/item_template.php:23
+msgid "by"
+msgstr "通过"
+
+#: template-parts/main/post.php:23
+msgid "{COMMENTS-COUNT} Responses"
+msgstr "{COMMENTS-COUNT} 回应"
+
+#: template-parts/main/search_item_template.php:82
+msgid "Read more"
+msgstr "阅读更多"
+
+#: inc/translations.php:7
+#: template-parts/layout-wrapper-content/navigation-container-2.php:37
+#: template-parts/main/search.php:27 template-parts/main/search.php:53
+msgid "Back"
+msgstr "返回"
+
+#: template-parts/layout-wrapper-content/navigation-container-2.php:11
+msgid "Previous"
+msgstr "上一篇"
+
+#: template-parts/layout-wrapper-content/navigation-container-2.php:10
+#: template-parts/layout-wrapper-content/navigation-container-2.php:36
+#: template-parts/main/search.php:26 template-parts/main/search.php:52
+msgid "Next"
+msgstr "下一篇"
+
+#: template-parts/layout-wrapper-content/navigation-container-1.php:27
+#: template-parts/content/content-single.php:51
+msgid "Previous post:"
+msgstr "上一篇文章："
+
+#: template-parts/content/content-single.php:49
+msgid "Previous:"
+msgstr "上一篇："
+
+#: template-parts/layout-wrapper-content/navigation-container-1.php:11
+#: template-parts/content/content-single.php:46
+msgid "Next post:"
+msgstr "下一篇文章："
+
+#: template-parts/content/content-single.php:44
+msgid "Next:"
+msgstr "下一篇:"
+
+#: inc/template-functions.php:273 inc/src/View.php:184
+#: template-parts/content/content-single.php:26
+#: template-parts/content/content-page.php:10
+msgid "Page"
+msgstr "页面"
+
+#: template-parts/content/content-single.php:21
+#: template-parts/content/content-page.php:6
+msgid "Pages:"
+msgstr "页面："
+
+#: template-parts/content/content-none.php:14
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "我们似乎找不到您要找的东西。也许搜索能帮上忙。"
+
+#: template-parts/content/content-none.php:10
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "抱歉，没有匹配的搜索条件。请使用其他关键字重试。"
+
+#: template-parts/content/content-none.php:7
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备好发表你的第一篇文章了吗？<a href=\"%1$s\">从这里开始</a>."
+
+#: template-parts/content/content-none.php:4
+msgid "Nothing Found"
+msgstr "找不到任何东西"
+
+#: comments.php:42 template-parts/blog/comments.php:37
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: template-parts/blog/comments.php:29
+msgid "Newer Comments"
+msgstr "新的评论"
+
+#: template-parts/blog/comments.php:26
+msgid "Older Comments"
+msgstr "旧的评论"
+
+#: comments.php:12 template-parts/blog/comments.php:14
+msgid "% Responses"
+msgstr "%回应"
+
+#: template-parts/blog/comments.php:13 template-parts/main/post.php:22
+msgid "One response"
+msgstr "一个回应"
+
+#: template-parts/blog/comments.php:12 template-parts/main/post.php:21
+msgid "No responses yet"
+msgstr "还没有回应"
+
+#: template-parts/blog/searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr "搜索"
+
+#: template-parts/blog/searchform.php:8
+msgid "Search &hellip;"
+msgstr "搜索&hellip;"
+
+#: template-parts/blog/searchform.php:5
+msgctxt "label"
+msgid "Search for:"
+msgstr "搜索："

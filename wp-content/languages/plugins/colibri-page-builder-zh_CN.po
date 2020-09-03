@@ -1,0 +1,777 @@
+# Translation of Plugins - Colibri Page Builder - Development (trunk) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Colibri Page Builder - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-12 10:37:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Colibri Page Builder - Development (trunk)\n"
+
+#: utils/survey.php:42
+msgid "Submit"
+msgstr "提交"
+
+#: utils/survey.php:41
+msgid "Skip"
+msgstr "跳过"
+
+#: utils/survey.php:28
+msgid "If you have a moment, can you please give us a feedback?"
+msgstr "如果您有时间，可以给我们一个反馈吗？"
+
+#: utils/survey.php:27
+msgid "Quick feedback"
+msgstr "快速反馈"
+
+#: recommendations/wpmu.php:362
+msgid "Performance Settings"
+msgstr "性能设置"
+
+#: recommendations/wpmu.php:357
+msgid "Security Settings"
+msgstr "安全设置"
+
+#: src/OCDI/Downloader.php:83
+msgid "An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - %6$s."
+msgstr "从以下位置获取文件时出错： %1$s%2$s%3$s!%4$s原因： %5$s - %6$s."
+
+#: src/OCDI/Downloader.php:62
+msgid "Missing URL for downloading a file!"
+msgstr "缺少下载文件的URL！"
+
+#: src/OCDI/CustomizerImporter.php:102
+msgid "Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme."
+msgstr "错误：自定义程序导入文件不适合当前主题。只能为同一主题或子主题导入自定义项设置。"
+
+#: src/OCDI/CustomizerImporter.php:96
+msgid "Error: The customizer import file is not in a correct format. Please make sure to use the correct customizer import file."
+msgstr "错误：自定义程序导入文件的格式不正确。请确保使用正确的自定义程序导入文件。"
+
+#: src/OCDI/CustomizerImporter.php:76
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr "错误：缺少自定义程序导入文件！文件路径： %s"
+
+#: src/OCDI/CustomizerImporter.php:45
+msgid "Customizer settings import finished!"
+msgstr "自定义设置导入完成！"
+
+#: src/OCDI/CustomizerImporter.php:40 src/OCDI/CustomizerImporter.php:47
+msgid "Importing customizer settings"
+msgstr "导入自定义项设置"
+
+#: src/OCDI/WidgetImporter.php:327
+msgid "No results for widget import!"
+msgstr "小部件导入没有结果！"
+
+#: src/OCDI/WidgetImporter.php:280
+msgid "No Title"
+msgstr "无标题"
+
+#: src/OCDI/WidgetImporter.php:274
+msgid "Imported to Inactive"
+msgstr "导入到非活动状态"
+
+#: src/OCDI/WidgetImporter.php:271
+msgid "Imported"
+msgstr "已导入"
+
+#: src/OCDI/WidgetImporter.php:213
+msgid "Widget already exists"
+msgstr "小部件已存在"
+
+#: src/OCDI/WidgetImporter.php:180
+msgid "Site does not support widget"
+msgstr "站点不支持小部件"
+
+#: src/OCDI/WidgetImporter.php:159
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr "主题中不存在侧边栏（将小部件移动到非活动状态）"
+
+#: src/OCDI/WidgetImporter.php:121
+msgid "Error: Widget import data could not be read. Please try a different file."
+msgstr "错误：无法读取小部件导入数据。请尝试其他文件。"
+
+#: src/OCDI/WidgetImporter.php:90
+msgid "Error: Widget import file could not be found."
+msgstr "错误：找不到小部件导入文件。"
+
+#: src/OCDI/WidgetImporter.php:42 src/OCDI/WidgetImporter.php:53
+msgid "Importing widgets"
+msgstr "导入小部件"
+
+#: src/OCDI/OneClickDemoImport.php:412
+msgid "%1$sThe demo import has finished, but there were some import errors.%2$sMore details about the errors can be found in this %3$s%5$slog file%6$s%4$s%7$s"
+msgstr "%1$s演示导入已完成，但有一些导入错误。%2$s有关错误的详细信息，请参阅%3$s%5$s日志文件%6$s%4$s%7$s"
+
+#: src/OCDI/OneClickDemoImport.php:402
+msgid "%1$s%3$sThat's it, all done!%4$s%2$sThe demo import has finished. Please check your page and make sure that everything has imported correctly. If it did, you can deactivate the %3$sOne Click Demo Import%4$s plugin, because it has done its job.%5$s"
+msgstr "%1$s%3$s就这样，都完成了！%4$s%2$s演示导入已完成。请检查您的页面并确保所有内容都已正确导入。如果是的话，您可以停用%3$s一键演示导入%4$s插件，因为它已经完成了它的工作%5$s"
+
+#: src/OCDI/OneClickDemoImport.php:389
+msgid "%1$s%6$sWasn't this a great One Click Demo Import experience?%7$s Created and maintained by %3$sProteusThemes%4$s. %2$s%5$sClick to Tweet!%4$s%8$s"
+msgstr "%1$s%6$s这不是一个伟大的一键式演示导入体验吗？%7$s由%3$s创建和维护%4$s.%2$s%5$s单击发推！%4$s%8$s"
+
+#: src/OCDI/OneClickDemoImport.php:386
+msgid "Just used One Click Demo Import plugin and it was awesome! Thanks @ProteusThemes! #OCDI https://www.proteusthemes.com/"
+msgstr "只使用了一键演示导入插件，它是可怕的！谢谢@ProteusThemes! #OCDI https://www.proteusthemes.com/"
+
+#: src/OCDI/OneClickDemoImport.php:265
+msgid "No import files specified!"
+msgstr "没有指定导入文件！"
+
+#: src/OCDI/OneClickDemoImport.php:257
+msgid "The import files for: %s were successfully downloaded!"
+msgstr "已成功下载%s的导入文件！"
+
+#: src/OCDI/OneClickDemoImport.php:250 src/OCDI/OneClickDemoImport.php:261
+msgid "Downloaded files"
+msgstr "下载的文件"
+
+#: src/OCDI/OneClickDemoImport.php:238
+msgid "Manually uploaded files"
+msgstr "手动上载的文件"
+
+#: src/OCDI/OneClickDemoImport.php:188
+msgid "Selected demo import:"
+msgstr "选定的演示导入："
+
+#: src/OCDI/ReduxImporter.php:58
+msgid "The Redux option name: %s, was not found in this WP site, so it was not imported!"
+msgstr "在这个WP站点中找不到Redux选项名%s，所以它没有被导入！"
+
+#: src/OCDI/ReduxImporter.php:53
+msgid "Redux settings import for: %s finished successfully!"
+msgstr "已成功完成%s的Redux设置导入！"
+
+#: src/OCDI/ReduxImporter.php:34 src/OCDI/ReduxImporter.php:55
+#: src/OCDI/ReduxImporter.php:67
+msgid "Importing Redux settings"
+msgstr "导入Redux设置"
+
+#: src/OCDI/ReduxImporter.php:25
+msgid "The Redux plugin is not activated, so the Redux import was skipped!"
+msgstr "Redux插件未激活，因此跳过了Redux导入！"
+
+#: src/OCDI/Helpers.php:572 src/OCDI/Helpers.php:573 src/OCDI/Helpers.php:574
+#: src/OCDI/Helpers.php:575
+msgid "not defined!"
+msgstr "没有定义！"
+
+#: src/OCDI/Helpers.php:569
+msgid "Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s%1$sCustomizer file = %5$s%1$sRedux files:%1$s%6$s"
+msgstr "文件信息：%1$s网站URL=%2$s%1$s数据文件=%3$s%1$s小部件文件=%4$s%1$s自定义程序文件=%5$s%1$sRedux文件：%1$s%6$s"
+
+#: src/OCDI/Helpers.php:565
+msgid "Initial max execution time = %s"
+msgstr "初始最大执行时间=%s"
+
+#: src/OCDI/Helpers.php:479
+msgid "The import files were successfully uploaded!"
+msgstr "导入文件已成功上载！"
+
+#: src/OCDI/Helpers.php:469
+msgid "Redux file was not uploaded. Error: %s"
+msgstr "未上载Redux文件。错误：%s"
+
+#: src/OCDI/Helpers.php:452
+msgid "Missing Redux option name! Please also enter the Redux option name!"
+msgstr "缺少Redux选项名！请同时输入Redux选项名称！"
+
+#: src/OCDI/Helpers.php:439
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr "未上载自定义程序文件。错误：%s"
+
+#: src/OCDI/Helpers.php:423
+msgid "Widget file was not uploaded. Error: %s"
+msgstr "未上载小部件文件。错误：%s"
+
+#: src/OCDI/Helpers.php:411 src/OCDI/Helpers.php:427 src/OCDI/Helpers.php:443
+#: src/OCDI/Helpers.php:454 src/OCDI/Helpers.php:473 src/OCDI/Helpers.php:481
+msgid "Upload files"
+msgstr "上传文件"
+
+#: src/OCDI/Helpers.php:407
+msgid "Content file was not uploaded. Error: %s"
+msgstr "未上载内容文件。错误：%s"
+
+#: src/OCDI/Helpers.php:362
+msgid "%sYour user role isn't high enough. You don't have permission to import demo data.%s"
+msgstr "%s您的用户角色不够高。您没有导入演示数据的权限%s"
+
+#: src/OCDI/Helpers.php:329
+msgid "One Click Demo Import - "
+msgstr "一键演示导入- "
+
+#: src/OCDI/Helpers.php:286
+msgid "An error occurred while reading a file from your server! Tried reading file from path: %s%s."
+msgstr "从服务器读取文件时出错！尝试从路径%s%s读取文件。"
+
+#: src/OCDI/Helpers.php:255
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr "你的WordPress登录凭据不允许使用WP_Filesystem！"
+
+#: src/OCDI/Helpers.php:247
+msgid "An error occurred while retrieving reading/writing permissions to your server (could not retrieve WP filesystem credentials)!"
+msgstr "检索对服务器的读/写权限时出错（无法检索WP filesystem凭据）！"
+
+#: src/OCDI/OneClickDemoImport.php:120 src/OCDI/Helpers.php:234
+msgid "One Click Demo Import"
+msgstr "一键演示导入"
+
+#: src/OCDI/Helpers.php:223
+msgid "This WordPress page does not have %sdirect%s write file access. This plugin needs it in order to save the demo import xml file to the upload directory of your site. You can change this setting with these instructions: %s."
+msgstr "此WordPress页没有%s直接%s写入文件访问权限。此插件需要它才能将演示导入xml文件保存到站点的上载目录中。您可以使用以下说明更改此设置：%s。"
+
+#: src/OCDI/Helpers.php:201 src/OCDI/Helpers.php:520
+msgid "An error occurred while writing file to your server! Tried to write a file to: %s%s."
+msgstr "将文件写入服务器时出错！试图将文件写入%s%s。"
+
+#: src/OCDI/Importer.php:162
+msgid "New AJAX call!"
+msgstr "新的AJAX调用！"
+
+#: src/OCDI/WPCLICommands.php:287
+msgid "There were some issues while importing customizer settings!"
+msgstr "导入自定义项设置时出现一些问题！"
+
+#: src/OCDI/WPCLICommands.php:285
+msgid "Customizer settings imported successfully!"
+msgstr "已成功导入自定义设置！"
+
+#: src/OCDI/WPCLICommands.php:280
+msgid "Importing customizer settings..."
+msgstr "正在导入自定义项设置……。"
+
+#: src/OCDI/WPCLICommands.php:275
+msgid "Customizer import file provided does not exist! Skipping this import!"
+msgstr "提供的自定义程序导入文件不存在！正在跳过此导入！"
+
+#: src/OCDI/WPCLICommands.php:256
+msgid "There were some issues while importing widgets!"
+msgstr "导入小部件时出现一些问题！"
+
+#: src/OCDI/WPCLICommands.php:254
+msgid "Widgets imported successfully!"
+msgstr "小部件导入成功！"
+
+#: src/OCDI/WPCLICommands.php:249
+msgid "Importing widgets..."
+msgstr "正在导入小部件……。"
+
+#: src/OCDI/WPCLICommands.php:244
+msgid "Widgets import file provided does not exist! Skipping this import!"
+msgstr "提供的小部件导入文件不存在！正在跳过此导入！"
+
+#: src/OCDI/WPCLICommands.php:225
+msgid "There were some issues while importing the content!"
+msgstr "导入内容时出现问题！"
+
+#: src/OCDI/WPCLICommands.php:223
+msgid "Content import finished!"
+msgstr "内容导入完成！"
+
+#: src/OCDI/WPCLICommands.php:218
+msgid "Importing content"
+msgstr "导入内容"
+
+#: src/OCDI/WPCLICommands.php:216
+msgid "Importing content (this might take a while)..."
+msgstr "正在导入内容（这可能需要一段时间）……。"
+
+#: src/OCDI/WPCLICommands.php:206
+msgid "Content import file provided does not exist! Skipping this import!"
+msgstr "提供的内容导入文件不存在！正在跳过此导入！"
+
+#: src/OCDI/WPCLICommands.php:187
+msgid "Executing action: %s ..."
+msgstr "正在执行操作%s……。"
+
+#: src/OCDI/WPCLICommands.php:162
+msgid "Here are the predefined demo imports:"
+msgstr "以下是预定义的演示导入："
+
+#: src/OCDI/WPCLICommands.php:159
+msgid "There are no predefined demo imports for currently active theme!"
+msgstr "当前活动主题没有预定义的演示导入！"
+
+#: src/OCDI/WPCLICommands.php:151
+msgid "Predefined import finished!"
+msgstr "预定义导入完成！"
+
+#: src/OCDI/WPCLICommands.php:131
+msgid "Importing..."
+msgstr "正在导入……。"
+
+#: src/OCDI/WPCLICommands.php:129
+msgid "Demo import files retrieved successfully!"
+msgstr "成功检索到演示导入文件！"
+
+#: src/OCDI/WPCLICommands.php:126
+msgid "Demo import files could not be retrieved!"
+msgstr "无法检索演示导入文件！"
+
+#: src/OCDI/WPCLICommands.php:121
+msgid "Preparing the demo import files..."
+msgstr "正在准备演示导入文件……。"
+
+#: src/OCDI/WPCLICommands.php:118
+msgid "Selected predefined demo import: %s"
+msgstr "选定的预定义演示导入：%s"
+
+#: src/OCDI/WPCLICommands.php:113
+msgid "Predefined demo import started! All other parameters will be ignored!"
+msgstr "预定义的演示导入已开始！所有其他参数将被忽略！"
+
+#: src/OCDI/WPCLICommands.php:106
+msgid "The supplied predefined index does not exist! Please take a look at the available predefined demo imports:"
+msgstr "提供的预定义索引不存在！请查看可用的预定义演示导入："
+
+#: src/OCDI/WPCLICommands.php:100
+msgid "The \"predefined\" parameter should be a number (an index of the OCDI predefined demo import)!"
+msgstr "“predefined”参数应该是一个数字（OCDI预定义演示导入的索引）！"
+
+#: src/OCDI/WPCLICommands.php:49
+msgid "At least one of the possible options should be set! Check them with --help"
+msgstr "至少应该设置一个可能的选项！帮我检查一下"
+
+#: extend-builder/customizer/customizer.php:162
+msgid "Multi Language"
+msgstr "多种语言"
+
+#: demo-importer/pro-only-popup.php:14 demo-importer/demo-install-popup.php:19
+msgid "Your current design will be completely overwritten by the new template. This process is irreversible. If you wish to be able to go back to the current design, please create a backup of your site before proceeding with the import."
+msgstr "您当前的设计将被新模板完全覆盖。这个过程是不可逆转的。如果您希望能够返回到当前设计，请在继续导入之前创建站点的备份。"
+
+#: demo-importer/ocdi-page.php:113
+msgid "Importing, please wait!"
+msgstr "正在导入，请稍候！"
+
+#: demo-importer/ocdi-page.php:108 src/OCDI/OneClickDemoImport.php:121
+#: src/OCDI/Helpers.php:235
+msgid "Import Demo Data"
+msgstr "导入演示数据"
+
+#: demo-importer/ocdi-page.php:100
+msgid "Choose a DAT file for customizer import:"
+msgstr "选择用于自定义程序导入的DAT文件："
+
+#: demo-importer/ocdi-page.php:93
+msgid "Choose a WIE or JSON file for widget import:"
+msgstr "为小部件导入选择WIE或JSON文件："
+
+#: demo-importer/ocdi-page.php:86
+msgid "Choose a XML file for content import:"
+msgstr "选择要导入内容的XML文件："
+
+#: demo-importer/ocdi-page.php:82
+msgid "Manual demo files upload"
+msgstr "手动上传演示文件"
+
+#: demo-importer/ocdi-page.php:76
+msgid "Before you begin, make sure all the required plugins are activated."
+msgstr "在开始之前，请确保所有必需的插件都已激活。"
+
+#: demo-importer/ocdi-page.php:64
+msgid "%sWarning: your server is using %sPHP safe mode%s. This means that you might experience server timeout errors.%s"
+msgstr "%s群集：您的服务器正在使用%sPHP安全模式%s。这意味着您可能会遇到服务器超时错误。%s"
+
+#: src/PageBuilder.php:224
+msgid "Edit template with Colibri"
+msgstr "用Colibri编辑模板"
+
+#: extend-builder/customizer/customizer.php:179
+msgid "Templates"
+msgstr "模板"
+
+#: extend-builder/shortcodes/wpforms-colibri-template.php:17
+msgid "This is a simple contact form template designed to best fit the Colibri theme design. You can add and remove fields as needed."
+msgstr "这是一个简单的联系人表单模板，设计为最适合Colibri主题设计。您可以根据需要添加和删除字段。"
+
+#: extend-builder/shortcodes/wpforms-colibri-template.php:15
+msgid "Colibri Contact Form Template"
+msgstr "Colibri联系人表单模板"
+
+#: demo-importer/loop.php:30
+msgid "Try Online"
+msgstr "在线试用"
+
+#: src/PageBuilder.php:266
+msgid "Upgrade to PRO"
+msgstr "升级到专业版"
+
+#: src/PageBuilder.php:258
+msgid "Demo Sites"
+msgstr "演示站点"
+
+#: src/PageBuilder.php:244 src/PageBuilder.php:251
+msgid "Get Started"
+msgstr "开始吧"
+
+#: src/PageBuilder.php:227
+msgid "Edit with Colibri"
+msgstr "用Colibri编辑"
+
+#: src/PageBuilder.php:201
+msgid "Colibri"
+msgstr "Colibri"
+
+#: utils/editor-overlay.php:94 src/PageBuilder.php:1014
+#: src/PageBuilder.php:1109
+msgid "Edit in Colibri"
+msgstr "在Colibri中编辑"
+
+#: utils/editor-overlay.php:98
+msgid "Edit In Default Editor"
+msgstr "在默认编辑器中编辑"
+
+#: utils/editor-overlay.php:70
+msgid "This post was previously edited in Customizer. You can continue in the Default Editor, but you may lose data and formatting."
+msgstr "这篇文章以前是在自定义程序中编辑的。您可以在默认编辑器中继续，但可能会丢失数据和格式。"
+
+#: demo-importer/demo-install-popup.php:51
+msgid "Start importing"
+msgstr "开始导入"
+
+#: demo-importer/demo-install-popup.php:26
+msgid "The following plugins will be installed and activated as they are part of the demo"
+msgstr "以下插件将被安装并激活，因为它们是演示的一部分"
+
+#: demo-importer/demo-install-popup.php:13
+msgid "You are about to import a demo site"
+msgstr "您将要导入演示站点"
+
+#: demo-importer/loop.php:34
+msgid "Import"
+msgstr "导入"
+
+#: demo-importer/list.php:14
+msgid "The import process can take a few minutes."
+msgstr "导入过程可能需要几分钟。"
+
+#: demo-importer/list.php:11
+msgid "Please wait!"
+msgstr "请等等！"
+
+#: demo-importer/tab_partial.php:6
+msgid "Import Demo sites with one click"
+msgstr "一键导入演示站点"
+
+#: demo-importer/pro-only-popup.php:24 demo-importer/demo-install-popup.php:47
+msgid "Check all PRO features"
+msgstr "检查所有专业版功能"
+
+#: demo-importer/pro-only-popup.php:20 demo-importer/demo-install-popup.php:42
+msgid "This demo site is available only in %s"
+msgstr "此演示站点仅在%s中可用"
+
+#: demo-importer/pro-only-popup.php:12 demo-importer/demo-install-popup.php:17
+msgid "Posts, pages, images, widgets, menus and other theme settings will get imported."
+msgstr "文章、页面、图片、小部件、菜单和其他主题设置将被导入。"
+
+#: demo-importer/pro-only-popup.php:10 demo-importer/demo-install-popup.php:15
+msgid "Current pages will be moved to trash. You can restore the content back at any time."
+msgstr "当前页将被移到垃圾箱。您可以随时还原内容。"
+
+#: demo-importer/pro-only-popup.php:8
+msgid "You are about to import a demo site:"
+msgstr "您将要导入演示站点："
+
+#: utils/functions.php:28
+msgid "General Settings"
+msgstr "常规设置"
+
+#: src/PageBuilder.php:1177
+msgid "Page needs to be published before editing it in customizer"
+msgstr "在自定义项中编辑页面之前，需要发布该页面"
+
+#: src/PageBuilder.php:1099
+msgid "Set Page Name"
+msgstr "设置页面名称"
+
+#: src/PageBuilder.php:1093
+msgid "Set a name for the new page"
+msgstr "为新页设置名称"
+
+#: src/PageBuilder.php:1056
+msgid "Enter title here"
+msgstr "在此处键入标题"
+
+#: src/Customizer/Customizer.php:187
+msgid "Loading, please wait..."
+msgstr "正在加载，请稍候……。"
+
+#: src/Customizer/Panels/ContentPanel.php:67
+msgid "Page Settings"
+msgstr "页面设置"
+
+#: src/Customizer/Panels/ContentPanel.php:66
+msgid "Add Section"
+msgstr "添加部分"
+
+#: src/Customizer/Panels/ContentPanel.php:22
+msgid "Add sections into page"
+msgstr "将部分添加到页面"
+
+#: src/Customizer/Panels/ContentPanel.php:16
+msgid "Reorder and remove sections"
+msgstr "重新排序和删除部分"
+
+#: demo-importer/ocdi-page.php:40 src/DemoImport/Views/PageView.php:112
+msgid "Importing the following demo site"
+msgstr "导入以下演示站点"
+
+#: demo-importer/ocdi-page.php:39 src/DemoImport/Views/PageView.php:111
+msgid "Activating"
+msgstr "正在激活"
+
+#: demo-importer/ocdi-page.php:38 src/DemoImport/Views/PageView.php:110
+msgid "Installing"
+msgstr "正在安装"
+
+#: demo-importer/ocdi-page.php:37 src/DemoImport/Views/PageView.php:109
+msgid "Installing Plugins"
+msgstr "正在安装插件"
+
+#: demo-importer/ocdi-page.php:36 src/DemoImport/Views/PageView.php:108
+msgid "Active"
+msgstr "激活"
+
+#: demo-importer/ocdi-page.php:35 src/DemoImport/Views/PageView.php:107
+msgid "Installed"
+msgstr "已安装"
+
+#: demo-importer/ocdi-page.php:34 src/DemoImport/Views/PageView.php:106
+msgid "Not installed"
+msgstr "未安装"
+
+#: demo-importer/ocdi-page.php:32 src/DemoImport/Views/PageView.php:104
+#: src/OCDI/OneClickDemoImport.php:187
+msgid "Yes, import!"
+msgstr "是的，导入！"
+
+#: demo-importer/ocdi-page.php:31 src/DemoImport/Views/PageView.php:103
+#: src/OCDI/OneClickDemoImport.php:186
+msgid "Cancel"
+msgstr "取消"
+
+#: demo-importer/ocdi-page.php:30 src/DemoImport/Views/PageView.php:102
+#: src/OCDI/OneClickDemoImport.php:185
+msgid "Are you sure?"
+msgstr "你确定吗？"
+
+#: demo-importer/ocdi-page.php:28 src/DemoImport/Views/PageView.php:100
+#: src/OCDI/OneClickDemoImport.php:184
+msgid "No preview image defined for this import."
+msgstr "没有为此导入定义预览图像。"
+
+#: extend-builder/shortcodes/blog/navigation.php:183
+msgid "Posts navigation"
+msgstr "文章导航"
+
+#: extend-builder/shortcodes/blog/navigation.php:178
+msgid "Page"
+msgstr "页面"
+
+#: extend-builder/shortcodes/blog/navigation.php:157
+msgid "<span>"
+msgstr "<span>"
+
+#: extend-builder/shortcodes/blog/navigation.php:56
+msgid "Post navigation"
+msgstr "文章导航"
+
+#: extend-builder/shortcodes/lana-breadcrumb.php:205
+msgid "Page not found"
+msgstr "未找到页面"
+
+#: extend-builder/shortcodes/lana-breadcrumb.php:195
+msgid "Search Results for &#8220;%s&#8221;"
+msgstr "搜索结果 &#8220;%s&#8221;"
+
+#: extend-builder/shortcodes/colibri_page_title.php:102
+msgid "Archives"
+msgstr "归档"
+
+#. translators: Taxonomy term archive title. 1: Taxonomy singular name, 2:
+#. Current taxonomy term
+#: extend-builder/shortcodes/colibri_page_title.php:100
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: Post type archive title. 1: Post type name
+#: extend-builder/shortcodes/colibri_page_title.php:96
+msgid "Archives: %s"
+msgstr "归档： %s"
+
+#: extend-builder/shortcodes/colibri_page_title.php:92
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "聊天"
+
+#: extend-builder/shortcodes/colibri_page_title.php:90
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "音频"
+
+#: extend-builder/shortcodes/colibri_page_title.php:88
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "状态"
+
+#: extend-builder/shortcodes/colibri_page_title.php:86
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "链接"
+
+#: extend-builder/shortcodes/colibri_page_title.php:84
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "引用"
+
+#: extend-builder/shortcodes/colibri_page_title.php:82
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "视频"
+
+#: extend-builder/shortcodes/colibri_page_title.php:80
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "图像"
+
+#: extend-builder/shortcodes/colibri_page_title.php:78
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "画廊"
+
+#: extend-builder/shortcodes/colibri_page_title.php:76
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "旁白"
+
+#. translators: Daily archive title. 1: Date
+#: extend-builder/shortcodes/colibri_page_title.php:72
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "Y年n月j日"
+
+#. translators: Monthly archive title. 1: Month name and year
+#: extend-builder/shortcodes/colibri_page_title.php:67
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y年n月"
+
+#. translators: Yearly archive title. 1: Year
+#: extend-builder/shortcodes/colibri_page_title.php:62
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y年"
+
+#. translators: Category archive title. 1: Category name
+#. translators: Tag archive title. 1: Tag name
+#. translators: Author archive title. 1: Author name
+#. translators: Yearly archive title. 1: Year
+#. translators: Monthly archive title. 1: Month name and year
+#. translators: Daily archive title. 1: Date
+#: extend-builder/shortcodes/colibri_page_title.php:32
+#: extend-builder/shortcodes/colibri_page_title.php:47
+#: extend-builder/shortcodes/colibri_page_title.php:52
+#: extend-builder/shortcodes/colibri_page_title.php:57
+#: extend-builder/shortcodes/colibri_page_title.php:62
+#: extend-builder/shortcodes/colibri_page_title.php:67
+#: extend-builder/shortcodes/colibri_page_title.php:72
+msgid "%s"
+msgstr "%s"
+
+#: extend-builder/extend-builder.php:81
+msgid "Content Editor"
+msgstr "内容编辑器"
+
+#: extend-builder/gutenberg.php:11
+msgid "Color %d"
+msgstr "颜色%d"
+
+#: extend-builder/register.php:55
+msgid "Blog sidebar widget area"
+msgstr "博客侧边栏小部件区域"
+
+#: extend-builder/customizer/customizer.php:230
+msgid "Global Color Scheme"
+msgstr "全局配色方案"
+
+#: extend-builder/customizer/customizer.php:213
+msgid "Effects"
+msgstr "效果"
+
+#: extend-builder/customizer/customizer.php:196
+msgid "Spacing"
+msgstr "间距"
+
+#: extend-builder/customizer/customizer.php:143
+msgid "Typography"
+msgstr "版面设计"
+
+#: extend-builder/customizer/editor-data/index.php:153
+msgid "Medium Large"
+msgstr "中大型"
+
+#: extend-builder/customizer/editor-data/index.php:152
+msgid "Post Thumbnail"
+msgstr "文章缩略图"
+
+#: extend-builder/customizer/editor-data/index.php:151
+msgid "Full Size"
+msgstr "完整尺寸"
+
+#: extend-builder/customizer/editor-data/index.php:150
+msgid "Large"
+msgstr "大"
+
+#: extend-builder/customizer/editor-data/index.php:149
+msgid "Medium"
+msgstr "中"
+
+#: extend-builder/customizer/editor-data/index.php:148
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: extend-builder/partials/blog/searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr "搜索"
+
+#: extend-builder/partials/blog/searchform.php:8
+msgid "Search &hellip;"
+msgstr "搜索 &hellip;"
+
+#: extend-builder/partials/blog/searchform.php:5
+msgctxt "label"
+msgid "Search for:"
+msgstr "搜索："
+
+#: extend-builder/partials/blog/comments.php:49
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: extend-builder/partials/blog/comments.php:38
+msgid "Newer Comments <i class=\"font-icon-post fa fa-angle-double-right\"></i>"
+msgstr "新评论 <i class=\"font-icon-post fa fa-angle-double-right\"></i>"
+
+#: extend-builder/partials/blog/comments.php:34
+msgid "<i class=\"font-icon-post fa fa-angle-double-left\"></i> Older Comments"
+msgstr "<i class=\"font-icon-post fa fa-angle-double-left\"></i> 旧评论"
+
+#. Author of the plugin
+msgid "ExtendThemes"
+msgstr "ExtendThemes"
+
+#. Description of the plugin
+msgid "Colibri Page Builder adds drag and drop page builder functionality to the ColibriWP theme."
+msgstr "Colibri页面生成器向ColibriWP主题添加拖放页面生成器功能。"
+
+#. Plugin Name of the plugin
+msgid "Colibri Page Builder"
+msgstr "Colibri页面生成器"
