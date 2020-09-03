@@ -11,6 +11,8 @@ Plugin: Elementor
 ## Update Record 
 ### Ver 1.09 Lteration 1   
 3/9/2020  
+Change the background color of text in the video of homepage;
+Change the layout of About MHR page;
 Change the UI design of Setup Account page.
 ### Ver 1.08  Lteration 1   
 1/9/2020  
