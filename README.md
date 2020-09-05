@@ -9,6 +9,10 @@ Theme: Vantage
 Plugin: Elementor
   
 ## Update Record 
+### Ver 2.0 Lteration 2  
+5/9/2020  
+Change the layout of About MHR page;
+Change the layout of Setup Account page;
 ### Ver 1.09 Lteration 1   
 3/9/2020  
 Change the background color of text in the video of homepage;
