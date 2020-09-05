@@ -9,40 +9,40 @@ Theme: Vantage
 Plugin: Elementor
   
 ## Update Record 
-### Ver 2.0 Lteration 2  
+### Ver 2.0 Iteration 2  
 5/9/2020  
 Change the layout of About MHR page;
 Change the layout of Setup Account page;
-### Ver 1.09 Lteration 1   
+### Ver 1.09 Iteration 1   
 3/9/2020  
 Change the background color of text in the video of homepage;
 Change the layout of About MHR page;
 Change the UI design of Setup Account page.
-### Ver 1.08  Lteration 1   
+### Ver 1.08  Iteration 1   
 1/9/2020  
 Add slides on setup page.  
-### Ver 1.07  Lteration 1   
+### Ver 1.07  Iteration 1   
 31/8/2020  
 Fix layout.   
-### Ver 1.06  Lteration 1   
+### Ver 1.06  Iteration 1   
 31/8/2020  
 Fix visualization part problem.   
-### Ver 1.05  Lteration 1   
+### Ver 1.05  Iteration 1   
 31/8/2020  
 Add visualization part. 
-### Ver 1.04  Lteration 1   
+### Ver 1.04  Iteration 1   
 30/8/2020  
 Building Setup Account page. 
-### Ver 1.03  Lteration 1   
+### Ver 1.03  Iteration 1   
 30/8/2020  
 Building About MHR page. 
-### Ver 1.02  Lteration 1   
+### Ver 1.02  Iteration 1   
 29/8/2020  
 Fix the button link problem. 
-### Ver 1.01  Lteration 1  
+### Ver 1.01  Iteration 1  
 27/8/2020  
 Change Homepage background  
-### Ver 1.0  Lteration 1  
+### Ver 1.0  Iteration 1  
 26/8/2020  
 Project homepage build  
 
