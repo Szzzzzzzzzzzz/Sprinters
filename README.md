@@ -9,6 +9,13 @@ Theme: Vantage
 Plugin: Elementor
   
 ## Update Record 
+### Ver 2.01 Iteration 2  
+6/9/2020  
+Change the background color of Top&Bottom navigation bar;
+Change the icon for the website logo;
+Change the icon of cards in Homepage;
+Change the background color in "Benefit of My Health Record" part in About MHR page;
+Add the seperate lines between different parts in About MHR page.
 ### Ver 2.0 Iteration 2  
 5/9/2020  
 Change the layout of About MHR page;
