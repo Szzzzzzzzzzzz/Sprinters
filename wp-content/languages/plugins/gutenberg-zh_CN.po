@@ -1,0 +1,1071 @@
+# Translation of Plugins - Gutenberg - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-04 11:49:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#: lib/class-wp-rest-image-editor-controller.php:249
+msgid "Unable to crop this image."
+msgstr "无法裁剪此图像。"
+
+#: lib/class-wp-rest-image-editor-controller.php:225
+msgid "Unable to edit this image."
+msgstr "无法编辑此图像。"
+
+#: lib/class-wp-rest-plugins-controller.php:938
+msgid "Limits results to plugins with the given status."
+msgstr "限制结果集为具有给定状态的插件。"
+
+#: lib/class-wp-rest-plugins-controller.php:914
+msgid "The plugin's text domain."
+msgstr "插件的文本域。"
+
+#: lib/class-wp-rest-plugins-controller.php:908
+msgid "Minimum required version of PHP."
+msgstr "最低要求的PHP版本。"
+
+#: lib/class-wp-rest-plugins-controller.php:902
+msgid "Minimum required version of WordPress."
+msgstr "最低要求的WordPress版本。"
+
+#: lib/class-wp-rest-plugins-controller.php:896
+msgid "Whether the plugin can only be activated network-wide."
+msgstr "插件是否只能在整个网络范围内激活。"
+
+#: lib/class-wp-rest-plugins-controller.php:890
+msgid "The plugin version number."
+msgstr "插件版本号。"
+
+#: lib/class-wp-rest-plugins-controller.php:884
+msgid "The plugin description formatted for display."
+msgstr "插件说明已格式化以供显示。"
+
+#: lib/class-wp-rest-plugins-controller.php:880
+msgid "The raw plugin description."
+msgstr "原始插件说明。"
+
+#: lib/class-wp-rest-plugins-controller.php:874
+msgid "The plugin description."
+msgstr "插件说明。"
+
+#: lib/class-wp-rest-plugins-controller.php:867
+msgid "Plugin author's website address."
+msgstr "插件作者的网站地址。"
+
+#: lib/class-wp-rest-plugins-controller.php:861
+msgid "The plugin author."
+msgstr "插件作者。"
+
+#: lib/class-wp-rest-plugins-controller.php:854
+msgid "The plugin's website address."
+msgstr "插件的网站地址。"
+
+#: lib/class-wp-rest-plugins-controller.php:848
+msgid "The plugin name."
+msgstr "插件名称。"
+
+#: lib/class-wp-rest-plugins-controller.php:835
+msgid "The plugin file."
+msgstr "插件文件。"
+
+#: lib/class-wp-rest-plugins-controller.php:814
+msgid "The filesystem is currently unavailable for managing plugins."
+msgstr "该文件系统当前不可用于管理插件。"
+
+#: lib/class-wp-rest-plugins-controller.php:661
+msgid "Sorry, you are not allowed to deactivate this plugin."
+msgstr "抱歉，您无法停用此插件。"
+
+#: lib/class-wp-rest-plugins-controller.php:653
+msgid "Sorry, you are not allowed to activate this plugin."
+msgstr "抱歉，您不能激活此插件。"
+
+#: lib/class-wp-rest-plugins-controller.php:645
+msgid "Sorry, you do not have permission to manage network plugins."
+msgstr "抱歉，您无权管理网络插件。"
+
+#: lib/class-wp-rest-plugins-controller.php:498
+msgid "Cannot delete an active plugin. Please deactivate it first."
+msgstr "无法删除启用的插件。 请先停用它。"
+
+#: lib/class-wp-rest-plugins-controller.php:463
+msgid "Sorry, you are not allowed to delete plugins for this site."
+msgstr "抱歉，您不能删除该网站的插件。"
+
+#: lib/class-wp-rest-plugins-controller.php:343
+msgid "Unable to determine what plugin was installed."
+msgstr "无法确定安装了什么插件。"
+
+#: lib/class-wp-rest-plugins-controller.php:253
+msgid "Sorry, you are not allowed to activate plugins."
+msgstr "抱歉，您不能激活插件。"
+
+#: lib/class-wp-rest-plugins-controller.php:245
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr "抱歉，不允许您在此站点上安装插件。"
+
+#: lib/class-wp-rest-plugins-controller.php:228
+msgid "Sorry, you are not allowed to manage this plugin."
+msgstr "抱歉，您不能管理此插件。"
+
+#: lib/class-wp-rest-plugins-controller.php:215
+#: lib/class-wp-rest-plugins-controller.php:601
+msgid "Plugin not found."
+msgstr "找不到插件。"
+
+#: lib/class-wp-rest-plugins-controller.php:118
+#: lib/class-wp-rest-plugins-controller.php:168
+#: lib/class-wp-rest-plugins-controller.php:385
+#: lib/class-wp-rest-plugins-controller.php:455
+msgid "Sorry, you are not allowed to manage plugins for this site."
+msgstr "抱歉，您不能管理该网站的插件。"
+
+#: lib/class-wp-rest-plugins-controller.php:61
+#: lib/class-wp-rest-plugins-controller.php:842
+msgid "The plugin activation status."
+msgstr "插件激活状态。"
+
+#: lib/class-wp-rest-plugins-controller.php:57
+msgid "WordPress.org plugin directory slug."
+msgstr "WordPress.org插件目录别名。"
+
+#: lib/class-wp-rest-block-types-controller.php:495
+msgid "Block example."
+msgstr "区块示例。"
+
+#: lib/class-wp-rest-block-types-controller.php:485
+msgid "Block keywords."
+msgstr "区块关键字。"
+
+#: lib/class-wp-rest-block-types-controller.php:468
+msgid "Public text domain."
+msgstr "公共文本域。"
+
+#: lib/class-wp-rest-block-types-controller.php:422
+msgid "Is the block dynamically rendered."
+msgstr "区块是动态渲染的？"
+
+#: lib/class-wp-rest-block-types-controller.php:368
+msgid "Icon of block type."
+msgstr "区块类型的图标。"
+
+#: lib/class-wp-rest-block-types-controller.php:361
+msgid "Description of block type."
+msgstr "区块类型的描述。"
+
+#: lib/class-wp-rest-block-types-controller.php:347
+msgid "Title of block type."
+msgstr "区块类型的标题。"
+
+#: lib/class-wp-rest-block-types-controller.php:199
+msgid "Invalid block type."
+msgstr "无效的区块类型。"
+
+#: lib/class-wp-rest-block-types-controller.php:187
+msgid "Sorry, you are not allowed to manage block types."
+msgstr "抱歉，您无权管理区块类型。"
+
+#: lib/class-wp-rest-block-types-controller.php:86
+msgid "Block name."
+msgstr "区块名称"
+
+#: lib/class-wp-rest-block-directory-controller.php:326
+msgid "Limit result set to blocks matching the search term."
+msgstr "限制结果集为匹配搜索词的区块。"
+
+#: lib/class-wp-rest-block-directory-controller.php:291
+msgid "The date when the block was last updated, in fuzzy human readable format."
+msgstr "区块最后更新的日期，以模糊的人类可读格式。"
+
+#: lib/class-wp-rest-block-directory-controller.php:285
+msgid "The block icon."
+msgstr "区块图标"
+
+#: lib/class-wp-rest-block-directory-controller.php:280
+msgid "The WordPress.org username of the block author."
+msgstr "区块作者的WordPress.org用户名。"
+
+#: lib/class-wp-rest-block-directory-controller.php:275
+msgid "The number of blocks published by the same author."
+msgstr "同一作者发布的区块数。"
+
+#: lib/class-wp-rest-block-directory-controller.php:270
+msgid "The average rating of blocks published by the same author."
+msgstr "同一作者发布的区块的平均评分。"
+
+#: lib/class-wp-rest-block-directory-controller.php:265
+msgid "The number sites that have activated this block."
+msgstr "激活了此区块的站点数量。"
+
+#: lib/class-wp-rest-block-directory-controller.php:260
+msgid "The number of ratings."
+msgstr "评分数。"
+
+#: lib/class-wp-rest-block-directory-controller.php:255
+msgid "The star rating of the block."
+msgstr "区块的星级等级。"
+
+#: lib/class-wp-rest-block-directory-controller.php:250
+msgid "The block slug."
+msgstr "区块别名"
+
+#: lib/class-wp-rest-block-directory-controller.php:245
+msgid "A short description of the block, in human readable format."
+msgstr "区块的简短描述，以人类可读的格式。"
+
+#: lib/class-wp-rest-block-directory-controller.php:240
+msgid "The block title, in human readable format."
+msgstr "区块标题，以人类可读的格式。"
+
+#: lib/class-wp-rest-block-directory-controller.php:235
+msgid "The block name, in namespace/block-name format."
+msgstr "区块名称，采用名称空间/区块-名称格式。"
+
+#: lib/class-wp-rest-block-directory-controller.php:61
+msgid "Sorry, you are not allowed to browse the block directory."
+msgstr "抱歉，不允许您浏览区块目录。"
+
+#: lib/compat.php:334 build/blocks/index.js:1
+msgid "Design"
+msgstr "设计"
+
+#: lib/compat.php:324 build/blocks/index.js:1
+msgid "Text"
+msgstr "文本"
+
+#. translators: %1: field name. %2: block name
+#: lib/compat.php:93
+msgid "The asset file for the \"%1$s\" defined in \"%2$s\" block definition is missing."
+msgstr "缺少在\"%2$s\"区块定义中定义的\"%1$s\"的资产文件。"
+
+#. translators: 1: Block name.
+#: lib/class-wp-block.php:125
+msgid "The \"providesContext\" parameter provided in block type \"%s\" is deprecated. Please use \"provides_context\"."
+msgstr "区块类型\"%s\"中提供的\"providesContext\"参数已弃用。 请使用\"provides_context\"。"
+
+#. translators: 1: Block name.
+#: lib/class-wp-block.php:116
+msgid "The \"context\" parameter provided in block type \"%s\" is deprecated. Please use \"uses_context\" instead."
+msgstr "区块类型\"%s\"中提供的\"context\" 参数已弃用。 请使用\"uses_context\"。"
+
+#: lib/block-patterns.php:62
+msgctxt "Block pattern category"
+msgid "Gallery"
+msgstr "画廊"
+
+#: lib/block-patterns.php:60
+msgctxt "Block pattern category"
+msgid "Buttons"
+msgstr "按钮"
+
+#: lib/block-patterns.php:61
+msgctxt "Block pattern category"
+msgid "Columns"
+msgstr "栏目"
+
+#: lib/block-patterns.php:64
+msgctxt "Block pattern category"
+msgid "Text"
+msgstr "文本"
+
+#: lib/patterns/two-images.php:9
+msgid "Two images side by side"
+msgstr "两张图片并排显示"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/navigation.php:338 build/edit-site/index.js:6
+#: build/edit-post/index.js:28 build/edit-widgets/index.js:6
+msgid "Content"
+msgstr "内容"
+
+#: lib/experiments-page.php:50
+msgid "Enable Navigation screen"
+msgstr "启用导航屏幕"
+
+#: gutenberg.php:69 gutenberg.php:70
+msgid "Navigation (beta)"
+msgstr "导航(测试)"
+
+#: lib/class-wp-rest-menu-items-controller.php:1022
+msgid "Sort collection by object attribute."
+msgstr "按对象属性对集合进行排序。"
+
+#: lib/class-wp-rest-menu-items-controller.php:1015
+msgid "Order sort attribute ascending or descending."
+msgstr "订单排序属性是升序还是降序。"
+
+#: lib/class-wp-rest-menu-items-controller.php:1010
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr "限制结果集为有特定menu_order值的文章。"
+
+#: lib/class-wp-rest-menu-items-controller.php:943
+msgid "The URL to which this menu item points."
+msgstr "该菜单项指向的URL。"
+
+#: lib/class-wp-rest-menu-items-controller.php:936
+msgid "The singular label used to describe this type of menu item."
+msgstr "用于描述此类菜单项的单数标签。"
+
+#: lib/class-wp-rest-menu-items-controller.php:926
+msgid "The target attribute of the link element for this menu item."
+msgstr "此菜单项的链接元素的target属性。"
+
+#: lib/class-wp-rest-menu-items-controller.php:867
+msgid "The description of this menu item."
+msgstr "此菜单项的描述。"
+
+#: lib/class-wp-rest-menu-items-controller.php:853
+msgid "Class names for the link element of this menu item."
+msgstr "此菜单项的链接元素的类名称。"
+
+#: lib/class-wp-rest-menu-items-controller.php:844
+msgid "Text for the title attribute of the link element for this menu item."
+msgstr "此菜单项的link元素的title属性的文本。"
+
+#: lib/class-wp-rest-menu-items-controller.php:828
+msgid "A named status for the object."
+msgstr "对象的命名状态。"
+
+#: lib/class-wp-rest-menu-items-controller.php:813
+msgid "Name of type."
+msgstr "类型名称。"
+
+#: lib/class-wp-rest-menu-items-controller.php:795
+msgid "HTML title for the object, transformed for display."
+msgstr "对象的HTML标题，转换后显示。"
+
+#: lib/class-wp-rest-menu-items-controller.php:790
+msgid "Title for the object, as it exists in the database."
+msgstr "对象的标题，存放于数据库。"
+
+#: lib/class-wp-rest-menu-items-controller.php:529
+msgid "Invalid URL."
+msgstr "无效网址"
+
+#: lib/class-wp-rest-menu-items-controller.php:487
+#: lib/class-wp-rest-menu-items-controller.php:490
+msgid "Invalid menu item parent."
+msgstr "无效的父菜单项。"
+
+#: lib/class-wp-rest-menu-items-controller.php:479
+msgid "Invalid menu position."
+msgstr "无效的菜单位置。"
+
+#: lib/class-wp-rest-menu-items-controller.php:454
+msgid "Invalid menu ID."
+msgstr "菜单ID无效。"
+
+#: lib/class-wp-rest-menu-items-controller.php:439
+msgid "URL required if menu item of type custom."
+msgstr "如果菜单项类型为自定义，则需要URL。"
+
+#: lib/class-wp-rest-menu-items-controller.php:436
+msgid "Title required if menu item of type custom."
+msgstr "如果菜单类型为“定制”，则需要标题。"
+
+#: lib/class-wp-rest-menu-items-controller.php:429
+msgid "Invalid post type."
+msgstr "无效的文章类型。"
+
+#: lib/class-wp-rest-menu-items-controller.php:418
+msgid "Invalid post ID."
+msgstr "无效的文章 ID 。"
+
+#: lib/class-wp-rest-menu-items-controller.php:271
+msgid "The post cannot be deleted."
+msgstr "该文章无法删除。"
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menu-items-controller.php:263
+msgid "Menu items do not support trashing. Set '%s' to delete."
+msgstr "菜单项不支持回收站。 将'%s'设置为删除。"
+
+#: lib/class-wp-rest-menu-items-controller.php:97
+msgid "Cannot create existing post."
+msgstr "无法创建已存在的文章。"
+
+#: lib/class-wp-rest-menu-items-controller.php:83
+msgid "Sorry, you cannot view these menu items, unless you have access to permission edit them. "
+msgstr "抱歉，您无法查看这些菜单项，除非您有权访问对其进行编辑。"
+
+#: lib/class-wp-rest-customizer-nonces.php:52
+#: lib/class-wp-rest-menu-items-controller.php:81
+msgid "Sorry, you are not allowed to edit posts in this post type."
+msgstr "抱歉，您无法编辑此文章类型的文章。"
+
+#: lib/class-wp-rest-menu-items-controller.php:65
+msgid "Sorry, you cannot view this menu item, unless you have access to permission edit it. "
+msgstr "抱歉，您无法查看此菜单项，除非您有权访问对其进行编辑。"
+
+#: lib/class-wp-rest-menus-controller.php:580
+msgid "The locations assigned to the menu."
+msgstr "分配给菜单的位置。"
+
+#: lib/class-wp-rest-menus-controller.php:552
+msgid "Menu location does not exist."
+msgstr "菜单位置不存在。"
+
+#: lib/class-wp-rest-menus-controller.php:458
+msgid "The term cannot be deleted."
+msgstr "项目不能被删除。"
+
+#: lib/class-wp-rest-menus-controller.php:139
+msgid "Sorry, you are not allowed to assign the provided locations."
+msgstr "抱歉，您不能分配所提供的位置。"
+
+#: lib/class-wp-rest-menus-controller.php:60
+msgid "Sorry, you cannot view this menu, unless you have access to permission edit it. "
+msgstr "抱歉，您无法查看此菜单，除非您有权访问对其进行编辑。"
+
+#: lib/class-wp-rest-menus-controller.php:58
+msgid "Sorry, you are not allowed to edit this term."
+msgstr "抱歉，您不能编辑此项目。"
+
+#: lib/class-wp-rest-menus-controller.php:40
+msgid "Sorry, you cannot view these menus, unless you have access to permission edit them. "
+msgstr "抱歉，您无法查看这些菜单，除非您有权访问对其进行编辑。"
+
+#: lib/class-wp-rest-menus-controller.php:38
+msgid "Sorry, you are not allowed to edit terms in this taxonomy."
+msgstr "抱歉，您不能编辑此分类中的项目。"
+
+#: lib/class-wp-rest-menu-locations-controller.php:206
+msgid "The ID of the assigned menu."
+msgstr "分配菜单的ID。"
+
+#: lib/class-wp-rest-menu-locations-controller.php:200
+msgid "The description of the menu location."
+msgstr "菜单位置的描述。"
+
+#: lib/class-wp-rest-menu-locations-controller.php:194
+msgid "The name of the menu location."
+msgstr "菜单位置的名称。"
+
+#: lib/class-wp-rest-menus-controller.php:146
+#: lib/class-wp-rest-menu-locations-controller.php:116
+#: lib/class-wp-rest-menu-locations-controller.php:132
+msgid "Invalid menu location."
+msgstr "无效的菜单位置。"
+
+#: lib/class-wp-rest-menu-locations-controller.php:76
+#: lib/class-wp-rest-menu-locations-controller.php:113
+msgid "Sorry, you are not allowed to view menu locations."
+msgstr "抱歉，您无权查看菜单位置。"
+
+#: lib/class-wp-rest-menu-locations-controller.php:50
+msgid "An alphanumeric identifier for the menu location."
+msgstr "菜单位置的字母数字标识符。"
+
+#: lib/global-styles.php:664 build/edit-site/index.js:2
+msgid "Global Styles"
+msgstr "全局样式"
+
+#: lib/template-loader.php:95
+msgid "Empty template."
+msgstr "空模板。"
+
+#: lib/template-loader.php:103
+msgid "No matching template found."
+msgstr "未找到匹配的模板。"
+
+#: lib/experiments-page.php:109
+msgid "The block editor includes experimental features that are useable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
+msgstr "区块编辑器包括实验性功能，这些功能在开发时可用。 选择您要启用的选项。 这些功能可能会更改，因此请避免在生产环境中使用它们。"
+
+#: lib/experiments-page.php:61
+msgid "Enable Full Site Editing (Warning: this will replace your theme and cause potentially irreversible changes to your site. We recommend using this only in a development environment.)"
+msgstr "启用全站编辑（警告：这将替换您的主题，并可能对您的站点造成不可逆的更改。我们建议仅在开发环境中使用此功能。）"
+
+#: gutenberg.php:78 gutenberg.php:79
+msgid "Site Editor (beta)"
+msgstr "站点编辑器 (测试)"
+
+#: build/block-library/blocks/query-pagination.php:33
+#: build/block-library/index.js:58 build/components/index.js:18
+msgid "Next"
+msgstr "下一页"
+
+#: build/block-library/blocks/query-pagination.php:26
+#: build/block-library/index.js:58 build/components/index.js:18
+msgid "Previous"
+msgstr "上一页"
+
+#: lib/experiments-page.php:72
+msgid "Enable Full Site Editing demo templates"
+msgstr "启用全站编辑演示模板"
+
+#: lib/experiments-page.php:67
+msgid "Full Site Editing Demo Templates"
+msgstr "全站编辑演示模板"
+
+#: lib/class-wp-rest-widget-utils-controller.php:47
+msgid "Current widget instance"
+msgstr "当前小工具实例"
+
+#: lib/experiments-page.php:45 build/block-library/index.js:30
+msgid "Navigation"
+msgstr "导航"
+
+#: lib/templates.php:31
+msgid "Templates list"
+msgstr "模版列表"
+
+#: lib/templates.php:30
+msgid "Templates list navigation"
+msgstr "模板列表导航"
+
+#: lib/templates.php:29
+msgid "Filter templates list"
+msgstr "筛选模板列表"
+
+#: lib/templates.php:28
+msgid "Uploaded to this template"
+msgstr "已上传到此模板"
+
+#: lib/templates.php:27
+msgid "Insert into template"
+msgstr "插入模板"
+
+#: lib/templates.php:26
+msgid "Template archives"
+msgstr "模板存档"
+
+#: lib/templates.php:25
+msgid "No templates found in Trash."
+msgstr "在回收站内找不到模板"
+
+#: lib/templates.php:24
+msgid "No templates found."
+msgstr "未找到模板。"
+
+#: lib/templates.php:23
+msgid "Parent Template:"
+msgstr "父模板："
+
+#: lib/templates.php:22
+msgid "Search Templates"
+msgstr "搜索模板"
+
+#: lib/templates.php:21
+msgid "All Templates"
+msgstr "所有模板"
+
+#: lib/templates.php:20
+msgid "View Template"
+msgstr "查看模板"
+
+#: lib/templates.php:19
+msgid "Edit Template"
+msgstr "编辑模板"
+
+#: lib/templates.php:18
+msgid "New Template"
+msgstr "新模板"
+
+#: lib/templates.php:17
+msgid "Add New Template"
+msgstr "新增模板"
+
+#: lib/templates.php:16
+msgctxt "Template"
+msgid "Add New"
+msgstr "新增"
+
+#: lib/templates.php:15
+msgctxt "Admin Menu text"
+msgid "Templates"
+msgstr "模板"
+
+#: lib/templates.php:14 build/edit-site/index.js:2
+msgid "Template"
+msgstr "模板"
+
+#: lib/template-loader.php:372
+msgid "No matching template found"
+msgstr "未找到匹配的模板"
+
+#: lib/experiments-page.php:56
+msgid "Full Site Editing"
+msgstr "全站编辑"
+
+#: lib/templates.php:36
+msgid "Templates to include in your theme."
+msgstr "要包含在主题中的模板。"
+
+#: lib/templates.php:13
+msgid "Templates"
+msgstr "模板"
+
+#: lib/class-wp-rest-plugins-controller.php:337
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr "无法连接到文件系统。 请确认您的凭据。"
+
+#: gutenberg.php:104
+msgid "Experiments Settings"
+msgstr "实验设置"
+
+#: lib/experiments-page.php:19
+msgid "Experimental settings"
+msgstr "实验设置"
+
+#. translators: %s: taxonomy name
+#: build/block-library/blocks/tag-cloud.php:28
+msgid "Your site doesn&#8217;t have any %s, so there&#8217;s nothing to display here at the moment."
+msgstr "您的站点没有任何%s，所以现在没有什么可供显示。"
+
+#: lib/widgets.php:249
+msgid "Block area updated."
+msgstr "区块已更新。"
+
+#: lib/widgets.php:244
+msgid "Block areas list"
+msgstr "区块区域列表"
+
+#: lib/widgets.php:243
+msgid "Block areas list navigation"
+msgstr "区块区域列表导航"
+
+#: lib/widgets.php:240
+msgid "No block area found."
+msgstr "未找到区块。"
+
+#: lib/widgets.php:239
+msgid "Search Block Areas"
+msgstr "搜索区块区域"
+
+#: lib/widgets.php:237
+msgid "View Block Area"
+msgstr "查看区块区域"
+
+#: lib/widgets.php:236
+msgid "Edit Block Area"
+msgstr "编辑区块区域"
+
+#: lib/widgets.php:235
+msgid "New Block Area"
+msgstr "新区块区域"
+
+#: lib/widgets.php:229
+msgctxt "post type general name"
+msgid "Block Area (Experimental)"
+msgstr "区块区域(实验功能)"
+
+#: lib/widgets.php:227
+msgid "Experimental custom post type that will store block areas referenced by themes."
+msgstr "实验性自定义文章类型，将存储主题引用的区块区域。"
+
+#: lib/class-wp-rest-widget-utils-controller.php:41
+msgid "Class name of the widget."
+msgstr "微件的类别名。"
+
+#: lib/class-wp-rest-sidebars-controller.php:109
+#: lib/class-wp-rest-widget-utils-controller.php:74
+msgid "Sorry, you are not allowed to access widgets on this site."
+msgstr "抱歉，您不能访问此站点上的小工具。"
+
+#: build/block-library/blocks/rss.php:23
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "发生了一个错误，feed可能宕，请稍后再试。"
+
+#: build/block-library/blocks/rss.php:19
+msgid "RSS Error:"
+msgstr "RSS错误："
+
+#: build/block-library/blocks/search.php:25
+#: build/block-library/blocks/search.php:26
+#: build/block-library/blocks/search.php:44 build/block-library/index.js:49
+msgid "Search"
+msgstr "搜索"
+
+#. translators: Use this to specify the CSS font family for the default font.
+#: lib/edit-site-page.php:53
+msgctxt "CSS Font Family for Editor Font"
+msgid "Noto Serif"
+msgstr "Noto Serif"
+
+#: lib/widgets.php:247
+msgid "Block area reverted to draft."
+msgstr "区块恢复到草稿。"
+
+#: lib/widgets.php:246
+msgid "Block area published privately."
+msgstr "区块隐藏发布。"
+
+#: lib/widgets.php:241
+msgid "No block areas found in Trash."
+msgstr "回收站中没有找到区块。"
+
+#: lib/widgets.php:233
+msgctxt "Block"
+msgid "Add New"
+msgstr "新增"
+
+#: lib/widgets.php:232
+msgctxt "add new on admin bar"
+msgid "Block Area"
+msgstr "区块"
+
+#: lib/widgets-page.php:66 lib/edit-site-page.php:114
+#: lib/navigation-page.php:45 build/block-editor/index.js:25
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: lib/widgets-page.php:69 lib/edit-site-page.php:117
+#: lib/navigation-page.php:48 build/block-editor/index.js:25
+msgid "Full Size"
+msgstr "完整尺寸"
+
+#: lib/compat.php:329 build/block-editor/index.js:68 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "媒体"
+
+#: lib/class-wp-rest-image-editor-controller.php:94
+msgid "Sorry, you are not allowed to edit images."
+msgstr "抱歉，您不能编辑图像。"
+
+#: lib/widgets-page.php:67 lib/edit-site-page.php:115
+#: lib/navigation-page.php:46 build/block-editor/index.js:25
+#: build/components/index.js:6
+msgid "Medium"
+msgstr "中等"
+
+#: build/block-library/blocks/archives.php:96
+msgid "No archives to show."
+msgstr "没有存档可显示。"
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "美景"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "感谢您测试 Gutenberg！"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "帮助建设 Gutenberg"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "如果您想了解有关如何构建其他块的更多信息，或者如果您有兴趣帮助完成项目，请转到<a href=\"%s\"> GitHub repository</a>。"
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Wordpress 交流社区"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "代码如诗歌般美妙"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "您可以构建任何您喜欢的块，静态或动态，修饰或扁平。这是一个pullquote块："
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "所有区块都具有对齐属性。嵌入区块也同样具有对齐属性，且具有响应式布局属性。"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "上面的相册只包含两张图片。无需考虑浮动问题，您可以以一种更加简单的方式创造具有吸引力的布局。使用区块转换器，您还可以重新将其转换成独立的图片。"
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "全画宽度图片体积可能较大，但有时美图胜万言。"
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "可访问性非常重要 &mdash；别忘记图片的alt属性"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "如果您将<strong>宽幅</strong>和<strong>全宽幅</strong>对齐方式结合用于相册，您将可以非常迅速地创建样式丰富的多媒体布局。"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "富媒体"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "拖动侧边栏区块检查器中的滑块，可以更改相册栏目的数量。"
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "区块可以是您需要的任何内容。例如，将普通引用添加到文章中，或突出显示一些内容。所有这些需求，都可以通过插入器实现。"
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "与引文来源所对应的信息，是与图片下方标题类似的独立文本。所以，当你选择、修改或删除来源时，引文的结构也不会被破坏。重新添加也很简单。"
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg，2017"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "编辑器以提供全新的页面和文章创建方式，让用户以更加便捷的方式创作更加丰富的内容，并利用“区块”来简化当前短代码、自定义HTML或各种嵌入式内容等方式。"
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "区块的核心优势在于您可以直接编辑或创作内容本身，而不用关注诸如引文的来源、按钮的文字等众多的字段信息，只需要关注内容本身即可。尝试编辑下方的引文："
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "可视化编辑"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "以及像这样的<em>列表区块</em>"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "诸如按钮，大图和分隔符等布局区块。"
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "诸如YouTube，推文和其他WordPress文章等嵌入式内容。"
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "画廊"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "图像和视频"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "文本和标题"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "尝试看看，您可能会在您的文章中，发现WordPress已经添加了一些您还没有接触过的新事物。比如下面列表中的："
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "难以想象，现在可以通过一个界面一个地方，以迅雷不及掩耳之势，将所有的WordPress操作一网打尽。再也无需处理HTML标签，类或复杂的代码语法。这就是编辑器中随处可见的，可以让您浏览所有区块并添加到文章中的<code>+</code>按钮的意义所在。插件和主题还可以注册个性化的内容，扩展编辑和发布功能。"
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "<em>插入</em>工具"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "尝试选择、移动或编辑标题，而无需担心误选择图片或其他文本而使得搞砸演示文稿。"
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "如果主题支持，您将可以在图片工具栏看到“宽幅”按钮。试试看。"
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "以最严谨的方式处理图片和媒体，是新编辑器的核心目标之一。您会发现添加图注和全幅宽度图片，操作更容易，功能也更健全。"
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "一张图片胜过千言万语(百闻不如一见)"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "标题区块也是分隔型区块，可以帮助梳理文章框架，组织文章内容。"
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "...就像这个右对齐的一样。"
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "您当前正在阅读的使所有区块中最基础的——<strong>文本区块</strong>。文本区块拥有自身的控制属性，可以在文章中自由移动。"
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "新编辑器的目标是让用户以更加简介和愉悦的方式创作丰富的内容。与LEGO的奥秘相类似，整篇文章由很多<em>小部分</em>组成，并且您可以对这些小部分进行移动和交互。移动鼠标，您会发现区块的外框架和箭头。按住箭头可以快速进行位移，而无需担心粘贴复制过程中内容丢失的问题。"
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "Of Mountains & Printing Presses"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "欢迎使用古腾堡编辑器"
+
+#: lib/class-wp-rest-menu-items-controller.php:779
+msgid "The title for the object."
+msgstr "对象的标题。"
+
+#: lib/class-wp-rest-menu-items-controller.php:804
+msgid "Unique identifier for the object."
+msgstr "对象的唯一识别码。"
+
+#: gutenberg.php:92
+msgid "https://wordpress.org/support/plugin/gutenberg"
+msgstr "https://wordpress.org/support/plugin/gutenberg"
+
+#: gutenberg.php:90
+msgid "Support"
+msgstr "帮助"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "没有评论可显示。"
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s，于%2$s"
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "选择文章"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "选择周次"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "选择日期"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "选择月份"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "选择年份"
+
+#: build/block-library/blocks/archives.php:27 build/block-library/index.js:16
+msgid "Archives"
+msgstr "文章归档"
+
+#: lib/widgets-page.php:68 lib/edit-site-page.php:116
+#: lib/navigation-page.php:47 build/block-editor/index.js:25
+#: build/components/index.js:6
+msgid "Large"
+msgstr "大"
+
+#: lib/class-wp-rest-menu-items-controller.php:410
+msgid "Invalid term ID."
+msgstr "无效的项目ID"
+
+#: lib/class-wp-rest-menu-items-controller.php:836
+msgid "The ID for the parent of the object."
+msgstr "对象父类的ID"
+
+#: lib/rest-api.php:48
+msgid "Embed Handler"
+msgstr "嵌入处理程序"
+
+#: lib/client-assets.php:164 build/editor/index.js:11
+#: build/edit-post/index.js:5 build/edit-post/index.js:14
+msgid "Featured image"
+msgstr "特色图像"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#: lib/navigation.php:91 lib/navigation.php:96 lib/class-wp-widget-block.php:40
+#: build/edit-post/index.js:13 build/edit-post/index.js:14
+#: build/edit-widgets/index.js:1
+msgid "Block"
+msgstr "区块"
+
+#: build/block-library/blocks/latest-posts.php:102
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31 build/editor/index.js:27
+#: build/editor/index.js:38 build/edit-site/index.js:2
+#: build/edit-navigation/index.js:2 build/block-library/index.js:30
+#: build/block-library/index.js:38 build/edit-post/index.js:14
+msgid "(no title)"
+msgstr "(无标题)"
+
+#. translators: accessibility text. 1: heading level. 2: heading content.
+#: lib/patterns/quote.php:9 build/editor/index.js:11
+#: build/block-library/index.js:12
+msgid "Quote"
+msgstr "引语"
+
+#: lib/patterns/large-header.php:10 lib/patterns/large-header-button.php:10
+#: build/block-library/index.js:26
+msgid "Write title…"
+msgstr "编写标题…"
+
+#: gutenberg.php:105
+msgid "Experiments"
+msgstr "实验功能"
+
+#: gutenberg.php:51 gutenberg.php:52 build/blocks/index.js:1
+msgid "Widgets"
+msgstr "小工具"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "自1440年开始印刷。这是核心中新区块编辑器的开发插件。"
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Gutenberg 团队"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: lib/template-parts.php:115 lib/templates.php:132 build/editor/index.js:29
+msgid "Slug"
+msgstr "别名"
+
+#. translators: Date/Time format, see https://www.php.net/date
+#: lib/compat.php:290
+msgid "F j, Y g:i a"
+msgstr "Y年n月j日ag:i"
+
+#. translators: Date format, see https://www.php.net/date
+#: lib/compat.php:288
+msgid "F j, Y"
+msgstr "Y年n月j日"
+
+#. translators: Time format, see https://www.php.net/date
+#: lib/compat.php:286
+msgid "g:i a"
+msgstr "ag:i"
+
+#. translators: %s: Duration.
+#. translators: %s: Human-readable time difference.
+#: lib/compat.php:281 lib/class-wp-rest-block-directory-controller.php:138
+msgid "%s ago"
+msgstr "%s 之前"
+
+#. translators: %s: Duration.
+#: lib/compat.php:279
+msgid "%s from now"
+msgstr "%s 之后"
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:121
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Gutenberg 要求 WordPress %s 或更高版本才能正常工作。激活 Gutenberg 之前请升级 WordPress。"
+
+#: gutenberg.php:96
+msgid "Documentation"
+msgstr "文档"
+
+#: gutenberg.php:43 gutenberg.php:44
+msgid "Demo"
+msgstr "演示"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "选择分类目录"

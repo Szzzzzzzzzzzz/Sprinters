@@ -500,7 +500,9 @@ class MetaImageSlide extends MetaSlide
         // Remove unsafe html but let users that rely on this to override
         if (apply_filters('metaslider_filter_unsafe_html', true) && $slide['caption']) {
             try {
-                require_once (METASLIDER_PATH . 'assets/htmlpurifier/library/HTMLPurifier.auto.php');
+                if (!class_exists('HTMLPurifier')) {
+                    require_once(METASLIDER_PATH . 'assets/htmlpurifier/library/HTMLPurifier.auto.php');
+                }
                 $purifier = new HTMLPurifier();
                 $slide['caption'] = $purifier->purify($slide['caption']);
             } catch (Exception $e) {

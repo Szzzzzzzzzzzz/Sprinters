@@ -1,0 +1,1398 @@
+# Translation of Themes - Neve in Chinese (China)
+# This file is distributed under the same license as the Themes - Neve package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-29 21:40:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - Neve\n"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:879
+msgid "Vertical Alignment"
+msgstr "垂直对齐"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:862
+msgid "Middle"
+msgstr "中"
+
+#: inc/customizer/options/typography.php:300
+#: inc/customizer/options/typography.php:311
+msgid "Post meta"
+msgstr "文章元"
+
+#: inc/customizer/options/typography.php:316
+msgid "Comments reply title"
+msgstr "评论回复标题"
+
+#: inc/customizer/options/typography.php:289
+#: inc/customizer/options/typography.php:305
+msgid "Post title"
+msgstr "文章标题"
+
+#: inc/customizer/options/typography.php:290
+msgid "Blog Archive"
+msgstr "博客存档"
+
+#: inc/customizer/options/typography.php:295
+msgid "Post excerpt"
+msgstr "文章摘要"
+
+#: header-footer-grid/Core/Components/Search.php:80
+#: header-footer-grid/Core/Components/SearchResponsive.php:244
+msgid "Height"
+msgstr "高度"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:227
+msgid "Search Field"
+msgstr "搜索字段"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:135
+msgid "Icon"
+msgstr "图标"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:119
+msgid "Float Above Header"
+msgstr "浮于页头上"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:118
+msgid "Minimal"
+msgstr "最小"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:117
+msgid "Canvas"
+msgstr "画布"
+
+#: inc/core/front_end.php:191
+msgid "Button Hover Color"
+msgstr "按钮悬停颜色"
+
+#: inc/core/front_end.php:187
+msgid "Button Hover text color"
+msgstr "按钮悬停文字颜色"
+
+#: inc/core/front_end.php:183
+msgid "Button text color"
+msgstr "按钮文字颜色"
+
+#. translators: 1 - Theme Name (Neve), 2 - Plugin Name (Neve Pro)
+#: dashboard/inc/Main.php:282
+msgid "We recommend that both %1$s and %2$s are updated to the latest version to ensure optimal intercompatibility."
+msgstr "我们建议%1$s和%2$s都更新到最新版本，以确保最佳的兼容性。"
+
+#. translators: s - Pro plugin name (Neve Pro)
+#: dashboard/inc/Main.php:264
+msgid "New plugin update for %1$s! Please update to %2$s."
+msgstr "新插件更新%1$s!请更新到%2$s。"
+
+#: dashboard/inc/Main.php:252 dashboard/inc/Main.php:273
+msgid "Update Now"
+msgstr "立即更新"
+
+#. translators: s - theme name (Neve).
+#: dashboard/inc/Main.php:247
+msgid "New theme update for %1$s! Please update to %2$s."
+msgstr "新主题更新%1$s!请更新到%2$s。"
+
+#. translators: store name (Themeisle)
+#: dashboard/inc/Main.php:214
+msgid "Enter your license from %1$s purchase history in order to get plugin updates"
+msgstr "从%1$s的购买历史中输入您的许可证，以获取插件更新"
+
+#. translators: %s - "Neve Pro Addon"
+#: dashboard/inc/Main.php:210
+msgid "Please update %s to the latest version and then refresh this page to have access to the options."
+msgstr "请将%s 更新到最新版本，然后刷新此页面以访问选项。"
+
+#. translators: %s - "Neve Pro Addon"
+#: dashboard/inc/Main.php:208
+msgid "%s license"
+msgstr "%s 授权"
+
+#. translators: %s - "Public roadmap"
+#: dashboard/inc/Main.php:200
+msgid "public roadmap"
+msgstr "公开路线图"
+
+#. translators: %s - "Public roadmap"
+#: dashboard/inc/Main.php:200
+msgid "Share opinions, ask questions and help each other on our Neve community! Keep up with what we’re working on and vote to help us prioritize on our %s."
+msgstr "在我们的Neve社区中分享意见，提出问题并互相帮助！ 关注我们正在做的事情，投票帮助我们优先考虑%s。"
+
+#. translators: %s - Theme name
+#: dashboard/inc/Main.php:196
+msgid "%s Options"
+msgstr "%s 选项"
+
+#: header-footer-grid/Core/Components/Search.php:194
+#: header-footer-grid/Core/Components/SearchResponsive.php:358
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:144
+msgid "Border Width"
+msgstr "边框宽度"
+
+#: header-footer-grid/Core/Components/Search.php:251
+#: header-footer-grid/Core/Components/SearchResponsive.php:415
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:118
+msgid "Border Radius"
+msgstr "边框圆角"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:341
+msgid "Row height"
+msgstr "行高"
+
+#: inc/customizer/options/layout_container.php:63
+msgid "Container width"
+msgstr "容器宽度"
+
+#: header-footer-grid/Core/Components/Logo.php:162
+msgid "Logo max width"
+msgstr "logo最大高度(像素)"
+
+#: header-footer-grid/Core/Magic_Tags.php:595
+msgid "Currency Symbol"
+msgstr "货币符号"
+
+#: header-footer-grid/Core/Magic_Tags.php:591
+msgid "Currency Name"
+msgstr "货币名称"
+
+#: header-footer-grid/Core/Magic_Tags.php:587
+msgid "Total"
+msgstr "总计"
+
+#: header-footer-grid/Core/Magic_Tags.php:583
+msgid "Total + Currency Symbol"
+msgstr "总计 + 货币符号"
+
+#: header-footer-grid/Core/Components/Logo.php:192
+msgid "Disable Homepage Link"
+msgstr "禁用主页链接"
+
+#: header-footer-grid/Core/Magic_Tags.php:553
+msgid "User Email"
+msgstr "用户邮箱"
+
+#: header-footer-grid/Core/Magic_Tags.php:549
+msgid "Display Name"
+msgstr "公开显示为"
+
+#: header-footer-grid/Core/Magic_Tags.php:545
+msgid "User Nice Name"
+msgstr "用户昵称"
+
+#: header-footer-grid/Core/Magic_Tags.php:542
+msgid "Current User"
+msgstr "当前用户"
+
+#: header-footer-grid/Core/Components/NavFooter.php:173
+#: header-footer-grid/Core/Components/Nav.php:258
+#: header-footer-grid/Core/Components/SecondNav.php:176
+msgid "Items Height (px)"
+msgstr "项目高度 (px)"
+
+#: header-footer-grid/Core/Components/NavFooter.php:151
+#: header-footer-grid/Core/Components/Nav.php:236
+#: header-footer-grid/Core/Components/SecondNav.php:154
+msgid "Items Spacing (px)"
+msgstr "项目间距 (px)"
+
+#: header-footer-grid/Core/Components/NavFooter.php:68
+#: header-footer-grid/Core/Components/Nav.php:95
+#: header-footer-grid/Core/Components/SecondNav.php:68
+msgid "Hover Skin Mode"
+msgstr "悬浮皮肤模式"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:479
+msgid "Justify"
+msgstr "左右对齐"
+
+#: header-footer-grid/Core/Builder/Header.php:97
+#: header-footer-grid/Core/Builder/Header.php:107
+msgid "Header Presets"
+msgstr "页眉预设"
+
+#: inc/views/template_parts.php:76 inc/views/template_parts.php:114
+#: inc/views/pluggable/pagination.php:141
+msgid "Pages:"
+msgstr "页面："
+
+#: inc/customizer/options/layout_sidebar.php:286
+msgid "edit"
+msgstr "编辑"
+
+#. translators: %s is edit page link
+#: inc/customizer/options/layout_sidebar.php:282
+msgid "Note: It seems that the shop page has an individual sidebar layout already set. To be able to control the layout from here, %s your page and set the sidebar to \"Customizer Setting\"."
+msgstr "注意：店铺页面似乎已经设置了一个单独的侧边栏布局。为了能够从这里控制布局，请将你的页面%s，并将侧边栏设置为 \"自定义设置\"。"
+
+#. translators: %s is the header name
+#: header-footer-grid/Core/Customizer.php:265
+msgid "You are customizing the %s Header"
+msgstr "您正在自定义 %s 页眉"
+
+#: header-footer-grid/Core/Magic_Tags.php:619
+msgid "Checkout URL"
+msgstr "结算网址"
+
+#: header-footer-grid/Core/Magic_Tags.php:615
+msgid "Cart URL"
+msgstr "购物车网址"
+
+#: header-footer-grid/Core/Magic_Tags.php:611
+msgid "Product Title"
+msgstr "产品标题"
+
+#: header-footer-grid/Core/Magic_Tags.php:607
+msgid "Product Price"
+msgstr "产品价格"
+
+#: header-footer-grid/Core/Magic_Tags.php:604
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: header-footer-grid/Core/Magic_Tags.php:574
+msgid "Current Year"
+msgstr "今年"
+
+#: header-footer-grid/Core/Magic_Tags.php:570
+msgid "Home URL"
+msgstr "首页网址"
+
+#: header-footer-grid/Core/Magic_Tags.php:566
+msgid "Site Tagline"
+msgstr "站点标语"
+
+#: header-footer-grid/Core/Magic_Tags.php:562
+msgid "Site Title"
+msgstr "站点标题"
+
+#: header-footer-grid/Core/Magic_Tags.php:559
+msgid "Global"
+msgstr "全局"
+
+#: header-footer-grid/Core/Magic_Tags.php:536
+msgid "Author URL"
+msgstr "作者网址"
+
+#: header-footer-grid/Core/Magic_Tags.php:532
+msgid "Author Name"
+msgstr "作者姓名"
+
+#: header-footer-grid/Core/Magic_Tags.php:528
+msgid "Author Bio"
+msgstr "作者简介"
+
+#: header-footer-grid/Core/Magic_Tags.php:519
+msgid "Archive URL"
+msgstr "存档URL"
+
+#: header-footer-grid/Core/Magic_Tags.php:515
+msgid "Archive Title"
+msgstr "归档标题"
+
+#: header-footer-grid/Core/Magic_Tags.php:511
+msgid "Archive Description"
+msgstr "归档描述"
+
+#: header-footer-grid/Core/Magic_Tags.php:508
+msgid "Archive"
+msgstr "存档"
+
+#: header-footer-grid/Core/Magic_Tags.php:478
+msgid "Current Single URL"
+msgstr "当前单一URL"
+
+#: header-footer-grid/Core/Magic_Tags.php:474
+msgid "Current Single Excerpt"
+msgstr "当前单节摘要"
+
+#: header-footer-grid/Core/Magic_Tags.php:470
+msgid "Current Single Title"
+msgstr "目前的单一标题"
+
+#: header-footer-grid/Core/Magic_Tags.php:467
+msgid "Single"
+msgstr "单个"
+
+#: header-footer-grid/Core/Components/Logo.php:112
+msgid "Display"
+msgstr "显示"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:154
+#: header-footer-grid/Core/Components/CartIcon.php:116
+msgid "Icon Size"
+msgstr "图标大小"
+
+#: header-footer-grid/Core/Components/Search.php:306
+#: header-footer-grid/Core/Components/SearchResponsive.php:470
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:182
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:189
+msgid "Text and Border"
+msgstr "文字和边框"
+
+#: inc/customizer/options/buttons.php:92
+msgid "Button Appearance"
+msgstr "按钮外观"
+
+#: header-footer-grid/Core/Components/Button.php:142
+#: header-footer-grid/Core/Components/MenuIcon.php:120
+msgid "Appearance"
+msgstr "外观"
+
+#: header-footer-grid/Core/Components/MenuIcon.php:100
+msgid "Menu label"
+msgstr "菜单标签"
+
+#: header-footer-grid/Core/Components/CustomHtml.php:143
+msgid "Arbitrary HTML code. It supports also shortcodes."
+msgstr "任意 HTML 代码。它还支持短代码。"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:493
+msgid "Alignment"
+msgstr "对齐"
+
+#: header-footer-grid/templates/rows.php:77
+msgid "Hide"
+msgstr "隐藏"
+
+#: header-footer-grid/templates/rows.php:76
+msgid "Show"
+msgstr "显示"
+
+#: header-footer-grid/templates/rows.php:73
+#: header-footer-grid/Core/Builder/Header.php:189
+msgid "Mobile menu content"
+msgstr "移动菜单内容"
+
+#: inc/customizer/options/layout_blog.php:254
+msgid "Thumbnail Shadow"
+msgstr "缩略图阴影"
+
+#: inc/customizer/options/typography.php:150
+msgid "Body"
+msgstr "主体"
+
+#: header-footer-grid/Core/Customizer.php:315
+msgid "Search Components"
+msgstr "查找组件"
+
+#: header-footer-grid/Core/Customizer/Instructions_Section.php:85
+msgid "Quick Links"
+msgstr "快速链接"
+
+#: header-footer-grid/Core/Components/Logo.php:73
+msgid "Display your company logo here or simply use words to describe your business."
+msgstr "在这里展示您的公司标志，或者简单地用文字来描述您的企业。"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:469
+msgid "Center"
+msgstr "中间"
+
+#: header-footer-grid/Core/Builder/Footer.php:68
+msgid "Change Footer Color"
+msgstr "更改页脚颜色"
+
+#: header-footer-grid/Core/Builder/Footer.php:64
+msgid "Change Copyright"
+msgstr "更改版权"
+
+#: header-footer-grid/Core/Builder/Header.php:76
+msgid "Change Menu"
+msgstr "更改菜单"
+
+#: header-footer-grid/Core/Builder/Header.php:72
+msgid "Change Header Color"
+msgstr "更改标题颜色"
+
+#: header-footer-grid/Core/Builder/Header.php:68
+msgid "Change Logo"
+msgstr "更改Logo"
+
+#. translators: 1: builder, 2: builder symbol
+#: header-footer-grid/Core/Builder/Footer.php:57
+#: header-footer-grid/Core/Builder/Header.php:61
+msgid "Welcome to the %1$s builder! Click the %2$s button to add a new component or follow the Quick Links."
+msgstr "欢迎来到 %1$s 的构建器！单击 %2$s按钮添加新组件或按照\"快速链接\"操作。"
+
+#: inc/compatibility/pwa.php:63
+msgid "Oops! Something went wrong."
+msgstr "糟糕！ 出问题了。"
+
+#: inc/compatibility/pwa.php:50
+msgid "Oops! It looks like you&#8217;re offline."
+msgstr "糟糕！ 您似乎处于离线状态。"
+
+#: dashboard/inc/Main.php:384
+msgid "Typekit(Adobe) Fonts"
+msgstr "Typekit(Adobe) 字体"
+
+#: dashboard/inc/Main.php:380
+msgid "Make your LifterLMS pages look stunning with our PRO design options. Specially created to help you set up your online courses with minimum customizations."
+msgstr "使用我们的专业设计选项，让您的LifterLMS页面看起来非常漂亮。专为帮助您设置在线课程而专门创建的。"
+
+#: dashboard/inc/Main.php:385
+msgid "The module allows for an easy way of enabling new awesome Adobe (previous Typekit) Fonts in Neve's Typography options."
+msgstr "该模块允许在Neve的Typography选项中轻松启用新的Adobe（以前的Typekit）字体。"
+
+#: dashboard/inc/Main.php:379
+msgid "LifterLMS Booster"
+msgstr "LifterLMS Booster"
+
+#: dashboard/inc/Main.php:360
+msgid "Powerful Custom Layouts builder which allows you to easily create your own header, footer or custom content on any of the hook locations available in the theme."
+msgstr "强大的自定义布局构建器，让您可以轻松创建自己的页眉、页脚或自定义内容，在主题中的任何一个挂钩位置上都可以轻松创建。"
+
+#: dashboard/inc/Main.php:355
+msgid "The Page Header is the horizontal area that sits directly below the header and contains the page/post title. Easily design an attractive Page Header area using our dedicated builder."
+msgstr "页眉是位于页眉的正下方的水平区域，包含页面/文章标题。使用我们的专用生成器轻松设计一个有吸引力的页眉区域。 "
+
+#: dashboard/inc/Main.php:354
+msgid "Page Header Builder"
+msgstr "页面页眉生成器"
+
+#. translators: %s link to documentation
+#: header-footer-grid/Core/Builder/Footer.php:41
+#: header-footer-grid/Core/Builder/Header.php:45
+msgid "Design your %1$s by dragging, dropping and resizing all the elements in real-time. %2$s."
+msgstr "通过拖放和调整所有元素的大小，实时设计你的%1$s。%2$s."
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:377
+msgid "Row Background"
+msgstr "行背景"
+
+#: inc/views/partials/post_meta.php:163
+msgid "by"
+msgstr "由"
+
+#: inc/customizer/options/layout_blog.php:463
+msgid "Show Author Avatar"
+msgstr "显示作者头像"
+
+#: inc/customizer/options/layout_blog.php:444
+msgid "Author Avatar"
+msgstr "作者头像"
+
+#: dashboard/inc/Main.php:395
+msgid "Simple but effective module to help you navigate back to the top of the really long pages."
+msgstr "简单但有效的模块，帮助你回到真正长页面的顶部。"
+
+#: dashboard/inc/Main.php:394
+msgid "Scroll To Top"
+msgstr "滚动到顶部"
+
+#: dashboard/inc/Main.php:390
+msgid "For any developer or agency out there building websites for their own clients, we've made it easy to present the theme as your own."
+msgstr "对于任何开发者或代理公司来说，我们为自己的客户建立网站，我们已经很容易将主题作为自己的主题来呈现。"
+
+#: dashboard/inc/Main.php:389
+msgid "White Label"
+msgstr "白标签"
+
+#: dashboard/inc/Main.php:375
+msgid "Wishlist, quick view, video products, advanced reviews, multiple dedicated layouts and many more."
+msgstr "心愿单、快速查看、视频产品、高级评论、多个专属布局等。"
+
+#: dashboard/inc/Main.php:375
+msgid "Empower your online store with awesome new features, specially designed for a smooth WooCommerce integration."
+msgstr "赋予您的在线商店以强大的新功能，专门为顺利集成WooCommerce而设计。"
+
+#: dashboard/inc/Main.php:365
+msgid "Sharing, custom article sorting, comments integrations, number of minutes needed to read an article and many more."
+msgstr "分享，自定义文章排序，评论集成，阅读文章所需的分钟数等等。"
+
+#: dashboard/inc/Main.php:365
+msgid "Give a huge boost to your entire blogging experience with features specially designed for increased user experience."
+msgstr "通过专门为增加用户体验而设计的功能，为您的整个博客体验带来巨大的提升。"
+
+#: dashboard/inc/Main.php:350
+msgid "Take the header builder to a new level with new awesome components: socials, contact, breadcrumbs, language switcher, multiple HTML, sticky and transparent menu, page header builder and many more."
+msgstr "将页眉生成器提升到一个新的水平，有了新的很棒组件：社交信息、联系人、面包屑、语言切换器、多重HTML、置顶和透明菜单、页面页眉生成器等等。"
+
+#: dashboard/inc/Main.php:345
+msgid "Neve is fully compatible with Gutenberg, the new WordPress editor and for all of you page builder fans, Neve has full compatibility with Elementor, Beaver Builder, and all the other popular page builders."
+msgstr "Neve完全兼容Gutenberg，新的WordPress编辑器，对于所有的页面生成器爱好者来说，Neve完全兼容Elementor、Beaver Builder和其他所有流行的页面生成器。"
+
+#: dashboard/inc/Main.php:344
+msgid "Page Builder Compatibility"
+msgstr "页面生成器的兼容性"
+
+#: dashboard/inc/Main.php:340
+msgid "Easily build your header and footer by dragging and dropping all the important elements in the real-time WordPress Customizer. More advanced options are available in PRO."
+msgstr "通过在WordPress的Customizer中实时拖放所有重要的元素，轻松构建您的页眉和页脚。在专业版中还有更多的高级选项。"
+
+#: dashboard/inc/Main.php:339
+msgid "Header/Footer builder"
+msgstr "页眉/页脚生成器"
+
+#: inc/customizer/controls/upsell_control.php:88
+msgid "PRO"
+msgstr "专业版"
+
+#: inc/customizer/options/upsells.php:100 dashboard/inc/Main.php:370
+msgid "Leverage the true flexibility of Elementor with powerful addons and templates that you can import with just one click."
+msgstr "通过强大的附加组件和模板，充分利用Elementor的真正灵活性，您只需点击一下即可导入。"
+
+#: inc/customizer/options/upsells.php:99
+msgid "Easily create custom headers and footers as well as adding your own custom code or content in any of the hooks locations."
+msgstr "轻松创建自定义的页眉和页脚，也可以在任何一个钩子位置添加自己的自定义代码或内容。"
+
+#: inc/customizer/options/upsells.php:46 inc/customizer/options/upsells.php:98
+msgid "Add new awesome header components, sticky and transparent menu, socials, and many more."
+msgstr "添加新的很棒的标题组件，置顶和透明的菜单，社交，等等。"
+
+#: inc/customizer/options/upsells.php:95 dashboard/inc/Main.php:369
+msgid "Elementor Booster"
+msgstr "Elementor 助推器"
+
+#: inc/customizer/options/upsells.php:94
+msgid "Scroll to Top module"
+msgstr "滚动到顶部模块"
+
+#: inc/customizer/options/upsells.php:93
+msgid "White Label module"
+msgstr "白标模块"
+
+#: inc/customizer/options/upsells.php:92 dashboard/inc/Main.php:359
+msgid "Custom Layouts"
+msgstr "自定义布局"
+
+#: inc/customizer/options/upsells.php:91 dashboard/inc/Main.php:374
+msgid "WooCommerce Booster"
+msgstr "WooCommerce Booster"
+
+#: inc/customizer/options/upsells.php:90 dashboard/inc/Main.php:364
+msgid "Blog Booster"
+msgstr "Blog Booster"
+
+#: inc/customizer/options/upsells.php:89 dashboard/inc/Main.php:349
+msgid "Header Booster"
+msgstr "页眉推器"
+
+#: inc/customizer/options/upsells.php:69
+msgid "View PRO Features"
+msgstr "查看PRO功能"
+
+#: inc/customizer/options/buttons.php:148
+msgid "Border radius"
+msgstr "边框圆角"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:205
+#: header-footer-grid/Core/Components/CartIcon.php:167
+msgid "Hover Color"
+msgstr "悬停颜色"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:184
+#: header-footer-grid/Core/Components/CartIcon.php:141
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:45
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:89
+msgid "Color"
+msgstr "颜色"
+
+#: header-footer-grid/Core/Components/Search.php:284
+#: header-footer-grid/Core/Components/SearchResponsive.php:448
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: inc/customizer/options/buttons.php:61 assets/js/src/gutenberg.js:19
+msgid "Secondary"
+msgstr "次要"
+
+#: inc/customizer/options/buttons.php:58 assets/js/src/gutenberg.js:14
+msgid "Primary"
+msgstr "主要"
+
+#: inc/customizer/options/buttons.php:42
+msgid "Buttons"
+msgstr "按钮"
+
+#: header-footer-grid/Core/Settings/Manager.php:185
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:274
+msgid "Style"
+msgstr "样式"
+
+#: header-footer-grid/Core/Components/SecondNav.php:142
+msgid "Select Menu"
+msgstr "选择菜单"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:544
+msgid "Margin"
+msgstr "边距"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:465
+msgid "Left"
+msgstr "左"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:866
+msgid "Bottom"
+msgstr "底部"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:473
+msgid "Right"
+msgstr "右"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:858
+msgid "Top"
+msgstr "顶部"
+
+#: inc/customizer/options/buttons.php:129
+#: header-footer-grid/Core/Components/Abstract_Component.php:518
+msgid "Padding"
+msgstr "填充"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:302
+msgid "Toggle Dropdown"
+msgstr "切换下拉"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:301
+msgid "Slide from Left"
+msgstr "左侧滑入"
+
+#: inc/customizer/options/layout_single_product.php:125
+msgid "All"
+msgstr "所有"
+
+#: inc/customizer/options/layout_single_product.php:92
+msgid "Title"
+msgstr "标题"
+
+#: inc/customizer/options/layout_single_product.php:71
+msgid "Exclusive Products"
+msgstr "独家产品"
+
+#: inc/compatibility/lifter.php:314
+msgid "Catalog Sidebar"
+msgstr "目录边栏"
+
+#: header-footer-grid/Core/Builder/Footer.php:125
+msgid "Footer Bottom"
+msgstr "页脚底部"
+
+#: header-footer-grid/Core/Builder/Footer.php:121
+msgid "Footer Top"
+msgstr "页脚顶部"
+
+#: header-footer-grid/Core/Builder/Header.php:185
+msgid "Header Bottom"
+msgstr "页眉底部"
+
+#: header-footer-grid/Core/Builder/Header.php:181
+msgid "Header Main"
+msgstr "页眉主要"
+
+#: header-footer-grid/Core/Builder/Header.php:177
+msgid "Header Top"
+msgstr "页眉顶部"
+
+#: header-footer-grid/Core/Components/Nav.php:203
+msgid "Last Menu Item"
+msgstr "最后一个菜单项"
+
+#: header-footer-grid/Core/Components/Nav.php:134
+msgid "Active Item Color"
+msgstr "活动项目颜色"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:48
+msgid "Search Icon"
+msgstr "搜索图标"
+
+#: header-footer-grid/Core/Components/Search.php:66
+#: header-footer-grid/Core/Components/SearchResponsive.php:98
+msgid "Placeholder"
+msgstr "占位符"
+
+#: header-footer-grid/Core/Components/Search.php:65
+#: header-footer-grid/Core/Components/Search.php:456
+#: header-footer-grid/Core/Components/Search.php:460
+#: header-footer-grid/Core/Components/SearchResponsive.php:97
+#: header-footer-grid/Core/Components/SearchResponsive.php:670
+#: header-footer-grid/Core/Components/SearchResponsive.php:674
+msgid "Search for..."
+msgstr "搜索..."
+
+#: header-footer-grid/Core/Components/Search.php:42
+msgid "Search Form"
+msgstr "搜索表单"
+
+#: header-footer-grid/Core/Components/NavFooter.php:108
+#: header-footer-grid/Core/Components/Nav.php:155
+#: header-footer-grid/Core/Components/SecondNav.php:109
+msgid "Items Hover Color"
+msgstr "项目悬停颜色"
+
+#: header-footer-grid/Core/Components/NavFooter.php:86
+#: header-footer-grid/Core/Components/Nav.php:113
+#: header-footer-grid/Core/Components/SecondNav.php:86
+msgid "Items Color"
+msgstr "项目颜色"
+
+#: inc/core/front_end.php:73
+#: header-footer-grid/templates/components/component-nav-secondary.php:23
+#: header-footer-grid/Core/Components/SecondNav.php:41
+#: header-footer-grid/Core/Components/SecondNav.php:136
+msgid "Secondary Menu"
+msgstr "二级菜单"
+
+#: header-footer-grid/Core/Components/Copyright.php:36
+#: header-footer-grid/Core/Components/Copyright.php:70
+msgid "Copyright"
+msgstr "版权"
+
+#: header-footer-grid/Core/Components/CartIcon.php:46
+msgid "Cart Icon"
+msgstr "购物车图标"
+
+#: header-footer-grid/Core/Components/Button.php:101
+msgid "Link"
+msgstr "链接"
+
+#: header-footer-grid/Core/Components/Button.php:77
+#: header-footer-grid/Core/Components/Button.php:115
+msgid "Button"
+msgstr "按钮"
+
+#: header-footer-grid/Core/Components/Logo.php:132
+msgid "Show Site Tagline"
+msgstr "显示站点标签行"
+
+#: header-footer-grid/Core/Components/Logo.php:147
+msgid "Show Site Title"
+msgstr "显示站点标题"
+
+#: header-footer-grid/Core/Components/Logo.php:72
+msgid "Logo & Site Identity"
+msgstr "图标与网站标志"
+
+#: header-footer-grid/Core/Components/MenuIcon.php:76
+msgid "Menu Icon"
+msgstr "菜单图标"
+
+#: header-footer-grid/Core/Components/CustomHtml.php:35
+#: header-footer-grid/Core/Components/CustomHtml.php:142
+msgid "HTML"
+msgstr "HTML"
+
+#: inc/views/pluggable/pagination.php:163
+msgid "next"
+msgstr "下一个"
+
+#: inc/views/pluggable/pagination.php:158
+msgid "previous"
+msgstr "上一个"
+
+#: inc/customizer/options/layout_single_post.php:71
+msgid "Post navigation"
+msgstr "文章导航"
+
+#. translators: %s - post type
+#: inc/admin/metabox/manager.php:113
+msgid "%s Settings"
+msgstr "%s设置"
+
+#: inc/core/admin.php:217
+msgid "Return to your dashboard"
+msgstr "返回您的仪表盘"
+
+#. translators: %s - theme name
+#: inc/core/admin.php:204
+msgid "%s is now installed and ready to use. We've assembled some links to get you started."
+msgstr " %s 现已安装并可以使用。我们已经汇集了一些链接来协助您开始使用。"
+
+#: inc/core/admin.php:201
+msgid "Congratulations!"
+msgstr "恭喜！"
+
+#: inc/core/admin.php:223
+msgid "or go to the theme settings"
+msgstr "或转到主题设置"
+
+#: inc/core/admin.php:212
+msgid "Try one of our ready to use Starter Sites"
+msgstr "尝试使用我们准备使用的初学者网站"
+
+#. translators: %s: number of comments
+#: inc/views/partials/post_meta.php:201
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s 评论"
+
+#: functions.php:48
+msgid "upgrading PHP to the latest version"
+msgstr "将PHP升级到最新版本"
+
+#: inc/customizer/options/upsells.php:45 inc/customizer/options/upsells.php:103
+msgid "Get the PRO version!"
+msgstr "获取专业版！"
+
+#: inc/core/admin.php:234
+msgid "Sites Library"
+msgstr "站点库"
+
+#: dashboard/inc/Main.php:128 dashboard/inc/Main.php:129
+msgid "Options"
+msgstr "选项"
+
+#: inc/views/content_404.php:37
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "我们可能无法找到您需要的内容。或许搜索功能可以帮到您。"
+
+#: inc/views/content_none.php:57
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再试。"
+
+#: inc/views/content_none.php:39
+msgid "Get started here"
+msgstr "从这里开始"
+
+#. translators: %s is Link to new post
+#: inc/views/content_none.php:34
+msgid "Ready to publish your first post? %s."
+msgstr "准备好发布第一篇文章了？%s。"
+
+#: inc/views/template_parts.php:259
+msgid "Read More"
+msgstr "阅读更多"
+
+#: inc/customizer/options/layout_single_post.php:70
+#: inc/views/partials/post_meta.php:215
+msgid "Tags"
+msgstr "标签"
+
+#. translators: number of comments
+#: inc/views/partials/comments.php:178
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "《%2$s》有%1$s个想法"
+
+#: inc/views/partials/comments.php:157
+msgid "Comment awaiting moderation."
+msgstr "等待审核的评论。"
+
+#: inc/views/partials/comments.php:144
+msgid "Reply"
+msgstr "回复"
+
+#. translators: 1: date, 2: time
+#: inc/views/partials/comments.php:129
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: inc/views/partials/comments.php:107 inc/views/partials/comments.php:138
+msgid "Edit"
+msgstr "编辑"
+
+#: inc/views/partials/comments.php:105
+msgid "Pingback:"
+msgstr "Pingback："
+
+#: inc/views/partials/comments.php:82
+msgid "Next"
+msgstr "下一篇"
+
+#: inc/views/partials/comments.php:79
+msgid "Previous"
+msgstr "上一篇"
+
+#: inc/views/partials/comments.php:74
+msgid "Comments Navigation"
+msgstr "评论导航"
+
+#: inc/views/partials/comments.php:57
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#. translators: search result
+#: inc/views/page_header.php:73
+msgid "Search Results for: %s"
+msgstr "%s 的搜索结果"
+
+#: header-footer-grid/templates/components/component-menu-icon.php:39
+#: header-footer-grid/templates/row-wrapper-mobile.php:36
+msgid "Toggle Navigation"
+msgstr "切换导航"
+
+#: header-footer-grid/templates/components/component-menu-icon.php:26
+#: header-footer-grid/templates/row-wrapper-mobile.php:26
+msgid "Navigation Menu"
+msgstr "导航菜单"
+
+#: inc/views/layouts/layout_sidebar.php:148 inc/views/header.php:130
+#: header-footer-grid/templates/components/component-cart-icon.php:26
+#: header-footer-grid/Core/Customizer.php:273
+msgid "Close"
+msgstr "关闭"
+
+#: header-footer-grid/Core/Components/Search.php:120
+#: header-footer-grid/Core/Components/SearchResponsive.php:284
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:257
+msgid "Font Size"
+msgstr "字体大小"
+
+#: inc/customizer/options/typography.php:111
+msgid "Headings"
+msgstr "标题"
+
+#: inc/customizer/options/typography.php:107
+#: header-footer-grid/Core/Settings/Manager.php:177
+msgid "General"
+msgstr "常规"
+
+#: inc/customizer/options/main.php:55
+#: header-footer-grid/Core/Components/Abstract_Component.php:777
+msgid "Typography"
+msgstr "排版"
+
+#: header-footer-grid/Core/Builder/Header.php:38
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:507
+msgid "Header"
+msgstr "顶部"
+
+#: inc/customizer/options/layout_single_post.php:84
+msgid "Elements Order"
+msgstr "元素顺序"
+
+#: inc/customizer/options/layout_sidebar.php:323
+msgid "Content Width (%)"
+msgstr "内容宽度 (%)"
+
+#: inc/customizer/options/layout_sidebar.php:224
+msgid "Sidebar Layout"
+msgstr "侧边栏布局"
+
+#: inc/customizer/options/layout_sidebar.php:165
+msgid "Others"
+msgstr "其他"
+
+#: inc/customizer/options/layout_sidebar.php:161
+#: inc/customizer/options/layout_single_product.php:52
+msgid "Single Product"
+msgstr "单产品"
+
+#: inc/customizer/options/layout_sidebar.php:160
+msgid "Shop / Archive"
+msgstr "商店/档案"
+
+#: inc/customizer/options/typography.php:306
+#: inc/customizer/options/layout_sidebar.php:153
+#: inc/customizer/options/layout_single_post.php:42
+msgid "Single Post"
+msgstr "文章页面"
+
+#: inc/customizer/options/layout_sidebar.php:104
+msgid "Enable Advanced Options"
+msgstr "启用高级选项"
+
+#: inc/customizer/options/layout_sidebar.php:81
+msgid "Sitewide Content Width (%)"
+msgstr "全站点内容宽度（％）"
+
+#: inc/customizer/options/layout_sidebar.php:62
+msgid "Sitewide Sidebar Layout"
+msgstr "全站点边栏布局"
+
+#: header-footer-grid/Core/Components/Nav.php:177
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:120
+msgid "Search"
+msgstr "搜索"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:595
+msgid "Section Content"
+msgstr "部分内容"
+
+#. translators: %1$s is Theme Name ( Neve ), %2$s is WordPress
+#: header-footer-grid/Core/Components/Copyright.php:64
+msgid "%1$s | Powered by %2$s"
+msgstr "%1$s | 采用%2$s"
+
+#: header-footer-grid/Core/Components/Button.php:116
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:182
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:189
+msgid "Text"
+msgstr "文本"
+
+#: inc/customizer/options/layout_single_product.php:124
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:201
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:233
+msgid "None"
+msgstr "无"
+
+#: inc/customizer/options/layout_single_post.php:69
+msgid "Content"
+msgstr "内容"
+
+#: header-footer-grid/Core/Builder/Footer.php:34
+#: header-footer-grid/Core/Builder/Footer.php:75
+msgid "Footer"
+msgstr "脚注"
+
+#: inc/customizer/options/layout_container.php:112
+msgid "Single Product Container Style"
+msgstr "单产品容器样式"
+
+#: inc/customizer/options/layout_container.php:108
+msgid "Shop / Archive Container Style"
+msgstr "商店/存档容器样式"
+
+#: inc/customizer/options/layout_container.php:98
+msgid "Single Post Container Style"
+msgstr "文章容器样式"
+
+#: inc/customizer/options/layout_container.php:94
+msgid "Blog / Archive Container Style"
+msgstr "博客/存档容器样式"
+
+#: inc/customizer/options/layout_container.php:90
+msgid "Default Container Style"
+msgstr "默认容器样式"
+
+#: inc/customizer/options/layout_blog.php:298
+msgid "Meta Order"
+msgstr "元排序"
+
+#: inc/customizer/options/layout_blog.php:286
+#: inc/customizer/options/layout_single_post.php:72
+#: inc/views/partials/post_meta.php:128
+msgid "Comments"
+msgstr "评论"
+
+#: inc/customizer/options/layout_blog.php:285
+#: inc/views/partials/post_meta.php:127
+msgid "Date"
+msgstr "日期"
+
+#: inc/customizer/options/layout_blog.php:284
+#: inc/customizer/options/layout_single_product.php:107
+#: inc/views/partials/post_meta.php:126
+msgid "Category"
+msgstr "分类目录"
+
+#: inc/customizer/options/layout_blog.php:283
+#: inc/views/partials/post_meta.php:125
+#: header-footer-grid/Core/Magic_Tags.php:525
+msgid "Author"
+msgstr "作者"
+
+#: inc/customizer/options/layout_blog.php:235
+msgid "Post Content Order"
+msgstr "发布内容订单"
+
+#: inc/customizer/options/layout_blog.php:224
+msgid "Excerpt"
+msgstr "摘要"
+
+#: inc/customizer/options/layout_blog.php:223
+#: inc/customizer/options/layout_single_post.php:67
+msgid "Title & Meta"
+msgstr "标题和元描述"
+
+#: inc/customizer/options/layout_blog.php:222
+#: inc/customizer/options/layout_single_post.php:68
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: inc/customizer/options/layout_blog.php:172
+msgid "Infinite Scroll"
+msgstr "无限滚动"
+
+#: inc/customizer/options/layout_blog.php:171
+msgid "Number"
+msgstr "数字"
+
+#: inc/customizer/options/layout_blog.php:166
+msgid "Post Pagination"
+msgstr "文章分页"
+
+#: inc/customizer/options/layout_blog.php:138
+msgid "Excerpt Length"
+msgstr "摘要长度"
+
+#: inc/customizer/options/layout_blog.php:119
+msgid "Enable Masonry"
+msgstr "启用砌体"
+
+#: inc/customizer/options/layout_blog.php:100
+msgid "4 Columns"
+msgstr "4列"
+
+#: inc/customizer/options/layout_blog.php:99
+msgid "3 Columns"
+msgstr "3列"
+
+#: inc/customizer/options/layout_blog.php:98
+msgid "2 Columns"
+msgstr "2列"
+
+#: inc/customizer/options/layout_blog.php:97
+msgid "1 Column"
+msgstr "1列"
+
+#: inc/customizer/options/layout_blog.php:95
+msgid "Grid Layout"
+msgstr "网格布局"
+
+#: inc/customizer/options/layout_blog.php:66 inc/customizer/options/main.php:51
+#: header-footer-grid/Core/Settings/Manager.php:181
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:296
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:319
+msgid "Layout"
+msgstr "布局"
+
+#: inc/customizer/options/typography.php:115
+#: inc/customizer/options/layout_blog.php:66
+msgid "Blog"
+msgstr "博客"
+
+#: inc/customizer/options/layout_sidebar.php:152
+#: inc/customizer/options/layout_blog.php:47
+msgid "Blog / Archive"
+msgstr "博客/存档"
+
+#: inc/customizer/options/colors_background.php:42
+msgid "Colors & Background"
+msgstr "颜色和背景"
+
+#. translators: %s is the header name
+#: header-footer-grid/Core/Customizer.php:265
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:59
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:169
+#: assets/js/src/gutenberg.js:9
+msgid "Default"
+msgstr "默认"
+
+#: inc/core/front_end.php:503
+#: header-footer-grid/Core/Components/FooterWidgetFour.php:32
+msgid "Footer Four"
+msgstr "脚注 4"
+
+#: inc/core/front_end.php:502
+#: header-footer-grid/Core/Components/FooterWidgetThree.php:31
+msgid "Footer Three"
+msgstr "脚注 3"
+
+#: inc/core/front_end.php:501
+#: header-footer-grid/Core/Components/FooterWidgetTwo.php:32
+msgid "Footer Two"
+msgstr "脚注 2"
+
+#: inc/core/front_end.php:500
+#: header-footer-grid/Core/Components/FooterWidgetOne.php:31
+msgid "Footer One"
+msgstr "脚注 1"
+
+#: inc/core/front_end.php:494
+msgid "Shop Sidebar"
+msgstr "商店侧边栏"
+
+#: inc/customizer/options/colors_background.php:66 inc/core/front_end.php:179
+#: header-footer-grid/Core/Components/CustomHtml.php:158
+#: header-footer-grid/Core/Components/Logo.php:205
+#: header-footer-grid/Core/Components/Copyright.php:84
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:401
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: inc/customizer/options/colors_background.php:61 inc/core/front_end.php:175
+msgid "Link Hover Color"
+msgstr "链接悬停颜色"
+
+#: inc/customizer/options/colors_background.php:56 inc/core/front_end.php:171
+msgid "Link Color"
+msgstr "链接颜色"
+
+#: inc/core/front_end.php:167
+msgid "Button Color"
+msgstr "按钮颜色"
+
+#: inc/core/front_end.php:158
+msgid "White"
+msgstr "白"
+
+#: inc/core/front_end.php:149
+msgid "Black"
+msgstr "黑"
+
+#. translators: %s - Theme name
+#: dashboard/inc/Main.php:202
+msgid "With %s, you can choose from multiple unique demos, specially designed for you, that can be installed with a single click. You just need to choose your favorite, and we will take care of everything else."
+msgstr "使用 %s，您可以从多个专门为您设计的独特演示中进行选择，只需单击即可安装。 您只需要选择喜欢的，其他的我们都会处理。"
+
+#: inc/core/front_end.php:72
+#: header-footer-grid/templates/components/component-nav-footer.php:23
+#: header-footer-grid/Core/Components/NavFooter.php:41
+#: header-footer-grid/Core/Components/NavFooter.php:138
+msgid "Footer Menu"
+msgstr "脚注菜单"
+
+#: inc/core/front_end.php:71
+#: header-footer-grid/templates/components/component-nav.php:25
+#: header-footer-grid/Core/Components/Nav.php:43
+#: header-footer-grid/Core/Components/Nav.php:221
+msgid "Primary Menu"
+msgstr "主菜单"
+
+#: inc/customizer/options/layout_sidebar.php:43 dashboard/inc/Main.php:325
+msgid "Content / Sidebar"
+msgstr "内容/边栏"
+
+#: dashboard/inc/Main.php:321
+msgid "Footer Options"
+msgstr "脚注选项"
+
+#: dashboard/inc/Main.php:317
+msgid "Blog Layouts"
+msgstr "博客布局"
+
+#: dashboard/inc/Main.php:313
+msgid "Header Options"
+msgstr "页头选项"
+
+#: dashboard/inc/Main.php:309
+msgid "Layout Options"
+msgstr "布局选项"
+
+#: dashboard/inc/Main.php:305
+msgid "Customize Fonts"
+msgstr "自定义字体"
+
+#: dashboard/inc/Main.php:301
+msgid "Set Colors"
+msgstr "设置颜色"
+
+#: dashboard/inc/Main.php:297
+msgid "Upload Logo"
+msgstr "上传Logo"
+
+#: inc/core/admin.php:246 header-footer-grid/Core/Builder/Footer.php:47
+#: header-footer-grid/Core/Builder/Header.php:51
+msgid "Read full documentation"
+msgstr "参考完整的文档"
+
+#. translators: %s - theme name
+#. translators: %s - Theme name
+#: inc/core/admin.php:244 dashboard/inc/Main.php:206
+msgid "Need more details? Please check our full documentation for detailed information on how to use %s."
+msgstr "需要更多细节吗？请查看我们的完整文档，了解如何使用%s的详细信息 。"
+
+#. translators: %s - Theme name
+#: dashboard/inc/Main.php:204
+msgid "We want to make sure you have the best experience using %1$s, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using %1$s as much as we enjoy creating great products."
+msgstr "我们希望能确保您使用%1$s获得最佳体验，这就是我们为您收集所有必要信息的原因。我们希望您喜欢使用%1$s，因为我们喜欢创造出色的产品。"
+
+#: inc/core/admin.php:242
+msgid "Documentation"
+msgstr "文档"
+
+#. translators: %s - theme name
+#. translators: %s - Theme name
+#: inc/core/admin.php:236 dashboard/inc/Main.php:198
+msgid "%s now comes with a sites library with various designs to pick from. Visit our collection of demos that are constantly being added."
+msgstr " %s 现在附带了一个可以选择各种设计的站点库。访问我们不断添加的演示集。"
+
+#: inc/views/header.php:165
+#: header-footer-grid/templates/components/component-cart-icon.php:50
+#: header-footer-grid/Core/Components/Nav.php:182
+#: header-footer-grid/Core/Magic_Tags.php:580
+msgid "Cart"
+msgstr "购物车"
+
+#: inc/compatibility/woocommerce.php:356
+msgid "Filter"
+msgstr "筛选"
+
+#: inc/admin/plugin_install/main.php:176
+msgid "Activating "
+msgstr "激活中"
+
+#: inc/admin/plugin_install/main.php:133
+msgid "Jetpack Portfolio"
+msgstr "JETPACK套件"
+
+#: inc/admin/plugin_install/main.php:128
+msgid "Deactivate"
+msgstr "停用"
+
+#: inc/admin/plugin_install/main.php:113 inc/admin/plugin_install/main.php:133
+msgid "Activate"
+msgstr "激活"
+
+#: inc/admin/plugin_install/main.php:109
+msgid "Install and activate"
+msgstr "安装并激活"
+
+#: inc/admin/metabox/main.php:56 inc/core/front_end.php:493
+msgid "Sidebar"
+msgstr "边栏"
+
+#: inc/admin/metabox/main.php:54
+msgid "No Sidebar"
+msgstr "无侧边栏"
+
+#: inc/admin/metabox/main.php:53
+msgid "Right Sidebar"
+msgstr "边栏在右侧"
+
+#: inc/admin/metabox/main.php:52
+msgid "Left Sidebar"
+msgstr "边栏在左侧"
+
+#: inc/admin/metabox/main.php:41 inc/customizer/options/layout_container.php:43
+msgid "Container"
+msgstr "容器"
+
+#: inc/admin/metabox/main.php:39
+#: inc/customizer/options/layout_container.php:134
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:324
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:325
+msgid "Full Width"
+msgstr "全宽"
+
+#: inc/admin/metabox/main.php:38
+#: inc/customizer/options/layout_container.php:133
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:324
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:326
+msgid "Contained"
+msgstr "包含"
+
+#: inc/admin/metabox/main.php:37 inc/admin/metabox/main.php:51
+msgid "Customizer Setting"
+msgstr "自定义设置"
+
+#: inc/admin/metabox/main.php:88
+msgid "Disable Footer"
+msgstr "禁用页脚"
+
+#: inc/admin/metabox/main.php:82
+msgid "Disable Featured Image"
+msgstr "禁用特色图片"
+
+#: inc/admin/metabox/main.php:76
+msgid "Disable Title"
+msgstr "禁用标题"
+
+#: inc/admin/metabox/main.php:71
+msgid "Disable Header"
+msgstr "禁用页眉"
+
+#: inc/admin/metabox/main.php:70
+msgid "Components"
+msgstr "组件"
+
+#: inc/admin/metabox/main.php:129
+msgid "Enable Individual Content Width"
+msgstr "启用单个内容宽度"
+
+#: inc/admin/metabox/main.php:128
+msgid "Content Width"
+msgstr "内容宽度"
+
+#: header.php:31
+msgid "Skip to content"
+msgstr "跳至正文"
+
+#. translators: %s message to upgrade PHP to the latest version
+#: functions.php:44
+msgid "Hey, we've noticed that you're running an outdated version of PHP which is no longer supported. Make sure your site is fast and secure, by %s. Neve's minimal requirement is PHP 5.4.0."
+msgstr "嘿，我们注意到您正在运行一个不再受支持的过时版本的PHP。按 %s 确保您的站点快速安全。 Neve的最低要求是PHP 5.4.0。"

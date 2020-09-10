@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WP Mail SMTP by WPForms - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-24 01:42:15+0000\n"
+"PO-Revision-Date: 2020-09-03 12:51:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,6 +14,10 @@ msgstr ""
 #: src/SiteHealth.php:140
 msgid "None selected"
 msgstr "未选择"
+
+#: src/SiteHealth.php:124
+msgid "M j, Y @ g:ia"
+msgstr "Y年n月j日@ H：i"
 
 #: src/SiteHealth.php:123
 msgid "Lite install date"
@@ -60,6 +64,10 @@ msgstr "关闭此消息"
 msgid "Plugin icon"
 msgstr "插件图标"
 
+#: src/Admin/Pages/SettingsTab.php:167
+msgid "Gmail mailer will automatically force From Email to be the email address that you selected above."
+msgstr "Gmail邮件程序会自动强制将 \"发件人地址 \"改为你在上面选择的邮件地址。"
+
 #: src/Admin/Pages/SettingsTab.php:120
 msgid "Please first authorize the Gmail mailer below"
 msgstr "请先授权下方的Gmail邮件程序。"
@@ -67,10 +75,6 @@ msgstr "请先授权下方的Gmail邮件程序。"
 #: src/SiteHealth.php:243
 msgid "WP Mail SMTP is using custom database tables for some of its features. In order to work properly, the custom tables should be created, and it seems they are missing. Please try to re-install the WP Mail SMTP plugin. If this issue persists, please contact our support."
 msgstr "WP Mail SMTP的一些功能会使用到自定义数据库表。 为了使其正常运行，需要创建自定义的数据库表，但这些数据库表似乎已缺少。 请尝试重新安装WP Mail SMTP插件。 如果问题仍然存在，请联系我们寻求支持。"
-
-#: src/Admin/Pages/SettingsTab.php:167
-msgid "Gmail mailer will automatically force From Email to be the email address that you selected above."
-msgstr "Gmail邮件程序会自动强制将 \"发件人地址 \"改为你在上面选择的邮件地址。"
 
 #. translators: %s - the list of missing tables separated by comma.
 #: src/SiteHealth.php:240
@@ -354,17 +358,17 @@ msgstr "Api 密钥:"
 msgid "Premium Support"
 msgstr "高级支持"
 
-#: src/Admin/Pages/SettingsTab.php:292
-msgid "Don't see what you're looking for?"
-msgstr "没找到你需要的？"
+#: src/Admin/Area.php:868
+msgid "Go to WP Mail SMTP Lite vs Pro comparison page"
+msgstr "转至WP Mail SMTP Lite vs Pro对比页"
 
 #: src/Admin/Area.php:861
 msgid "Go to WP Mail SMTP Settings page"
 msgstr "转至WP Mail SMTP设置页"
 
-#: src/Admin/Area.php:868
-msgid "Go to WP Mail SMTP Lite vs Pro comparison page"
-msgstr "转至WP Mail SMTP Lite vs Pro对比页"
+#: src/Admin/Pages/SettingsTab.php:292
+msgid "Don't see what you're looking for?"
+msgstr "没找到你需要的？"
 
 #. translators: %1$s - opening link tag; %2$s - closing link tag; %3$s -
 #. opening link tag; %4$s - closing link tag.
@@ -630,6 +634,10 @@ msgstr "Gmail邮件程序适用于发送少量电子邮件的网站。 但是，
 #: src/Providers/OptionsAbstract.php:429
 msgid "Meanwhile you can switch to some other mailers."
 msgstr "同时，您也可以改用其他的邮件程序。"
+
+#. Plugin URI of the plugin
+msgid "https://wpmailsmtp.com/"
+msgstr "https://wpmailsmtp.com/"
 
 #: src/Providers/Gmail/Auth.php:182
 msgid "There was an error while processing the Google authentication request. Please make sure that you have Client ID and Client Secret both valid and saved."
@@ -1796,6 +1804,18 @@ msgstr "一般"
 #: src/Admin/Pages/MiscTab.php:25
 msgid "Misc"
 msgstr "其他"
+
+#. Author of the plugin
+msgid "WPForms"
+msgstr "WPForms"
+
+#. Description of the plugin
+msgid "Reconfigures the <code>wp_mail()</code> function to use Gmail/Mailgun/SendGrid/SMTP instead of the default <code>mail()</code> and creates an options page to manage the settings."
+msgstr "重新配置<code>wp_mail()</code>功能以使用Gmail/Mailgun/SendGrid/SMTP而不是默认的<code>mail()</code>，并创建一个选项页面来管理设置。"
+
+#. Author URI of the plugin
+msgid "https://wpforms.com/"
+msgstr "https://wpforms.com/"
 
 #. Plugin Name of the plugin
 #: src/Admin/Area.php:203 src/Admin/Area.php:204 src/SiteHealth.php:40
