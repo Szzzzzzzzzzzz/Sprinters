@@ -9,6 +9,19 @@ Theme: Vantage
 Plugin: Elementor
   
 ## Update Record 
+### Ver 2.05 Iteration 2  
+10/9/2020
+Insert Indian timeline and Australian timeline
+### Ver 2.04 Iteration 2  
+10/9/2020
+Build Children Vaccination page.
+Finish framework build.
+### Ver 2.03 Iteration 2  
+9/9/2020
+Translate texts in chinese.
+### Ver 2.02 Iteration 2  
+9/9/2020
+Build About MHR page in chinese.
 ### Ver 2.01 Iteration 2  
 6/9/2020  
 Change the background color of Top&Bottom navigation bar;
