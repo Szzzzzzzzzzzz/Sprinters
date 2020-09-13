@@ -18,7 +18,7 @@ Put the information of 'Tetanus' into the 'Vaccination Information' part in the
 Put the information of 'Diphtheria' into the 'Vaccination Information' part in the Children Vaccination page.
 ### Ver 2.06 Iteration 2  
 13/9/2020
-Put the information of Hepatitis B into the 'Vaccination Information' part in the Children Vaccination page.
+Put the information of 'Hepatitis B' into the 'Vaccination Information' part in the Children Vaccination page.
 ### Ver 2.05 Iteration 2  
 10/9/2020
 Insert Indian timeline and Australian timeline
