@@ -10,6 +10,9 @@ Plugin: Elementor
   
 ## Update Record 
 
+### Ver 2.08 Iteration 2  
+13/9/2020
+Put the information of 'Tetanus' into the 'Vaccination Information' part in the Children Vaccination page.
 ### Ver 2.07 Iteration 2  
 13/9/2020
 Put the information of Diphtheria into the 'Vaccination Information' part in the Children Vaccination page.
