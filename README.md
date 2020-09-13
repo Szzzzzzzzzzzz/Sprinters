@@ -12,7 +12,7 @@ Plugin: Elementor
 
 ### Ver 2.09 Iteration 2  
 13/9/2020
-Put the information of Whooping cough (pertussis) into the 'Vaccination Information' part in the Children Vaccination page.
+Put the information of 'Whooping cough (pertussis)' into the 'Vaccination Information' part in the Children Vaccination page.
 ### Ver 2.08 Iteration 2  
 13/9/2020
 Put the information of 'Tetanus' into the 'Vaccination Information' part in the Children Vaccination page.
