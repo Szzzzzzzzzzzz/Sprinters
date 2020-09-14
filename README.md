@@ -10,6 +10,9 @@ Plugin: Elementor
   
 ## Update Record 
 
+### Ver 2.18 Iteration 2  
+14/9/2020
+change the font size of title 'Compare Your Country With Australia' part in the Children Vaccination page.
 ### Ver 2.17 Iteration 2  
 14/9/2020
 Put the information of 'Hepatitis A' into the 'Vaccination Information' part in the Children Vaccination page.
