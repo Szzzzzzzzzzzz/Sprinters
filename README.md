@@ -8,9 +8,20 @@ Home Page: http://healthsprinters.me/
 Theme: Vantage  
 Plugin: Elementor
   
-## Update Record 
-
-
+## Update Record  
+### Ver 2.25 Iteration 2  
+15/9/2020
+Change the visualization part.
+### Ver 2.24 Iteration 2  
+14/9/2020
+Change the vaccination picture for each country.
+Add visualization part.
+### Ver 2.23 Iteration 2  
+14/9/2020
+Add info on CHILDREN VACCINATION page.
+### Ver 2.22 Iteration 2  
+14/9/2020
+Build the Guide to Access Immunisation Record on MHR page.
 ### Ver 2.21 Iteration 2  
 14/9/2020
 finish 'Compare Your Country With Australia' part in the Children Vaccination page.
