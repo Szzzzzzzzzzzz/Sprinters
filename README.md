@@ -8,13 +8,17 @@ Home Page: http://healthsprinters.me/
 Theme: Vantage  
 Plugin: Elementor
   
-## Update Record  
+## Update Record 
+
+### Ver 2.26 Iteration 2  
+15/9/2020
+Change the Setup Account page'name to Guide to Setup Account.
 ### Ver 2.25 Iteration 2  
 15/9/2020
 Change the visualization part.
 ### Ver 2.24 Iteration 2  
 14/9/2020
-Change the vaccination picture for each country.
+Change the vaccination picture for AUS country.
 Add visualization part.
 ### Ver 2.23 Iteration 2  
 14/9/2020
