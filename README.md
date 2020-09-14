@@ -10,6 +10,9 @@ Plugin: Elementor
   
 ## Update Record 
 
+### Ver 2.16 Iteration 2  
+14/9/2020
+Put the information of 'Mumps' into the 'Vaccination Information' part in the Children Vaccination page.
 ### Ver 2.15 Iteration 2  
 14/9/2020
 Put the information of 'Measles' into the 'Vaccination Information' part in the Children Vaccination page.
