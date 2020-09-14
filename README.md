@@ -10,6 +10,9 @@ Plugin: Elementor
   
 ## Update Record 
 
+### Ver 2.13 Iteration 2  
+14/9/2020
+Put the information of 'Pneumococcal disease' into the 'Vaccination Information' part in the Children Vaccination page.
 ### Ver 2.12 Iteration 2  
 14/9/2020
 Put the information of 'Rotavirus' into the 'Vaccination Information' part in the Children Vaccination page.
