@@ -10,6 +10,9 @@ Plugin: Elementor
   
 ## Update Record 
 
+### Ver 2.27 Iteration 2  
+15/9/2020
+Modify the button's css style in CHILDREN VACCINATION'page.
 ### Ver 2.26 Iteration 2  
 15/9/2020
 Change the Setup Account page'name to Guide to Setup Account.
