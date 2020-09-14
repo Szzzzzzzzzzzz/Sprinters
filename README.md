@@ -1,4 +1,4 @@
-# Sprinters  
+# TA13 Sprinters  
 
 ## Project name: MigMealth  
 ## Description： 
@@ -9,6 +9,69 @@ Theme: Vantage
 Plugin: Elementor
   
 ## Update Record 
+
+
+### Ver 2.21 Iteration 2  
+14/9/2020
+finish 'Compare Your Country With Australia' part in the Children Vaccination page.
+### Ver 2.20 Iteration 2  
+14/9/2020
+change the background color of the top in the Children Vaccination page.
+### Ver 2.19 Iteration 2  
+14/9/2020
+change the font size of title 'Vaccination Information' part in the Children Vaccination page.
+### Ver 2.18 Iteration 2  
+14/9/2020
+change the font size of title 'Compare Your Country With Australia' part in the Children Vaccination page.
+### Ver 2.17 Iteration 2  
+14/9/2020
+Put the information of 'Hepatitis A' into the 'Vaccination Information' part in the Children Vaccination page.
+### Ver 2.16 Iteration 2  
+14/9/2020
+Put the information of 'Mumps' into the 'Vaccination Information' part in the Children Vaccination page.
+### Ver 2.15 Iteration 2  
+14/9/2020
+Put the information of 'Measles' into the 'Vaccination Information' part in the Children Vaccination page.
+### Ver 2.14 Iteration 2  
+14/9/2020
+Put the information of 'Meningococcal disease' into the 'Vaccination Information' part in the Children Vaccination page.
+### Ver 2.13 Iteration 2  
+14/9/2020
+Put the information of 'Pneumococcal disease' into the 'Vaccination Information' part in the Children Vaccination page.
+### Ver 2.12 Iteration 2  
+14/9/2020
+Put the information of 'Rotavirus' into the 'Vaccination Information' part in the Children Vaccination page.
+### Ver 2.11 Iteration 2  
+14/9/2020
+Put the information of 'Hib' into the 'Vaccination Information' part in the Children Vaccination page.
+### Ver 2.10 Iteration 2  
+14/9/2020
+Put the information of 'Polio' into the 'Vaccination Information' part in the Children Vaccination page.
+### Ver 2.09 Iteration 2  
+13/9/2020
+Put the information of 'Whooping cough (pertussis)' into the 'Vaccination Information' part in the Children Vaccination page.
+### Ver 2.08 Iteration 2  
+13/9/2020
+Put the information of 'Tetanus' into the 'Vaccination Information' part in the Children Vaccination page.
+### Ver 2.07 Iteration 2  
+13/9/2020
+Put the information of 'Diphtheria' into the 'Vaccination Information' part in the Children Vaccination page.
+### Ver 2.06 Iteration 2  
+13/9/2020
+Put the information of 'Hepatitis B' into the 'Vaccination Information' part in the Children Vaccination page.
+### Ver 2.05 Iteration 2  
+10/9/2020
+Insert Indian timeline and Australian timeline
+### Ver 2.04 Iteration 2  
+10/9/2020
+Build Children Vaccination page.
+Finish framework build.
+### Ver 2.03 Iteration 2  
+9/9/2020
+Translate texts in chinese.
+### Ver 2.02 Iteration 2  
+9/9/2020
+Build About MHR page in chinese.
 ### Ver 2.01 Iteration 2  
 6/9/2020  
 Change the background color of Top&Bottom navigation bar;
