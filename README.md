@@ -12,7 +12,7 @@ Plugin: Elementor
 
 ### Ver 2.28 Iteration 2  
 15/9/2020
-Modify the button's css style in GUIDE TO SETUP ACCOUNT'page.
+Modify the button's css style in GUIDE TO SETUP ACCOUNT's page.
 ### Ver 2.27 Iteration 2  
 15/9/2020
 Modify the button's css style in CHILDREN VACCINATION's page.
