@@ -10,9 +10,13 @@ Plugin: Elementor
   
 ## Update Record 
 
-### Ver 2.20 Iteration 2  
+
+### Ver 2.21 Iteration 2  
 14/9/2020
 finish 'Compare Your Country With Australia' part in the Children Vaccination page.
+### Ver 2.20 Iteration 2  
+14/9/2020
+change the background color of the top in the Children Vaccination page.
 ### Ver 2.19 Iteration 2  
 14/9/2020
 change the font size of title 'Vaccination Information' part in the Children Vaccination page.
