@@ -10,6 +10,9 @@ Plugin: Elementor
   
 ## Update Record 
 
+### Ver 2.11 Iteration 2  
+14/9/2020
+Put the information of 'Hib' into the 'Vaccination Information' part in the Children Vaccination page.
 ### Ver 2.10 Iteration 2  
 14/9/2020
 Put the information of 'Polio' into the 'Vaccination Information' part in the Children Vaccination page.
