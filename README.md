@@ -9,7 +9,9 @@ Theme: Vantage
 Plugin: Elementor
   
 ## Update Record 
-
+### Ver 2.30 Iteration 2 
+15/9/2020
+Create Children vaccination content on the Home page and put a link to Children vaccination page
 ### Ver 2.29 Iteration 2  
 15/9/2020
 Modify the content's CSS style in CHILDREN VACCINATION's page.
