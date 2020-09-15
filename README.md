@@ -9,6 +9,10 @@ Theme: Vantage
 Plugin: Elementor
   
 ## Update Record 
+
+### Ver 2.31 Iteration 2 
+15/9/2020
+Create a button at the bottom in the About MHR page link to the Guide to setup account page.
 ### Ver 2.30 Iteration 2 
 15/9/2020
 Create Children vaccination content on the Home page and put a link to Children vaccination page
