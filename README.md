@@ -10,7 +10,7 @@ Plugin: Elementor
   
 ## Update Record 
 
-### Ver 2.28 Iteration 2  
+### Ver 2.29 Iteration 2  
 15/9/2020
 Modify the content's CSS style in CHILDREN VACCINATION's page.
 ### Ver 2.28 Iteration 2  
