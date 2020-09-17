@@ -9,7 +9,13 @@ Theme: Vantage
 Plugin: Elementor
   
 ## Update Record 
-
+### Ver 2.34 Iteration 2 
+15/9/2020 
+Rebuild the Guide to Managing Vaccination on My Health Record part design.
+### Ver 2.33 Iteration 2 
+15/9/2020 
+Fix the Visualization part problem.
+Adjust the content on Children Vaccination page.
 ### Ver 2.32 Iteration 2 
 15/9/2020 
 Create a button at the bottom in the Guide to setup account page link to the Children Vaccination page.
