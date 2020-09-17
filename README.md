@@ -10,7 +10,40 @@ Plugin: Elementor
   
 ## Update Record 
 
-
+### Ver 2.32 Iteration 2 
+15/9/2020 
+Create a button at the bottom in the Guide to setup account page link to the Children Vaccination page.
+### Ver 2.31 Iteration 2 
+15/9/2020
+Create a button at the bottom in the About MHR page link to the Guide to setup account page.
+### Ver 2.30 Iteration 2 
+15/9/2020
+Create Children vaccination content on the Home page and put a link to Children vaccination page
+### Ver 2.29 Iteration 2  
+15/9/2020
+Modify the content's CSS style in CHILDREN VACCINATION's page.
+### Ver 2.28 Iteration 2  
+15/9/2020
+Modify the button's CSS style in GUIDE TO SETUP ACCOUNT's page.
+### Ver 2.27 Iteration 2  
+15/9/2020
+Modify the button's CSS style in CHILDREN VACCINATION's page.
+### Ver 2.26 Iteration 2  
+15/9/2020
+Change the Setup Account page'name to Guide to Setup Account.
+### Ver 2.25 Iteration 2  
+15/9/2020
+Change the visualization part.
+### Ver 2.24 Iteration 2  
+14/9/2020
+Change the vaccination picture for AUS country.
+Add visualization part.
+### Ver 2.23 Iteration 2  
+14/9/2020
+Add info on CHILDREN VACCINATION page.
+### Ver 2.22 Iteration 2  
+14/9/2020
+Build the Guide to Access Immunisation Record on MHR page.
 ### Ver 2.21 Iteration 2  
 14/9/2020
 finish 'Compare Your Country With Australia' part in the Children Vaccination page.
