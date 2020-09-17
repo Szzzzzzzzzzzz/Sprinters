@@ -17,10 +17,10 @@ Rebuild the Guide to Managing Vaccination on My Health Record part design.
 Fix the Visualization part problem.
 Adjust the content on Children Vaccination page.
 ### Ver 2.32 Iteration 2 
-15/9/2020 
+17/9/2020 
 Create a button at the bottom in the Guide to setup account page link to the Children Vaccination page.
 ### Ver 2.31 Iteration 2 
-15/9/2020
+17/9/2020
 Create a button at the bottom in the About MHR page link to the Guide to setup account page.
 ### Ver 2.30 Iteration 2 
 15/9/2020
