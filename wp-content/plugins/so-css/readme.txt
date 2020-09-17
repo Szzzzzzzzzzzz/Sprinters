@@ -2,8 +2,8 @@
 Tags: css, design, edit, customize
 Requires at least: 3.9
 Tested up to: 5.5
-Stable tag: 1.2.9
-Build time: 2020-07-29T14:15:29+02:00
+Stable tag: 1.2.10
+Build time: 2020-09-09T16:23:43+02:00
 License: GPLv2 or later
 Contributors: gpriday
 Donate link: https://siteorigin.com/downloads/premium/
@@ -64,6 +64,9 @@ We're actively developing SiteOrigin CSS. Keep track of what's happening over on
 We offer free support on the [SiteOrigin support forums](https://siteorigin.com/thread/).
 
 == Changelog ==
+
+= 1.2.10 - 09 September 2020 =
+* Increased the specificity of the Save CSS button styling to prevent plugin conflicts.
 
 = 1.2.9 - 29 July 2020 =
 * Resolved Font Family field output.

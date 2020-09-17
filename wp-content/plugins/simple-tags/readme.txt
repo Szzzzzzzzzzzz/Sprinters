@@ -1,34 +1,28 @@
-=== Simple Tags ===
-
-Contributors: momo360modena, rahe, beapi, nicolaskulka
-Donate link: http://beapi.fr/donate/
-Tags: tag, posts, tags, admin, administration, tagging, navigation, terms, taxonomy
+=== Simple Tags - Advanced Tags & Terms Manager ===
+Contributors: WebFactory, UnderConstructionPage, wpreset
+Tags: tag, tags, taxonomy, term, cpt, tagging, navigation
 Requires at least: 3.3
-Tested up to: 5.2
-Stable tag: 2.5.7
+Tested up to: 5.5
+Stable tag: 2.6
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Extended Tagging for WordPress : Terms suggestion, Mass Edit Terms, Auto link Terms, Ajax Autocompletion, Click Terms, Advanced manage terms, etc.
+Advanced Tagging & Tag Manager. Terms suggestion, Mass Edit Terms, Auto link Terms. Easy tag manager!
 
 == Description ==
 
 Extended Tagging for WordPress : Terms suggestion, Mass Edit Terms, Auto link Terms, Ajax Autocompletion, Click Terms, Advanced manage terms, etc.
 
-Github project homepage: https://github.com/BeAPI/simple-tags
-
-**This is THE perfect tool to manage perfectly your WP terms for any taxonomy**
+**The perfect tool to manage your WP terms for any taxonomy**
 
 It was written with this philosophy : best performances, more secured and brings a lot of new functions
 
-This plugin is developped on latest WordPress version, with the constant WP_DEBUG to TRUE.
-
 * Administration
 	* Tags suggestion from Yahoo! Content Analysis, OpenCalais, Alchemy, Zemanta, Tag The Net, Tag4Site, dataTXT and local terms with AJAX request 
-		* Compatible with TinyMCE, FCKeditor, WYMeditor and QuickTags
+	* Compatible with TinyMCE, FCKeditor, WYMeditor and QuickTags
 	* tags management (rename, delete, merge, search and add tags, edit tags ID)
-	* **Edit mass tags (more than 50 posts once)**
+	* **Edit mass tags (more than 50 posts at once)**
 	* Auto link tags in post content
 	* Auto tags !
 	* Type-ahead input tags / Autocompletion Ajax
@@ -75,6 +69,14 @@ The Simple Tags can be installed in 3 easy steps:
 
 == Changelog ==
 
+v2.6 - 2020-09-10
+* fixes for WP v5.5
+* WebFactory took over maintenance of the plugin
+* 80,000 installs; 2,203,335 downloads
+
+* Version 2.5.8
+	* Fix issue that prevent Suggested Tags from working
+  * Fix OpenCalais issue (thanks @timbearcub for the help)
 * Version 2.5.6
 	* Github actions...
 * Version 2.5.6

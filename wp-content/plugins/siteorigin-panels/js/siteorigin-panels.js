@@ -554,14 +554,30 @@ module.exports = panels.view.dialog.extend( {
 		c.find( '.so-export' ).submit( function ( e ) {
 			var $$ = $( this );
 			var panelsData = thisView.builder.model.getPanelsData();
-			var postName = $('input[name="post_title"]').val();
+			var postName = $( 'input[name="post_title"], .editor-post-title__input' ).val();
 			if ( ! postName ) {
 				postName = $('input[name="post_ID"]').val();
+			} else if ( typeof wp.data != 'undefined' ) {
+				var currentBlockPosition = thisView.getCurrentBlockPosition();
+				if ( currentBlockPosition >= 0 ) {
+					postName += '-' + currentBlockPosition; 
+				}
+
 			}
 			panelsData.name = postName;
 			$$.find( 'input[name="panels_export_data"]' ).val( JSON.stringify( panelsData ) );
 		} );
 
+	},
+
+	/**
+	 * Return current block index.
+	 */
+	getCurrentBlockPosition: function() {
+		var selectedBlockClientId = wp.data.select( 'core/block-editor' ).getSelectedBlockClientId();
+		return wp.data.select( 'core/block-editor' ).getBlocks().findIndex( function ( block ) {
+		  return block.clientId === selectedBlockClientId;
+		} );
 	},
 
 	/**
@@ -1894,7 +1910,7 @@ module.exports = panels.view.dialog.extend( {
 
 } );
 
-},{"../view/widgets/js-widget":31}],10:[function(require,module,exports){
+},{"../view/widgets/js-widget":32}],10:[function(require,module,exports){
 var panels = window.panels, $ = jQuery;
 
 module.exports = panels.view.dialog.extend( {
@@ -2204,6 +2220,17 @@ module.exports = {
 
 },{}],12:[function(require,module,exports){
 module.exports = {
+	isBlockEditor: function() {
+		return typeof wp.blocks !== 'undefined';
+	},
+
+	isClassicEditor: function( builder ) {
+		return builder.attachedToEditor && builder.$el.is( ':visible' );
+	},
+}
+
+},{}],13:[function(require,module,exports){
+module.exports = {
 	/**
 	 * Lock window scrolling for the main overlay
 	 */
@@ -2249,7 +2276,7 @@ module.exports = {
 	},
 };
 
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 /*
 This is a modified version of https://github.com/underdogio/backbone-serialize/
 */
@@ -2360,7 +2387,7 @@ module.exports = {
 	}
 };
 
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 module.exports = {
 
 	generateUUID: function(){
@@ -2397,7 +2424,7 @@ module.exports = {
 
 }
 
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 /* global _, jQuery, panels */
 
 var panels = window.panels, $ = jQuery;
@@ -2486,7 +2513,7 @@ module.exports = function ( config, force ) {
 	} );
 };
 
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 /**
  * Everything we need for SiteOrigin Page Builder.
  *
@@ -2506,6 +2533,7 @@ window.siteoriginPanels = panels;
 panels.helpers = {};
 panels.helpers.clipboard = require( './helpers/clipboard' );
 panels.helpers.utils = require( './helpers/utils' );
+panels.helpers.editor = require( './helpers/editor' );
 panels.helpers.serialize = require( './helpers/serialize' );
 panels.helpers.pageScroll = require( './helpers/page-scroll' );
 
@@ -2660,7 +2688,7 @@ jQuery( function ( $ ) {
 	});
 } );
 
-},{"./collection/cells":1,"./collection/history-entries":2,"./collection/rows":3,"./collection/widgets":4,"./dialog/builder":5,"./dialog/history":6,"./dialog/prebuilt":7,"./dialog/row":8,"./dialog/widget":9,"./dialog/widgets":10,"./helpers/clipboard":11,"./helpers/page-scroll":12,"./helpers/serialize":13,"./helpers/utils":14,"./jquery/setup-builder-widget":15,"./model/builder":17,"./model/cell":18,"./model/history-entry":19,"./model/row":20,"./model/widget":21,"./utils/menu":22,"./view/builder":23,"./view/cell":24,"./view/dialog":25,"./view/live-editor":26,"./view/row":27,"./view/styles":28,"./view/widget":29}],17:[function(require,module,exports){
+},{"./collection/cells":1,"./collection/history-entries":2,"./collection/rows":3,"./collection/widgets":4,"./dialog/builder":5,"./dialog/history":6,"./dialog/prebuilt":7,"./dialog/row":8,"./dialog/widget":9,"./dialog/widgets":10,"./helpers/clipboard":11,"./helpers/editor":12,"./helpers/page-scroll":13,"./helpers/serialize":14,"./helpers/utils":15,"./jquery/setup-builder-widget":16,"./model/builder":18,"./model/cell":19,"./model/history-entry":20,"./model/row":21,"./model/widget":22,"./utils/menu":23,"./view/builder":24,"./view/cell":25,"./view/dialog":26,"./view/live-editor":27,"./view/row":28,"./view/styles":29,"./view/widget":30}],18:[function(require,module,exports){
 module.exports = Backbone.Model.extend({
 	layoutPosition: {
 		BEFORE: 'before',
@@ -3202,7 +3230,7 @@ module.exports = Backbone.Model.extend({
 	}
 } );
 
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 module.exports = Backbone.Model.extend( {
 	/* A collection of widgets */
 	widgets: {},
@@ -3259,7 +3287,7 @@ module.exports = Backbone.Model.extend( {
 
 } );
 
-},{}],19:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 module.exports = Backbone.Model.extend( {
 	defaults: {
 		text: '',
@@ -3269,7 +3297,7 @@ module.exports = Backbone.Model.extend( {
 	}
 } );
 
-},{}],20:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 module.exports = Backbone.Model.extend( {
 	/* The builder model */
 	builder: null,
@@ -3393,7 +3421,7 @@ module.exports = Backbone.Model.extend( {
 	}
 } );
 
-},{}],21:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 /**
  * Model for an instance of a widget
  */
@@ -3597,7 +3625,7 @@ module.exports = Backbone.Model.extend( {
 
 } );
 
-},{}],22:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 var panels = window.panels, $ = jQuery;
 
 module.exports = Backbone.View.extend( {
@@ -3918,7 +3946,7 @@ module.exports = Backbone.View.extend( {
 
 } );
 
-},{}],23:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 var panels = window.panels, $ = jQuery;
 
 module.exports = Backbone.View.extend( {
@@ -4652,8 +4680,7 @@ module.exports = Backbone.View.extend( {
 	handleContentChange: function () {
 
 		// Make sure we actually need to copy content.
-		if ( panelsOptions.copy_content && this.attachedToEditor && this.$el.is( ':visible' ) ) {
-
+		if ( panelsOptions.copy_content	&& ( panels.helpers.editor.isBlockEditor() || panels.helpers.editor.isClassicEditor( this ) ) ) {
 			var panelsData = this.model.getPanelsData();
 			if ( !_.isEmpty( panelsData.widgets ) ) {
 				// We're going to create a copy of page builder content into the post content
@@ -4665,11 +4692,13 @@ module.exports = Backbone.View.extend( {
 						post_id: this.config.postId
 					},
 					function ( content ) {
+						// Post content doesn't need to be generated on load while contentPreview does.
+						if ( this.contentPreview && content.post_content !== '' ) {
+							this.updateEditorContent( content.post_content );
+						}
+
 						if ( content.preview !== '' ) {
 							this.contentPreview = content.preview;
-						}
-						if ( content.post_content !== '' ) {
-							this.updateEditorContent( content.post_content );
 						}
 					}.bind( this )
 				);
@@ -4891,7 +4920,7 @@ module.exports = Backbone.View.extend( {
 	},
 } );
 
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 var panels = window.panels, $ = jQuery;
 
 module.exports = Backbone.View.extend( {
@@ -5279,7 +5308,7 @@ module.exports = Backbone.View.extend( {
 	}
 } );
 
-},{}],25:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 var panels = window.panels, $ = jQuery;
 
 module.exports = Backbone.View.extend( {
@@ -5886,7 +5915,7 @@ module.exports = Backbone.View.extend( {
 	
 } );
 
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 var panels = window.panels, $ = jQuery;
 
 module.exports = Backbone.View.extend( {
@@ -6315,7 +6344,7 @@ module.exports = Backbone.View.extend( {
 	}
 } );
 
-},{}],27:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 var panels = window.panels, $ = jQuery;
 
 module.exports = Backbone.View.extend( {
@@ -6726,7 +6755,7 @@ module.exports = Backbone.View.extend( {
 	},
 } );
 
-},{}],28:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 var panels = window.panels, $ = jQuery;
 
 module.exports = Backbone.View.extend( {
@@ -7024,7 +7053,7 @@ module.exports = Backbone.View.extend( {
 
 } );
 
-},{}],29:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 var panels = window.panels, $ = jQuery;
 
 module.exports = Backbone.View.extend( {
@@ -7038,7 +7067,9 @@ module.exports = Backbone.View.extend( {
 
 	events: {
 		'click .widget-edit': 'editHandler',
+		'touchend .widget-edit': 'editHandler',
 		'click .title h4': 'editHandler',
+		'touchend .title h4': 'editHandler',
 		'click .actions .widget-duplicate': 'duplicateHandler',
 		'click .actions .widget-delete': 'deleteHandler'
 	},
@@ -7316,7 +7347,7 @@ module.exports = Backbone.View.extend( {
 
 } );
 
-},{}],30:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 var $ = jQuery;
 
 var customHtmlWidget = {
@@ -7343,7 +7374,7 @@ var customHtmlWidget = {
 
 module.exports = customHtmlWidget;
 
-},{}],31:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 var customHtmlWidget = require( './custom-html-widget' );
 var mediaWidget = require( './media-widget' );
 var textWidget = require( './text-widget' );
@@ -7381,7 +7412,7 @@ var jsWidget = {
 
 module.exports = jsWidget;
 
-},{"./custom-html-widget":30,"./media-widget":32,"./text-widget":33}],32:[function(require,module,exports){
+},{"./custom-html-widget":31,"./media-widget":33,"./text-widget":34}],33:[function(require,module,exports){
 var $ = jQuery;
 
 var mediaWidget = {
@@ -7421,7 +7452,7 @@ var mediaWidget = {
 
 module.exports = mediaWidget;
 
-},{}],33:[function(require,module,exports){
+},{}],34:[function(require,module,exports){
 var $ = jQuery;
 
 var textWidget = {
@@ -7465,4 +7496,4 @@ var textWidget = {
 
 module.exports = textWidget;
 
-},{}]},{},[16]);
+},{}]},{},[17]);

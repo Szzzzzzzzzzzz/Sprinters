@@ -14,7 +14,7 @@ class SimpleTags_Admin {
 	 * Initialize Admin
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public function __construct() {
 		// DB Upgrade ?
@@ -203,7 +203,7 @@ class SimpleTags_Admin {
 	 * Make a public static function for call it from children class...
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function register_taxonomy() {
 		add_action( 'init', array( __CLASS__, 'init' ), 99999999 );
@@ -213,7 +213,7 @@ class SimpleTags_Admin {
 	 * Put in var class the current taxonomy choose by the user
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function init() {
 		self::$taxo_name      = __( 'Post tags', 'simpletags' );
@@ -269,7 +269,7 @@ class SimpleTags_Admin {
 	 * @param string $page_value
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function boxSelectorTaxonomy( $page_value = '' ) {
 		echo '<div class="box-selector-taxonomy">' . PHP_EOL;
@@ -313,7 +313,7 @@ class SimpleTags_Admin {
 	 * Init somes JS and CSS need for simple tags.
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function admin_enqueue_scripts() {
 		global $pagenow;
@@ -354,7 +354,7 @@ class SimpleTags_Admin {
 	 * Add settings page on WordPress admin menu
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function admin_menu() {
 		add_options_page(
@@ -374,7 +374,7 @@ class SimpleTags_Admin {
 	 * Build HTML for page options, manage also save/reset settings
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function page_options() {
 		// Get options
@@ -414,7 +414,7 @@ class SimpleTags_Admin {
 	 * @param integer $post_id
 	 *
 	 * @return string
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function getTermsToEdit( $taxonomy = 'post_tag', $post_id = 0 ) {
 		$post_id = (int) $post_id;
@@ -439,7 +439,7 @@ class SimpleTags_Admin {
 	 * Default content for meta box of Simple Tags
 	 *
 	 * @return string
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function getDefaultContentBox() {
 		if ( (int) wp_count_terms( 'post_tag', array( 'hide_empty' => false ) ) == 0 ) { // TODO: Custom taxonomy
@@ -453,11 +453,11 @@ class SimpleTags_Admin {
 	 * A short public static function for display the same copyright on all admin pages
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function printAdminFooter() {
 		?>
-		<p class="footer_st"><?php printf( __( '&copy; Copyright 2007-2019 <a href="http://www.herewithme.fr/" title="Here With Me">Amaury Balmer</a> | <a href="http://wordpress.org/extend/plugins/simple-tags">Simple Tags</a> | Version %s', 'simpletags' ), STAGS_VERSION ); ?></p>
+		<p class="footer_st"><?php printf( __( '&copy; Copyright 2007-2020 <a href="https://www.webfactoryltd.com/" >WebFactory Ltd</a> | <a href="https://wordpress.org/plugins/simple-tags/">Simple Tags</a> | Version %s', 'simpletags' ), STAGS_VERSION ); ?></p>
 		<?php
 	}
 
@@ -467,7 +467,7 @@ class SimpleTags_Admin {
 	 * @param array $option_data
 	 *
 	 * @return string
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function print_options( $option_data ) {
 		// Get options
@@ -586,7 +586,7 @@ class SimpleTags_Admin {
 	 * TODO, useful or delete ?
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function upgrade() {
 		// Get current version number
@@ -625,7 +625,7 @@ class SimpleTags_Admin {
 	 * @param string $order
 	 *
 	 * @return array
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function getTermsForAjax( $taxonomy = 'post_tag', $search = '', $order_by = 'name', $order = 'ASC' ) {
 		global $wpdb;

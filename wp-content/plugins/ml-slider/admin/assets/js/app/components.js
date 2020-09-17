@@ -8,7 +8,7 @@ import { ThemeViewer } from './themes'
 import { Preview } from './previews'
 import { SlideViewer, Slide, Caption, PreviewImport, DragDropImport, External } from './slides'
 import { SettingsViewer, Title } from './slideshows/settings'
-import { Feedback, Shortcode, UtilityModal } from './extra'
+import { Shortcode, UtilityModal } from './extra'
 import Switcher from './slideshows/nav/Switcher.vue'
 import Drawer from './slideshows/nav/Drawer.vue'
 
@@ -22,7 +22,6 @@ Vue.component('metaslider-theme-viewer', ThemeViewer)
 Vue.component('metaslider-preview', Preview)
 Vue.component('metaslider-external', External)
 Vue.component('metaslider-shortcode', Shortcode)
-Vue.component('metaslider-feedback', Feedback)
 Vue.component('metaslider-utility-modal', UtilityModal)
 Vue.component('metaslider-dragdrop-import', DragDropImport)
 Vue.component('metaslider-switcher', Switcher)

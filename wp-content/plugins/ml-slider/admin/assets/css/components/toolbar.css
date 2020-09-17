@@ -6,12 +6,7 @@
 	&:focus {
 		@apply text-gray-darker !important;
 	}
-	&.disabled {
+	&.disabled, &.disabled * {
 		@apply text-gray-light !important;
-	}
-	span {
-		@apply text-xs !important;
-		padding-top: 0.35rem !important;
-		white-space: nowrap !important;
 	}
 }

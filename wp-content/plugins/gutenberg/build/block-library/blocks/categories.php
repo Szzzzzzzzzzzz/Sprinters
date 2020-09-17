@@ -33,7 +33,13 @@ function gutenberg_render_block_core_categories( $attributes ) {
 		$type                     = 'dropdown';
 
 		if ( ! is_admin() ) {
-			$wrapper_markup .= gutenberg_build_dropdown_script_block_core_categories( $id );
+			// Inject the dropdown script immediately after the select dropdown.
+			$items_markup = preg_replace(
+				'#(?<=</select>)#',
+				gutenberg_build_dropdown_script_block_core_categories( $id ),
+				$items_markup,
+				1
+			);
 		}
 	} else {
 		$wrapper_markup = '<ul class="%1$s">%2$s</ul>';

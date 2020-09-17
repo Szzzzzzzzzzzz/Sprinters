@@ -41,14 +41,14 @@ return array(
 			__( 'Advanced Manage Terms', 'simpletags' ),
 			'checkbox',
 			'1',
-			__( 'This feature allow to edit, merge, delete, add terms for any taxonomy. Please consider the plugin <a href="http://wordpress.org/extend/plugins/term-management-tools/" target="_blank">Term Management Tools</a> if you only need to merge terms.', 'simpletags' )
+			__( 'This feature allow to edit, merge, delete, add terms for any taxonomy. Please consider the plugin <a href="http://wordpress.org/plugins/term-management-tools/" target="_blank">Term Management Tools</a> if you only need to merge terms.', 'simpletags' )
 		),
 		array(
 			'active_related_posts',
 			__( 'Related posts by terms', 'simpletags' ),
 			'checkbox',
 			'1',
-			__( 'This feature allow to display related posts with terms relation. Please consider plugins <a href="http://wordpress.org/extend/plugins/similar-posts/" target="_blank">Similar Posts</a> or <a href="http://wordpress.org/extend/plugins/yet-another-related-posts-plugin/" target="_blank">Yet Another Related Posts Plugin</a> for better results and performance.', 'simpletags' )
+			__( 'This feature allow to display related posts with terms relation. Please consider plugins <a href="http://wordpress.org/plugins/similar-posts/" target="_blank">Similar Posts</a> or <a href="http://wordpress.org/plugins/yet-another-related-posts-plugin/" target="_blank">Yet Another Related Posts Plugin</a> for better results and performance.', 'simpletags' )
 		),
 		array(
 			'active_autotags',
@@ -122,7 +122,7 @@ return array(
 			__( 'OpenCalais API Key', 'simpletags' ),
 			'text',
 			'regular-text',
-			__( 'You can create an API key from <a href="http://www.opencalais.com/">service website</a>', 'simpletags' )
+			__( 'You can create an API key from <a href="https://iamui.thomsonreuters.com/iamui/UI/createUser?app_id=Bold&realm=Bold&realm=Bold&lang=en">service website</a>', 'simpletags' )
 		),
 		array(
 			'alchemy_api',
@@ -315,7 +315,7 @@ return array(
 			__( 'Tag link format:', 'simpletags' ),
 			'text',
 			'widefat',
-			__( 'You can find markers and explanations <a href="https://github.com/herewithme/simple-tags/wiki/Theme-functions-Integration">in the online documentation.</a>', 'simpletags' )
+			__( 'You can find markers and explanations <a href="https://wordpress.org/plugins/simple-tags/wiki/Theme-functions-Integration">in the online documentation.</a>', 'simpletags' )
 		),
 		array(
 			'cloud_limit_qty',
@@ -363,7 +363,7 @@ return array(
 			__( '<strong>Advanced usage</strong>:', 'simpletags' ),
 			'text',
 			'widefat',
-			__( 'You can use the same syntax as <code>st_tag_cloud()</code> public static function to customize display. See <a href="https://github.com/herewithme/simple-tags/wiki/Theme-functions-Integration">documentation</a> for more details.', 'simpletags' )
+			__( 'You can use the same syntax as <code>st_tag_cloud()</code> public static function to customize display. See <a href="https://wordpress.org/plugins/simple-tags/wiki/Theme-functions-Integration">documentation</a> for more details.', 'simpletags' )
 		)
 	),
 	'tagspost'       => array(
@@ -398,7 +398,7 @@ return array(
 			__( 'Tag link format:', 'simpletags' ),
 			'text',
 			'widefat',
-			__( 'You can find markers and explanations <a href="https://github.com/herewithme/simple-tags/wiki/Theme-functions-Integration">in the online documentation.</a>', 'simpletags' )
+			__( 'You can find markers and explanations <a href="https://wordpress.org/plugins/simple-tags/wiki/Theme-functions-Integration">in the online documentation.</a>', 'simpletags' )
 		),
 		array( 'tt_notagstext', __( 'Text to display if no tags found:', 'simpletags' ), 'text', 'widefat' ),
 		array(
@@ -406,7 +406,7 @@ return array(
 			__( '<strong>Advanced usage</strong>:', 'simpletags' ),
 			'text',
 			'widefat',
-			__( 'You can use the same syntax as <code>st_the_tags()</code> public static function to customize display. See <a href="https://github.com/herewithme/simple-tags/wiki/Theme-functions-Integration">documentation</a> for more details.', 'simpletags' )
+			__( 'You can use the same syntax as <code>st_the_tags()</code> public static function to customize display. See <a href="https://wordpress.org/plugins/simple-tags/wiki/Theme-functions-Integration">documentation</a> for more details.', 'simpletags' )
 		)
 	),
 	'relatedposts'   => array(
@@ -453,7 +453,7 @@ return array(
 			__( 'Post link format:', 'simpletags' ),
 			'text',
 			'widefat',
-			__( 'You can find markers and explanations <a href="https://github.com/herewithme/simple-tags/wiki/Theme-functions-Integration">in the online documentation.</a>', 'simpletags' )
+			__( 'You can find markers and explanations <a href="https://wordpress.org/plugins/simple-tags/wiki/Theme-functions-Integration">in the online documentation.</a>', 'simpletags' )
 		),
 		array(
 			'rp_limit_qty',
@@ -478,7 +478,7 @@ return array(
 			__( '<strong>Advanced usage</strong>:', 'simpletags' ),
 			'text',
 			'widefat',
-			__( 'You can use the same syntax as <code>st_related_posts()</code>public static function to customize display. See <a href="https://github.com/herewithme/simple-tags/wiki/Theme-functions-Integration">documentation</a> for more details.', 'simpletags' )
+			__( 'You can use the same syntax as <code>st_related_posts()</code>public static function to customize display. See <a href="https://wordpress.org/plugins/simple-tags/wiki/Theme-functions-Integration">documentation</a> for more details.', 'simpletags' )
 		)
 	),
 	'metakeywords'   => array(
@@ -489,9 +489,9 @@ return array(
 			'',
 			__( 'This feature has been removed from Simple Tags because it is not relevant enough and there are better plugins like<br />', 'simpletags' )
 			. '<ul style="list-style:square;margin-left:20px;">
-				<li><a href="http://wordpress.org/extend/plugins/seo-ultimate/" target="_blank">SEO Ultimate</a></li>
-				<li><a href="http://wordpress.org/extend/plugins/platinum-seo-pack/" target="_blank">Platinum SEO Pack</a></li>
-				<li><a href="http://wordpress.org/extend/plugins/wordpress-seo/" target="_blank">WordPress SEO by Yoast</a></li>
+				<li><a href="http://wordpress.org/plugins/seo-ultimate/" target="_blank">SEO Ultimate</a></li>
+				<li><a href="http://wordpress.org/plugins/platinum-seo-pack/" target="_blank">Platinum SEO Pack</a></li>
+				<li><a href="http://wordpress.org/plugins/wordpress-seo/" target="_blank">WordPress SEO by Yoast</a></li>
 			</ul>'
 		)
 	),
@@ -503,7 +503,7 @@ return array(
 			'',
 			__( 'This feature has been removed from Simple Tags because it is not relevant enough and there are better plugins like<br />', 'simpletags' )
 			. '<ul style="list-style:square;margin-left:20px;">
-				<li><a href="http://wordpress.org/extend/plugins/query-multiple-taxonomies/" target="_blank">Query Multiple Taxonomies</a></li>
+				<li><a href="http://wordpress.org/plugins/query-multiple-taxonomies/" target="_blank">Query Multiple Taxonomies</a></li>
 			</ul>'
 		)
 	),

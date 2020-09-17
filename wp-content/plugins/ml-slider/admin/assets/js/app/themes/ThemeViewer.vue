@@ -16,7 +16,9 @@
 			<p
 				v-if="(hasThemeSet && unsupportedSliderType)"
 				class="slider-not-supported-warning">
-				<font-awesome-icon icon="exclamation-triangle"/>
+                <svg class="inline w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
 				{{ __('This theme is not officially supported by the slider you chose. Your results might vary.', 'ml-slider') }}
 			</p>
 
@@ -77,13 +79,13 @@
 				:pulse-on-block="false"
 				overlay-theme="dark"
 				@close="is_open = false">
-				<i
+				<button
 					slot="box-action"
-					class="close-x"
-					@click="$refs.themesModal.close()">
-					<font-awesome-icon
-						icon="times"/>
-				</i>
+					@click.prevent="$refs.themesModal.close()">
+                    <svg class="w-6 -mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+				</button>
 				<sweet-modal-tab
 					id="free"
 					:title="__('Themes', 'ml-slider')">
@@ -110,19 +112,6 @@
 												:alt="theme.title">
 										</span>
 									</li>
-									<!-- <li class="ms-theme-more">
-										<span>
-											<div>
-												{{ __('More themes coming soon!', 'ml-slider') }}
-												<small v-text="__('Let us know what you think', 'ml-slider')"/>
-												<metaslider-feedback
-													:show="true"
-													:support-url="supportLink"
-													style-type="regular"
-												/>
-											</div>
-										</span>
-									</li> -->
 								</ul>
 							</div>
 							<div class="theme-details-column">
@@ -167,9 +156,7 @@
 					</template>
 					<template v-else>
 						<div v-if="loading">
-							<font-awesome-icon
-								icon="spinner"
-								spin/> {{ __('Loading...', 'ml-slider') }}
+                            {{ __('Loading...', 'ml-slider') }}
 						</div>
 						<div
 							v-else
@@ -190,9 +177,7 @@
 						</p>
 					</template>
 					<div v-if="loadingCustom">
-						<font-awesome-icon
-							icon="spinner"
-							spin/> {{ __('Loading...', 'ml-slider') }}
+                        {{ __('Loading...', 'ml-slider') }}
 					</div>
 					<template v-if="!Object.keys(customThemes).length && proUser && !loadingCustom">
 						<h1>{{ __('The pro add-on pack is installed!', 'ml-slider') }}</h1>
@@ -233,20 +218,20 @@
 						<span
 							v-if="sliderTypeNotSupported"
 							class="slider-not-supported-warning">
-							<font-awesome-icon icon="exclamation-triangle"/>
+                            <svg class="inline w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                            </svg>
 							{{ __('This theme is not officially supported by the slider you chose. Your results might vary.', 'ml-slider') }}</span>
 					</div>
-					<div>
+					<div class="flex items-center">
 						<button
 							:title="__('Preview slideshow', 'ml-slider')"
-							class="metaslider-preview ml-button ml-has-icon ml-skinless-button tipsy-tooltip-top mt-2"
+							class="flex items-center m-0 mr-1 text-gray-darker"
 							@click.prevent="openPreview">
-							<i style="top:7px">
-								<font-awesome-icon
-									transform="grow-2"
-									icon="eye"/>
-							</i>
-							<span>{{ __('Preview', 'ml-slider') }}</span>
+                            <svg class="w-6 inline mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                            </svg>
+                            {{ __('Preview', 'ml-slider') }}
 						</button>
 						<button
 							:disabled="!selectedTheme.folder"
@@ -344,10 +329,10 @@ export default {
 		// TODO: when converting settings to vue, this could be removed
 		document.querySelectorAll('input[name="settings[type]"]').forEach(sliderType => {
 			sliderType.addEventListener('click', event => {
-				
+
 				// TODO: Settings - once reactive, refactor this
 				this.updateSupportedStatus()
-				
+
 				// hack to work with non-vue (refreshes computed properties)
 				this.hoveredTheme = {}
 				this.hoveredTheme = this.selectedTheme || this.current.theme
@@ -372,7 +357,8 @@ export default {
 				this.notifyError('metaslider/theme-error', error, true)
 			})
 
-			// Custom themes
+            // Custom themes
+            this.loadingCustom = this.proUser
 			this.proUser && Axios.get('themes/custom', {
 				params: {
 					action: 'ms_get_custom_themes'

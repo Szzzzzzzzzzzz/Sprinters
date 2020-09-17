@@ -57,25 +57,21 @@
 	<div
 		@click="focusInput()"
 		:class="{ 'pointer-events-none': focused }"
-		class="absolute inset-y-0 left-0 pl-4 rtl:left-auto rtl:right-0 rtl:pr-4 rtl:pl-0 flex items-center text-gray-dark">
-		<font-awesome-icon
-			v-if="!searching"
-			transform=""
-			icon="bars"
-			class="cursor-pointer"/>
-		<font-awesome-icon
-			v-else
-			transform=""
-			icon="spinner"
-			class="fa-spin"/>
+		class="absolute inset-y-0 left-0 pl-3 rtl:left-auto rtl:right-0 rtl:pr-3 rtl:pl-0 flex items-center text-gray-dark">
+        <svg v-if="!searching" class="mt-px w-4 cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <svg v-else class="mt-px w-4 ms-spin" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
 	</div>
 	<div
 		@click="resetInput()"
 		:class="{ invisible: !searchTerm.length }"
-		class="absolute inset-y-0 right-0 rtl:right-auto rtl:left-0 pr-4 rtl:pl-4 rtl:pr-0 flex items-center text-gray-dark">
-		<font-awesome-icon
-			icon="times"
-			class="cursor-pointer"/>
+		class="absolute inset-y-0 right-0 rtl:right-auto rtl:left-0 pr-3 rtl:pl-3 rtl:pr-0 flex items-center text-gray-dark">
+        <svg class="w-4 mt-px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
 	</div>
 </div>
 </template>
@@ -123,8 +119,8 @@ export default {
 	computed: {
 		summaryText() {
 			if (!this.slideshows.length) return ''
-			const message = this.slideshows.length == 1 ? 
-					this.__('Viewing 1 slideshow', 'ml-slider') : 
+			const message = this.slideshows.length == 1 ?
+					this.__('Viewing 1 slideshow', 'ml-slider') :
 					this.__('Viewing %s out of %s slideshows', 'ml-slider')
 			return this.sprintf(message, this.slideshows.length, this.totalSlideshows)
 		},
@@ -176,7 +172,7 @@ export default {
 			if (!this.slideshows.length) return
 
 			event.preventDefault()
-			
+
 			window.location.replace(this.metasliderPage + '&id=' + this.slideshows[this.selectedSlideshow].id)
 		},
 		navigateSlideshows(event, handler) {

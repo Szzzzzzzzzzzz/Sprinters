@@ -1,5 +1,7 @@
-<?php if (!defined('ABSPATH')) die('No direct access.');
-/** 
+<?php if (!defined('ABSPATH')) {
+    die('No direct access.');
+}
+/**
  * The shortcode module
  */
 ?>
@@ -10,12 +12,6 @@
 
 			<div class="m-0 flex">
 				<button @click.prevent="useTitle = !useTitle" class="flex items-end">
-					<i v-if="useTitle" class="text-blue-light mr-1 flex">
-						<font-awesome-icon transform="grow-2" icon="toggle-on" />
-					</i>
-					<i v-else class="text-gray mr-1 rtl:mr-0 rtl:ml-1 flex">
-						<font-awesome-icon transform="grow-2" icon="toggle-off" />
-					</i>
 					<?php _e("Toggle title", "ml-slider"); ?>
 				</button>
 			</div>
@@ -28,10 +24,11 @@
 
 			<div class="flex mt-4 justify-between">
 				<p class="m-0"><?php _e('Click shortcode to copy', 'ml-slider'); ?></p>
-				<button @click.prevent="copyAll()" class="text-xs" title="<?php _e("Copy all code", "ml-slider"); ?>">
-					<i class="text-gray mr-1 rtl:mr-0 rtl:ml-1">
-						<font-awesome-icon transform="grow-2" icon="copy" />
-					</i><?php _e("Copy all", "ml-slider"); ?>
+				<button @click.prevent="copyAll()" class="text-xs flex items-center" title="<?php _e("Copy all code", "ml-slider"); ?>">
+                    <svg class="text-gray mr-px rtl:mr-0 rtl:ml-px w-4 inline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" />
+                    </svg>
+                    <?php _e("Copy all", "ml-slider"); ?>
 				</button>
 			</div>
 

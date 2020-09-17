@@ -9,7 +9,7 @@ class SimpleTags_Client_Autolinks {
 	 * Constructor
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public function __construct() {
 		$auto_link_priority = SimpleTags_Plugin::get_option_value( 'auto_link_priority' );

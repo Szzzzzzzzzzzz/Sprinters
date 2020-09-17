@@ -12,7 +12,10 @@
 				<template v-if="importing" slot="button">{{ __('Importing...', 'ml-slider') }}</template>
 				<template v-else-if="processing" slot="button">{{ __('Processing...', 'ml-slider') }}</template>
 				<template v-else slot="button">
-					<font-awesome-icon icon="upload" class="mr-2" />{{ __('Upload file', 'ml-slider') }}
+					<svg class="w-5 -ml-1 pr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                    </svg>
+                    {{ __('Upload file', 'ml-slider') }}
 				</template>
 			</file-button>
 		</template>
@@ -53,7 +56,7 @@
 		<template slot="description3">
 			<transition name="settings-fade" mode="in-out">
 				<div v-if="!procesingImages && missingImages.length">
-					{{ __('Note: You can still import slideshows that contain missing images. You will just need to manually update or delete these slides them from their individual slideshow edit pages.', 'ml-slider') }}
+					{{ __('Note: You can still import slideshows that contain missing images. You will just need to manually update or delete these slides from their individual slideshow edit pages.', 'ml-slider') }}
 				</div>
 			</transition>
 		</template>
@@ -238,7 +241,7 @@ export default {
 				this.slideshowsListSelection = slideshowsListSelection
 
 				this.notifySuccess(
-					'metaslider/all-slideshows-from-file-loaded', 
+					'metaslider/all-slideshows-from-file-loaded',
 					this.sprintf(
 						this.__('Found %s slideshows', 'ml-slider'),
 						Object.keys(this.slideshowsList).length
@@ -253,12 +256,12 @@ export default {
 			this.procesingImages = true
 			Image.findIdFromFilename(JSON.stringify(filenames)).then(response => {
 				const images = response.data.data
-				
+
 				// Create lookup table for thumbnails
 				Object.keys(images).forEach(filename => {
 					images[filename] && this.$set(this.imageThumbnails, images[filename].id, images[filename].thumbnail)
 				})
-				
+
 				// Set the ID on the slides so they will be properly imported
 				Object.keys(this.slideshowsList).forEach(slideshow => {
 					if (this.slideshowsList[slideshow].slides) {
@@ -332,7 +335,7 @@ export default {
 					this.__('Importing %s slideshows...', 'ml-slider'),
 					this.slideshowsToImport.length
 				), true)
-			
+
 			Slideshow.import(JSON.stringify([...slideshowData])).then(response => {
 				this.notifySuccess(
 					'metaslider-importing-slideshows-success',

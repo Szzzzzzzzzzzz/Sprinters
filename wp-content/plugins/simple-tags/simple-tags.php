@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: Simple Tags
-Plugin URI: https://github.com/herewithme/simple-tags
-Description: Extended Tagging for WordPress : Terms suggestion, Mass Edit Terms, Auto link Terms, Ajax Autocompletion, Click Terms, Advanced manage terms, etc.
-Version: 2.5.7
+Plugin URI: https://wordpress.org/plugins/simple-tags/
+Description: Extended Tag Manager. Terms suggestion, Mass Edit Terms, Auto link Terms, Ajax Autocompletion, Click Terms, Advanced manage terms, etc.
+Version: 2.6
 Requires PHP: 5.6
-Author: Amaury BALMER
-Author URI: http://www.herewithme.fr
+Author: WebFactory Ltd
+Author URI: https://www.webfactoryltd.com/
 Text Domain: simpletags
 
-Copyright 2013-2019 - Amaury BALMER (amaury@balmer.fr)
+Copyright 2013-2020  WebFactory Ltd  (email: support@webfactoryltd.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -35,7 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
-define( 'STAGS_VERSION', '2.5.7' );
+define( 'STAGS_VERSION', '2.6' );
 define( 'STAGS_MIN_PHP_VERSION', '5.6' );
 define( 'STAGS_OPTIONS_NAME', 'simpletags' ); // Option name for save settings
 define( 'STAGS_OPTIONS_NAME_AUTO', 'simpletags-auto' ); // Option name for save settings auto terms

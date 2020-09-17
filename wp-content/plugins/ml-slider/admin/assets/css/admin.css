@@ -355,7 +355,7 @@ eventually be removed/refactored */
     outline: none;
 }
 .metaslider .right .slider-lib-row {
-    padding: 17px 0 9px 0;
+    padding: 0 0 9px 0;
     text-align: center;
 }
 

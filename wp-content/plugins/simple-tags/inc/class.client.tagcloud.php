@@ -235,7 +235,7 @@ class SimpleTags_Client_TagCloud {
 	 * @param boolean $force_single
 	 *
 	 * @return array|string
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function _get_current_taxonomy( $taxonomies, $force_single = false ) {
 		if ( is_array( $taxonomies ) ) {
@@ -294,7 +294,7 @@ class SimpleTags_Client_TagCloud {
 	 * @param string $key
 	 *
 	 * @return string
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function compatOldOrder( $old_value = '', $key = '' ) {
 		$return = array();

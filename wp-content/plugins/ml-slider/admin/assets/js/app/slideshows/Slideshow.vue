@@ -3,7 +3,7 @@ import { Axios, Slideshow, Settings } from '../api'
 import { EventManager } from '../utils'
 import QS from 'qs'
 import Swal from 'sweetalert2'
-import { mapGetters } from 'vuex'
+import { mapGetters, mapState } from 'vuex'
 import { MainTour } from '../tour'
 
 export default {
@@ -30,8 +30,11 @@ export default {
 	computed: {
 		...mapGetters({
 			current: 'slideshows/getCurrent'
-		})
-	},
+        }),
+        ...mapState({
+		    locked: state => state.slideshows.locked
+        }),
+    },
 	created() {
 		window.metaslider_slider_id = this.id // used in admin.js
 		this.$store.commit('slideshows/setCurrent', this.id)

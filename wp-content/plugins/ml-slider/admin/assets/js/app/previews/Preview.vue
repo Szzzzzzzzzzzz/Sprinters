@@ -13,57 +13,73 @@
 			hide-close-button>
 			<div
 				slot="box-action"
-				class="ms-preview-toolbar">
-				<h2 class="ms-preview-title bg-orange text-white flex items-center h-full m-0 pl-6 pr-8 relative overflow-hidden uppercase text-sm font-medium">
-					<span>{{ __('Preview', 'ml-slider') }}</span>
-				</h2>
-				<div class="ms-preview-tools">
-					<i
-						:title="__('Toggle overlay type', 'ml-slider') + ' (L)'"
-						class="lightbulb tipsy-tooltip-bottom"
-						@click="toggleLights">
-						<font-awesome-icon
-							icon="lightbulb"/>
-					</i>
-					<i
-						:title="__('Toggle full width', 'ml-slider') + ' (F)'"
-						:class="{'active': showFullwidth}"
-						class="tipsy-tooltip-bottom"
-						@click="toggleFullwidth">
-						<font-awesome-icon
-							:icon="showFullwidth ? 'compress' : 'expand'"/>
-					</i>
+				class="flex w-full bg-gray-light fixed top-0 left-0 right-0 h-8 items-center justify-between">
+				<div class="flex h-full">
+                    <h2
+                        :class="{
+                            'bg-white text-black': overlayTheme !== 'dark',
+                            'bg-black text-white': overlayTheme === 'dark'
+                        }"
+                        class="font-bold flex items-center h-full m-0 pl-6 pr-8 relative overflow-hidden uppercase leading-normal">
+                        {{ __('Preview', 'ml-slider') }}
+                    </h2>
+                    <button
+                        :title="__('Toggle overlay type', 'ml-slider') + ' (L)'"
+                        class="lightbulb w-10 px-2 hover:bg-black hover:text-white hover:p-px transition duration-200"
+                        :class="{
+                            'bg-black text-white p-px': overlayTheme !== 'dark',
+                            'bg-transparent text-black': overlayTheme === 'dark'
+                        }"
+                        @click="toggleLights">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                    </button>
+                    <button
+                        :title="__('Toggle full width', 'ml-slider') + ' (F)'"
+                        :class="{
+                            'bg-black text-white p-px': showFullwidth,
+                            'bg-transparent text-black': !showFullwidth
+                        }"
+                        class="w-10 px-2 hover:bg-black hover:text-white hover:p-px transition duration-200"
+                        @click="toggleFullwidth">
+                        <svg
+                            class="w-full" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                        </svg>
+                    </button>
 				</div>
-				<i
+				<button
 					:title="__('Exit preview', 'ml-slider') + ' (ESC)'"
-					class="tipsy-tooltip mr-6 rtl:ml-6 rtl:mr-0"
+					class="mr-2 rtl:ml-2 rtl:mr-0 w-6 text-black"
 					@click="closePreview">
-					<font-awesome-icon
-						icon="times"/>
-				</i>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+				</button>
 			</div>
-			<font-awesome-icon
-				v-if="!iframeLoaded && !errorMessage.length"
-				transform="grow-4"
-				icon="spinner"
-				class="fa-spin"/>
-			<p
-				v-if="errorMessage.length"
-				class="ms-error"
-				v-text="errorMessage"/>
-			<iframe
+            <iframe
 				v-if="'' !== html"
-				:class="{'ms-invisible':!iframeLoaded}"
+				:class="{'invisible':!iframeLoaded}"
 				:id="'iframe-' + _uid"
 				:srcdoc="html"
 				frameborder="0"
 				@load="setupIframe"
 			/>
-			<p
-				v-if="notFullySupported"
-				class="ms-feature-not-supported">
-				{{ __('This feature is not fully supported in this browser.', 'ml-slider') }}
-			</p>
+            <div v-else>
+                <span v-if="!iframeLoaded && !errorMessage.length">
+                    {{ __('Loading...', 'ml-slider') }}
+                </span>
+                <p
+                    v-if="errorMessage.length"
+                    class="ms-error"
+                    v-text="errorMessage"/>
+                <p
+                    v-if="notFullySupported"
+                    class="ms-feature-not-supported">
+                    {{ __('This feature is not fully supported in this browser.', 'ml-slider') }}
+                </p>
+            </div>
 		</sweet-modal>
 	</div>
 </template>
@@ -257,91 +273,13 @@ export default {
 				.sweet-content,
 				.sweet-content-content,
 				iframe {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
 					width: 100%;
 					height:100%;
 				}
-				.fa-spinner {
-					position: absolute;
-					left: 50%;
-					top: 50%;
-					margin: -10px 0 0 -10px;
-				}
 			}
-		}
-		.ms-preview-toolbar {
-			height: 32px;
-			position: fixed;
-			left: 0;
-			top: 0;
-			background-color: $wp-gray-light;
-			padding: 0;
-			width: 100%;
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-		}
-		.ms-preview-title::after {
-			content: ' ';
-			display: block;
-			height: 50px;
-			width: 50px;
-			background: transparent;
-			position: absolute;
-			right: 0;
-			top: 50%;
-			transform-origin: top right;
-			transform: translateX(26px) rotate(45deg);
-			border-top: 20px solid $wp-gray-light;
-			border-right: 20px solid $wp-gray-light;
-			z-index: 1;
-		}
-		.ms-preview-toolbar i {
-			color: $wp-black;
-			transition: all 0.2s ease-in-out;
-			cursor: pointer;
-			font-size: 1.4em;
-			margin-left: 0.25rem;
-			line-height: 27px;
-			display: inline-block;
-			&:hover {
-				color: $wp-gray;
-				transition: all 0.1s ease-in-out;
-			}
-		}
-		.ms-preview-tools {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			position: absolute;
-			height: 32px;
-			top: 0;
-			left: 50%;
-			margin-left: -22px;
-			i {
-				padding: 0 6px;
-				border-radius: 3px;
-				&:hover {
-					background: $wp-gray;
-					color: white;
-				}
-				&.active {
-					color: white;
-					background: $wp-black;
-				}
-			}
-		}
-		.control-light .ms-preview-toolbar i.lightbulb {
-			color: white;
-			background: $wp-black;
-		}
-		&.ms-has-error {
-			.sweet-content-content {
-				justify-content: center;
-				.ms-error {
-					font-size: 20px;
-				}
-			}
-
 		}
 	}
 </style>

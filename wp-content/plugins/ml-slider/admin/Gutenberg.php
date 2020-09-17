@@ -30,7 +30,7 @@ class MetaSlider_Gutenberg
         // Enqueue the bundled block JS file
         wp_enqueue_script(
             'metaslider-blocks',
-            plugins_url('assets/dist/js/editor-block-' . sanitize_title(METASLIDER_VERSION) . '.js', __FILE__),
+            plugins_url('assets/dist/js/editor-block.js', __FILE__),
             array('wp-i18n', 'wp-element', 'wp-block-library', 'wp-components', 'wp-api'),
             $version
         );
@@ -54,7 +54,7 @@ class MetaSlider_Gutenberg
         // Enqueue optional editor only styles
         wp_enqueue_style(
             'metaslider-blocks-editor-css',
-            plugins_url('assets/dist/css/editor-block-' . sanitize_title(METASLIDER_VERSION) . '.css', __FILE__),
+            plugins_url('assets/dist/css/editor-block.css', __FILE__),
             array('wp-block-library'),
             $version
         );
