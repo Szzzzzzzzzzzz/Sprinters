@@ -7,7 +7,11 @@ My Health Record is a government application used to store information about an 
 Home Page: http://healthsprinters.me/  
 Theme: Vantage  
 Plugin: Elementor
-  
+## 3. Equipment Environment  
+Our website uses #WordPress.org as development platform,
+built on AWS as network server, PHP is selected as the programming language, and
+uses MySQL as the database
+
 ## Update Record 
 ### Ver 2.34 Iteration 2 
 15/9/2020 
