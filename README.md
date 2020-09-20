@@ -13,10 +13,11 @@ Our website uses WordPress.org as development platform,
 built on AWS as network server, PHP is selected as the programming language, and
 uses MySQL as the database  
 
-### How to connect with our wordpress.org
+### How to build pages with our IDE.  
 1. login https://healthsprinters.me/wp-admin
-2. Select Page button and find the page you want to design.
-
+2. Select Page button and find the page you want to design.  
+3. Select Edit with Elementor to use plugin to build pages.  
+  
 ## Iteration works  
 Iteration 1: https://healthsprinters.me/  
 Iteration 2: https://www.healthsprinters.me/children-vaccination/  
