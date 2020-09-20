@@ -4,13 +4,22 @@
 ## Description： 
 My Health Record is a government application used to store information about an individual’s health. Recent years have seen a drop-in number of users for the platform. However, the use of MHR is one of the best ways for us to treat diseases. Therefore, we created a website about MHR to tell people the advantages of MHR and how to use MHR.  
   
-Home Page: http://healthsprinters.me/  
+Home Page: https://healthsprinters.me/  
 Theme: Vantage  
 Plugin: Elementor
-## 3. Equipment Environment  
-Our website uses #WordPress.org as development platform,
+  
+## Development Environment  
+Our website uses WordPress.org as development platform,
 built on AWS as network server, PHP is selected as the programming language, and
-uses MySQL as the database
+uses MySQL as the database  
+
+### How to connect with our wordpress.org
+1. login https://healthsprinters.me/wp-admin
+2. Select Page button and find the page you want to design.
+
+## Iteration works  
+Iteration 1: https://healthsprinters.me/  
+Iteration 2: https://www.healthsprinters.me/children-vaccination/  
 
 ## Update Record 
 ### Ver 2.34 Iteration 2 
