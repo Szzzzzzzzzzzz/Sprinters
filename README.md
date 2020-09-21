@@ -11,7 +11,7 @@ Plugin: Elementor
   
 ## Development Environment  
 Our website uses WordPress.org as development platform,
-built on AWS as network server, PHP and javascript are selected as the programming languages, CSS as the style sheet and
+built on AWS as network server, PHP and JavaScript are selected as the programming languages, CSS as the style sheet and
 uses MySQL as the database.
 
 ### How to build pages with our IDE.  
@@ -24,6 +24,12 @@ Iteration 1: https://healthsprinters.me/
 Iteration 2: https://www.healthsprinters.me/children-vaccination/  
 
 ## Update Record 
+### Ver 2.36 Iteration 2 
+21/9/2020 
+Edit a set of icons of Guide to Access Immunisation Record on MHR page.
+### Ver 2.35 Iteration 2 
+21/9/2020 
+Edit the font size of Guide to Access Immunisation Record on MHR page.
 ### Ver 2.34 Iteration 2 
 15/9/2020 
 Rebuild the Guide to Managing Vaccination on My Health Record part design.
