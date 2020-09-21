@@ -16,8 +16,8 @@ uses MySQL as the database.
 
 ### How to build pages with our IDE.  
 1. login https://healthsprinters.me/wp-admin link.
-2. In dashboard, select Pages button and create new pages.  
-3. Select Edit with Elementor option to use plugin to start building pages.  
+2. In Dashboard, select Pages button and create new pages.  
+3. Select Edit with Elementor button to use plugin to start building pages.  
   
 ## Iteration works  
 Iteration 1: https://healthsprinters.me/  
