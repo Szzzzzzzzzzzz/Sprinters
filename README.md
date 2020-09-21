@@ -1,5 +1,6 @@
 # TA13 Sprinters  
 
+## Project topic: My Health Record
 ## Project name: MigMealth  
 ## Description： 
 My Health Record is a government application used to store information about an individual’s health. Recent years have seen a drop-in number of users for the platform. However, the use of MHR is one of the best ways for us to treat diseases. Therefore, we created a website about MHR to tell people the advantages of MHR and how to use MHR.  
@@ -15,7 +16,7 @@ uses MySQL as the database.
 
 ### How to build pages with our IDE.  
 1. login https://healthsprinters.me/wp-admin link.
-2. Select Page button and create new pages.  
+2. In dashboard, select Pages button and create new pages.  
 3. Select Edit with Elementor option to use plugin to start building pages.  
   
 ## Iteration works  
