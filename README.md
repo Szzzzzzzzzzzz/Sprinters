@@ -10,8 +10,8 @@ Plugin: Elementor
   
 ## Development Environment  
 Our website uses WordPress.org as development platform,
-built on AWS as network server, PHP is selected as the programming language, and
-uses MySQL as the database  
+built on AWS as network server, PHP is selected as the programming language, CSS as the style sheet and
+uses MySQL as the database.
 
 ### How to build pages with our IDE.  
 1. login https://healthsprinters.me/wp-admin
