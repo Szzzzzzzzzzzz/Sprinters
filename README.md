@@ -10,13 +10,13 @@ Plugin: Elementor
   
 ## Development Environment  
 Our website uses WordPress.org as development platform,
-built on AWS as network server, PHP is selected as the programming language, CSS as the style sheet and
+built on AWS as network server, PHP and javascript are selected as the programming languages, CSS as the style sheet and
 uses MySQL as the database.
 
 ### How to build pages with our IDE.  
-1. login https://healthsprinters.me/wp-admin
-2. Select Page button and find the page you want to design.  
-3. Select Edit with Elementor to use plugin to build pages.  
+1. login https://healthsprinters.me/wp-admin link.
+2. Select Page button and create new pages.  
+3. Select Edit with Elementor option to use plugin to start building pages.  
   
 ## Iteration works  
 Iteration 1: https://healthsprinters.me/  
