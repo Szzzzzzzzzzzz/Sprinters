@@ -24,6 +24,9 @@ Iteration 1: https://healthsprinters.me/
 Iteration 2: https://www.healthsprinters.me/children-vaccination/  
 
 ## Update Record 
+### Ver 2.37 Iteration 2 
+7/10/2020 
+modified all the UI changes for all the pages.
 ### Ver 2.36 Iteration 2 
 21/9/2020 
 Edit a set of icons of Guide to Access Immunisation Record on MHR page.
