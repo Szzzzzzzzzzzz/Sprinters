@@ -1,0 +1,2004 @@
+# Translation of Plugins - Max Mega Menu - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Max Mega Menu - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-07 14:43:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Max Mega Menu - Stable (latest release)\n"
+
+#: classes/pages/locations.php:906
+msgid "This menu location is registered by your theme. Your theme should already include the code required to display this menu location on your site."
+msgstr "此菜单位置是由您的主题注册的。您的主题应该已经包含了在站点上显示此菜单位置所需的代码。"
+
+#: classes/pages/themes.php:611
+msgid "PHP Format"
+msgstr "PHP 格式"
+
+#: classes/pages/themes.php:602
+msgid "JSON Format"
+msgstr "JSON 格式"
+
+#: classes/pages/locations.php:852
+msgid "Update the custom location description"
+msgstr "更新自定义位置的描述"
+
+#: classes/pages/locations.php:1155
+msgid "Menu Location Saved"
+msgstr "菜单位置已保存"
+
+#: classes/pages/locations.php:273
+msgid "Use these options to enable Max Mega Menu and define the behaviour of each menu location."
+msgstr "使用这些选项来启用Max Mega Menu和定义每个菜单位置的行为。"
+
+#: classes/nav-menus.class.php:370 classes/pages/general.php:150
+msgid "More options"
+msgstr "更多选项"
+
+#: classes/pages/locations.php:455
+msgid "Skip - I'll assign a menu later"
+msgstr "跳过-稍后再分配菜单"
+
+#: classes/pages/locations.php:441
+msgid "Select a menu to be assigned to this location. This can be changed later using the Appearance > Menus > Manage Location page."
+msgstr "选择要分配给该位置的菜单。 以后可以使用“外观”>“菜单”>“管理位置”页面进行更改。"
+
+#: classes/pages/locations.php:419
+msgid "Add Menu Location"
+msgstr "添加菜单位置"
+
+#: classes/pages/locations.php:434
+msgid "E.g. Footer, Blog Sidebar, Header"
+msgstr "例如:页脚，博客侧边栏，页眉"
+
+#: classes/pages/locations.php:460
+msgid "Add menu location"
+msgstr "添加菜单位置"
+
+#: classes/pages/locations.php:428
+msgid "Location Name"
+msgstr "位置名称"
+
+#: classes/pages/locations.php:430
+msgid "Give the location a name that describes where the menu will be displayed on your site."
+msgstr "给该位置一个名称，描述菜单将在您的站点上显示的位置。"
+
+#: classes/pages/locations.php:272
+msgid "This is an overview of the menu locations supported by your theme."
+msgstr "这是主题支持的菜单位置的概述。"
+
+#: classes/pages/locations.php:636
+msgid "Enable Max Mega Menu for this menu location?"
+msgstr "为该菜单位置启用Max Mega Menu？"
+
+#: classes/pages/locations.php:672 classes/pages/locations.php:691
+msgid "Speed"
+msgstr "速度"
+
+#: classes/pages/locations.php:679
+msgid "Choose a style for your mobile menu"
+msgstr "为您的移动端菜单选择样式"
+
+#: classes/pages/locations.php:660
+msgid "Select the sub menu animation type"
+msgstr "选择子菜单动画类型"
+
+#: classes/pages/locations.php:648
+msgid "Select the event to trigger sub menus"
+msgstr "选择事件以触发子菜单"
+
+#: classes/pages/locations.php:698
+msgid "Select a theme to be applied to the menu"
+msgstr "选择要应用于菜单的主题"
+
+#: classes/pages/locations.php:666
+msgid "Animation"
+msgstr "动画"
+
+#: classes/pages/locations.php:685
+msgid "Style"
+msgstr "样式"
+
+#: classes/widgets/widget-elementor-template.class.php:105
+msgid "Template"
+msgstr "模板"
+
+#: classes/widgets/widget-reusable-block.class.php:90
+msgid "No reusable blocks available."
+msgstr "没有可用的可重用区块。"
+
+#: classes/widgets/widget-elementor-template.class.php:107
+#: classes/widgets/widget-reusable-block.class.php:102
+msgid "- Select -"
+msgstr "- 选择 -"
+
+#: classes/widgets/widget-reusable-block.class.php:100
+msgid "Block"
+msgstr "区块"
+
+#: classes/widgets/widget-elementor-template.class.php:21
+msgid "Outputs a saved Elementor template."
+msgstr "输出保存的Elementor模板。"
+
+#: classes/widgets/widget-reusable-block.class.php:23
+msgid "Outputs a reusable block."
+msgstr "输出一个可重用的区块。"
+
+#: classes/widgets/widget-elementor-template.class.php:95
+msgid "No Elementor Templates found."
+msgstr "找不到Elementor模板。"
+
+#: classes/menu-item-manager.class.php:748 classes/widget-manager.class.php:122
+msgid "Your menu CSS needs to be updated before you can use the following setting. Please go to %s and Clear the CSS Cache (you will only need to do this once)."
+msgstr "您必须先更新菜单CSS，然后才能使用以下设置。 请转到 %s 并清除CSS缓存（您只需执行一次）。"
+
+#: classes/pages/themes.php:1511
+msgid "Title Font"
+msgstr "标题字体"
+
+#: classes/pages/themes.php:1616
+msgid "Title Border"
+msgstr "标题边框"
+
+#: classes/pages/themes.php:2527
+msgid "The width of the sub menu if the Mobile Effect is set to 'Slide Left' or 'Slide Right'. Must be specified in px."
+msgstr "如果“移动效果”设置为“向左滑动”或“向右滑动”，则子菜单的宽度。 必须以像素为单位。"
+
+#: classes/widget-manager.class.php:132
+msgid "Sub menu columns"
+msgstr "子菜单栏"
+
+#: classes/pages/themes.php:1323
+msgid "Documentation: Highlighting Menu Items"
+msgstr "文档：高亮显示菜单项"
+
+#: classes/pages/themes.php:932
+msgid "Caution: Reset the styling of widgets within the mega menu? This may break the styling of widgets that you have added to your sub menus. Default: Disabled."
+msgstr "注意：重置mega menu中小工具的样式吗？ 这可能会破坏您添加到子菜单中的小工具的样式。 默认值：禁用。"
+
+#: classes/pages/themes.php:1227 classes/pages/themes.php:1625
+#: classes/pages/themes.php:1843 classes/pages/themes.php:2039
+msgid "Color (Hover)"
+msgstr "颜色（悬停）"
+
+#: classes/menu-item-manager.class.php:755
+msgid "Collapse sub menu"
+msgstr "折叠子菜单"
+
+#: classes/pages/themes.php:1585
+msgid "Title Margin"
+msgstr "标题外边距"
+
+#: classes/pages/themes.php:1554
+msgid "Title Padding"
+msgstr "标题内边距"
+
+#: classes/nav-menus.class.php:509 classes/pages/locations.php:1502
+msgid "Slide Right (Off Canvas)"
+msgstr "向右滑动（离开画布）"
+
+#: classes/nav-menus.class.php:505 classes/pages/locations.php:1498
+msgid "Slide Left (Off Canvas)"
+msgstr "向左滑动（离开画布）"
+
+#: classes/nav-menus.class.php:501 classes/pages/locations.php:1494
+msgid "Slide Down"
+msgstr "向下滑动"
+
+#: classes/pages/themes.php:2000
+msgid "Set the margin for the third level menu items."
+msgstr "设置第三级菜单项的外边距。"
+
+#: classes/pages/themes.php:2031
+msgid "Set the border for the third level menu items."
+msgstr "设置第三级菜单项的边框。"
+
+#: classes/pages/themes.php:2552
+msgid "Padding for the mobile sub menu."
+msgstr "移动端子菜单的内边距。"
+
+#: classes/pages/themes.php:2497
+msgid "Overlay Content"
+msgstr "覆盖内容"
+
+#: classes/menu-item-manager.class.php:760
+msgid "Only applies to menu items displayed within mega sub menus."
+msgstr "仅适用于大型子菜单中显示的菜单项。"
+
+#: classes/pages/themes.php:2526
+msgid "Off Canvas Width"
+msgstr "离开画布宽度"
+
+#: classes/pages/themes.php:1172
+msgid "Item Spacing"
+msgstr "项目间距"
+
+#: classes/pages/themes.php:1803 classes/pages/themes.php:1999
+msgid "Item Margin"
+msgstr "项目外边距"
+
+#: classes/pages/themes.php:1218 classes/pages/themes.php:1834
+#: classes/pages/themes.php:2030
+msgid "Item Border"
+msgstr "项目边框"
+
+#: classes/pages/themes.php:2509
+msgid "Force Full Width"
+msgstr "强制全宽"
+
+#: classes/pages/themes.php:1475
+msgid "Column Padding"
+msgstr "栏内边距"
+
+#: classes/pages/themes.php:1314
+msgid "Apply the 'hover' styling to current menu items. Applies to top level menu items only."
+msgstr "将“悬停”样式应用于当前菜单项。 仅适用于顶层菜单项。"
+
+#: classes/pages/themes.php:2426
+msgid "Toggle Bar Border Radius"
+msgstr "切换栏边框圆角"
+
+#: classes/pages/themes.php:2427
+msgid "Set a border radius on the mobile toggle bar."
+msgstr "设置移动端切换栏的边框圆角。"
+
+#: classes/pages/themes.php:1259
+msgid "Item Border Radius"
+msgstr "项目边框圆角"
+
+#: classes/pages/page.php:100
+msgid "Upgrade to Pro"
+msgstr "升级至 Pro 版"
+
+#: classes/menu-item-manager.class.php:773
+msgid "Settings"
+msgstr "设置"
+
+#: classes/widget-manager.class.php:354
+msgid "Saved (%s)"
+msgstr "已保存 (%s)"
+
+#. Author of the plugin
+msgid "megamenu.com"
+msgstr "megamenu.com"
+
+#: classes/menu-item-manager.class.php:848
+msgid "Icon"
+msgstr "图标"
+
+#: classes/menu-item-manager.class.php:830
+msgid "Search"
+msgstr "搜索"
+
+#: classes/pages/themes.php:3162
+msgid "You can enter standard CSS or <a href='https://sass-lang.com/guide' target='_blank'>SCSS</a> into the custom styling area. If using SCSS there are some variables and mixins you can use:"
+msgstr "您可以在自定义样式区域中输入标准CSS或<a href='https://sass-lang.com/guide' target='_blank'>SCSS</a>。 如果使用SCSS，则可以使用一些变量和mixin："
+
+#: classes/toggle-blocks.class.php:778
+msgid "Width"
+msgstr "宽度"
+
+#: classes/pages/themes.php:3139
+msgid "UPPERCASE"
+msgstr "大写"
+
+#: classes/pages/themes.php:603
+msgid "Log into the site you wish to import the theme to. Go to Mega Menu > Tools and paste this into the 'Import Theme' text area:"
+msgstr "登录到您要将主题导入到的站点。 转到超级菜单>工具，然后将其粘贴到“导入主题”文本区域："
+
+#: classes/pages/themes.php:2498
+msgid "If enabled, the mobile sub menu will overlay the page content (instead of pushing the page content down)"
+msgstr "如果启用，则移动端子菜单将覆盖页面内容（代替将页面内容向下推）"
+
+#: megamenu.php:1320
+msgid "If you are trying to display Max Mega Menu here, use the 'Max Mega Menu' widget instead."
+msgstr "如果您要在此处显示“Max Mega Menu”，请改用“Max Mega Menu”小工具。"
+
+#: classes/menu-item-manager.class.php:307
+msgid "Your menu CSS needs to be updated first. Please go to %s and Clear the CSS Cache (you will only need to do this once)."
+msgstr "您的菜单CSS需要首先更新。 请转到%s并清除CSS缓存（您只需执行一次）。"
+
+#: classes/pages/themes.php:2880
+msgid "We have detected the following plugin that may prevent changes made within the theme editor from being applied to the menu."
+msgid_plural "We have detected the following plugins that may prevent changes made within the theme editor from being applied to the menu."
+msgstr[0] "我们检测到以下插件，可能阻止在主题编辑器中进行的更改应用于菜单。"
+
+#: classes/menu-item-manager.class.php:417
+#: classes/menu-item-manager.class.php:511
+msgid "Visible on mobile"
+msgstr "在移动端上可见"
+
+#: classes/menu-item-manager.class.php:415
+#: classes/menu-item-manager.class.php:509
+msgid "Visible on desktop"
+msgstr "在桌面端可见"
+
+#: classes/pages/tools.php:131
+msgid "The menu CSS was last updated on %s"
+msgstr "菜单CSS最近一次在%s上更新"
+
+#: classes/pages/themes.php:2627
+msgid "The font to use for each top level menu item in the mobile menu."
+msgstr "为移动端菜单中的每个顶级菜单项使用的字体。"
+
+#: classes/pages/themes.php:3168
+msgid "Using the %wrap% and %menu% variables makes your theme portable (allowing you to apply the same theme to multiple menu locations)"
+msgstr "使用%wrap%和 %menu%变量可使您的主题具有可移植性（允许您将同一主题应用于多个菜单位置）"
+
+#: classes/menu-item-manager.class.php:463
+msgid "There is not enough space on this row to add a new column."
+msgstr "该行没有足够的空间来添加新栏。"
+
+#: classes/nav-menus.class.php:233
+msgid "There is not enough space in this row to add a new column. Make space by reducing the width of the columns within the row or create a new row."
+msgstr "该行没有足够的空间来添加新栏。 通过减小行内栏的宽度或创建新行来腾出空间。"
+
+#: classes/pages/page.php:279
+msgid "The server returned a 500 error. The server did not provide an error message (you should find details of the error in your server error log), but this is usually due to your server memory limit being reached."
+msgstr "服务器返回500错误。 服务器未提供错误消息（您应该在服务器错误日志中找到错误的详细信息），但这通常是由于达到服务器内存限制所致。"
+
+#: classes/pages/page.php:277
+msgid "The server ran out of memory whilst trying to regenerate the menu CSS."
+msgstr "服务器尝试重新生成菜单CSS时内存不足。"
+
+#: classes/pages/themes.php:2470
+msgid "The menu will be converted to a mobile menu when the browser width is below this value."
+msgstr "当浏览器宽度小于此值时，菜单将转换为移动端菜单。"
+
+#: classes/pages/themes.php:2650
+msgid "The font color for each top level menu item in the mobile menu when the sub menu is open."
+msgstr "当子菜单打开时，移动端菜单中每个顶级菜单项的字体颜色。"
+
+#: classes/pages/tools.php:121
+msgid "The CSS for your menu is updated each time a menu or a menu theme is changed. You can force the menu CSS to be updated using this tool."
+msgstr "每次更改菜单或菜单主题时，菜单的CSS都会更新。可以使用此工具强制更新菜单CSS。"
+
+#: classes/pages/tools.php:166
+msgid "The cache has been cleared and the menu CSS has been regenerated."
+msgstr "缓存已清除，并且菜单CSS已重新生成。"
+
+#: classes/pages/themes.php:2583
+msgid "The background color for the mobile menu."
+msgstr "移动端菜单的背景色。"
+
+#: classes/pages/themes.php:2605
+msgid "The background color for each top level menu item in the mobile menu when the sub menu is open."
+msgstr "当子菜单打开时，移动端菜单中每个顶级菜单项的背景色。"
+
+#: classes/pages/themes.php:2487
+msgid "The 'Disable Mobile Toggle Bar' option has been enabled. The following options are disabled as the mobile toggle bar will not be displayed."
+msgstr "“禁用移动端切换栏”选项已启用。 由于不会显示移动端切换栏，因此以下选项被禁用。"
+
+#: classes/toggle-blocks.class.php:839
+msgid "Text Size"
+msgstr "文字大小"
+
+#: classes/toggle-blocks.class.php:835
+msgid "Text Color"
+msgstr "文字颜色"
+
+#: classes/pages/themes.php:2098
+msgid "Sub Menu Width"
+msgstr "子菜单宽度"
+
+#: classes/pages/themes.php:2147
+msgid "Sub Menu Border"
+msgstr "子菜单边框"
+
+#: classes/pages/themes.php:2076
+msgid "Sub Menu Background"
+msgstr "子菜单背景"
+
+#: classes/menu-item-manager.class.php:223
+msgid "Sub Menu"
+msgstr "子菜单"
+
+#: classes/pages/themes.php:784
+msgid "CSS Output (under Mega Menu > General Settings) has been disabled. Therefore, changes made within the theme editor will not be applied to your menu."
+msgstr "CSS输出（在Mega Menu>常规设置下）已被禁用。 因此，在主题编辑器中进行的更改将不会应用于您的菜单。"
+
+#: classes/pages/themes.php:2102
+msgid "Experimental: Set this value to 'auto' to use a flexible width."
+msgstr "实验：将此值设置为“自动”以使用灵活的宽度。"
+
+#: classes/menu-item-manager.class.php:529
+#: classes/menu-item-manager.class.php:587 classes/widget-manager.class.php:957
+msgid "Expand"
+msgstr "展开"
+
+#: classes/pages/page.php:275
+msgid "Error saving theme."
+msgstr "保存主题时出错。"
+
+#: classes/pages/themes.php:2810
+msgid "Enter a whole number (e.g. 1, 5, 100, 999)"
+msgstr "输入整数（例如1、5、100、999）"
+
+#: classes/pages/themes.php:2814
+msgid "Enter a value including a unit (e.g. 10px, 10rem, 10%)"
+msgstr "输入包含单位的值（例如10px，10rem，10％）"
+
+#: classes/pages/themes.php:2818
+msgid "Enter a valid number (e.g. 0.1, 1, 10, 999)"
+msgstr "输入有效的数字（例如0.1、1、10、999）"
+
+#: classes/nav-menus.class.php:486 classes/pages/locations.php:678
+msgid "Effect (Mobile)"
+msgstr "效果（移动端）"
+
+#: classes/menu-item-manager.class.php:550
+#: classes/menu-item-manager.class.php:588 classes/widget-manager.class.php:960
+msgid "Edit"
+msgstr "编辑"
+
+#: classes/pages/themes.php:2392
+msgid "Don't forget to update the Menu toggle block text and icon color in the Toggle Bar Designer above!"
+msgstr "不要忘记在上方的“切换栏设计器”中更新“菜单切换区块”的文本和图标的颜色！"
+
+#: classes/pages/themes.php:1360
+msgid "Documentation: Configuring the sub menu width"
+msgstr "文档：配置子菜单宽度"
+
+#: classes/pages/themes.php:2457
+msgid "Disable Mobile Toggle Bar"
+msgstr "禁用移动端切换栏"
+
+#: classes/widget-manager.class.php:356
+msgid "Didn't save"
+msgstr "没有保存"
+
+#: classes/widget-manager.class.php:324
+msgid "Didn't move items"
+msgstr "没有移动项目"
+
+#: classes/nav-menus.class.php:232
+msgid "Custom CSS Classes will be prefixed with 'mega-'"
+msgstr "自定义CSS类的前缀为 'mega-'"
+
+#: classes/toggle-blocks.class.php:390
+msgid "Configure the contents of the mobile toggle bar"
+msgstr "配置移动端切换栏的内容"
+
+#: classes/pages/themes.php:2890
+msgid "Try clearing the cache of the above plugin if your changes are not being applied to the menu."
+msgid_plural "Try clearing the caches of the above plugins if your changes are not being applied to the menu."
+msgstr[0] "如果您的更改未应用到菜单，请尝试清除上述插件的缓存。"
+
+#: classes/pages/page.php:89
+msgid "Troubleshooting"
+msgstr "故障排除"
+
+#: classes/pages/themes.php:2414
+msgid "Toggle Bar Height"
+msgstr "切换栏高度"
+
+#: classes/toggle-blocks.class.php:389
+msgid "Toggle Bar Designer"
+msgstr "切换栏设计器"
+
+#: classes/pages/themes.php:2389
+msgid "Toggle Bar Background"
+msgstr "切换栏背景"
+
+#: classes/toggle-blocks.class.php:815 classes/toggle-blocks.class.php:908
+msgid "TOGGLE"
+msgstr "切换"
+
+#: classes/pages/locations.php:752
+msgid "To avoid conflicts with theme menu systems, JavaScript events which have been added to menu items will be removed by default."
+msgstr "为了避免与主题菜单系统冲突，在默认情况下，添加到菜单项的JavaScript事件将被删除。"
+
+#: classes/nav-menus.class.php:327
+msgid "To assign this menu to a theme location, scroll to the bottom of this page and tag the menu to a 'Display location'."
+msgstr "要将菜单分配给主题位置，请滚动至页面底部，然后将菜单标记为“显示位置”。"
+
+#: classes/toggle-blocks.class.php:774
+msgid "Spacer Settings"
+msgstr "间隔设置"
+
+#: classes/toggle-blocks.class.php:666 classes/toggle-blocks.class.php:772
+msgid "Spacer"
+msgstr "间隔"
+
+#: classes/pages/locations.php:763
+msgid "Prefix Menu Item Classes"
+msgstr "菜单项目类的前缀"
+
+#: classes/pages/themes.php:381
+msgid " - Imported"
+msgstr " - 已导入"
+
+#: classes/widget-manager.class.php:680
+msgid "(no label)"
+msgstr "(无标签)"
+
+#. Description of the plugin
+msgid "An easy to use mega menu plugin. Written the WordPress way."
+msgstr "一个易于使用的巨型菜单插件。Written the WordPress way."
+
+#: classes/pages/themes.php:2667
+msgid "Collapse mega menu content into this many columns on mobile."
+msgstr "将mega menu的内容折叠到移动端的众多栏中。"
+
+#: classes/toggle-blocks.class.php:821
+msgid "Closed Text"
+msgstr "关闭文本"
+
+#: classes/toggle-blocks.class.php:827
+msgid "Closed Icon"
+msgstr "关闭图标"
+
+#: classes/toggle-blocks.class.php:742
+msgid "Click on a block to edit it, or drag and drop it to resposition the block within the toggle bar"
+msgstr "单击一个区块以对其进行编辑，或将其拖放以在切换栏中重新定位该区块"
+
+#: classes/pages/themes.php:2878
+msgid "Changes not showing up?"
+msgstr "更改没有显示？"
+
+#: classes/widgets/widget.class.php:112
+msgid "Select location"
+msgstr "选择位置"
+
+#: classes/menu-item-manager.class.php:439
+msgid "Row columns"
+msgstr "行列"
+
+#: classes/menu-item-manager.class.php:435
+msgid "Row class"
+msgstr "行类"
+
+#: classes/menu-item-manager.class.php:336
+#: classes/menu-item-manager.class.php:415
+#: classes/menu-item-manager.class.php:416
+#: classes/menu-item-manager.class.php:417
+#: classes/menu-item-manager.class.php:418
+msgid "Row"
+msgstr "行"
+
+#: classes/menu-item-manager.class.php:721
+msgid "Right edge of Parent"
+msgstr "上级的右边缘"
+
+#: classes/menu-item-manager.class.php:724
+msgid "Right aligned flyout menus will expand to the left"
+msgstr "右对齐的弹出菜单将向左扩展"
+
+#: classes/pages/locations.php:764
+msgid "Prefix custom menu item classes with 'mega-'?"
+msgstr "给自定义菜单项类加上 'mega-'前缀？"
+
+#: classes/pages/themes.php:2115
+msgid "Sub Menu Padding"
+msgstr "子菜单内边距"
+
+#: classes/nav-menus.class.php:466 classes/nav-menus.class.php:533
+#: classes/pages/locations.php:1454 classes/pages/locations.php:1535
+msgid "Slow"
+msgstr "慢速"
+
+#: classes/nav-menus.class.php:442 classes/pages/locations.php:1421
+msgid "Slide Up"
+msgstr "向上滑动"
+
+#: classes/pages/themes.php:2415
+msgid "Set the height of the mobile menu toggle bar."
+msgstr "设置移动端菜单切换栏的高度。"
+
+#: classes/pages/themes.php:2390
+msgid "Set the background color for the mobile menu toggle bar."
+msgstr "设置移动端菜单切换栏的背景颜色。"
+
+#: classes/pages/general.php:143
+msgid "Selecting this option will effectively disable the theme editor and many of the features available in Max Mega Menu and Max Mega Menu Pro. Only enable this option if you fully understand the consequences."
+msgstr "选择此选项将有效禁用主题编辑器以及Max Mega Menu和Max Mega Menu Pro中可用的许多功能。 仅在完全了解后果后才启用此选项。"
+
+#: classes/pages/page.php:276
+msgid "Please try refreshing the page."
+msgstr "请尝试刷新页面。"
+
+#: classes/nav-menus.class.php:226
+msgid "Please save the menu structure to enable this option."
+msgstr "请保存菜单结构以启用此选项。"
+
+#: classes/pages/page.php:233
+msgid "Please enable Dashicons in the Clearfy plugin options. Max Mega Menu requires Dashicons."
+msgstr "请在Clearfy插件选项中启用Dashicons。 Max Mega Menu需要Dashicons。"
+
+#: classes/pages/themes.php:612
+msgid "Paste this code into your themes functions.php file:"
+msgstr "将此代码粘贴到主题的functions.php文件中："
+
+#: classes/toggle-blocks.class.php:824
+msgid "Open Text"
+msgstr "开启文字"
+
+#: classes/toggle-blocks.class.php:831
+msgid "Open Icon"
+msgstr "开启图标"
+
+#: classes/widget-manager.class.php:322
+msgid "Moved (%s)"
+msgstr "已移动 (%s)"
+
+#: megamenu.php:1321
+msgid "More information"
+msgstr "更多信息"
+
+#: classes/pages/themes.php:2384
+msgid "Mobile Toggle Bar"
+msgstr "移动端切换栏"
+
+#: classes/pages/themes.php:2492
+msgid "Mobile Sub Menu"
+msgstr "移动端子菜单"
+
+#: classes/pages/themes.php:2380
+msgid "Mobile Menu"
+msgstr "移动端菜单"
+
+#: classes/toggle-blocks.class.php:817
+msgid "Menu Toggle Settings"
+msgstr "菜单切换设置"
+
+#: classes/toggle-blocks.class.php:815 classes/toggle-blocks.class.php:908
+msgid "Menu Toggle"
+msgstr "菜单切换"
+
+#: classes/menu-item-manager.class.php:815
+msgid "Menu Item Icon"
+msgstr "菜单项图标"
+
+#: classes/pages/themes.php:2340
+msgid "Menu Item Font (Hover)"
+msgstr "菜单项字体（悬停）"
+
+#: classes/pages/themes.php:2302
+msgid "Menu Item Font"
+msgstr "菜单项字体"
+
+#: classes/pages/locations.php:739
+msgid "Menu Item Descriptions"
+msgstr "菜单项说明"
+
+#: classes/pages/themes.php:2604
+msgid "Menu Item Background (Active)"
+msgstr "菜单项背景（活动）"
+
+#: classes/widget-manager.class.php:640 classes/widget-manager.class.php:684
+msgid "Menu Item"
+msgstr "菜单项"
+
+#: classes/pages/themes.php:948
+msgid "Menu Height"
+msgstr "菜单高度"
+
+#: classes/pages/themes.php:1329 classes/pages/themes.php:2661
+msgid "Mega Menus"
+msgstr "Mega Menus"
+
+#: classes/menu-item-manager.class.php:235
+msgid "Mega Menu - Standard Layout"
+msgstr "Mega Menu - 标准布局"
+
+#: classes/menu-item-manager.class.php:234
+msgid "Mega Menu - Grid Layout"
+msgstr "Mega Menu - 网格布局"
+
+#: classes/toggle-blocks.class.php:922
+msgid "Medium"
+msgstr "中等"
+
+#: megamenu.php:312
+msgid "Max Mega Menu Widgets"
+msgstr "Max Mega Menu 小工具"
+
+#: classes/toggle-blocks.class.php:923
+msgid "Large"
+msgstr "大"
+
+#: classes/toggle-blocks.class.php:928
+msgid "Label"
+msgstr "标签"
+
+#: classes/menu-item-manager.class.php:682
+msgid "Item will be aligned based on the 'Menu Items Align' option set in the Theme Editor"
+msgstr "项目将根据主题编辑器中设置的“菜单项对齐”选项进行对齐"
+
+#: classes/pages/themes.php:650
+msgid "Import a menu theme in JSON format"
+msgstr "以JSON格式导入菜单主题"
+
+#: classes/pages/themes.php:2510
+msgid "If enabled, the mobile sub menu will match the width and position on the given page element (rather than being limited to the width of the toggle bar). For a full width sub menu, leave the 'Selector' value set to 'body'."
+msgstr "如果启用，则移动端子菜单将匹配给定页面元素上的宽度和位置（而不是局限于切换栏的宽度）。 对于全宽子菜单，请将“选择器”值设置为“body”。"
+
+#: classes/toggle-blocks.class.php:846
+msgid "Icon Size"
+msgstr "图标大小"
+
+#: classes/menu-item-manager.class.php:693 classes/toggle-blocks.class.php:849
+msgid "Icon Position"
+msgstr "图标位置"
+
+#: classes/toggle-blocks.class.php:842
+msgid "Icon Color"
+msgstr "图标颜色"
+
+#: classes/pages/themes.php:2458
+msgid "Hide the toggle bar and display the menu in it's open state by default."
+msgstr "隐藏切换栏并在默认情况下以打开状态显示菜单。"
+
+#: classes/menu-item-manager.class.php:734
+msgid "Hide Sub Menu on Mobile"
+msgstr "在移动端上隐藏子菜单"
+
+#: classes/menu-item-manager.class.php:647
+msgid "Hide Item on Mobile"
+msgstr "在移动端上隐藏项目"
+
+#: classes/menu-item-manager.class.php:655
+msgid "Hide Item on Desktop"
+msgstr "在桌面端上隐藏项目"
+
+#: classes/menu-item-manager.class.php:418
+#: classes/menu-item-manager.class.php:512
+msgid "Hidden on mobile"
+msgstr "隐藏在移动端上"
+
+#: classes/menu-item-manager.class.php:416
+#: classes/menu-item-manager.class.php:510
+msgid "Hidden on desktop"
+msgstr "隐藏在桌面端上"
+
+#: classes/pages/themes.php:2540
+msgid "Height of each top level item in the mobile menu."
+msgstr "移动端菜单中每个顶级项目的高度。"
+
+#: classes/pages/themes.php:1188
+msgid "Generally we advise against using the Top and Bottom options here. Use the 'Menu Height' setting to determine the height of your top level menu items."
+msgstr "通常，建议不要在此处使用“顶部”和“底部”选项。 使用“菜单高度”设置确定顶级菜单项的高度。"
+
+#: classes/pages/themes.php:2649
+msgid "Font (Active)"
+msgstr "字体（有效）"
+
+#: classes/nav-menus.class.php:468 classes/nav-menus.class.php:535
+#: classes/pages/locations.php:1456 classes/pages/locations.php:1537
+msgid "Fast"
+msgstr "快速"
+
+#: classes/menu-item-manager.class.php:535
+msgid "Column class"
+msgstr "栏 class"
+
+#: classes/menu-item-manager.class.php:457
+#: classes/menu-item-manager.class.php:509
+#: classes/menu-item-manager.class.php:510
+#: classes/menu-item-manager.class.php:511
+#: classes/menu-item-manager.class.php:512
+msgid "Column"
+msgstr "栏"
+
+#: classes/toggle-blocks.class.php:850
+msgid "Before"
+msgstr "之前"
+
+#: classes/toggle-blocks.class.php:910
+msgid "Animated Menu Toggle Settings"
+msgstr "动画菜单切换设置"
+
+#: classes/pages/themes.php:1098 classes/pages/themes.php:1546
+#: classes/pages/themes.php:1720 classes/pages/themes.php:1915
+#: classes/pages/themes.php:2641
+msgid "Align"
+msgstr "对齐"
+
+#: classes/toggle-blocks.class.php:851
+msgid "After"
+msgstr "之后"
+
+#: classes/toggle-blocks.class.php:674
+msgid "Add block to toggle bar"
+msgstr "将区块添加到切换栏"
+
+#: classes/widgets/widget.class.php:130
+msgid "Active locations"
+msgstr "活动位置"
+
+#: classes/pages/themes.php:2970
+msgid "2 Columns"
+msgstr "2 栏"
+
+#: classes/pages/themes.php:2969
+msgid "1 Column"
+msgstr "1 栏"
+
+#: classes/pages/themes.php:2518
+msgid "Selector"
+msgstr "选择器"
+
+#: classes/toggle-blocks.class.php:921
+msgid "Small"
+msgstr "小"
+
+#: classes/pages/themes.php:792
+msgid "This menu theme is not currently active as it has not been applied to any menu locations. You may wish to check you are editing the correct menu theme - you can choose a different theme to edit using the 'Select theme to edit' selector above. Alternatively, to apply this theme to a menu go to <i>Appearance > Menus > Max Mega Menu Settings</i> and select this theme from the 'Theme' dropdown."
+msgstr "该菜单主题当前尚未激活，因为尚未应用于任何菜单位置。 您不妨检查一下您是否在编辑正确的菜单主题 -您可以使用上方的“选择要编辑的主题”选择器来选择其他主题进行编辑。 或者，要将这个主题应用于菜单，请转到<i>外观>菜单>Max Mega Menu 设置</i>，然后从“主题”下拉菜单中选择该主题。"
+
+#: megamenu.php:313
+msgid "This is where Max Mega Menu stores widgets that you have added to sub menus using the mega menu builder. You can edit existing widgets here, but new widgets must be added through the Mega Menu interface (under Appearance > Menus)."
+msgstr "Max Mega Menu在这里存储使用Mega Menu Builder创建的添加到子菜单的小工具。 您可以在此处编辑现有的窗口小工具，但是必须通过超级菜单界面（在外观>菜单下）添加新的窗口小工具。"
+
+#: classes/pages/themes.php:2666
+msgid "Mega Menu Columns"
+msgstr "Mega Menu 栏"
+
+#: classes/nav-menus.class.php:467 classes/nav-menus.class.php:534
+#: classes/pages/locations.php:1455 classes/pages/locations.php:1536
+msgid "Med"
+msgstr "Med"
+
+#: classes/widgets/widget.class.php:140
+msgid "Inactive locations"
+msgstr "无效位置"
+
+#: classes/pages/themes.php:1657
+msgid "Content Font"
+msgstr "内容字体"
+
+#: classes/menu-item-manager.class.php:460
+msgid "You should rearrange the content of this row so that all columns fit onto a single line."
+msgstr "您应该重新排列该行的内容，以便所有栏都适合一行。"
+
+#: classes/toggle-blocks.class.php:924
+msgid "X Large"
+msgstr "加大"
+
+#: classes/pages/themes.php:1476
+msgid "Use this to define the amount of space around each widget / set of menu items within the sub menu."
+msgstr "使用它来定义子菜单内每个小工具/菜单项集周围的间距数。"
+
+#: classes/pages/locations.php:751
+msgid "Unbind JavaScript Events"
+msgstr "取消绑定JavaScript事件"
+
+#: classes/pages/page.php:278
+msgid "Try disabling unusued plugins to increase the available memory. Alternatively, for details on how to increase your server memory limit see:"
+msgstr "尝试禁用未使用的插件以增加可用内存。 另外，有关如何增加服务器内存限制的详细信息，请参见："
+
+#: classes/menu-item-manager.class.php:720
+msgid "Left edge of Parent"
+msgstr "上级的左边缘"
+
+#: classes/pages/themes.php:2183
+msgid "Sub Menu Border Radius"
+msgstr "子菜单边框圆角"
+
+#: classes/pages/themes.php:1369
+msgid "Inner Width"
+msgstr "内宽"
+
+#: classes/pages/themes.php:1364
+msgid "Outer Width"
+msgstr "外宽"
+
+#: classes/nav-menus.class.php:434 classes/pages/locations.php:1413
+msgid "Fade Up"
+msgstr "淡入淡出"
+
+#: classes/pages/locations.php:789
+msgid "Some themes will output this menu location multiple times on the same page. For example, it may be output once for the main menu, then again for the mobile menu. This setting can be used to make sure Max Mega Menu is only applied to one of those instances."
+msgstr "某些主题会在同一页面上多次输出此菜单位置。 例如，它可以一次输出给主菜单，然后再次输出给移动端菜单。 此设置可用于确保“Max Mega Menu”仅应用于这些实例之一。"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.megamenu.com"
+msgstr "https://www.megamenu.com"
+
+#: megamenu.php:1229
+msgid "Max Mega Menu is not compatible with your version of WordPress. Please upgrade WordPress to the latest version or disable Max Mega Menu."
+msgstr "Max Mega Menu与您的WordPress版本不兼容。 请将WordPress升级到最新版本或禁用Max Mega Menu。"
+
+#. translators: %s is the link to clear the menu CSS cache
+#: megamenu.php:1280
+msgid "Max Mega Menu has been updated. Please %s to ensure maximum compatibility with the latest version."
+msgstr "Max Mega Menu已更新。 请 %s 以确保与最新版本的最大兼容性。"
+
+#: megamenu.php:1265
+msgid "clear the CSS cache"
+msgstr "清除CSS缓存"
+
+#: classes/widgets/widget.class.php:152
+msgid "No menu locations found"
+msgstr "找不到菜单位置"
+
+#: classes/widget-manager.class.php:296
+msgid "Deleted %s"
+msgstr "删除%s"
+
+#: classes/menu-item-manager.class.php:677 classes/style-manager.class.php:94
+msgid "Default"
+msgstr "默认"
+
+#: classes/menu-item-manager.class.php:698 classes/pages/themes.php:987
+#: classes/pages/themes.php:1191 classes/pages/themes.php:1232
+#: classes/pages/themes.php:1381 classes/pages/themes.php:1417
+#: classes/pages/themes.php:1479 classes/pages/themes.php:1558
+#: classes/pages/themes.php:1589 classes/pages/themes.php:1630
+#: classes/pages/themes.php:1776 classes/pages/themes.php:1807
+#: classes/pages/themes.php:1848 classes/pages/themes.php:1971
+#: classes/pages/themes.php:2003 classes/pages/themes.php:2044
+#: classes/pages/themes.php:2120 classes/pages/themes.php:2156
+#: classes/pages/themes.php:2275 classes/pages/themes.php:2555
+msgid "Top"
+msgstr "上"
+
+#: classes/pages/themes.php:999 classes/pages/themes.php:1203
+#: classes/pages/themes.php:1244 classes/pages/themes.php:1393
+#: classes/pages/themes.php:1429 classes/pages/themes.php:1491
+#: classes/pages/themes.php:1570 classes/pages/themes.php:1601
+#: classes/pages/themes.php:1642 classes/pages/themes.php:1788
+#: classes/pages/themes.php:1819 classes/pages/themes.php:1860
+#: classes/pages/themes.php:1983 classes/pages/themes.php:2015
+#: classes/pages/themes.php:2056 classes/pages/themes.php:2132
+#: classes/pages/themes.php:2168 classes/pages/themes.php:2287
+#: classes/pages/themes.php:2567
+msgid "Bottom"
+msgstr "下"
+
+#: classes/toggle-blocks.class.php:780 classes/toggle-blocks.class.php:854
+#: classes/toggle-blocks.class.php:930 classes/widget-manager.class.php:889
+msgid "Delete"
+msgstr "删除"
+
+#: classes/toggle-blocks.class.php:920 classes/pages/themes.php:1072
+#: classes/pages/themes.php:1520 classes/pages/themes.php:1666
+#: classes/pages/themes.php:1694 classes/pages/themes.php:1889
+#: classes/pages/themes.php:2311 classes/pages/themes.php:2635
+msgid "Size"
+msgstr "尺寸"
+
+#: classes/pages/themes.php:853
+msgid "Line Height"
+msgstr "行高"
+
+#: classes/widget-manager.class.php:145 classes/widget-manager.class.php:890
+msgid "Close"
+msgstr "关闭"
+
+#: classes/pages/themes.php:2626
+msgid "Font"
+msgstr "字体"
+
+#: classes/pages/themes.php:2992
+msgid "Underline"
+msgstr "下划线"
+
+#: classes/widget-manager.class.php:183 classes/widget-manager.class.php:203
+msgid "Saved %s"
+msgstr "已保存 %s"
+
+#: classes/pages/themes.php:961 classes/pages/themes.php:2582
+msgid "Menu Background"
+msgstr "菜单背景"
+
+#: classes/widgets/widget.class.php:104
+msgid "Title:"
+msgstr "标题:"
+
+#: classes/pages/themes.php:944
+msgid "Menu Bar"
+msgstr "菜单栏"
+
+#: classes/pages/themes.php:3140
+msgid "lowercase"
+msgstr "小写"
+
+#: classes/style-manager.class.php:689
+msgid "Warning: CSS compilation failed. Please check your changes or revert the theme."
+msgstr "警告：CSS编译失败。 请检查您的更改或还原主题。"
+
+#: classes/pages/themes.php:893
+msgid "Vertical"
+msgstr "垂直"
+
+#: classes/pages/themes.php:2259
+msgid "The height of each flyout menu item."
+msgstr "每个弹出菜单项的高度。"
+
+#: classes/pages/themes.php:1064
+msgid "The font to use for each top level menu item."
+msgstr "用于每个顶级菜单项的字体。"
+
+#: classes/pages/themes.php:1052
+msgid "This option will apply to all menu items. To align an individual menu item to the right, edit the menu item itself and set 'Menu Item Align' to 'Right'."
+msgstr "此选项将应用于所有菜单项。 要将单个菜单项向右对齐，请编辑菜单项本身，然后将“菜单项对齐”设置为“右”。"
+
+#: classes/pages/themes.php:1875
+msgid "Third Level Menu Items"
+msgstr "第三级菜单项"
+
+#: classes/pages/themes.php:814
+msgid "Theme Title"
+msgstr "主题标题"
+
+#: classes/pages/themes.php:3095 classes/pages/themes.php:3207
+msgid "Theme Default"
+msgstr "主题默认"
+
+#: classes/pages/themes.php:2099
+msgid "The width of each flyout menu. This must be a fixed pixel value."
+msgstr "每个弹出菜单的宽度。 这必须是固定的像素值。"
+
+#: classes/pages/themes.php:962
+msgid "The background color for the main menu bar. Set each value to transparent for a 'button' style menu."
+msgstr "主菜单栏的背景色。 对于“按钮”样式菜单，将每个值设置为透明。"
+
+#: classes/pages/themes.php:1129
+msgid "The background color for each top level menu item. Tip: Set these values to transparent if you've already set a background color on the menu bar."
+msgstr "每个顶级菜单项的背景色。 提示：如果您已经在菜单栏上设置了背景色，则将这些值设置为透明。"
+
+#: classes/pages/themes.php:1151
+msgid "The background color for a top level menu item (on hover)."
+msgstr "顶级菜单项的背景颜色（悬停时）。"
+
+#: classes/pages/themes.php:2683
+msgid "CSS Editor"
+msgstr "CSS 编辑器"
+
+#: classes/pages/themes.php:1150 classes/pages/themes.php:1750
+#: classes/pages/themes.php:1945
+msgid "Item Background (Hover)"
+msgstr "项目背景（悬停）"
+
+#: classes/pages/themes.php:1128
+msgid "Item Background"
+msgstr "项目背景"
+
+#: classes/pages/locations.php:635 classes/pages/themes.php:882
+#: classes/pages/themes.php:923 classes/pages/themes.php:935
+#: classes/pages/themes.php:1294 classes/pages/themes.php:1317
+#: classes/pages/themes.php:2366
+msgid "Enabled"
+msgstr "已启用"
+
+#: classes/pages/themes.php:774
+msgid "Editing theme"
+msgstr "正编辑主题"
+
+#: classes/toggle-blocks.class.php:952 classes/pages/themes.php:3036
+msgid "Disabled"
+msgstr "已禁用"
+
+#: classes/pages/themes.php:1173
+msgid "Define the size of the gap between each top level menu item."
+msgstr "定义每个顶级菜单项之间的间隙大小。"
+
+#: classes/pages/themes.php:3165
+msgid "converts to the ID selector of the menu, e.g. ul#mega-menu-primary"
+msgstr "转换为菜单的ID选择器，例如 ul#mega-menu-primary"
+
+#: classes/pages/themes.php:1083 classes/pages/themes.php:1531
+#: classes/pages/themes.php:1705 classes/pages/themes.php:1900
+#: classes/pages/themes.php:2322
+msgid "Transform"
+msgstr "转换"
+
+#: classes/pages/themes.php:1045
+msgid "Top Level Menu Items"
+msgstr "顶层菜单项"
+
+#: classes/pages/themes.php:905
+msgid "Spread"
+msgstr "扩散"
+
+#: classes/pages/themes.php:1291
+msgid "Show a small divider bar between each menu item."
+msgstr "在每个菜单项之间显示一个小的分隔条。"
+
+#: classes/pages/themes.php:2363
+msgid "Show a line divider below each menu item."
+msgstr "在每个菜单项下面显示一个分隔线。"
+
+#: classes/pages/themes.php:878
+msgid "Shadow"
+msgstr "阴影"
+
+#: classes/pages/themes.php:3137
+msgid "Normal"
+msgstr "正常"
+
+#: classes/pages/themes.php:2101
+msgid "Set this value to the width of your longest menu item title to stop menu items wrapping onto 2 lines."
+msgstr "将此值设置为最长菜单项标题的宽度，以停止将菜单项换行为2行。"
+
+#: classes/pages/page.php:274
+msgid "Are you sure?"
+msgstr "您确定吗？"
+
+#: classes/pages/themes.php:2684
+msgid "Define any custom CSS you wish to add to menus using this theme. You can use standard CSS or SCSS."
+msgstr "使用此主题定义要添加到菜单的任何自定义CSS。 您可以使用标准的CSS或SCSS。"
+
+#: classes/pages/themes.php:949
+msgid "Define the height of each top level menu item link. This value plus the Menu Padding (top and bottom) settings define the overall height of the menu bar."
+msgstr "定义每个顶级菜单项链接的高度。 该值加上菜单内边距（顶部和底部）设置定义了菜单栏的整体高度。"
+
+#: classes/toggle-blocks.class.php:916 classes/pages/themes.php:911
+#: classes/pages/themes.php:1067 classes/pages/themes.php:1110
+#: classes/pages/themes.php:1222 classes/pages/themes.php:1299
+#: classes/pages/themes.php:1412 classes/pages/themes.php:1515
+#: classes/pages/themes.php:1620 classes/pages/themes.php:1661
+#: classes/pages/themes.php:1689 classes/pages/themes.php:1732
+#: classes/pages/themes.php:1838 classes/pages/themes.php:1884
+#: classes/pages/themes.php:1927 classes/pages/themes.php:2034
+#: classes/pages/themes.php:2151 classes/pages/themes.php:2306
+#: classes/pages/themes.php:2344 classes/pages/themes.php:2371
+#: classes/pages/themes.php:2630 classes/pages/themes.php:2653
+msgid "Color"
+msgstr "颜色"
+
+#: classes/pages/themes.php:2930
+msgid "Center"
+msgstr "居中"
+
+#: classes/pages/themes.php:3138
+msgid "Capitalize"
+msgstr "首字母大写"
+
+#: classes/pages/themes.php:1030 classes/pages/themes.php:1275
+#: classes/pages/themes.php:1460 classes/pages/themes.php:2199
+#: classes/pages/themes.php:2442
+msgid "Bottom Right"
+msgstr "右下方"
+
+#: classes/pages/themes.php:754
+msgid "Select theme to edit"
+msgstr "选择要编辑的主题"
+
+#: classes/pages/themes.php:827
+msgid "Select the arrow styles."
+msgstr "选择箭头样式。"
+
+#: classes/pages/themes.php:1680
+msgid "Second Level Menu Items"
+msgstr "二级菜单项"
+
+#: classes/pages/themes.php:931
+msgid "Reset Widget Styling"
+msgstr "重置小工具样式"
+
+#: classes/pages/themes.php:1555
+msgid "Set the padding for the widget headings."
+msgstr "设置小工具标题的填充。"
+
+#: classes/pages/themes.php:1378
+msgid "Set the padding for the whole sub menu. Set these values 0px if you wish your sub menu content to go edge-to-edge."
+msgstr "设置整个子菜单的内边距。如果希望子菜单的内容边缘到边缘，请将这些值设置为0px。"
+
+#: classes/pages/themes.php:2116
+msgid "Set the padding for the whole flyout menu."
+msgstr "设置整个弹出菜单的内边距。"
+
+#: classes/pages/themes.php:1968
+msgid "Set the padding for the third level menu items."
+msgstr "设置第三级菜单项的内边距。"
+
+#: classes/pages/themes.php:1773
+msgid "Set the padding for the second level menu items."
+msgstr "设置第二级菜单项的内边距。"
+
+#: classes/pages/themes.php:1187
+msgid "Set the padding for each top level menu item."
+msgstr "设置每个顶级菜单项的内边距。"
+
+#: classes/pages/themes.php:2272
+msgid "Set the padding for each flyout menu item."
+msgstr "设置每个弹出菜单项的内边距。"
+
+#: classes/pages/themes.php:1586
+msgid "Set the margin for the widget headings."
+msgstr "设置小工具标题的外边距。"
+
+#: classes/pages/themes.php:1804
+msgid "Set the margin for the second level menu items."
+msgstr "设置第二级菜单项的外边距。"
+
+#: classes/pages/themes.php:854
+msgid "Set the general line height to use in the sub menu contents."
+msgstr "设置要在子菜单内容中使用的常规行高。"
+
+#: classes/pages/themes.php:1881
+msgid "Set the font for third level menu items when they're displayed in a Mega Menu."
+msgstr "设置三级菜单项在Mega Menu中显示时的字体。"
+
+#: classes/pages/themes.php:2303 classes/pages/themes.php:2341
+msgid "Set the font for the flyout menu items."
+msgstr "设置弹出菜单项的字体。"
+
+#: classes/pages/themes.php:1686
+msgid "Set the font for second level menu items when they're displayed in a Mega Menu."
+msgstr "设置二级菜单项在Mega Menu中显示时的字体。"
+
+#: classes/pages/themes.php:1409
+msgid "Set the border to display on the sub menu."
+msgstr "设置边框以显示在子菜单上。"
+
+#: classes/pages/themes.php:865
+msgid "Z Index"
+msgstr "Z Index"
+
+#: classes/pages/themes.php:866
+msgid "Set the z-index to ensure the sub menus appear ontop of other content."
+msgstr "设置z-index以确保子菜单出现在其他内容的顶部。"
+
+#: classes/pages/themes.php:1107
+msgid "Set the font to use for each top level menu item (on hover)."
+msgstr "设置用于每个顶级菜单项的字体（悬停时）。"
+
+#: classes/pages/themes.php:1729 classes/pages/themes.php:1924
+msgid "Set the font style on hover."
+msgstr "设置在悬停时的字体样式。"
+
+#: classes/pages/themes.php:1219
+msgid "Set the border to display on each top level menu item."
+msgstr "设置边框以显示在每个顶级菜单项上。"
+
+#: classes/pages/themes.php:1617
+msgid "Set the border for the widget headings."
+msgstr "设置小工具标题的边框。"
+
+#: classes/pages/themes.php:1835
+msgid "Set the border for the second level menu items."
+msgstr "设置第二级菜单项的边框。"
+
+#: classes/pages/themes.php:2148
+msgid "Set the border for the flyout menu."
+msgstr "设置弹出菜单的边框。"
+
+#: classes/pages/themes.php:1946
+msgid "Set the background hover color for third level menu items."
+msgstr "设置第三级菜单项的背景悬停颜色。"
+
+#: classes/pages/themes.php:1751
+msgid "Set the background hover color for second level menu items."
+msgstr "设置第二级菜单项的背景悬停颜色。"
+
+#: classes/pages/themes.php:2077
+msgid "Set the background color for the flyout menu."
+msgstr "设置弹出菜单的背景颜色。"
+
+#: classes/pages/themes.php:2215
+msgid "Set the background color for a flyout menu item."
+msgstr "设置弹出菜单项的背景颜色。"
+
+#: classes/pages/themes.php:2237
+msgid "Set the background color for a flyout menu item (on hover)."
+msgstr "设置弹出菜单项的背景颜色（悬停时）。"
+
+#: classes/pages/themes.php:1445
+msgid "Set rounded corners for the sub menu."
+msgstr "设置子菜单的圆角。"
+
+#: classes/pages/themes.php:2184
+msgid "Set rounded corners for flyout menus. Rounded corners will be applied to all flyout menu levels."
+msgstr "设置弹出菜单的圆角。圆角将应用于所有弹出菜单级别。"
+
+#: classes/pages/themes.php:1260
+msgid "Set rounded corners for each top level menu item."
+msgstr "设置每个顶级菜单项的圆角。"
+
+#: classes/pages/themes.php:1334
+msgid "Set a background color for a whole sub menu."
+msgstr "设置整个子菜单的背景色。"
+
+#: classes/pages/themes.php:1355
+msgid "Panel Width"
+msgstr "面板宽度"
+
+#: classes/pages/themes.php:1377
+msgid "Panel Padding"
+msgstr "面板内边距"
+
+#: classes/pages/themes.php:1408
+msgid "Panel Border"
+msgstr "面板边框"
+
+#: classes/pages/themes.php:1333
+msgid "Panel Background"
+msgstr "面板背景"
+
+#: classes/pages/themes.php:984
+msgid "Padding for the main menu bar."
+msgstr "主菜单栏的内边距。"
+
+#: classes/widgets/widget.class.php:21
+msgid "Outputs a menu for a selected theme location."
+msgstr "输出所选主题位置的菜单。"
+
+#: classes/pages/themes.php:2117
+msgid "Only suitable for single level flyout menus. If you're using multi level flyout menus set these values to 0px."
+msgstr "仅适用于单级弹出菜单。 如果您使用的是多级弹出菜单，请将这些值设置为0px。"
+
+#: classes/pages/themes.php:3097
+msgid "Normal (400)"
+msgstr "普通 400"
+
+#: classes/pages/locations.php:1139
+msgid "New Menu Location Created"
+msgstr "新菜单位置已创建"
+
+#: classes/pages/themes.php:983 classes/pages/themes.php:2551
+msgid "Menu Padding"
+msgstr "菜单内边距"
+
+#: classes/widgets/widget.class.php:107
+msgid "Menu Location:"
+msgstr "菜单位置:"
+
+#: classes/pages/locations.php:1147
+msgid "Menu Location Deleted"
+msgstr "菜单位置已删除。"
+
+#: classes/pages/themes.php:1050
+msgid "Menu Items Align"
+msgstr "菜单项对齐"
+
+#: classes/pages/themes.php:2271
+msgid "Menu Item Padding"
+msgstr "菜单项内边距"
+
+#: classes/pages/themes.php:2258 classes/pages/themes.php:2539
+msgid "Menu Item Height"
+msgstr "菜单项目高度"
+
+#: classes/pages/themes.php:2236
+msgid "Menu Item Background (Hover)"
+msgstr "菜单项背景（悬停）"
+
+#: classes/pages/themes.php:2362
+msgid "Menu Item Divider"
+msgstr "菜单项分隔线"
+
+#: classes/pages/themes.php:2214
+msgid "Menu Item Background"
+msgstr "菜单项背景"
+
+#: classes/pages/themes.php:1356
+msgid "Mega Panel width."
+msgstr "超级面板的宽度。"
+
+#: classes/pages/themes.php:1186 classes/pages/themes.php:1772
+#: classes/pages/themes.php:1967
+msgid "Item Padding"
+msgstr "项目内边距"
+
+#: classes/pages/themes.php:1106 classes/pages/themes.php:1728
+#: classes/pages/themes.php:1923
+msgid "Item Font (Hover)"
+msgstr "项目字体（悬停）"
+
+#: classes/pages/themes.php:1063 classes/pages/themes.php:1685
+#: classes/pages/themes.php:1880
+msgid "Item Font"
+msgstr "项目字体"
+
+#: classes/pages/themes.php:1290
+msgid "Item Divider"
+msgstr "项目分隔线"
+
+#: classes/pages/themes.php:919
+msgid "Hover Transitions"
+msgstr "悬停过渡"
+
+#: classes/pages/themes.php:887
+msgid "Horizontal"
+msgstr "水平"
+
+#: classes/pages/themes.php:1313
+msgid "Highlight Current Item"
+msgstr "高亮显示当前项目"
+
+#: classes/pages/themes.php:2072
+msgid "Flyout Menus"
+msgstr "弹出菜单"
+
+#: classes/widget-manager.class.php:228 classes/widget-manager.class.php:251
+msgid "Failed to update %s"
+msgstr "无法更新 %s"
+
+#: classes/widget-manager.class.php:205
+msgid "Failed to save %s"
+msgstr "未能保存 %s"
+
+#: classes/widget-manager.class.php:298
+msgid "Failed to delete %s"
+msgstr "无法删除 %s"
+
+#: classes/pages/themes.php:1093 classes/pages/themes.php:1120
+#: classes/pages/themes.php:1541 classes/pages/themes.php:1715
+#: classes/pages/themes.php:1742 classes/pages/themes.php:1910
+#: classes/pages/themes.php:1937 classes/pages/themes.php:2332
+#: classes/pages/themes.php:2354
+msgid "Decoration"
+msgstr "装饰"
+
+#: classes/pages/themes.php:3161
+msgid "Custom Styling Tips"
+msgstr "自定义样式提示"
+
+#: classes/pages/themes.php:2679
+msgid "Custom Styling"
+msgstr "自定义样式"
+
+#: classes/pages/themes.php:3164
+msgid "converts to the ID selector of the menu wrapper, e.g. div#mega-menu-wrap-primary"
+msgstr "转换为菜单包装的ID选择器，例如 div#mega-menu-wrap-primary"
+
+#: classes/pages/themes.php:1036 classes/pages/themes.php:1281
+#: classes/pages/themes.php:1466 classes/pages/themes.php:2205
+#: classes/pages/themes.php:2448
+msgid "Bottom Left"
+msgstr "左下方"
+
+#: classes/pages/themes.php:3098
+msgid "Bold (700)"
+msgstr "加粗 700"
+
+#: classes/pages/themes.php:899
+msgid "Blur"
+msgstr "模糊"
+
+#: classes/pages/themes.php:826
+msgid "Arrow"
+msgstr "箭头"
+
+#: classes/pages/themes.php:920
+msgid "Apply hover transitions to menu items. Note: Transitions will not apply to gradient backgrounds."
+msgstr "将悬停过渡应用于菜单项。 注意：过渡不适用于渐变背景。"
+
+#: classes/pages/themes.php:879
+msgid "Apply a shadow to mega and flyout menus."
+msgstr "在超级菜单和弹出菜单上应用阴影。"
+
+#: classes/pages/themes.php:1051
+msgid "Align <i>all</i> menu items to the left (default), centrally or to the right."
+msgstr "将<i>所有</i>菜单项左对齐（默认），居中或右对齐。"
+
+#: classes/pages/themes.php:1359
+msgid "Advanced: Enter a jQuery selector to synchronize the width and position of the sub menu with existing page element (e.g. body, #container, .page)."
+msgstr "高级：输入一个jQuery选择器，以将子菜单的宽度和位置与现有页面元素（例如body, #container, .page）同步。"
+
+#: classes/pages/themes.php:1358
+msgid "A 100% wide panel will only ever be as wide as the menu itself. For a fixed sub menu width set this to a pixel value."
+msgstr "100％宽的面板只能与菜单本身一样宽。 对于固定的子菜单宽度，将其设置为像素值。"
+
+#: classes/pages/themes.php:1658
+msgid "Set the font to use for panel contents."
+msgstr "设置用于面板内容的字体。"
+
+#: classes/pages/themes.php:1512
+msgid "Set the font to use Widget headers in the mega menu. Tip: set this to the same style as the Second Level Menu Item Font to keep your styling consistent."
+msgstr "设置字体以使用mega menu中的小工具页头。 提示：将此样式设置为与“二级菜单项字体”相同的样式，以保持样式一致。"
+
+#: classes/pages/themes.php:830
+msgid "Up"
+msgstr "上"
+
+#: classes/pages/themes.php:835
+msgid "Down"
+msgstr "下"
+
+#: classes/pages/themes.php:965 classes/pages/themes.php:1132
+#: classes/pages/themes.php:1154 classes/pages/themes.php:1337
+#: classes/pages/themes.php:1754 classes/pages/themes.php:1949
+#: classes/pages/themes.php:2080 classes/pages/themes.php:2218
+#: classes/pages/themes.php:2240 classes/pages/themes.php:2396
+#: classes/pages/themes.php:2586 classes/pages/themes.php:2608
+msgid "From"
+msgstr "从"
+
+#: classes/pages/themes.php:975 classes/pages/themes.php:1142
+#: classes/pages/themes.php:1164 classes/pages/themes.php:1347
+#: classes/pages/themes.php:1764 classes/pages/themes.php:1959
+#: classes/pages/themes.php:2090 classes/pages/themes.php:2228
+#: classes/pages/themes.php:2250 classes/pages/themes.php:2406
+#: classes/pages/themes.php:2596 classes/pages/themes.php:2618
+msgid "To"
+msgstr "到"
+
+#: classes/pages/themes.php:1024 classes/pages/themes.php:1269
+#: classes/pages/themes.php:1454 classes/pages/themes.php:2193
+#: classes/pages/themes.php:2436
+msgid "Top Right"
+msgstr "右上方"
+
+#: classes/pages/themes.php:1018 classes/pages/themes.php:1263
+#: classes/pages/themes.php:1448 classes/pages/themes.php:2187
+#: classes/pages/themes.php:2430
+msgid "Top Left"
+msgstr "左上方"
+
+#: classes/pages/themes.php:1078 classes/pages/themes.php:1526
+#: classes/pages/themes.php:1672 classes/pages/themes.php:1700
+#: classes/pages/themes.php:1895 classes/pages/themes.php:2317
+msgid "Family"
+msgstr "字体系列"
+
+#: classes/pages/themes.php:1088 classes/pages/themes.php:1115
+#: classes/pages/themes.php:1536 classes/pages/themes.php:1710
+#: classes/pages/themes.php:1737 classes/pages/themes.php:1905
+#: classes/pages/themes.php:1932 classes/pages/themes.php:2327
+#: classes/pages/themes.php:2349
+msgid "Weight"
+msgstr "粗细"
+
+#: classes/pages/themes.php:3096
+msgid "Light (300)"
+msgstr "细 300"
+
+#: classes/pages/themes.php:1015
+msgid "Set a border radius on the main menu bar."
+msgstr "设置主菜单栏的边框圆角。"
+
+#: classes/pages/themes.php:1444
+msgid "Panel Border Radius"
+msgstr "面板边框圆角"
+
+#: classes/pages/themes.php:1014
+msgid "Menu Border Radius"
+msgstr "菜单边框圆角"
+
+#: classes/nav-menus.class.php:399
+msgid "Enable"
+msgstr "启用"
+
+#: classes/menu-item-manager.class.php:678
+#: classes/menu-item-manager.class.php:699 classes/pages/themes.php:845
+#: classes/pages/themes.php:993 classes/pages/themes.php:1197
+#: classes/pages/themes.php:1238 classes/pages/themes.php:1387
+#: classes/pages/themes.php:1423 classes/pages/themes.php:1485
+#: classes/pages/themes.php:1564 classes/pages/themes.php:1595
+#: classes/pages/themes.php:1636 classes/pages/themes.php:1782
+#: classes/pages/themes.php:1813 classes/pages/themes.php:1854
+#: classes/pages/themes.php:1977 classes/pages/themes.php:2009
+#: classes/pages/themes.php:2050 classes/pages/themes.php:2126
+#: classes/pages/themes.php:2162 classes/pages/themes.php:2281
+#: classes/pages/themes.php:2561 classes/pages/themes.php:2931
+msgid "Right"
+msgstr "右"
+
+#: classes/menu-item-manager.class.php:676
+#: classes/menu-item-manager.class.php:697 classes/pages/themes.php:840
+#: classes/pages/themes.php:1005 classes/pages/themes.php:1209
+#: classes/pages/themes.php:1250 classes/pages/themes.php:1399
+#: classes/pages/themes.php:1435 classes/pages/themes.php:1497
+#: classes/pages/themes.php:1576 classes/pages/themes.php:1607
+#: classes/pages/themes.php:1648 classes/pages/themes.php:1794
+#: classes/pages/themes.php:1825 classes/pages/themes.php:1866
+#: classes/pages/themes.php:1989 classes/pages/themes.php:2021
+#: classes/pages/themes.php:2062 classes/pages/themes.php:2138
+#: classes/pages/themes.php:2174 classes/pages/themes.php:2293
+#: classes/pages/themes.php:2573 classes/pages/themes.php:2929
+msgid "Left"
+msgstr "左"
+
+#: classes/pages/themes.php:247 classes/pages/themes.php:970
+#: classes/pages/themes.php:1137 classes/pages/themes.php:1159
+#: classes/pages/themes.php:1342 classes/pages/themes.php:1759
+#: classes/pages/themes.php:1954 classes/pages/themes.php:2085
+#: classes/pages/themes.php:2223 classes/pages/themes.php:2245
+#: classes/pages/themes.php:2401 classes/pages/themes.php:2591
+#: classes/pages/themes.php:2613
+msgid "Copy"
+msgstr "复制"
+
+#: classes/pages/page.php:83
+msgid "Documentation"
+msgstr "文档"
+
+#: classes/nav-menus.class.php:426 classes/nav-menus.class.php:497
+#: classes/pages/locations.php:1405 classes/pages/locations.php:1490
+#: classes/pages/themes.php:2991
+msgid "None"
+msgstr "无"
+
+#: classes/menu-item-manager.class.php:455
+#: classes/menu-item-manager.class.php:537 classes/nav-menus.class.php:376
+#: classes/widget-manager.class.php:149 classes/widget-manager.class.php:894
+msgid "Save"
+msgstr "保存"
+
+#: classes/nav-menus.class.php:228 classes/pages/page.php:273
+msgid "Saving"
+msgstr "正在保存"
+
+#: classes/pages/locations.php:806
+msgid "PHP Function"
+msgstr "PHP函数"
+
+#: classes/pages/themes.php:1506
+msgid "Widgets"
+msgstr "小工具"
+
+#: classes/pages/locations.php:830
+msgid "Widget"
+msgstr "小工具"
+
+#: classes/menu-item-manager.class.php:799
+#: classes/menu-item-manager.class.php:804
+#: classes/menu-item-manager.class.php:809
+msgid "Max Mega Menu Pro"
+msgstr "Max Mega Menu Pro"
+
+#. Plugin Name of the plugin
+#: classes/pages/page.php:38 classes/pages/page.php:44
+#: classes/pages/page.php:46 classes/pages/page.php:135
+msgid "Max Mega Menu"
+msgstr "Max Mega Menu"
+
+#: classes/nav-menus.class.php:321
+msgid "You will need to create a new menu location and use the Max Mega Menu widget or shortcode to display the menu on your site."
+msgstr "您将需要创建一个新的菜单位置，并使用Max Mega Menu小工具或简码在您的站点上显示菜单。"
+
+#: classes/pages/locations.php:281
+msgid "Your theme does not natively support menus, but you can add a new menu location using Max Mega Menu and display the menu using the Max Mega Menu widget or shortcode."
+msgstr "您的主题本身并不支持菜单，但您可以使用Max Mega菜单添加一个新的菜单位置，并使用Max Mega menu小工具或简码显示该菜单。"
+
+#: classes/nav-menus.class.php:553 classes/pages/locations.php:697
+msgid "Theme"
+msgstr "主题"
+
+#: classes/nav-menus.class.php:320
+msgid "This theme does not register any menu locations."
+msgstr "此主题未注册任何菜单位置。"
+
+#: classes/pages/themes.php:506
+msgid "Theme Reverted"
+msgstr "主题已还原"
+
+#: classes/pages/themes.php:498
+msgid "Theme Duplicated"
+msgstr "主题已重复"
+
+#: classes/pages/themes.php:490
+msgid "Theme Deleted"
+msgstr "主题已删除"
+
+#: classes/menu-item-manager.class.php:709
+msgid "Sub Menu Settings"
+msgstr "子菜单设置"
+
+#: classes/menu-item-manager.class.php:240
+msgid "Sub menu display mode"
+msgstr "子菜单显示模式"
+
+#: classes/menu-item-manager.class.php:714
+msgid "Sub Menu Align"
+msgstr "子菜单对齐"
+
+#: classes/pages/general.php:122
+msgid "CSS Output"
+msgstr "CSS 输出"
+
+#: classes/menu-item-manager.class.php:284
+#: classes/menu-item-manager.class.php:305
+#: classes/menu-item-manager.class.php:746 classes/nav-menus.class.php:224
+#: classes/widget-manager.class.php:120 classes/pages/page.php:38
+msgid "Mega Menu"
+msgstr "Mega Menu"
+
+#: classes/pages/themes.php:598
+msgid "Export Theme"
+msgstr "导出主题"
+
+#: classes/nav-menus.class.php:415 classes/pages/locations.php:659
+msgid "Effect"
+msgstr "效果"
+
+#: classes/pages/general.php:136
+msgid "Don't output CSS"
+msgstr "不输出CSS"
+
+#: classes/menu-item-manager.class.php:639
+msgid "Disable Link"
+msgstr "禁用链接"
+
+#: classes/pages/locations.php:512
+msgid "Delete location"
+msgstr "删除位置"
+
+#: classes/pages/tools.php:146
+msgid "Delete Data"
+msgstr "删除资料"
+
+#: classes/pages/tools.php:139
+msgid "Delete all saved Max Mega Menu plugin data from the database. Use with caution!"
+msgstr "从数据库中删除所有已保存的Max Mega Menu插件数据。 请谨慎使用！"
+
+#: classes/pages/locations.php:728
+msgid "Define the sub menu toggle behaviour for the mobile menu."
+msgstr "定义移动端菜单的子菜单切换行为。"
+
+#: classes/menu-item-manager.class.php:807
+msgid "Custom Icon"
+msgstr "自定义图标"
+
+#: classes/pages/general.php:142
+msgid "CSS will not be output, you must enqueue the CSS for the menu manually."
+msgstr "CSS将不会输出，您必须手动将CSS放入菜单中。"
+
+#: classes/pages/page.php:110
+msgid "Core version"
+msgstr "核心版本"
+
+#: classes/nav-menus.class.php:410 classes/pages/locations.php:1371
+msgid "Click"
+msgstr "点击"
+
+#: classes/menu-item-manager.class.php:305
+#: classes/menu-item-manager.class.php:746 classes/widget-manager.class.php:120
+#: classes/pages/tools.php:35 classes/pages/tools.php:116
+msgid "Tools"
+msgstr "工具"
+
+#: classes/pages/locations.php:1254
+msgid "Standard - Open sub menus will remain open until closed by the user."
+msgstr "标准-“打开”子菜单将保持打开状态，直到被用户关闭。"
+
+#: classes/pages/locations.php:818
+msgid "Shortcode"
+msgstr "短代码"
+
+#: classes/pages/locations.php:270
+msgid "Registered Menu Locations"
+msgstr "已注册菜单位置"
+
+#: classes/pages/tools.php:138
+msgid "Plugin Data"
+msgstr "插件数据"
+
+#: classes/nav-menus.class.php:225
+msgid "Please enable Max Mega Menu using the settings on the left of this page."
+msgstr "请使用此页面左侧的设置启用Max Mega Menu。"
+
+#: classes/pages/tools.php:128
+msgid "Clear CSS Cache"
+msgstr "清除CSS缓存"
+
+#: classes/menu-item-manager.class.php:804
+msgid "Choose from over 100 genericons with {link}"
+msgstr "使用{link}从100多个通用图标中进行选择"
+
+#: classes/menu-item-manager.class.php:256
+#: classes/menu-item-manager.class.php:257
+#: classes/menu-item-manager.class.php:258
+#: classes/menu-item-manager.class.php:259
+#: classes/menu-item-manager.class.php:260
+#: classes/menu-item-manager.class.php:261
+#: classes/menu-item-manager.class.php:262
+#: classes/menu-item-manager.class.php:263
+#: classes/menu-item-manager.class.php:264
+#: classes/menu-item-manager.class.php:265
+#: classes/menu-item-manager.class.php:266
+#: classes/menu-item-manager.class.php:442
+#: classes/menu-item-manager.class.php:443
+#: classes/menu-item-manager.class.php:444
+#: classes/menu-item-manager.class.php:445
+#: classes/menu-item-manager.class.php:446
+#: classes/menu-item-manager.class.php:447
+#: classes/menu-item-manager.class.php:448
+#: classes/menu-item-manager.class.php:449
+#: classes/menu-item-manager.class.php:450
+#: classes/menu-item-manager.class.php:451
+#: classes/menu-item-manager.class.php:452 classes/widget-manager.class.php:136
+#: classes/widget-manager.class.php:137 classes/widget-manager.class.php:138
+#: classes/widget-manager.class.php:139 classes/widget-manager.class.php:140
+msgid "columns"
+msgstr "栏"
+
+#: classes/nav-menus.class.php:322
+msgid "Click {link} for instructions."
+msgstr "单击{link}查看说明。"
+
+#: classes/pages/tools.php:120
+msgid "Cache"
+msgstr "缓存"
+
+#: classes/menu-item-manager.class.php:809
+msgid "Select icons from your media library with {link}"
+msgstr "使用{link}从媒体库中选择图标"
+
+#: classes/menu-item-manager.class.php:270
+msgid "Select a Widget to add to the panel"
+msgstr "选择添加到面板的小工具"
+
+#: classes/pages/general.php:128
+msgid "Save to filesystem"
+msgstr "保存到文件系统"
+
+#: classes/menu-item-manager.class.php:683
+msgid "Right aligned items will appear in reverse order on the right hand side of the menu bar"
+msgstr "右对齐的项目将以相反的顺序显示在菜单栏的右侧"
+
+#: classes/pages/page.php:114
+msgid "Pro extension"
+msgstr "Pro 扩展"
+
+#: classes/nav-menus.class.php:438 classes/pages/locations.php:1417
+msgid "Slide"
+msgstr "滑动"
+
+#: classes/nav-menus.class.php:326
+msgid "Please assign this menu to a theme location to enable the Mega Menu settings."
+msgstr "请将此菜单分配给主题位置，以启用Mega Menu设置。"
+
+#: classes/pages/general.php:135 classes/pages/general.php:178
+msgid "Output in &lt;head&gt;"
+msgstr "在&lt;head&gt;中输出"
+
+#: classes/menu-item-manager.class.php:686
+#: classes/menu-item-manager.class.php:727
+msgid "Option only available for top level menu items"
+msgstr "该选项仅适用于顶级菜单项"
+
+#: classes/nav-menus.class.php:230
+msgid "Oops. Something went wrong. Please reload the page."
+msgstr "哎呀。 出问题了。 请重新加载页面。"
+
+#: classes/menu-item-manager.class.php:598
+msgid "No widgets found. Add a widget to this area using the Widget Selector (top right)"
+msgstr "找不到小工具。 使用窗口小工具选择器将窗口小工具添加到该区域（右上方）"
+
+#: classes/pages/locations.php:727
+msgid "Mobile Menu Behaviour"
+msgstr "移动端菜单行为"
+
+#: classes/pages/themes.php:75
+msgid "Menu Themes"
+msgstr "菜单主题"
+
+#: classes/pages/locations.php:40 classes/pages/locations.php:265
+msgid "Menu Locations"
+msgstr "菜单位置"
+
+#: classes/menu-item-manager.class.php:619
+msgid "Menu Item Settings"
+msgstr "菜单项设置"
+
+#: classes/menu-item-manager.class.php:663
+msgid "Menu Item Align"
+msgstr "菜单项对齐"
+
+#: classes/menu-item-manager.class.php:224
+msgid "Mega Menus can only be created on top level menu items."
+msgstr "Mega Menu只能在顶级菜单项上创建。"
+
+#: classes/nav-menus.class.php:142
+msgid "Max Mega Menu Settings"
+msgstr "Max Mega Menu 设置"
+
+#: classes/pages/locations.php:851
+msgid "Location Description"
+msgstr "位置说明"
+
+#: classes/pages/themes.php:645 classes/pages/themes.php:649
+#: classes/pages/themes.php:657
+msgid "Import Theme"
+msgstr "导入主题"
+
+#: classes/nav-menus.class.php:409 classes/pages/locations.php:1370
+msgid "Hover"
+msgstr "悬停"
+
+#: classes/pages/page.php:78
+msgid "Homepage"
+msgstr "首页"
+
+#: classes/menu-item-manager.class.php:623
+msgid "Hide Text"
+msgstr "隐藏文字"
+
+#: classes/menu-item-manager.class.php:631
+msgid "Hide Arrow"
+msgstr "隐藏箭头"
+
+#: classes/nav-menus.class.php:319
+msgid "here"
+msgstr "此处"
+
+#: classes/menu-item-manager.class.php:799
+msgid "Get access to over 400 Font Awesome Icons with {link}"
+msgstr "使用{link}可以访问超过400个Awesome字体图标"
+
+#: classes/pages/locations.php:631 classes/pages/general.php:37
+#: classes/pages/general.php:117 classes/pages/themes.php:810
+msgid "General Settings"
+msgstr "常规设置"
+
+#: classes/pages/locations.php:831
+msgid "For use in a widget area."
+msgstr "用于小工具区域。"
+
+#: classes/pages/locations.php:807
+msgid "For use in a theme template (usually header.php)"
+msgstr "用于主题模板（通常为header.php）"
+
+#: classes/pages/locations.php:819
+msgid "For use in a post or page."
+msgstr "用于文章或页面。"
+
+#: classes/menu-item-manager.class.php:797
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: classes/menu-item-manager.class.php:233
+msgid "Flyout Menu"
+msgstr "弹出菜单"
+
+#: classes/pages/locations.php:1230
+msgid "First click will open a sub menu, second click will follow the link."
+msgstr "第一次单击将打开一个子菜单，第二次单击将跟随该链接。"
+
+#: classes/pages/locations.php:1229
+msgid "First click will open a sub menu, second click will close the sub menu."
+msgstr "第一次单击将打开一个子菜单，第二次单击将关闭该子菜单。"
+
+#: classes/pages/themes.php:482
+msgid "Failed to delete theme. The theme is in use by a menu."
+msgstr "删除主题失败。 菜单正在使用该主题。"
+
+#: classes/nav-menus.class.php:430 classes/pages/locations.php:1409
+msgid "Fade"
+msgstr "淡化"
+
+#: classes/pages/locations.php:716
+msgid "Define what should happen when the event is set to 'click'. This also applies to mobiles."
+msgstr "定义将事件设置为“单击”时应该发生的情况。 这也适用于移动端。"
+
+#: classes/menu-item-manager.class.php:792
+msgid "Dashicons"
+msgstr "Dashicons"
+
+#: classes/pages/general.php:139
+msgid "CSS will be saved to wp-content/uploads/maxmegamenu/style.css and enqueued from there."
+msgstr "CSS将保存到wp-content/uploads/maxmegamenu/style.css并从那里进入队列。"
+
+#: classes/pages/general.php:140
+msgid "CSS will be loaded from the cache in a &lt;style&gt; tag in the &lt;head&gt; of the page."
+msgstr "CSS将在页面的&lt;head&gt; 中的&lt;style&gt; 标记中从缓存中加载。"
+
+#: classes/menu-item-manager.class.php:255
+#: classes/menu-item-manager.class.php:441 classes/widget-manager.class.php:135
+msgid "column"
+msgstr "栏"
+
+#: classes/pages/locations.php:715
+msgid "Click Event Behaviour"
+msgstr "点击事件行为"
+
+#: classes/pages/tools.php:180
+msgid "All plugin data removed"
+msgstr "所有插件数据已删除"
+
+#: classes/pages/locations.php:1626
+msgid "Add the 'Max Mega Menu' widget to a widget area."
+msgstr "将“ Max Mega Menu”小工具添加到小工具区域。"
+
+#: classes/pages/locations.php:311
+msgid "Add another menu location"
+msgstr "添加其他菜单位置"
+
+#: classes/pages/locations.php:1255
+msgid "Accordion - Open sub menus will automatically close when another one is opened."
+msgstr "手风琴-打开子菜单将在打开另一个菜单时自动关闭。"
+
+#: classes/pages/locations.php:397 classes/pages/locations.php:439
+#: classes/pages/locations.php:480
+msgid "Assign a menu"
+msgstr "分配菜单"

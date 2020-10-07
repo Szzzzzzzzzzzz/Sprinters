@@ -7,7 +7,7 @@
  * @license GPL 2.0
  */
 
-define( 'SITEORIGIN_THEME_VERSION', '1.15.2' );
+define( 'SITEORIGIN_THEME_VERSION', '1.15.3' );
 define( 'SITEORIGIN_THEME_JS_PREFIX', '.min' );
 define( 'SITEORIGIN_THEME_CSS_PREFIX', '.min' );
 
