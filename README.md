@@ -24,9 +24,20 @@ Iteration 1: https://healthsprinters.me/
 Iteration 2: https://www.healthsprinters.me/children-vaccination/  
 
 ## Update Record 
+### Ver 3.02 Iteration 3
+19/10/2020 
+Modify the UI/UX design of Organ Donation page according mentors'feedback
+Modify the UI/UX design of News page according mentors'feedback
+### Ver 3.01 Iteration 3
+15/10/2020 
+Modify some UI/UX changes according to mentor's feedback before IM coming
+### Ver 3.0 Iteration 3
+13/10/2020 
+Implement Organ Donation page
+Implement News articles page
 ### Ver 2.37 Iteration 2 
 7/10/2020 
-modified all the UI changes for all the pages.
+modified all the UI changes for all the pages of Iteration 1 and Iteration 2.
 ### Ver 2.36 Iteration 2 
 21/9/2020 
 Edit a set of icons of Guide to Access Immunisation Record on MHR page.
