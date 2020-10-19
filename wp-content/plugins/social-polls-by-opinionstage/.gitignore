@@ -1,0 +1,13 @@
+# development config file:
+/dev.ini
+# Windows artefacts:
+/Thumbs.db
+# OSX artefacts
+.DS_Store
+# plugin builds:
+/*.zip
+
+# assets managements artefacts (yarn, webpack etc.):
+/assets/*/node_modules
+/assets/*/yarn-error.log
+*.js.map

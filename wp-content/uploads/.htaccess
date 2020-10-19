@@ -1,3 +1,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
+RewriteRule ^(2020/10/pexels-jeff-denlea-3714743.jpg)$ ../../index.php?wpdmmediaid=2455&wpdmmedia=$1
+RewriteRule ^(2020/10/pexels-negative-space-48604.jpg)$ ../../index.php?wpdmmediaid=2457&wpdmmedia=$1
+RewriteRule ^(2020/10/pikwizard-a7f093b35c3164eb4fa65c58eba47fa4-scaled.jpg)$ ../../index.php?wpdmmediaid=2458&wpdmmedia=$1
+RewriteRule ^(2020/10/pikwizard-c532851c6408e842cbbd1fda6dd9c29a-scaled.jpg)$ ../../index.php?wpdmmediaid=2459&wpdmmedia=$1
+RewriteRule ^(2020/10/pikwizard-31d66e5aa50a35205545b55b2ae7750a-scaled.jpg)$ ../../index.php?wpdmmediaid=2460&wpdmmedia=$1
+RewriteRule ^(2020/10/pikwizard-1b6822b616f5cb6ce95ac8095dbc087e-scaled.jpg)$ ../../index.php?wpdmmediaid=2463&wpdmmedia=$1
+RewriteRule ^(2020/10/pikwizard-c6d44ecb1f2146fcba2436bb58a4db78-scaled.jpg)$ ../../index.php?wpdmmediaid=2464&wpdmmedia=$1
+RewriteRule ^(2020/10/pikwizard-19838997de1b52a6d3b2223a5e138d67-scaled.jpg)$ ../../index.php?wpdmmediaid=2466&wpdmmedia=$1
 </IfModule>

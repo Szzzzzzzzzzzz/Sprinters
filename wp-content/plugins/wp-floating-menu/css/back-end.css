@@ -1,0 +1,960 @@
+.wpfm-backend-wrapper .wpfm-header-title{
+    padding:10px;
+    width: 100%;
+    float: none;
+    margin: auto;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    overflow: hidden;
+    padding:0;
+    background: #00a4f9;
+    color: #fff;
+}
+.wpfm-backend-wrapper .wpfm-header-title .wpfm-menu-header-left{
+    float:left;
+    line-height:78px;
+    position:relative;
+    font-size: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left:10px;
+}
+.wpfm-backend-wrapper .wpfm-header-title .wpfm-menu-header-left:before{
+    content: '\f0e4';
+    position:relative;
+    font-family:FontAwesome;
+}
+.wpfm-backend-wrapper .wpfm-header-title a{
+    background: url(../images/icon_big_create.png) 50% 17px no-repeat;
+    background-color: #6262cc;
+    display: block;
+    min-width: 79px;
+    height: 79px;
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 117px;
+    -moz-transition: border 0.05s linear, box-shadow 0.05s linear;
+    -webkit-transition: border 0.05s linear, box-shadow 0.05s linear;
+    transition: background 0.05s linear;
+    padding:0 5px;
+}
+/*-------------
+Header css start
+---------------*/
+.wpfm-setting-header{
+    color: #000;
+    width: 100%;
+    padding:10px 0;
+    margin:10px 0;
+}
+.wpfm-header-div{
+    width:100%;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    text-align:left;
+}
+.wpfm-header-div p{
+    font-size:24px;
+    margin:0;
+}
+.wpfm-header-social{
+    /*width:20%;
+    float: left;
+    clear:right;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+    text-align:right;*/
+    display:none;
+}
+/*-------------
+Header css end
+---------------*/
+/*tab css start*/
+body .wpfm-wrapper  .nav-tab-wrapper{
+    background: #dcdcdc;
+    position: relative;
+    padding-top:0;
+    border-bottom:0;
+}
+.wpfm-wrappe .wpfm-message{
+    border-left-color:#00a4f9;
+}
+.wpfm-wrapper #poststuff,
+#wpbody-content .wpfm-wrapper .metabox-holder{
+    padding-top:1px;
+}
+.wpfm-wrapper  .nav-tab-wrapper a.nav-tab{
+    border:0;
+    margin-left:0;
+    font-size:16px;
+    padding:13px;
+    background: #dcdcdc;
+    border-right:1px solid #fff;
+    margin:0;
+}
+.wpfm-wrapper  .nav-tab-wrapper #wpfm-display-setting:before{
+    content: "\f085";
+    position:relative;
+    font-family:FontAwesome;
+    padding-right:5px;
+}
+.wpfm-wrapper  .nav-tab-wrapper #wpfm-add-menu:before{
+    content: "\f0ca";
+    position:relative;
+    font-family:FontAwesome;
+    padding-right:5px;
+}
+.wpfm-wrapper  .nav-tab-wrapper a.nav-tab.nav-tab-active, 
+.wpfm-wrapper  .nav-tab-wrapper .nav-tab-active:focus, 
+.wpfm-wrapper  .nav-tab-wrapper .nav-tab-active:focus:active, 
+.wpfm-wrapper  .nav-tab-wrapper .nav-tab-active:hover,
+.wpfm-wrapper  .nav-tab-wrapper a.nav-tab:hover{
+    -moz-box-shadow:0 0 0;
+    -webkit-box-shadow:0 0 0;
+    box-shadow:0 0 0;
+    background: #00a4f9;
+    color: #fff;
+}
+/*--------------
+Menu Structure css start
+----------------*/
+#wpfm-post-box ,
+.wpfm-inner-wrapper .postbox{
+    border: 0;
+    -webkit-box-shadow: 0 0 0;
+    -moz-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
+    background: transparent ;
+    margin-bottom:0;
+}
+.wpfm-tab-contents .wpfm-header-add-menu{
+    margin-bottom: 10px;
+    margin-top:10px;
+    padding: 10px;
+    overflow: hidden;
+    background: #fbfbfb;
+    border: 1px solid #e5e5e5;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}   
+.wpfm-tab-contents  .wpfm-header-title,
+.wpfm-menu-option-header-title {
+    margin-top: 8px;
+    margin-bottom:10px;
+    padding: 15px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    font-size:16px;
+    font-weight:bold;
+    background: #00a4f9;
+    color:#fff;
+}
+.wpfm-tab-contents  .wpfm-header-title h3{
+    margin:0;
+}
+/*left side*/
+.wpfm-form-body-left{
+    width:25%;
+    float: left;
+    padding:0 10px 10px 0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+.wpfm-form-body-left form{
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background:#fff;
+}
+.wpfm-form-body-left h3{
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin: 0;
+    padding: 10px 15px 11px 14px;
+    line-height: 21px;
+    font-size: 14px;
+    position: relative;
+    cursor:pointer;
+}
+.wpfm-form-body-left .wpfm-open-menu-list h3{
+    border-bottom:1px solid #ddd;
+}
+.wpfm-form-body-left h3:after{
+    position:absolute;
+    right:10px;
+    top:50%;
+    transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    font-family:FontAwesome;
+    content:'\f0dd';
+}
+.wpfm-form-body-left .wpfm-open-menu-list h3:after{
+    content:'\f0de';
+}
+.wpfm-form-body-left .list-check-fields{
+    overflow: auto;
+    padding:10px;
+    border-bottom: 1px solid #ddd;
+    border-top:0;
+    background-color: #fdfdfd;
+    margin:0;
+    max-height: 75px;
+    overflow-y: auto;
+}
+.wpfm-form-body-left input[type="submit"],
+.wpfm-form-body-left .wpfm-submit-add-to-menu{
+    float:right;
+    clear:both;
+    margin-right:10px;
+}
+.wpfm-form-body-left .wpfm-submit-add-to-menu{
+    margin-right:0;
+    margin-top:5px;
+}
+#wpfm-custom-link-field .wpfm-list-inner-content{
+    padding:0 10px;
+}
+#wpfm-custom-link-field .wpfm-custom-link{
+    padding-top:10px;
+}
+.wpfm-custom-link{
+    clear:both;
+}
+.wpfm-list-inner-content label{
+    font-style: italic;
+    line-height:1.7;
+}
+.wpfm-form-body-left .wpfm-input-field-wrapper{
+    float:right;
+}
+/*left side end*/
+/*right side start*/
+.wpfm-form-body-right{
+    width:75%;
+    float:left;
+    padding-top:0;
+    padding:0 0 10px 10px;
+    box-sizing:border-box;
+}
+.wpfm-form-body-right-inner-wrapper{
+    overflow:hidden;
+    /*background:#fff;*/
+}
+.wpfm-form-body-right .wpfm-upper-body-section{
+    padding:7px 10px;
+    display:inline-block;
+    width:100%;
+    background-color:#f5f5f5;
+    box-sizing:border-box;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.wpfm-form-body-right .wpfm-add-new-form{
+    float:left;
+}
+.wpfm-inner-wrapper .wpfm-add-new-form input[type="text"]{
+    background:#fff;
+    border: 1px solid #ddd;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    border-radius:0;
+}
+.wpfm-form-body-right .wpfm-publishing-action{
+    float:right;
+}
+.wpfm-form-body-right .wpfm-add-new-form label{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
+    font-style: italic;
+}
+.wpfm-form-body-right .wpfm-add-new-form .wpfm-input-field-wrapper{
+    width: 270px;
+    vertical-align: middle;
+    display:inline-block;
+}
+.icon-picker-container{
+    z-index:999;
+}
+.wpfm-form-body-right .wpfm-add-new-form .wpfm-input-field-wrapper input{
+    width:100%;
+}
+.wpfm-form-body-right #post-body-content{
+    width: 100%;
+    float: left;
+    padding: 0 10px 0px;
+    background: #fff;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    margin-bottom:0;
+    margin-top:0;
+    border: 1px solid #e5e5e5;
+    border-top:0;
+    border-bottom:0;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.wpfm-form-body-right .wpfm-menu-item-handle{
+    border: 1px solid #ddd;
+    position: relative;
+    padding:10px 15px;
+    height: auto;
+    min-height: 20px;
+    width:414px;
+    line-height: 30px;
+    overflow: hidden;
+    word-wrap: break-word;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    cursor:move;
+}
+.wpfm-form-body-right .wpfm-menu-item-handle:hover{
+    border:1px solid #999;
+}
+.wpfm-form-body-right .wpfm-item-title{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    display: block;
+    margin-right: 13em;
+}
+.wpfm-form-body-right .wpfm-item-type {
+    font-size: 12px;
+    position: absolute;
+    right:30px;
+    top: 50%;
+    transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+}
+.wpfm-form-body-right .wpfm-ind-menu-toggle-icon{
+    position: absolute;
+    right:10px;
+    top: 50%;
+    transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    display: block;
+    outline: 0;
+    overflow: hidden;
+    white-space: nowrap; 
+    cursor: pointer;
+    font-size:18px;
+}
+.wpfm-ind-menu-toggle-icon .fa{
+    transform: translate(0, -3px);
+    color:#444;
+}
+.wpfm-open-menu-div .wpfm-ind-menu-toggle-icon .fa{
+    transform: translate(0, 3px);
+    color:#222;
+}
+.wpfm-form-body-right .wpfm-right-body-footer{
+    background-color:#f5f5f5;
+    padding:7px 10px;
+    overflow:hidden;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.wpfm-form-body-right  .wpfm-menu-item-settings .wpfm-description-wide {
+    margin:15px 0;
+}
+.wpfm-form-body-right  .wpfm-menu-item-settings .wpfm-description-wide .wp-picker-container{
+    clear:both;
+    padding-top:10px;
+}
+.wpfm-form-body-right  .wpfm-menu-item-settings .wpfm-description-wide .wp-picker-container >a,
+.wpfm-form-body-right  .wpfm-menu-item-settings .wpfm-description-wide .wp-picker-container > span{
+    float:left;
+}
+.wpfm-form-body-right  .wpfm-menu-item-settings .wpfm-description-wide .wp-picker-container .wp-picker-holder{
+    clear:both;
+}
+.wpfm-form-body-right  .wpfm-menu-item-settings .wpfm-description-wide .wp-picker-container > span input{
+    margin-bottom:10px;
+    margin-left:0;
+}
+.wpfm-form-body-right  .wpfm-menu-item-settings .menu-inner-input-field{
+    margin:7px  0 0;
+}
+.wpfm-form-body-right  .wpfm-menu-item-settings{
+    display: block;
+    width:414px;
+    padding: 10px 10px 20px;
+    position: relative;
+    z-index: 10;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.wpfm-form-body-right  .wpfm-menu-item-settings label{
+    font-style:italic;
+}
+.wpfm-menu-icon-field{
+    position:relative;
+    padding-left:100px;
+}
+.wpfm-menu-icon-field label{
+    position:absolute;
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+}
+.wpfm-form-body-right  .wpfm-menu-item-settings input[type="text"]{
+    width:100%;
+}
+.wpfm-form-body-right .wpfm-menu-item-settings .wpfm-field-add-menu-icons{
+    display:inline-block;
+    margin-right:5px;
+    vertical-align:middle;
+}
+.wpfm-form-body-right div.button.icon-picker,
+.wpfm-menu-inner-field div.button.icon-picker{
+    width: 104px;
+    height: 33px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 33px;
+    border:0;
+    box-shadow: 0 0 0;
+    border-radius:3px;
+    background:#00a4f9;
+    color:#fff;
+}
+.wp-picker-container, .wp-picker-container:active{
+    vertical-align:middle;
+}
+.wpfm-form-body-right div.button.icon-picker:before,
+.wpfm-menu-inner-field div.button.icon-picker:before {
+    display: block;
+    top:0;
+    right: -28px;
+    position: absolute;
+    font-size:20px;
+    color:#222;
+}
+.wpfm-form-body-right .wpfm-field-remove{
+    color:#a00;
+}
+
+
+/*right side end*/
+/*------------------
+Menu structure css end
+---------------------*/
+/*-------------------
+Display setting css start
+---------------------*/
+.wpfm-wrapper  .inside{
+    padding:0 12px 10px 0;
+}
+.wpfm-display-setting-wrapper .wpfm-setting-body{
+    background:#fff;
+    padding:10px 20px;
+    border:1px solid #dcdcdc;
+    margin-bottom:15px;
+}
+.wpfm-menu-field-wrapper{
+    padding-bottom:10px;
+}
+.wpfm-menu-field-wrapper:last-child{
+    padding-bottom:0;
+}
+.wpfm-menu-field-wrapper h4.wpfm-menu-field-header-text{
+    font-size:16px;
+}
+.wpfm-menu-display-setting{
+    position:relative;
+    padding-left:200px;
+    margin:20px 0;
+}
+.wpfm-menu-display-setting label{
+    position:absolute;
+    left:0;
+    top:5px;
+    font-size:14px;
+    font-weight: 700;
+}
+.wpfm-inner-wrapper input[type="text"],
+.wpfm-inner-wrapper select,
+.wpfm-inner-wrapper input[type=number],
+.wpfm-inner-wrapper input[type="url"]{
+    width:186px;/*195px;*/
+    height:31px;
+    background:#f1f1f1;
+    border-collapse: separate;
+    border: solid 2px transparent;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px transparent;
+    color: inherit;
+    font-size: inherit ;
+    line-height:18px;
+    padding: 4px 6px 4px 6px ;
+    margin: 0;
+    -moz-transition: border 0.05s linear, box-shadow 0.05s linear;
+    -webkit-transition: border 0.05s linear, box-shadow 0.05s linear;
+    transition: border 0.05s linear, box-shadow 0.05s linear;
+    vertical-align: baseline;
+}
+.wpfm-inner-wrapper input[type="text"]:focus,
+.wpfm-inner-wrapper input[type=number]:focus,
+.wpfm-inner-wrapper input[type="url"]:focus,
+.wpfm-inner-wrapper select:focus{
+    border:2px solid #00a4f9;
+}
+.wpfm-inner-wrapper .wp-picker-input-wrap input[type="text"]{
+    height:auto;
+}
+.wpfm-inner-wrapper select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    padding-right: 28px ;
+    position: relative;
+    background-image: url(../images/select_arrow.png);
+    background-repeat: no-repeat;
+    background-position: right 50%;
+}
+.wpfm-display-setting-wrapper  .wpfm-font-demo-wrap{
+    background-color: #f5f5f5;
+    padding:15px;
+    width: 100%;
+    float: none;
+    margin: auto;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    overflow: hidden;
+    text-align:center;
+}
+/*-------------------
+Display setting css end
+---------------------*/
+/*-------------------
+Menu setting css start
+---------------------*/
+.wpfm-menu-option-setting-field{
+    position:relative;
+    padding-left:200px;
+    margin:20px 0;
+}
+.menu-option-select-specific-page {
+    padding-left:200px;
+}
+.wpfm-menu-option-setting-field label h4{
+    position:absolute;
+    left:5px;
+    top:50%;
+    transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+    margin:0;
+}
+ul.wpfm-cpage-specific-display {
+    overflow-y: auto;
+    max-height: 100px;
+    padding: 5px 0 0;
+    width:255px;
+}
+/*-------------------
+Menu setting css end
+---------------------*/
+.wpfm-switch{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 21px;
+}
+.wpfm-tooltip-description,
+.wpfm-tooltips-description{
+    display: inline-block;
+    margin-left:10px;
+    opacity:0;
+    background:#464646;
+    padding:7px 10px 7px 25px;
+    color:#eee;
+    position:relative;
+    left:-10px;
+    -webkit-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+    font-size:12px;
+    visibility:hidden;
+    cursor:none;
+    font-style:italic;
+}
+.wpfm-tooltip-description:before,
+.wpfm-tooltips-description:before{
+    content:'';
+    position:absolute;
+    width: 0;
+    height: 0;
+    left:-8px;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    transform:translateY(-50%);
+    border-style: solid;
+    border-width: 7.5px 10px 7.5px 0;
+    border-color: transparent #464646 transparent transparent;
+}
+.wpfm-tooltip-description:after,
+.wpfm-tooltips-description:after{
+    content:"\f129";
+    font-family:FontAwesome;
+    font-size:14px;
+    position:absolute;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    transform:translateY(-50%);
+    left:8px;
+}
+.wpfm-menu-display-setting  .wpfm-tooltips-description label.wpfm-ts-description {
+    position:static;
+    display:block;
+    font-size:12px;
+    font-weight:500;
+}
+.wpfm-setting-body .wpfm-menu-display-setting .wpfm-menu-inner-field{
+    position:relative;
+}
+.wpfm-menu-option-setting-field .wpfm-switch:hover + .wpfm-tooltip-description,
+.wpfm-setting-body .wpfm-menu-display-setting .wpfm-menu-inner-field:hover  .wpfm-tooltips-description{
+    opacity:1;
+    left:0;
+    visibility:visible;
+}
+.wpfm-switch input {display:none;}
+.wpfm-slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.wpfm-slider:before {
+    position: absolute;
+    content: "";
+    height: 17px;
+    width: 17px;
+    left: 4px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .wpfm-slider {
+    background-color: #2196F3;
+}
+
+input:focus + .wpfm-slider {
+    box-shadow: 0 0 0px #2196F3;
+}
+
+input:checked + .wpfm-slider:before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+    font-family: FontAwesome;
+    content: "\f00c";
+    font-size: 11px;
+    color: #00A4F9;
+    text-align: center;
+    line-height: 17px;
+}
+.wpfm-slider.round {
+    border-radius: 34px;
+}
+.wpfm-slider.round:before {
+    border-radius: 50%;
+}
+/*menu option wrapper*/
+.wpfm-menu-option-wrapper form{
+    padding: 0 20px 0 0;
+}
+.wpfm-menu-option-setting-wrapper{
+    background:#fff;
+    padding:20px;
+    margin-bottom:15px;
+}
+/*menu option wrapper end*/
+/**/
+.about-wp-floating-menu-wrapper{
+    /*margin-top: 20px; 
+margin-right: 20px;*/
+    background: #fff;
+    padding: 20px 20px 1px;
+}
+.about-desc-wrap .about-content .wpfm-title{
+    background:#00b9eb;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+.about-title-content .wpfm-social-icon li{
+    display:inline-block;
+}
+.about-title-content span{
+    display:block;
+    padding:5px 0;
+}
+/***/
+.wpfm-not-available-message{
+    padding: 7px 10px;
+    border: 1px solid #222;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 16px;
+}
+/*-------------------------------------
+Responsive css for backend design start
+---------------------------------------*/
+@media screen and (max-width:1200px){
+    /*menu structure responsive css start*/
+    .wpfm-form-body-left .wpfm-input-field-wrapper,
+    .wpfm-list-inner-content label{
+        display:block;
+        float:none;
+        width:100%;
+    }
+    .wpfm-form-body-left .wpfm-input-field-wrapper input[type="url"],
+    .wpfm-form-body-left .wpfm-input-field-wrapper input[type="text"]{
+        width:100%;
+        margin-top:2px;
+    }
+    /*menu structure responsive css end*/
+    /*header css start*/
+    .wpfm-header-div,
+    .wpfm-header-social{
+        width:50%;
+    }
+    /*header css end*/
+}
+.wpfm-menu-option-wrapper input[type="submit"],
+.wpfm-backend-wrapper input[type="submit"],
+.wpfm-backend-wrapper .wpfm-submit-add-to-menu{
+    background: #00a4f9;
+    color: #fff;
+    line-height: inherit;
+    border:0;
+    padding: 0 20px;
+    font-size: 13px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    height:33px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    vertical-align: top;
+    box-shadow:0 0 0;
+    -webkit-box-shadow:0 0 0;
+    -moz-box-shadow:0 0 0;
+}
+.wpfm-menu-option-wrapper input[type="submit"]:hover,
+.wpfm-backend-wrapper input[type="submit"]:hover,
+.wpfm-backend-wrapper .wpfm-submit-add-to-menu:hover{
+    background: #00a4f9;
+    color:#ffffff;
+}
+#wpfm-temp-demo-11 img,
+#wpfm-temp-demo-12 img,
+#wpfm-temp-demo-13 img{
+    display:block;
+}
+@media screen and (max-width:992px){
+
+}
+@media screen and (max-width:780px){
+    /*menu structure responsive css start*/
+    .wpfm-form-body-left,
+    .wpfm-form-body-right{
+        width:100%;
+        float:none;
+        padding:0 0;
+    }
+    .wpfm-form-body-right{
+        margin-top:10px;
+    }
+    /*menu structure responsive css end*/
+    /*Display setting responsive css start*/
+    .wpfm-menu-display-setting,
+    .wpfm-menu-option-setting-field{
+        padding-left:0;
+        margin:10px 0;
+    }
+    .wpfm-menu-display-setting label,
+    .wpfm-menu-option-setting-field label h4{
+        position:static;
+        display:block;
+        padding-bottom:7px;
+        transform:translateY(0);
+        -webkit-transform:translateY(0);
+        -moz-transform:translateY(0);
+    }
+    /*Display setting responsive css end*/
+    .menu-option-select-specific-page{
+        padding-left:0;
+    }
+}
+@media screen and (max-width:640px){
+    /*menu structure responsive css start*/
+    .wpfm-form-body-right .wpfm-publishing-action,
+    .wpfm-form-body-right .wpfm-add-new-form{
+        float:none;
+    }
+    .wpfm-form-body-right .wpfm-add-new-form .wpfm-input-field-wrapper,
+    .wpfm-form-body-right .wpfm-add-new-form .wpfm-input-field-wrapper input{
+        display:block;
+        width:100%;
+    }
+    .wpfm-form-body-right .wpfm-add-new-form .wpfm-input-field-wrapper{
+        margin:5px 0;
+    }
+    /*menu structure responsive css end*/
+    /*header css start*/
+    .wpfm-header-div, .wpfm-header-social{
+        width:100%;
+        text-align:left;
+    }
+    /*header css end*/
+}
+@media screen and (max-width:480px){
+    /*menu structure responsive css start*/
+    .wpfm-form-body-right .wpfm-menu-item-handle,
+    .wpfm-form-body-right  .wpfm-menu-item-settings{
+        width:100%;
+    }
+    /*menu structure responsive css end*/
+    .wpfm-wrapper  .nav-tab-wrapper a.nav-tab{
+        width:100%;
+        padding-right:20px;
+    }
+    .wpfm-backend-wrapper .wpfm-header-title .wpfm-menu-header-left,
+    .wpfm-backend-wrapper .wpfm-header-title a{
+        width:100%;
+        text-align:center;
+    }
+    /**/
+    .wpfm-menu-icon-field{
+        position:static;
+        padding-left:0;
+    }
+    .wpfm-menu-icon-field label{
+        position:static;
+    }
+}
+/*------------------------------------
+Responsive css for backend design end
+--------------------------------------*/
+span.wpfm-tips-icon {
+    float: left;
+    margin-right: 10px;
+    color:black;
+}
+/** For Promo Sidebar */
+.wpfm-pro-version-update-button{
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+    margin: 5px 0;
+}
+.wpfm-pro-version-update-button>.wpfm-btn-demo {
+    position: relative;
+    float: left;
+}
+.wpfm-demo-button {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    text-decoration:none;
+}
+.wpfm-btn-demo {
+    background: rgb(45, 163, 13);
+    color: #fff;
+    border-color: transparent;
+}
+.wpfm-group a:hover {
+    text-decoration: none;
+    color: white;
+}
+.wpfm-btn-upgrade {
+    background: rgb(39, 115, 202);
+    color: #fff;
+    border-color: transparent;
+}
+.wpfm-enquiry-field{
+    text-align:center;
+}
+
+.wpfm-right-div-wrapper img,
+.wpfm-menu-option .wpfm-right-div-wrapper .wpfm-pro-version-update-button,
+.wpfm-menu-option .wpfm-right-div-wrapper .wpfm-enquiry-field
+{
+    max-width:  100%;
+}
+
+.about-wp-floating-menu-wrapper {
+    margin-top: 6px;
+}
+
+.wpfm-pro-version-update-button{
+    margin-bottom: 2px;
+    margin-top: -4px;
+}
+
+.wpfm-enquiry-field p {
+    font-size: 14px;
+}
+
+.wpfm-menu-option-setting-wrapper {
+    width: 96%;
+}
